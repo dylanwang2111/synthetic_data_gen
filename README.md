@@ -95,8 +95,8 @@ pip install -r requirements.txt
 # Run the full pipeline (train all 3 methods, generate, evaluate)
 python main.py all
 
-# LLM product suggestion for a customer (requires ANTHROPIC_API_KEY)
-export ANTHROPIC_API_KEY=sk-...
+# LLM product suggestion for a customer (requires DEEPSEEK_API_KEY)
+export DEEPSEEK_API_KEY=sk-...
 python main.py suggest C00001
 ```
 
