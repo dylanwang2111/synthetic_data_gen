@@ -1,0 +1,16 @@
+product_id,name,category,min_amount,risk_level,is_premium
+P001,Basic Savings Account,Banking,0.0,Low,False
+P002,Premium Savings Account,Banking,0.0,Low,True
+P003,Personal Loan,Credit,500.0,Medium,False
+P004,Home Loan,Credit,50000.0,Medium,False
+P005,Auto Loan,Credit,10000.0,Medium,False
+P006,Credit Card Basic,Credit,0.0,Medium,False
+P007,Credit Card Premium,Credit,0.0,Medium,True
+P008,Term Life Insurance,Insurance,50.0,Low,False
+P009,Health Insurance Basic,Insurance,80.0,Low,False
+P010,Health Insurance Premium,Insurance,200.0,Low,True
+P011,Investment Fund A,Investment,1000.0,Medium,False
+P012,Investment Fund B,Investment,5000.0,High,True
+P013,Fixed Deposit 1Y,Banking,1000.0,Low,False
+P014,Fixed Deposit 3Y,Banking,2000.0,Low,False
+P015,Mutual Fund Equity,Investment,500.0,High,False

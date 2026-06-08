@@ -1,0 +1,4 @@
+method,quality_score,diagnostic_score,cust_column_shapes,cust_pair_trends,txn_column_shapes,cross_table_mad,cross_table_max_err,ia_ks_pvalue,ia_ks_stat,autocorr_mae,syn_ia_mean
+M1 – HMA GC,0.8257,1.0,0.952,0.7071,0.8409,0.2586,0.5535,0.0,0.1973,0.0486,160.23
+M2 – CTGAN,0.8707,1.0,0.8972,0.5634,0.8934,0.2879,0.6354,0.0033,0.0456,0.0536,238.3
+M3 – CTGAN+PAR,0.5369,0.7981,0.8983,0.5302,0.725,0.2354,0.5887,0.0,0.6908,0.1845,43.97

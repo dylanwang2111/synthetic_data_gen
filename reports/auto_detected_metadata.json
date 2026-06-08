@@ -1,0 +1,116 @@
+{
+  "tables": {
+    "products": {
+      "primary_key": "product_id",
+      "columns": {
+        "product_id": {
+          "sdtype": "id"
+        },
+        "name": {
+          "sdtype": "categorical"
+        },
+        "category": {
+          "sdtype": "categorical"
+        },
+        "min_amount": {
+          "sdtype": "numerical"
+        },
+        "risk_level": {
+          "sdtype": "categorical"
+        },
+        "is_premium": {
+          "sdtype": "categorical"
+        }
+      }
+    },
+    "customers": {
+      "primary_key": "customer_id",
+      "columns": {
+        "customer_id": {
+          "sdtype": "id"
+        },
+        "age": {
+          "sdtype": "numerical"
+        },
+        "gender": {
+          "sdtype": "categorical"
+        },
+        "income": {
+          "sdtype": "numerical"
+        },
+        "education": {
+          "sdtype": "categorical"
+        },
+        "occupation": {
+          "sdtype": "categorical"
+        },
+        "marital_status": {
+          "sdtype": "categorical"
+        },
+        "region": {
+          "sdtype": "categorical"
+        },
+        "num_dependents": {
+          "sdtype": "categorical"
+        },
+        "credit_score": {
+          "sdtype": "numerical"
+        },
+        "tenure_years": {
+          "sdtype": "numerical"
+        },
+        "is_churned": {
+          "sdtype": "categorical"
+        }
+      }
+    },
+    "transactions": {
+      "primary_key": "transaction_id",
+      "columns": {
+        "transaction_id": {
+          "sdtype": "id"
+        },
+        "customer_id": {
+          "sdtype": "id"
+        },
+        "product_id": {
+          "sdtype": "id"
+        },
+        "product_category": {
+          "sdtype": "categorical"
+        },
+        "amount": {
+          "sdtype": "numerical"
+        },
+        "transaction_date": {
+          "datetime_format": "%Y-%m-%d",
+          "sdtype": "datetime"
+        },
+        "channel": {
+          "sdtype": "categorical"
+        },
+        "status": {
+          "sdtype": "categorical"
+        },
+        "is_first_product": {
+          "sdtype": "categorical"
+        }
+      }
+    }
+  },
+  "relationships": [
+    {
+      "parent_table_name": "products",
+      "child_table_name": "transactions",
+      "parent_primary_key": "product_id",
+      "child_foreign_key": "product_id"
+    },
+    {
+      "parent_table_name": "customers",
+      "child_table_name": "transactions",
+      "parent_primary_key": "customer_id",
+      "child_foreign_key": "customer_id"
+    }
+  ],
+  "METADATA_SPEC_VERSION": "MULTI_TABLE_V1"
+}

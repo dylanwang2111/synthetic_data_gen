@@ -1,0 +1,31 @@
+product_id,name,category,min_amount,risk_level,is_premium
+P005,Investment Fund B,Credit,75.0,Medium,False
+P022,Credit Card Premium,Investment,28759.0,Medium,True
+P023,Health Insurance Basic,Banking,15764.0,High,False
+P007,Investment Fund B,Investment,3357.0,High,False
+P015,Fixed Deposit 1Y,Credit,28339.0,Low,False
+P025,Fixed Deposit 1Y,Banking,49979.0,Medium,False
+P004,Basic Savings Account,Banking,16089.0,Low,False
+P026,Investment Fund B,Investment,28387.0,Medium,False
+P029,Personal Loan,Investment,13.0,Medium,True
+P011,Fixed Deposit 1Y,Banking,18.0,Medium,False
+P012,Auto Loan,Credit,2301.0,Medium,False
+P000,Credit Card Premium,Banking,17577.0,Medium,False
+P020,Mutual Fund Equity,Investment,3540.0,Low,False
+P009,Personal Loan,Banking,0.0,Medium,True
+P024,Basic Savings Account,Banking,903.0,Low,False
+P028,Home Loan,Banking,729.0,Medium,True
+P002,Fixed Deposit 3Y,Investment,48713.0,High,False
+P003,Health Insurance Basic,Credit,35110.0,Medium,False
+P018,Fixed Deposit 1Y,Investment,36548.0,Medium,False
+P027,Term Life Insurance,Credit,49139.0,High,False
+P013,Fixed Deposit 1Y,Banking,49000.0,Low,False
+P016,Health Insurance Premium,Credit,0.0,High,False
+P021,Term Life Insurance,Banking,0.0,High,False
+P017,Premium Savings Account,Banking,795.0,Low,False
+P014,Credit Card Premium,Banking,6593.0,High,False
+P019,Credit Card Basic,Banking,257.0,Medium,False
+P001,Credit Card Premium,Insurance,373.0,Medium,False
+P008,Mutual Fund Equity,Investment,98.0,Medium,False
+P006,Fixed Deposit 3Y,Banking,791.0,Medium,False
+P010,Term Life Insurance,Banking,10532.0,Medium,False
