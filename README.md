@@ -308,6 +308,49 @@ uniqueness is not guaranteed (multiple sequences can map to one customer).
 
 ---
 
+## Schema: Auto-detected vs Hand-crafted
+
+`python main.py discover` runs SDV's `MultiTableMetadata.detect_from_dataframes()` on the
+real CSVs and saves the result to `reports/auto_detected_metadata.json`. The table below
+compares every column where the two schemas disagree.
+
+### What auto-detection gets right
+
+| Feature | Example |
+|---|---|
+| Primary keys | Correctly identifies `customer_id`, `transaction_id`, `product_id` as `sdtype: id` |
+| Most categorical columns | `gender`, `education`, `occupation`, `channel`, `status`, `product_category` |
+| Numerical columns | `income`, `credit_score`, `tenure_years`, `amount` |
+| Datetime format | Correctly infers `transaction_date` as `sdtype: datetime` with `datetime_format: "%Y-%m-%d"` |
+| FK relationships | Infers both `customers → transactions` and `products → transactions` from matching column names |
+
+### What auto-detection gets wrong or misses
+
+| Column | Auto-detected | Hand-crafted | Impact |
+|---|---|---|---|
+| `products.is_premium` | `categorical` | `boolean` | Synthesized values are strings (`True`/`False`) not booleans; downstream type errors |
+| `customers.is_churned` | `categorical` | `boolean` | Same — boolean semantics lost |
+| `transactions.is_first_product` | `categorical` | `boolean` | Same |
+| `customers.num_dependents` | `categorical` | `numerical` (`Int64`) | SDV treats it as a label; loses integer ordering and realistic range enforcement |
+| All integer numerics (`age`, `credit_score`, `num_dependents`) | `numerical` (no representation) | `numerical` + `computer_representation="Int64"` | Without `Int64`, SDV may generate floats like `42.7` for age |
+| All float numerics (`income`, `amount`, `tenure_years`, `min_amount`) | `numerical` (no representation) | `numerical` + `computer_representation="Float"` | Minor — default is float, but explicit declaration prevents regressions if SDV changes defaults |
+| All ID columns | `sdtype: id` (no format) | `sdtype: id` + `regex_format` | Without regex, synthesized IDs won't match the `C[0-9]{5}` / `T[0-9]{6}` patterns; FK joins by string match will fail |
+| `transactions.product_id` | `sdtype: id` (FK to products) | `categorical` (in 2-table schema) | Auto-detect enforces referential integrity to the products table; hand-crafted intentionally decouples it so product IDs are learned as a distribution, not a FK constraint |
+
+### Key takeaway
+
+Auto-detection handles **structure** (which columns exist, which are keys, which tables relate)
+reasonably well at this schema size. It reliably fails on **semantics**: it cannot distinguish
+a boolean stored as `True/False` from a categorical, cannot infer integer vs. float
+representation, and cannot assign ID regex formats. It also makes an opinionated choice
+about `product_id` in transactions — treating it as a FK — which is correct for full
+3-table synthesis but wrong for the 2-table training setup used by M1 and M2.
+
+The `discover` command is useful as a **starting point and sanity check**, but the
+hand-crafted schema in `schema.py` is required for correct training.
+
+---
+
 ## Limitations
 
 **Small seed size constrains GAN quality.** CTGAN (M2, M3) is sensitive to training set
