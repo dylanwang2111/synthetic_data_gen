@@ -1,5 +1,5 @@
 """
-Three synthesis strategies for comparison.
+Four synthesis strategies for comparison.
 
 Method 1 – HMA + Gaussian Copula (baseline)
     SDV's default multi-table approach.  Captures cardinality (txns-per-customer)
@@ -17,6 +17,16 @@ Method 3 – CTGAN + PAR hybrid
     credit_score as context_columns so it learns "high-income → investment products"
     and temporal sequence patterns simultaneously.
     FK join done by nearest-neighbour on context features.
+
+Method 4 – Independent TVAE
+    TVAESynthesizer trained separately on customers and transactions.
+    TVAE is a variational autoencoder (vs CTGAN's GAN); it often produces
+    smoother numeric marginals and trains more stably.  Same independent-table
+    structure and cardinality re-sampling as Method 2.
+
+All methods are fitted under SDV CAG constraints (see ``constraints.py``):
+  · transactions — ``FixedCombinations(product_id, product_category)``
+  · customers    — ``FixedIncrements(num_dependents, 1)`` (whole-number counts)
 """
 
 import pickle
@@ -30,11 +40,12 @@ from sklearn.neighbors import NearestNeighbors
 with warnings.catch_warnings():
     warnings.simplefilter("ignore")
     from sdv.multi_table import HMASynthesizer
-    from sdv.single_table import CTGANSynthesizer
+    from sdv.single_table import CTGANSynthesizer, TVAESynthesizer
     from sdv.sequential import PARSynthesizer
     from sdv.metadata import SingleTableMetadata
 
 from .schema import build_metadata_2table, PRODUCTS
+from .constraints import transaction_constraints, customer_constraints
 
 PRODUCT_LOOKUP = {p["product_id"]: p for p in PRODUCTS}
 DATA_DIR = Path("data")
@@ -44,10 +55,15 @@ DATA_DIR.mkdir(exist_ok=True)
 # Method 1: HMA + Gaussian Copula
 # ─────────────────────────────────────────────────────────────────────────────
 
-def train_hma_gc(real_data: dict, save: bool = True):
+def train_hma_gc(real_data: dict, use_constraints: bool = True, save: bool = True):
     data_2t = {k: v for k, v in real_data.items() if k in ("customers", "transactions")}
     meta    = build_metadata_2table()
     synth   = HMASynthesizer(meta)
+    if use_constraints:
+        synth.add_constraints(
+            customer_constraints(multi_table=True)
+            + transaction_constraints(multi_table=True)
+        )
     synth.fit(data_2t)
     if save:
         with open(DATA_DIR / "m1_hma_gc.pkl", "wb") as f:
@@ -66,7 +82,9 @@ def generate_hma_gc(synth, n_customers: int = 1000, seed_size: int = 500) -> dic
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _build_single_meta(df: pd.DataFrame, id_col: str,
-                       datetime_cols: list | None = None) -> SingleTableMetadata:
+                       datetime_cols: list | None = None,
+                       categorical_cols: list | None = None,
+                       numerical_cols: list | None = None) -> SingleTableMetadata:
     meta = SingleTableMetadata()
     meta.detect_from_dataframe(df)
     meta.update_column(id_col, sdtype="id")
@@ -75,21 +93,38 @@ def _build_single_meta(df: pd.DataFrame, id_col: str,
         meta.update_column(col, sdtype="datetime", datetime_format="%Y-%m-%d")
     for col in df.select_dtypes("bool").columns:
         meta.update_column(col, sdtype="boolean")
+    # Force columns to categorical (e.g. product_id) so FixedCombinations
+    # constraints can be applied — detection otherwise types them as "id".
+    for col in (categorical_cols or []):
+        if col in df.columns:
+            meta.update_column(col, sdtype="categorical")
+    # Force columns to numerical (e.g. num_dependents) so FixedIncrements
+    # constraints can be applied — detection otherwise types them as "categorical".
+    for col in (numerical_cols or []):
+        if col in df.columns:
+            meta.update_column(col, sdtype="numerical", computer_representation="Int64")
     return meta
 
 
-def train_ctgan(real_data: dict, epochs: int = 300, save: bool = True):
+def train_ctgan(real_data: dict, epochs: int = 300,
+                use_constraints: bool = True, save: bool = True):
     c_df = real_data["customers"]
     t_df = real_data["transactions"].drop(columns=["customer_id"])
 
-    c_meta = _build_single_meta(c_df, "customer_id")
+    c_meta = _build_single_meta(c_df, "customer_id",
+                                numerical_cols=["num_dependents"])
     t_meta = _build_single_meta(t_df, "transaction_id",
-                                datetime_cols=["transaction_date"])
+                                datetime_cols=["transaction_date"],
+                                categorical_cols=["product_id"])
 
     ctgan_c = CTGANSynthesizer(c_meta, epochs=epochs, verbose=False)
+    if use_constraints:
+        ctgan_c.add_constraints(customer_constraints())
     ctgan_c.fit(c_df)
 
     ctgan_t = CTGANSynthesizer(t_meta, epochs=epochs, verbose=False)
+    if use_constraints:
+        ctgan_t.add_constraints(transaction_constraints())
     ctgan_t.fit(t_df)
 
     models = {"ctgan_customers": ctgan_c, "ctgan_transactions": ctgan_t}
@@ -99,21 +134,24 @@ def train_ctgan(real_data: dict, epochs: int = 300, save: bool = True):
     return models
 
 
-def generate_ctgan(models: dict, real_transactions: pd.DataFrame,
-                   n_customers: int = 1000) -> dict:
-    ctgan_c = models["ctgan_customers"]
-    ctgan_t = models["ctgan_transactions"]
+def _sample_independent(model_c, model_t, real_transactions: pd.DataFrame,
+                        n_customers: int) -> dict:
+    """
+    Shared sampler for the independent-table methods (CTGAN, TVAE).
 
-    syn_customers = ctgan_c.sample(n_customers)
+    Samples customers, re-samples per-customer transaction counts from the real
+    cardinality distribution, then draws that many transactions per customer and
+    re-keys customer_id / transaction_id for FK consistency.
+    """
+    syn_customers = model_c.sample(n_customers)
 
-    # Resample cardinality from real distribution
     real_counts = real_transactions.groupby("customer_id").size().values
     syn_counts  = np.random.choice(real_counts, size=n_customers, replace=True)
 
     txn_rows = []
     for i, (cid, n_txn) in enumerate(
             zip(syn_customers["customer_id"], syn_counts)):
-        chunk = ctgan_t.sample(int(n_txn)).copy()
+        chunk = model_t.sample(int(n_txn)).copy()
         chunk["customer_id"] = cid
         # rebuild transaction_ids
         chunk["transaction_id"] = [f"T{i:04d}{j:04d}" for j in range(len(chunk))]
@@ -121,6 +159,13 @@ def generate_ctgan(models: dict, real_transactions: pd.DataFrame,
 
     syn_transactions = pd.concat(txn_rows, ignore_index=True)
     return {"customers": syn_customers, "transactions": syn_transactions}
+
+
+def generate_ctgan(models: dict, real_transactions: pd.DataFrame,
+                   n_customers: int = 1000) -> dict:
+    return _sample_independent(models["ctgan_customers"],
+                               models["ctgan_transactions"],
+                               real_transactions, n_customers)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -136,19 +181,26 @@ def _build_par_meta(df: pd.DataFrame) -> SingleTableMetadata:
     meta.update_column("transaction_date", sdtype="datetime", datetime_format="%Y-%m-%d")
     for col in df.select_dtypes("bool").columns:
         meta.update_column(col, sdtype="boolean")
+    # product_id as categorical so the FixedCombinations constraint applies
+    if "product_id" in df.columns:
+        meta.update_column("product_id", sdtype="categorical")
     meta.set_sequence_key("customer_id")
     meta.set_sequence_index("transaction_date")
     return meta
 
 
 def train_hybrid(real_data: dict, ctgan_epochs: int = 300,
-                 par_epochs: int = 128, save: bool = True):
+                 par_epochs: int = 128, use_constraints: bool = True,
+                 save: bool = True):
     c_df = real_data["customers"]
     t_df = real_data["transactions"]
 
     # CTGAN on customers
-    c_meta   = _build_single_meta(c_df, "customer_id")
+    c_meta   = _build_single_meta(c_df, "customer_id",
+                                  numerical_cols=["num_dependents"])
     ctgan_c  = CTGANSynthesizer(c_meta, epochs=ctgan_epochs, verbose=False)
+    if use_constraints:
+        ctgan_c.add_constraints(customer_constraints())
     ctgan_c.fit(c_df)
 
     # PAR on transactions augmented with customer context columns
@@ -164,6 +216,8 @@ def train_hybrid(real_data: dict, ctgan_epochs: int = 300,
         cuda=False,
         verbose=False,
     )
+    if use_constraints:
+        par.add_constraints(transaction_constraints(sequential=True))
     par.fit(t_aug)
 
     models = {"ctgan_customers": ctgan_c, "par_transactions": par}
@@ -207,3 +261,42 @@ def generate_hybrid(models: dict, n_customers: int = 1000) -> dict:
                             [f"T{i:08d}" for i in range(len(syn_transactions))])
 
     return {"customers": syn_customers, "transactions": syn_transactions}
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Method 4: Independent TVAE per table
+# ─────────────────────────────────────────────────────────────────────────────
+
+def train_tvae(real_data: dict, epochs: int = 300,
+               use_constraints: bool = True, save: bool = True):
+    c_df = real_data["customers"]
+    t_df = real_data["transactions"].drop(columns=["customer_id"])
+
+    c_meta = _build_single_meta(c_df, "customer_id",
+                                numerical_cols=["num_dependents"])
+    t_meta = _build_single_meta(t_df, "transaction_id",
+                                datetime_cols=["transaction_date"],
+                                categorical_cols=["product_id"])
+
+    tvae_c = TVAESynthesizer(c_meta, epochs=epochs)
+    if use_constraints:
+        tvae_c.add_constraints(customer_constraints())
+    tvae_c.fit(c_df)
+
+    tvae_t = TVAESynthesizer(t_meta, epochs=epochs)
+    if use_constraints:
+        tvae_t.add_constraints(transaction_constraints())
+    tvae_t.fit(t_df)
+
+    models = {"tvae_customers": tvae_c, "tvae_transactions": tvae_t}
+    if save:
+        with open(DATA_DIR / "m4_tvae.pkl", "wb") as f:
+            pickle.dump(models, f)
+    return models
+
+
+def generate_tvae(models: dict, real_transactions: pd.DataFrame,
+                  n_customers: int = 1000) -> dict:
+    return _sample_independent(models["tvae_customers"],
+                               models["tvae_transactions"],
+                               real_transactions, n_customers)

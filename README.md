@@ -1,6 +1,6 @@
 # Synthetic Customer & Transaction Data Pipeline
 
-Benchmarks three synthetic data generation strategies on a realistic financial dataset.
+Benchmarks four synthetic data generation strategies on a realistic financial dataset.
 The goal is to find which strategy best preserves the demographic-to-product signals that
 an LLM recommendation engine depends on.
 
@@ -15,17 +15,20 @@ flowchart TD
     seed -->|real_*.csv| m1
     seed -->|real_*.csv| m2
     seed -->|real_*.csv| m3
+    seed -->|real_*.csv| m4
 
     subgraph methods["Synthesis Methods"]
         direction LR
         m1["Method 1\nHMA + Gaussian Copula\n─────────────────\nMultiTableMetadata\nHand-crafted FK\nNative cardinality"]
         m2["Method 2\nIndependent CTGAN\n─────────────────\nSingleTableMetadata × 2\nauto-detect + patches\nCardinality resampled"]
         m3["Method 3\nCTGAN + PAR Hybrid\n─────────────────\nCTGAN → customers\nPAR → transactions\nContext: income · credit\nNN FK reassignment"]
+        m4["Method 4\nIndependent TVAE\n─────────────────\nSingleTableMetadata × 2\nVAE: smooth marginals\nCardinality resampled"]
     end
 
     m1 -->|1 000 synthetic customers| eval
     m2 -->|1 000 synthetic customers| eval
     m3 -->|1 000 synthetic customers| eval
+    m4 -->|1 000 synthetic customers| eval
 
     subgraph eval["Evaluation"]
         direction LR
@@ -42,6 +45,7 @@ flowchart TD
     style m1 fill:#bbf7d0,stroke:#22c55e,color:#14532d
     style m2 fill:#bbf7d0,stroke:#22c55e,color:#14532d
     style m3 fill:#bbf7d0,stroke:#22c55e,color:#14532d
+    style m4 fill:#bbf7d0,stroke:#22c55e,color:#14532d
     style eval fill:#fefce8,stroke:#fde047
     style e1 fill:#fef9c3,stroke:#eab308,color:#713f12
     style e2 fill:#fef9c3,stroke:#eab308,color:#713f12
@@ -87,7 +91,7 @@ Each column's `sdtype`, format, and representation are specified explicitly (e.g
 
 ### Step 3 — Training (`src/methods.py`)
 
-Three strategies are trained independently on the same seed data.
+Four strategies are trained independently on the same seed data.
 
 **Method 1 — HMA + Gaussian Copula**
 
@@ -141,6 +145,44 @@ the model learn "high-income customers buy investment products" as a temporal pa
 At generation time, PAR generates sequences with its own sampled context values.
 A nearest-neighbour match on `(income, credit_score)` reassigns each sequence to the
 closest synthetic customer, restoring FK consistency.
+
+**Method 4 — Independent TVAE**
+
+```python
+tvae_c = TVAESynthesizer(c_meta, epochs=300)
+tvae_t = TVAESynthesizer(t_meta, epochs=300)
+tvae_t.add_constraints(transaction_constraints())   # product_id → category FixedCombinations
+tvae_c.fit(c_df); tvae_t.fit(t_df_no_fk)
+```
+
+Same independent-per-table structure as Method 2, but TVAE is a **variational autoencoder**
+rather than a GAN. It tends to produce smoother numeric marginals and trains more stably,
+at the cost of sometimes blurrier categorical boundaries. Cardinality is restored by the
+same empirical-count resampling as M2.
+
+**Constraints (`src/constraints.py`).** Every synthesizer — HMA, both CTGANs, PAR and both
+TVAEs — is fitted under SDV's Constraint-Augmented Generation (CAG) API via
+`synth.add_constraints([...])`, applied before `.fit()`:
+
+| Field(s) | Table | Constraint | Rule |
+|---|---|---|---|
+| `product_id`, `product_category` | transactions | `FixedCombinations` | category must match the product's real category |
+| `amount` | transactions | `ScalarInequality` ≥ 0 | no negative transaction amounts |
+| `num_dependents` | customers | `FixedIncrements(1)` | whole-number counts |
+| `credit_score` | customers | `ScalarRange [300, 850]` | stay within the FICO range |
+| `tenure_years`, `age` | customers | `Inequality` ≤ | tenure can't exceed the customer's age |
+
+`FixedCombinations`, `FixedIncrements` and `Inequality` are native `sdv.cag` classes.
+`ScalarRange`/`ScalarInequality` were dropped from the public `sdv.cag` module, so they are
+supplied in SDV's legacy *dict* form (`{"constraint_class": ..., "constraint_parameters": ...}`),
+which `add_constraints` still accepts and mixes freely with the CAG objects. The single-table
+metadata builders first patch `product_id` → `categorical` and `num_dependents` → `numerical`
+so those constraints are applicable.
+
+**PAR exception.** `FixedCombinations` merges its two columns into one, which `PARSynthesizer`
+mis-reads as a per-sequence context column and rejects. M3/PAR therefore receives only the
+scalar `amount` constraint and keeps the product/category match as a learned distribution —
+so M3 still shows a handful of product/category drifts where M1/M2/M4 show none.
 
 ### Step 4 — Generation
 
@@ -209,6 +251,12 @@ Product catalog spans 4 categories (Banking, Credit, Insurance, Investment) acro
 | 1 | **HMA + Gaussian Copula** | `HMASynthesizer` | Hand-crafted `MultiTableMetadata` |
 | 2 | **Independent CTGAN** | `CTGANSynthesizer` × 2 | `detect_from_dataframe` + patches |
 | 3 | **CTGAN + PAR Hybrid** | `CTGANSynthesizer` + `PARSynthesizer` | detect + patches + sequence keys |
+| 4 | **Independent TVAE** | `TVAESynthesizer` × 2 | `detect_from_dataframe` + patches |
+
+All four methods are fitted under SDV **CAG constraints** (see `src/constraints.py` and Step 3):
+`FixedCombinations` (product↔category) and `ScalarInequality` (amount ≥ 0) on transactions;
+`FixedIncrements` (whole-number dependents), `ScalarRange` (credit_score ∈ [300, 850]) and
+`Inequality` (tenure ≤ age) on customers.
 
 ---
 
@@ -229,47 +277,52 @@ Product catalog spans 4 categories (Banking, Credit, Insurance, Investment) acro
 
 ## Results
 
-### Summary table (1 000 seed customers)
+### Summary table (1 000 seed customers, all methods constraint-fitted)
 
-| Metric | M1 HMA GC | M2 CTGAN | M3 CTGAN+PAR | Winner |
-|---|---|---|---|---|
-| Overall quality score | 0.826 | **0.871** | 0.537 | M2 |
-| Diagnostic / FK integrity | **1.000** | **1.000** | 0.798 | M1 / M2 |
-| Customer column shapes | **0.952** | 0.897 | 0.898 | M1 |
-| Customer pair trends | **0.707** | 0.563 | 0.530 | M1 |
-| Transaction column shapes | 0.841 | **0.893** | 0.725 | M2 |
-| Cross-table MAD ↓ | 0.259 | 0.288 | **0.235** | M3 |
-| Inter-arrival KS p-value ↑ | 0.000 | **0.003** | 0.000 | M2 |
-| Autocorrelation MAE ↓ | **0.049** | 0.054 | 0.185 | M1 |
+| Metric | M1 HMA GC | M2 CTGAN | M3 CTGAN+PAR | M4 TVAE | Winner |
+|---|---|---|---|---|---|
+| Overall quality score | **0.849** | 0.830 | 0.541 | 0.846 | M1 |
+| Diagnostic / FK integrity | **1.000** | **1.000** | 0.779 | **1.000** | M1 / M2 / M4 |
+| Customer column shapes | **0.926** | 0.836 | 0.743 | 0.788 | M1 |
+| Customer pair trends | **0.764** | 0.543 | 0.571 | 0.689 | M1 |
+| Transaction column shapes | 0.813 | **0.869** | 0.742 | 0.791 | M2 |
+| Cross-table MAD ↓ | 0.265 | 0.253 | **0.163** | 0.271 | M3 |
+| Inter-arrival KS p-value ↑ | 0.000 | **0.169** | 0.000 | 0.000 | M2 |
+| Autocorrelation MAE ↓ | 0.046 | **0.003** | 0.103 | 0.014 | M2 |
+
+All four methods produce 0 orphan FKs and satisfy every CAG constraint; M3/PAR is the only
+method that still shows product/category drift (it can't take the `FixedCombinations`
+constraint — see Step 3).
 
 ### Findings
 
 **M1 (HMA + Gaussian Copula) is the best choice for the LLM recommendation use case.**
 The recommendation engine conditions on customer demographics and product history.
-M1's customer pair trends score (0.707) — the metric most directly tied to
-"does income predict product category?" — is 26% higher than M2 (0.563) and 33% higher
-than M3 (0.530). The Gaussian Copula captures joint demographics well at 500 seed rows.
+M1 leads on overall quality (0.849) and, decisively, on customer pair trends (0.764) — the
+metric most directly tied to "does income predict product category?" — 41% above M2 (0.543)
+and well ahead of M3 (0.571) and M4 (0.689). The Gaussian Copula captures joint demographics
+best at this data scale.
 
-**M2 (Independent CTGAN) wins on marginal distributions but loses correlations.**
-Overall quality 0.871 is the highest, driven by better transaction column shapes (0.893).
-However, because the two tables are trained independently, cross-table correlations are
-not preserved — pair trends drop to 0.563. At larger seed sizes (est. 2 000+), CTGAN
-typically converges to tighter marginals and may close the pair-trends gap with M1.
+**M4 (Independent TVAE) is the strongest runner-up.**
+TVAE matches M1/M2 on perfect FK integrity, is second on customer pair trends (0.689), and
+is essentially tied with M1 on overall quality (0.846 vs 0.849) — notably better-correlated
+than its GAN sibling M2 (0.543) despite the same independent-table structure. Its smoother VAE
+marginals come at a small cost to per-column shape scores.
+
+**M2 (Independent CTGAN) wins on transaction fidelity and timing.**
+M2 takes transaction column shapes (0.869), inter-arrival KS p-value (0.169 — the only method
+to clear significance) and autocorrelation MAE (0.003). But independent-table training leaves
+cross-table correlation weak: customer pair trends fall to 0.543, the lowest of the four.
 
 **M3 (CTGAN + PAR Hybrid) underperforms at this data scale.**
-Despite the RNN-based PAR model being designed for temporal realism, autocorrelation MAE
-is actually the worst (0.185 vs M1's 0.049). PAR needs substantially more sequences
-than 500 to learn transaction timing reliably. FK integrity also drops to 79.8% because
-the nearest-neighbour FK reassignment can map multiple PAR sequences to the same synthetic
-customer, creating orphaned transaction groups. M3's only win is cross-table MAD (0.235),
-suggesting the context conditioning does marginally preserve the income→product signal,
-but not enough to offset its other regressions.
+M3's only win is cross-table MAD (0.163), suggesting context conditioning does preserve the
+income→product signal — but overall quality (0.541) and FK integrity (0.779, from the
+nearest-neighbour FK reassignment mapping multiple sequences to one customer) drag it down.
+PAR needs many more than ~4 transactions/customer to learn timing reliably.
 
-**Temporal modelling is the hardest metric to satisfy at small scale.**
-All three methods produce near-zero KS p-values for inter-arrival times, meaning none
-reproduces the real transaction timing distribution well. This is primarily a data-size
-problem: with ~4 transactions per customer on average, there are too few inter-arrival
-intervals per sequence to learn a distribution.
+**Temporal modelling is the hardest metric at small scale.**
+Only M2 reaches a non-trivial inter-arrival KS p-value; the rest are ~0. With ~4 transactions
+per customer there are too few inter-arrival intervals per sequence to learn a distribution.
 
 ---
 
@@ -292,7 +345,9 @@ integrity in downstream recommendations.
 With `product_id` typed as `categorical` (not FK) in transactions, M1/M2 treat product
 selection as a distributional column rather than a relational join. This is the correct
 framing: the 15 valid product IDs are learned from the marginal distribution of
-`transactions.product_id`, not enforced by a parent-table constraint.
+`transactions.product_id`, not enforced by a parent-table constraint. The one relationship
+that *is* enforced — that each `product_id` keeps its real `product_category` — is handled
+by a `FixedCombinations` CAG constraint rather than a FK (see Step 3).
 
 **Spearman over Pearson for cross-table correlation.**
 The income→product-category relationships are monotonic but not linear (e.g. investment
@@ -412,7 +467,8 @@ synthetic_data_gen/
 │   ├── schema.py            # MultiTableMetadata: 3-table (full) + 2-table (M1/M2)
 │   ├── seed_data.py         # Business-rule-driven real data generator
 │   ├── generate.py          # HMASynthesizer train + sample helpers (legacy M1 path)
-│   ├── methods.py           # Train + generate functions for all 3 methods
+│   ├── methods.py           # Train + generate functions for all 4 methods
+│   ├── constraints.py       # SDV CAG constraints (FixedCombinations/Increments, Scalar*, Inequality)
 │   ├── evaluate.py          # SDMetrics quality / diagnostic wrapper
 │   ├── metrics_extended.py  # Cross-table correlation + temporal realism metrics
 │   └── llm_suggest.py       # LLM product recommendation (DeepSeek / Claude)
