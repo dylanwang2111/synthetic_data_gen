@@ -276,8 +276,13 @@ caption(s, "Feature→category Spearman correlations. The closer each method's g
 # 11 — Distributions
 # ════════════════════════════════════════════════════════════════════════════
 s = slide(); header(s, "Marginal fidelity", "Distributions")
-fit_image(s, REPORTS/"distributions_all_methods.png", 0.8, 1.8, 12.0, 4.6)
-caption(s, "Real vs each method on age, income, credit score, tenure.")
+# four separate charts in a 2x2 grid — easier to read than one 4-in-1 strip
+gx, gy, gw, gh, pad = 0.85, 1.75, 11.6, 4.75, 0.25
+cw, ch = (gw - pad) / 2, (gh - pad) / 2
+for k, img in enumerate(["dist_age.png", "dist_income.png", "dist_credit.png", "dist_tenure.png"]):
+    r, c = divmod(k, 2)
+    fit_image(s, REPORTS/img, gx + c*(cw+pad), gy + r*(ch+pad), cw, ch)
+caption(s, "Real (grey fill) vs each method (coloured outline) — per variable for easier comparison.")
 
 # ════════════════════════════════════════════════════════════════════════════
 # 12 — Verdict
