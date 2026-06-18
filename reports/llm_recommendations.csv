@@ -1,0 +1,16 @@
+customer_id,rank,product_id,name,cache_read
+sdv-id-cpLWTk,1,P006,Credit Card Basic,512
+sdv-id-cpLWTk,2,P005,Auto Loan,512
+sdv-id-cpLWTk,3,P003,Personal Loan,512
+sdv-id-tLtwEp,1,P013,Fixed Deposit 1Y,512
+sdv-id-tLtwEp,2,P007,Credit Card Premium,512
+sdv-id-tLtwEp,3,P006,Credit Card Basic,512
+sdv-id-JDCYqx,1,P008,Term Life Insurance,512
+sdv-id-JDCYqx,2,P009,Health Insurance Basic,512
+sdv-id-JDCYqx,3,P001,Basic Savings Account,512
+sdv-id-MKAAbs,1,P001,Basic Savings Account,512
+sdv-id-MKAAbs,2,P013,Fixed Deposit 1Y,512
+sdv-id-MKAAbs,3,P006,Credit Card Basic,512
+sdv-id-mlBDUz,1,P006,Credit Card Basic,512
+sdv-id-mlBDUz,2,P009,Health Insurance Basic,512
+sdv-id-mlBDUz,3,P015,Mutual Fund Equity,512
