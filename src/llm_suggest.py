@@ -1,18 +1,41 @@
 """
 LLM-powered product suggestion using customer profile + transaction history.
 
-Supports two backends:
-  - Claude (Anthropic) — prompt caching on the product catalog
-  - DeepSeek           — OpenAI-compatible API (deepseek-chat)
+Default backend is DeepSeek (OpenAI-compatible `deepseek-chat`); set
+`DEEPSEEK_API_KEY` (e.g. in a project `.env`). Claude (Anthropic) is supported as
+a fallback when only `ANTHROPIC_API_KEY` is set — its SDK is imported lazily so
+DeepSeek-only environments don't need the `anthropic` package installed.
 """
 
 import json
 import os
-import anthropic
+from pathlib import Path
+
 from openai import OpenAI
 import pandas as pd
 
 from .schema import PRODUCTS
+
+
+def load_env(path: str = ".env") -> None:
+    """Populate os.environ from a simple KEY=VALUE .env file (no extra deps).
+
+    Existing environment variables take precedence (uses setdefault). Tolerates
+    spaces around '=', surrounding quotes, blank lines and '#' comments.
+    """
+    p = Path(path)
+    if not p.exists():
+        return
+    for line in p.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
+
+
+# Load a project-local .env on import so DEEPSEEK_API_KEY is available.
+load_env()
 
 _CATALOG_TEXT = "\n".join(
     f"- {p['product_id']} | {p['name']} | Category: {p['category']} | "
@@ -67,6 +90,7 @@ def _build_profile(
 
 
 def _suggest_claude(profile: str, model: str) -> tuple[dict, dict]:
+    import anthropic  # lazy: only needed for the Claude fallback
     client = anthropic.Anthropic()
     response = client.messages.create(
         model=model,

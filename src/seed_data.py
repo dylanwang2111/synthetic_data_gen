@@ -102,7 +102,8 @@ def make_seed_data(n_customers: int = 500) -> dict[str, pd.DataFrame]:
         region   = random.choice(REGIONS)
         deps     = int(np.clip(np.random.poisson(1.2), 0, 6))
         credit   = _credit_score(income, edu)
-        tenure   = round(random.uniform(0.1, 20.0), 1)
+        # tenure can't exceed the customer's age (can't bank longer than you've lived)
+        tenure   = round(random.uniform(0.1, min(20.0, age)), 1)
         churned  = random.random() < 0.12
 
         customers.append({
