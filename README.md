@@ -16,19 +16,22 @@ flowchart TD
     seed -->|real_*.csv| m2
     seed -->|real_*.csv| m3
     seed -->|real_*.csv| m4
+    seed -->|real_*.csv| m5
 
-    subgraph methods["Synthesis Methods"]
+    subgraph methods["Synthesis Methods — SDV (1–4) · OpenDP (5)"]
         direction LR
         m1["Method 1\nHMA + Gaussian Copula\n─────────────────\nMultiTableMetadata\nHand-crafted FK\nNative cardinality"]
         m2["Method 2\nIndependent CTGAN\n─────────────────\nSingleTableMetadata × 2\nauto-detect + patches\nCardinality resampled"]
         m3["Method 3\nCTGAN + PAR Hybrid\n─────────────────\nCTGAN → customers\nPAR → transactions\nContext: income · credit\nNN FK reassignment"]
         m4["Method 4\nIndependent TVAE\n─────────────────\nSingleTableMetadata × 2\nVAE: smooth marginals\nCardinality resampled"]
+        m5["Method 5\nSmartNoise MST\n─────────────────\nOpenDP · marginal-based\n(ε, δ)-differential privacy\nPost-process to valid domains"]
     end
 
     m1 -->|1 000 synthetic customers| eval
     m2 -->|1 000 synthetic customers| eval
     m3 -->|1 000 synthetic customers| eval
     m4 -->|1 000 synthetic customers| eval
+    m5 -->|1 000 synthetic customers| eval
 
     subgraph eval["Evaluation"]
         direction LR
@@ -46,6 +49,7 @@ flowchart TD
     style m2 fill:#bbf7d0,stroke:#22c55e,color:#14532d
     style m3 fill:#bbf7d0,stroke:#22c55e,color:#14532d
     style m4 fill:#bbf7d0,stroke:#22c55e,color:#14532d
+    style m5 fill:#ede9fe,stroke:#8b5cf6,color:#4c1d95
     style eval fill:#fefce8,stroke:#fde047
     style e1 fill:#fef9c3,stroke:#eab308,color:#713f12
     style e2 fill:#fef9c3,stroke:#eab308,color:#713f12
@@ -248,15 +252,20 @@ Product catalog spans 4 categories (Banking, Credit, Insurance, Investment) acro
 
 | # | Method | Synthesizer | Metadata source |
 |---|---|---|---|
-| 1 | **HMA + Gaussian Copula** | `HMASynthesizer` | Hand-crafted `MultiTableMetadata` |
-| 2 | **Independent CTGAN** | `CTGANSynthesizer` × 2 | `detect_from_dataframe` + patches |
-| 3 | **CTGAN + PAR Hybrid** | `CTGANSynthesizer` + `PARSynthesizer` | detect + patches + sequence keys |
-| 4 | **Independent TVAE** | `TVAESynthesizer` × 2 | `detect_from_dataframe` + patches |
+| 1 | **HMA + Gaussian Copula** | `HMASynthesizer` (SDV) | Hand-crafted `MultiTableMetadata` |
+| 2 | **Independent CTGAN** | `CTGANSynthesizer` × 2 (SDV) | `detect_from_dataframe` + patches |
+| 3 | **CTGAN + PAR Hybrid** | `CTGANSynthesizer` + `PARSynthesizer` (SDV) | detect + patches + sequence keys |
+| 4 | **Independent TVAE** | `TVAESynthesizer` × 2 (SDV) | `detect_from_dataframe` + patches |
+| 5 | **SmartNoise MST** | `Synthesizer("mst")` × 2 (OpenDP) | column types + ε budget (differentially private) |
 
-All four methods are fitted under SDV **CAG constraints** (see `src/constraints.py` and Step 3):
+**SDV vs SmartNoise.** Methods 1–4 are SDV synthesizers focused on statistical fidelity; they
+are fitted under SDV **CAG constraints** (see `src/constraints.py` and Step 3):
 `FixedCombinations` (product↔category) and `ScalarInequality` (amount ≥ 0) on transactions;
 `FixedIncrements` (whole-number dependents), `ScalarRange` (credit_score ∈ [300, 850]) and
-`Inequality` (tenure ≤ age) on customers.
+`Inequality` (tenure ≤ age) on customers. Method 5 (SmartNoise/OpenDP) instead provides a formal
+**(ε, δ)-differential-privacy** guarantee — no SDV method does — and restores the same business
+rules by post-processing (clipping + product→category lookup), since DP synthesizers don't accept
+SDV constraints.
 
 ---
 
@@ -277,48 +286,52 @@ All four methods are fitted under SDV **CAG constraints** (see `src/constraints.
 
 ## Results
 
-### Summary table (1 000 seed customers, all methods constraint-fitted)
+### Summary table (1 000 seed customers; SDV M1–M4 constraint-fitted, M5 ε=3.0 DP)
 
-| Metric | M1 HMA GC | M2 CTGAN | M3 CTGAN+PAR | M4 TVAE | Winner |
-|---|---|---|---|---|---|
-| Overall quality score | **0.849** | 0.830 | 0.541 | 0.846 | M1 |
-| Diagnostic / FK integrity | **1.000** | **1.000** | 0.779 | **1.000** | M1 / M2 / M4 |
-| Customer column shapes | **0.926** | 0.836 | 0.743 | 0.788 | M1 |
-| Customer pair trends | **0.764** | 0.543 | 0.571 | 0.689 | M1 |
-| Transaction column shapes | 0.813 | **0.869** | 0.742 | 0.791 | M2 |
-| Cross-table MAD ↓ | 0.265 | 0.253 | **0.163** | 0.271 | M3 |
-| Inter-arrival KS p-value ↑ | 0.000 | **0.169** | 0.000 | 0.000 | M2 |
-| Autocorrelation MAE ↓ | 0.046 | **0.003** | 0.103 | 0.014 | M2 |
+| Metric | M1 HMA | M2 CTGAN | M3 PAR | M4 TVAE | M5 SmartNoise | Winner |
+|---|---|---|---|---|---|---|
+| Overall quality score | 0.851 | 0.840 | 0.544 | 0.826 | **0.887** | M5 |
+| Diagnostic / FK integrity | **1.000** | **1.000** | 0.765 | **1.000** | **1.000** | M1/M2/M4/M5 |
+| Customer column shapes | **0.927** | 0.842 | 0.798 | 0.790 | 0.906 | M1 |
+| Customer pair trends | **0.720** | 0.544 | 0.540 | 0.683 | 0.680 | M1 |
+| Transaction column shapes | 0.818 | 0.851 | 0.739 | 0.788 | **0.880** | M5 |
+| Cross-table MAD ↓ | 0.242 | 0.281 | **0.195** | 0.288 | 0.297 | M3 |
+| Inter-arrival KS p-value ↑ | 0.000 | **0.143** | 0.000 | 0.000 | 0.000 | M2 |
+| Autocorrelation MAE ↓ | 0.076 | 0.063 | 0.124 | 0.022 | **0.005** | M5 |
+| Differential privacy | ✗ | ✗ | ✗ | ✗ | **✓ (ε≈6)** | M5 |
 
-All four methods produce 0 orphan FKs and satisfy every CAG constraint; M3/PAR is the only
-method that still shows product/category drift (it can't take the `FixedCombinations`
-constraint — see Step 3).
+All methods produce 0 orphan FKs and satisfy every business rule (0 product/category drift) —
+except M3/PAR, which can't take the `FixedCombinations` constraint (see Step 3). M5 enforces the
+same rules by post-processing its DP output.
 
 ### Findings
 
-**M1 (HMA + Gaussian Copula) is the best choice for the LLM recommendation use case.**
-The recommendation engine conditions on customer demographics and product history.
-M1 leads on overall quality (0.849) and, decisively, on customer pair trends (0.764) — the
-metric most directly tied to "does income predict product category?" — 41% above M2 (0.543)
-and well ahead of M3 (0.571) and M4 (0.689). The Gaussian Copula captures joint demographics
-best at this data scale.
+**M5 (SmartNoise MST) is the surprise winner on fidelity — and it's the only private method.**
+The differentially-private synthesizer takes overall quality (0.887), transaction column shapes
+(0.880) and autocorrelation MAE (0.005), and is second on customer column shapes (0.906) — all
+while providing a formal (ε, δ)-DP guarantee the SDV methods lack. As a marginal-based method it
+nails per-column and within-table structure; its weakness is cross-table MAD (0.297, the worst),
+i.e. it preserves the customer→product cross-table signal least well. Takeaway: at this scale DP
+costs almost nothing on marginal fidelity — but it doesn't come free on cross-table correlation.
 
-**M4 (Independent TVAE) is the strongest runner-up.**
-TVAE matches M1/M2 on perfect FK integrity, is second on customer pair trends (0.689), and
-is essentially tied with M1 on overall quality (0.846 vs 0.849) — notably better-correlated
-than its GAN sibling M2 (0.543) despite the same independent-table structure. Its smoother VAE
-marginals come at a small cost to per-column shape scores.
+**M1 (HMA + Gaussian Copula) still wins the correlation that the recommender needs.**
+M1 leads customer pair trends (0.720) — the metric most tied to "does income predict product
+category?" — ahead of M4 (0.683), M5 (0.680) and well above the GANs (M2 0.544, M3 0.540).
+For the LLM use case, which conditions on demographic correlations, M1 remains the pick.
 
-**M2 (Independent CTGAN) wins on transaction fidelity and timing.**
-M2 takes transaction column shapes (0.869), inter-arrival KS p-value (0.169 — the only method
-to clear significance) and autocorrelation MAE (0.003). But independent-table training leaves
-cross-table correlation weak: customer pair trends fall to 0.543, the lowest of the four.
+**M4 (TVAE) and M2 (CTGAN) split the SDV middle.**
+M4 keeps perfect FK integrity and the best SDV autocorrelation (0.022) with smooth marginals;
+M2 wins transaction timing (inter-arrival KS 0.143, the only method to clear significance) but
+has the weakest cross-table correlation among the independents.
 
 **M3 (CTGAN + PAR Hybrid) underperforms at this data scale.**
-M3's only win is cross-table MAD (0.163), suggesting context conditioning does preserve the
-income→product signal — but overall quality (0.541) and FK integrity (0.779, from the
+M3's only win is cross-table MAD (0.195), suggesting context conditioning does preserve the
+income→product signal — but overall quality (0.544) and FK integrity (0.765, from the
 nearest-neighbour FK reassignment mapping multiple sequences to one customer) drag it down.
 PAR needs many more than ~4 transactions/customer to learn timing reliably.
+
+**Picking a method:** privacy required → **M5**; best demographic correlations → **M1**;
+simple per-table SDV pipeline → **M4**; transaction timing → **M2**.
 
 **Temporal modelling is the hardest metric at small scale.**
 Only M2 reaches a non-trivial inter-arrival KS p-value; the rest are ~0. With ~4 transactions
@@ -467,7 +480,8 @@ synthetic_data_gen/
 │   ├── schema.py            # MultiTableMetadata: 3-table (full) + 2-table (M1/M2)
 │   ├── seed_data.py         # Business-rule-driven real data generator
 │   ├── generate.py          # HMASynthesizer train + sample helpers (legacy M1 path)
-│   ├── methods.py           # Train + generate functions for all 4 methods
+│   ├── methods.py           # Train + generate for the 4 SDV methods (M1–M4)
+│   ├── smartnoise_method.py # Method 5 — SmartNoise MST (differentially private)
 │   ├── constraints.py       # SDV CAG constraints (FixedCombinations/Increments, Scalar*, Inequality)
 │   ├── evaluate.py          # SDMetrics quality / diagnostic wrapper
 │   ├── metrics_extended.py  # Cross-table correlation + temporal realism metrics

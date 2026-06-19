@@ -1,1001 +1,1001 @@
 customer_id,age,gender,income,education,occupation,marital_status,region,num_dependents,credit_score,tenure_years,is_churned
-sdv-id-FwpFay,30,Non-binary,44992.19,High School,Engineer,Married,Central,1,559,9.6,True
-sdv-id-vthVpX,18,Non-binary,40657.69,High School,Student,Widowed,West,4,578,0.1,False
-sdv-id-XnlgaZ,19,Non-binary,21367.73,High School,Student,Married,South,2,520,11.8,True
-sdv-id-mLbuan,19,Female,76259.45,High School,Retired,Divorced,South,1,693,3.2,True
-sdv-id-jWWKIV,52,Non-binary,55310.7,High School,Retired,Single,South,0,517,16.3,False
-sdv-id-QoLaRM,40,Non-binary,80094.34,High School,Lawyer,Widowed,Central,1,492,8.5,False
-sdv-id-iIZxOY,49,Non-binary,108674.9,Bachelor,Lawyer,Widowed,Central,0,470,19.9,True
-sdv-id-GbyukC,47,Non-binary,21722.08,High School,Teacher,Married,West,4,519,0.1,True
-sdv-id-FChuMs,18,Male,38058.26,High School,Retired,Widowed,North,2,499,3.0,False
-sdv-id-otyTTI,18,Female,61602.95,High School,Engineer,Widowed,East,0,599,10.0,False
-sdv-id-REeyrv,31,Male,88591.01,Bachelor,Accountant,Married,Central,1,496,6.6,True
-sdv-id-BKGJmG,24,Non-binary,29635.49,High School,Lawyer,Divorced,South,2,542,18.5,False
-sdv-id-Fhveac,61,Female,88397.71,High School,Retired,Married,East,1,736,17.4,True
-sdv-id-PIchIV,25,Non-binary,16390.77,Bachelor,Student,Divorced,North,2,509,3.0,False
-sdv-id-nbtaME,18,Male,49507.14,High School,Nurse,Married,West,1,487,0.9,True
-sdv-id-iJgMWZ,33,Non-binary,151945.91,Bachelor,Retired,Single,North,0,658,1.1,True
-sdv-id-mvlnhQ,32,Non-binary,21960.83,High School,Teacher,Widowed,East,0,469,4.0,True
-sdv-id-vIzFWL,39,Female,63392.38,Bachelor,Retired,Widowed,North,0,580,11.1,True
-sdv-id-aYfPFf,36,Non-binary,36965.66,Associate,Business Owner,Married,South,0,482,2.0,True
-sdv-id-DjXAFi,23,Male,84358.83,Bachelor,Retail Worker,Divorced,North,0,521,10.0,False
-sdv-id-HHyeJq,33,Female,15000.0,Associate,Retired,Widowed,West,2,558,17.2,False
-sdv-id-vgZlGh,25,Female,30773.55,High School,Engineer,Divorced,West,2,495,16.9,False
-sdv-id-ZhZKee,34,Non-binary,141348.25,Associate,Retired,Widowed,Central,2,478,3.3,False
-sdv-id-tWBpjH,23,Non-binary,106450.45,Associate,Retired,Married,North,2,716,14.4,False
-sdv-id-PFqeat,41,Male,53670.61,High School,Retired,Widowed,East,0,565,13.0,True
-sdv-id-SSpJBj,18,Non-binary,65730.37,Bachelor,Lawyer,Married,East,0,590,6.8,True
-sdv-id-DNRKBY,37,Female,69040.63,High School,Teacher,Widowed,North,2,476,8.2,True
-sdv-id-InmFNO,19,Non-binary,54765.46,High School,Manager,Married,North,1,478,1.8,False
-sdv-id-rBHjHP,34,Non-binary,109007.2,Master,Nurse,Widowed,North,2,462,2.8,False
-sdv-id-bLhNYB,35,Female,15000.0,High School,Retired,Married,Central,1,548,17.8,False
-sdv-id-dbtMmE,47,Male,61662.47,High School,Retail Worker,Widowed,West,3,483,17.5,True
-sdv-id-OjCmpd,18,Non-binary,78607.41,High School,Lawyer,Married,South,1,462,6.6,False
-sdv-id-ZMgEQb,20,Non-binary,93490.21,Bachelor,Retired,Widowed,West,2,621,1.5,True
-sdv-id-vMjXsB,53,Non-binary,103001.4,Master,Manager,Divorced,West,0,535,7.6,False
-sdv-id-cTQiLK,22,Non-binary,113223.82,High School,Retired,Married,North,2,776,3.6,False
-sdv-id-tSGcIm,25,Non-binary,110491.2,PhD,Student,Widowed,Central,2,495,18.4,False
-sdv-id-TFdgHt,55,Male,57117.01,High School,Retired,Widowed,South,1,594,17.9,False
-sdv-id-raGkgW,23,Non-binary,97919.33,High School,Student,Married,North,0,584,15.0,True
-sdv-id-xYznOJ,24,Male,46048.03,High School,Engineer,Married,Central,0,576,17.4,False
-sdv-id-JqOJJh,31,Non-binary,159759.86,High School,Retired,Divorced,West,0,569,5.7,False
-sdv-id-dcXrxF,35,Female,70405.11,Bachelor,Retired,Widowed,South,1,594,2.0,True
-sdv-id-FFWYyV,49,Non-binary,197251.09,Bachelor,Engineer,Single,Central,1,612,9.9,True
-sdv-id-NkuBeg,18,Non-binary,66676.83,High School,Retired,Widowed,West,2,645,6.3,True
-sdv-id-VEfaTd,24,Female,21723.63,High School,Retired,Married,West,0,490,3.9,False
-sdv-id-WYfWTu,30,Non-binary,81273.94,Bachelor,Doctor,Widowed,North,2,508,12.4,False
-sdv-id-ywBVKB,26,Male,23966.63,High School,Retired,Divorced,Central,0,793,10.0,True
-sdv-id-nvAGem,72,Female,22948.07,Bachelor,Engineer,Married,East,2,528,7.7,False
-sdv-id-hVsbaT,35,Male,65413.85,Master,Engineer,Divorced,West,1,547,14.7,False
-sdv-id-imIXTS,18,Non-binary,93962.48,High School,Nurse,Widowed,Central,2,572,13.8,True
-sdv-id-ezADuu,28,Non-binary,132705.58,PhD,Retired,Widowed,South,0,670,17.9,False
-sdv-id-uPYWeG,29,Non-binary,89740.92,Bachelor,Retired,Married,West,1,507,13.0,True
-sdv-id-DJpSsV,46,Non-binary,50654.78,Master,Nurse,Married,West,0,605,4.8,False
-sdv-id-TCParK,18,Non-binary,72967.18,High School,Engineer,Divorced,North,0,587,9.1,False
-sdv-id-WvkigN,47,Male,66739.82,High School,Manager,Widowed,North,0,466,9.6,False
-sdv-id-GLBiQd,52,Non-binary,28431.35,High School,Retired,Married,Central,1,515,9.9,False
-sdv-id-ujmLTC,23,Non-binary,56186.15,Master,Nurse,Widowed,West,2,510,8.6,False
-sdv-id-rfWeZd,36,Male,120799.36,Bachelor,Retired,Widowed,Central,0,574,4.3,False
-sdv-id-BUWTPn,22,Male,79912.17,Bachelor,Nurse,Widowed,South,2,462,13.7,False
-sdv-id-UlUuwk,18,Male,88348.02,High School,Nurse,Widowed,North,0,569,1.8,False
-sdv-id-xRVnIm,49,Non-binary,15697.41,High School,Engineer,Married,West,0,534,1.9,False
-sdv-id-HuZORX,18,Non-binary,79969.21,Bachelor,Nurse,Widowed,North,0,634,0.1,True
-sdv-id-OBLEPS,21,Non-binary,214484.71,Master,Retired,Widowed,South,2,719,5.9,False
-sdv-id-UcOoUC,35,Female,78271.94,High School,Doctor,Widowed,East,2,520,9.4,True
-sdv-id-mOoVGi,18,Non-binary,218286.77,Bachelor,Lawyer,Widowed,West,0,510,4.2,False
-sdv-id-QeMIAb,31,Female,98529.22,Master,Accountant,Married,North,2,529,18.4,False
-sdv-id-FFCxMP,40,Non-binary,87599.43,High School,Nurse,Widowed,North,0,544,16.6,True
-sdv-id-BLgeVa,55,Non-binary,61927.74,Associate,Nurse,Widowed,South,2,539,10.6,True
-sdv-id-VThUoY,26,Non-binary,30485.95,Associate,Teacher,Widowed,South,2,554,13.2,False
-sdv-id-HyzjjY,24,Female,96492.45,High School,Retired,Widowed,East,0,736,0.1,False
-sdv-id-IuYsYA,28,Female,29708.0,PhD,Retired,Married,South,0,496,17.6,True
-sdv-id-QDhofU,39,Non-binary,127615.35,High School,Engineer,Widowed,North,1,557,14.0,False
-sdv-id-uXywtg,31,Non-binary,27711.54,High School,Business Owner,Widowed,South,2,524,14.4,False
-sdv-id-MBDlQW,30,Female,143363.94,PhD,Manager,Widowed,West,0,477,13.4,False
-sdv-id-sQdHyP,21,Non-binary,38590.1,High School,Engineer,Married,North,2,552,2.1,False
-sdv-id-hwVPLd,27,Female,56422.74,Associate,Nurse,Widowed,North,1,462,0.1,False
-sdv-id-TFkoFv,26,Male,57504.89,High School,Doctor,Widowed,North,1,591,4.9,False
-sdv-id-GhfdNt,27,Male,46348.36,High School,Retired,Widowed,North,1,688,12.8,True
-sdv-id-WoiStL,27,Non-binary,55160.81,Master,Doctor,Widowed,East,0,578,18.4,True
-sdv-id-YTlLzt,35,Non-binary,201360.59,Bachelor,Student,Widowed,East,0,587,14.3,False
-sdv-id-fdsodw,18,Non-binary,50670.42,Bachelor,Nurse,Widowed,North,2,638,0.1,False
-sdv-id-YFofAx,71,Non-binary,71820.71,High School,Engineer,Widowed,North,0,494,7.3,True
-sdv-id-ZfhMxm,18,Male,46058.53,Bachelor,Student,Widowed,South,2,477,3.9,False
-sdv-id-QHCVen,21,Non-binary,96951.22,Associate,Lawyer,Widowed,East,3,637,2.5,False
-sdv-id-opisqP,23,Male,49994.35,Associate,Student,Married,North,0,462,6.0,False
-sdv-id-YouaAn,18,Non-binary,85278.17,Bachelor,Doctor,Single,South,1,540,1.5,False
-sdv-id-UoKFVb,18,Female,234579.16,Bachelor,Retired,Married,South,0,630,3.1,False
-sdv-id-HcXjCA,32,Non-binary,44491.83,Bachelor,Student,Widowed,West,2,764,2.3,False
-sdv-id-BcomRN,29,Male,86045.8,Bachelor,Engineer,Widowed,East,0,558,5.0,False
-sdv-id-snHGMA,29,Male,15000.0,High School,Accountant,Widowed,East,0,528,2.5,False
-sdv-id-kcqqzq,54,Non-binary,93061.76,Bachelor,Business Owner,Married,North,0,516,7.3,True
-sdv-id-PNlwFV,24,Male,58519.38,Bachelor,Retired,Married,North,2,576,5.2,True
-sdv-id-BQHsek,24,Female,85003.89,High School,Retired,Divorced,West,2,613,6.7,True
-sdv-id-PBmxUt,18,Non-binary,227002.63,Bachelor,Retired,Widowed,North,0,472,17.3,False
-sdv-id-RMOWEv,18,Female,209070.16,High School,Retired,Widowed,North,1,558,13.2,False
-sdv-id-rsWNXL,20,Non-binary,264736.12,Bachelor,Retired,Married,North,0,588,12.4,False
-sdv-id-BgGacp,30,Non-binary,15000.0,Bachelor,Retired,Widowed,North,0,585,12.8,False
-sdv-id-zeoZfW,48,Non-binary,101490.86,Bachelor,Engineer,Widowed,South,1,617,10.8,True
-sdv-id-YhmgXo,18,Male,110030.51,High School,Student,Widowed,West,2,495,9.7,False
-sdv-id-SZFAfv,24,Non-binary,37480.22,High School,Accountant,Divorced,North,2,462,3.4,True
-sdv-id-PciXNl,26,Female,33217.83,PhD,Business Owner,Widowed,North,1,522,17.6,False
-sdv-id-lEgWTQ,18,Non-binary,15000.0,High School,Business Owner,Widowed,North,1,558,9.6,True
-sdv-id-QyBHyV,18,Female,201280.13,High School,Retired,Widowed,Central,2,484,6.4,False
-sdv-id-JFAiqn,53,Non-binary,58758.71,Bachelor,Doctor,Widowed,Central,0,505,12.0,False
-sdv-id-YCkZLK,23,Non-binary,15000.0,High School,Business Owner,Married,East,1,462,7.3,True
-sdv-id-AmdpMX,18,Non-binary,160207.23,Master,Lawyer,Divorced,South,3,543,0.1,True
-sdv-id-gmMaHB,18,Non-binary,87467.9,High School,Student,Married,Central,2,537,6.8,True
-sdv-id-PKWqVl,29,Non-binary,139268.26,High School,Engineer,Widowed,North,2,497,10.1,True
-sdv-id-JiqIUE,63,Female,70344.39,High School,Business Owner,Single,Central,1,601,19.9,False
-sdv-id-FgYHgl,50,Non-binary,50583.83,High School,Lawyer,Married,North,2,499,7.0,False
-sdv-id-bywUFh,24,Male,80086.46,Bachelor,Doctor,Widowed,South,0,570,8.7,True
-sdv-id-WIwWZt,22,Non-binary,32701.12,Bachelor,Retired,Widowed,East,0,488,6.0,False
-sdv-id-oAvOjg,30,Non-binary,37829.88,Bachelor,Retired,Single,South,0,647,7.2,False
-sdv-id-rPJxBQ,32,Non-binary,151183.8,High School,Nurse,Widowed,South,1,612,14.2,False
-sdv-id-wGMjrz,29,Non-binary,147137.28,High School,Retired,Single,North,1,748,13.3,False
-sdv-id-tekdDe,31,Non-binary,86260.46,Bachelor,Nurse,Divorced,West,1,544,6.7,True
-sdv-id-tHEbbR,19,Non-binary,172814.17,Bachelor,Retired,Widowed,Central,1,549,11.9,False
-sdv-id-AFxMMQ,26,Male,58727.51,Bachelor,Student,Widowed,North,2,493,12.1,True
-sdv-id-vQmmSN,24,Non-binary,33229.58,PhD,Retired,Widowed,North,0,462,9.4,False
-sdv-id-SnVKys,26,Female,52827.33,Bachelor,Nurse,Married,South,2,546,14.5,False
-sdv-id-RgfPHw,18,Non-binary,25360.24,PhD,Accountant,Widowed,North,2,728,3.8,False
-sdv-id-dmUhdn,57,Male,38869.73,Master,Engineer,Widowed,North,2,605,17.5,True
-sdv-id-UyDfPP,40,Male,121566.17,High School,Retired,Married,South,1,535,0.5,False
-sdv-id-gqekPz,49,Non-binary,45810.55,Bachelor,Engineer,Divorced,West,1,514,14.7,True
-sdv-id-gGSJMf,18,Non-binary,41396.87,High School,Engineer,Widowed,West,1,526,7.5,True
-sdv-id-KEcMtq,57,Non-binary,45843.99,High School,Lawyer,Widowed,West,0,462,14.1,True
-sdv-id-cdOxVD,29,Male,82386.83,High School,Engineer,Widowed,North,1,539,12.0,False
-sdv-id-zMflYz,32,Male,144580.33,High School,Retired,Married,North,2,665,10.3,True
-sdv-id-vfWqLL,36,Non-binary,15000.0,Bachelor,Retail Worker,Married,West,0,503,11.1,False
-sdv-id-KWbpPf,54,Male,38577.05,High School,Retired,Widowed,East,2,523,16.8,True
-sdv-id-ASlhhI,25,Female,45451.81,High School,Retired,Married,Central,1,462,7.5,True
-sdv-id-UgAgmj,18,Non-binary,82419.76,High School,Student,Married,South,2,573,11.9,True
-sdv-id-affIHl,27,Non-binary,42083.09,Bachelor,Retired,Widowed,West,0,613,8.1,True
-sdv-id-VPTxAa,22,Non-binary,105592.51,Associate,Doctor,Widowed,West,2,538,7.1,False
-sdv-id-mjKsHE,30,Male,127732.14,High School,Retail Worker,Single,West,1,555,6.2,False
-sdv-id-yWyPES,18,Non-binary,45853.13,High School,Nurse,Widowed,North,3,721,0.1,False
-sdv-id-xFQxpK,23,Male,152807.04,High School,Retired,Divorced,Central,2,662,13.5,False
-sdv-id-zYeYkm,68,Non-binary,75394.94,PhD,Accountant,Widowed,South,0,518,1.6,True
-sdv-id-ZdkBQC,32,Non-binary,100147.32,High School,Nurse,Widowed,North,1,559,4.5,False
-sdv-id-mbZImP,18,Non-binary,189408.64,High School,Lawyer,Divorced,East,1,590,0.7,True
-sdv-id-BFFcNF,57,Female,45549.53,Bachelor,Doctor,Divorced,North,1,484,17.3,True
-sdv-id-BbUDAM,35,Non-binary,49597.77,Associate,Retail Worker,Divorced,South,0,541,1.2,True
-sdv-id-hbqVpb,18,Female,101029.02,Associate,Retired,Widowed,North,2,659,2.2,False
-sdv-id-wpmZEv,23,Non-binary,53379.2,High School,Nurse,Married,East,2,711,7.1,False
-sdv-id-iHlUzM,56,Non-binary,48614.29,Bachelor,Doctor,Widowed,North,2,547,13.7,False
-sdv-id-LuSUbR,18,Non-binary,83887.32,High School,Engineer,Divorced,South,0,586,1.2,False
-sdv-id-LrkjoW,29,Non-binary,58879.3,PhD,Retired,Divorced,East,2,474,16.4,False
-sdv-id-NnWqDX,30,Non-binary,63598.8,High School,Business Owner,Married,West,2,512,17.6,False
-sdv-id-dGbGru,49,Male,60810.8,Bachelor,Nurse,Divorced,South,0,488,12.4,False
-sdv-id-frQKZK,18,Male,191030.64,High School,Retired,Widowed,South,0,541,1.1,False
-sdv-id-xYxONd,25,Non-binary,52999.38,High School,Nurse,Widowed,West,0,602,3.2,False
-sdv-id-rLDiAK,20,Non-binary,91701.29,Bachelor,Accountant,Widowed,North,1,514,8.6,False
-sdv-id-rNtPao,24,Non-binary,156101.69,High School,Retired,Married,North,1,524,13.8,False
-sdv-id-vqpLmL,45,Non-binary,83249.3,High School,Doctor,Widowed,East,0,631,15.3,True
-sdv-id-nkwCri,32,Male,130391.03,High School,Lawyer,Single,South,3,469,7.2,False
-sdv-id-Icqfug,18,Non-binary,52595.78,High School,Nurse,Widowed,West,2,462,1.9,True
-sdv-id-YCtURf,46,Non-binary,100551.42,Master,Retired,Widowed,North,2,588,7.7,True
-sdv-id-ZYCgPp,59,Non-binary,111371.06,Associate,Retired,Widowed,West,0,620,14.2,True
-sdv-id-xuzyQK,43,Non-binary,132542.98,High School,Retired,Married,Central,0,745,10.6,True
-sdv-id-qUHXJZ,44,Non-binary,60175.09,High School,Retired,Widowed,East,0,500,11.2,True
-sdv-id-QbzWaq,19,Female,128935.09,Bachelor,Retail Worker,Widowed,North,1,580,5.9,True
-sdv-id-mWsjTa,43,Non-binary,34730.08,High School,Lawyer,Married,West,0,496,3.0,True
-sdv-id-uZBIOh,25,Non-binary,67085.74,High School,Teacher,Divorced,Central,2,603,5.0,False
-sdv-id-MJZgaF,30,Non-binary,38957.39,Bachelor,Engineer,Widowed,Central,0,462,9.0,False
-sdv-id-eZgklC,18,Non-binary,86321.78,Bachelor,Student,Widowed,West,0,532,0.1,False
-sdv-id-OBIdvh,80,Female,43397.07,Bachelor,Retired,Widowed,South,0,505,19.9,True
-sdv-id-UfYroM,80,Male,99297.05,High School,Retired,Widowed,North,0,602,14.5,False
-sdv-id-VCvUuL,19,Male,152903.24,Associate,Lawyer,Widowed,Central,3,621,13.7,False
-sdv-id-onCHWY,40,Male,88084.44,High School,Doctor,Married,North,0,609,19.2,False
-sdv-id-muxPGl,54,Non-binary,66428.38,High School,Doctor,Widowed,North,2,541,6.6,True
-sdv-id-DFThqL,18,Female,54271.37,High School,Lawyer,Married,East,2,634,0.1,False
-sdv-id-cpqcEk,22,Non-binary,74719.52,Bachelor,Doctor,Divorced,West,3,478,5.7,True
-sdv-id-wpDSmp,40,Male,93195.42,High School,Retired,Widowed,South,1,667,1.6,False
-sdv-id-AGbGDr,37,Non-binary,42781.34,Bachelor,Retired,Widowed,West,1,726,5.4,False
-sdv-id-HxeJHv,55,Non-binary,56701.05,PhD,Nurse,Widowed,North,0,633,8.9,False
-sdv-id-gyRKou,29,Male,125163.8,High School,Business Owner,Single,East,2,531,19.9,False
-sdv-id-KDRirX,32,Non-binary,63613.38,Associate,Doctor,Married,North,1,463,5.9,True
-sdv-id-nwbQgE,18,Non-binary,15000.0,High School,Teacher,Widowed,Central,0,496,9.5,False
-sdv-id-pQQDSb,32,Non-binary,77955.76,Bachelor,Nurse,Widowed,North,2,681,11.6,True
-sdv-id-PTZiKB,33,Male,53094.04,Master,Student,Married,West,2,526,13.7,True
-sdv-id-qxxjAV,26,Non-binary,160421.82,Associate,Nurse,Married,West,0,588,18.8,False
-sdv-id-dNrwqQ,42,Male,40074.56,High School,Nurse,Widowed,North,0,532,13.0,False
-sdv-id-TSoksd,32,Non-binary,94697.04,High School,Retired,Single,Central,2,536,0.7,False
-sdv-id-OAGaNj,27,Male,69019.31,High School,Teacher,Divorced,Central,1,507,18.3,True
-sdv-id-wTvOIk,29,Non-binary,264736.12,High School,Doctor,Married,Central,2,611,16.0,True
-sdv-id-oDDAYb,19,Non-binary,60797.94,High School,Teacher,Divorced,Central,1,486,3.7,True
-sdv-id-LIisTY,74,Non-binary,27429.65,PhD,Doctor,Widowed,Central,1,478,17.7,True
-sdv-id-nNYhjY,18,Female,61673.48,Associate,Manager,Widowed,North,0,469,1.5,True
-sdv-id-OMtdXj,18,Non-binary,66950.95,Bachelor,Retired,Married,South,0,576,5.1,False
-sdv-id-eUriVf,32,Non-binary,55887.12,Bachelor,Student,Widowed,Central,0,562,9.9,True
-sdv-id-YVuLbv,18,Non-binary,93736.01,High School,Teacher,Widowed,North,2,627,0.7,False
-sdv-id-wKUlPp,60,Female,152439.06,Bachelor,Retail Worker,Married,North,2,492,8.4,False
-sdv-id-wXPHEV,29,Non-binary,140176.85,Bachelor,Doctor,Married,Central,2,514,10.9,True
-sdv-id-CSFvSS,38,Non-binary,95281.09,High School,Retired,Widowed,South,1,481,14.5,True
-sdv-id-vfwldp,28,Female,67474.15,Bachelor,Student,Widowed,East,5,495,8.0,True
-sdv-id-WcMyRP,36,Non-binary,60082.71,Associate,Lawyer,Married,East,1,467,16.3,True
-sdv-id-MbJWrD,57,Male,35565.02,Associate,Student,Married,West,1,554,5.2,False
-sdv-id-hIWnAS,23,Male,87729.15,High School,Retail Worker,Married,North,0,538,9.2,False
-sdv-id-lwVQqo,25,Male,54765.76,Associate,Accountant,Widowed,Central,2,590,2.1,True
-sdv-id-aNPfQh,47,Non-binary,35647.14,High School,Business Owner,Married,West,0,462,17.9,False
-sdv-id-nriiam,27,Non-binary,98343.78,PhD,Engineer,Widowed,North,2,665,6.6,False
-sdv-id-NcLaJH,33,Male,93540.14,Bachelor,Accountant,Widowed,South,2,519,9.1,False
-sdv-id-AZvEmU,25,Non-binary,42439.6,PhD,Accountant,Married,North,2,491,4.6,True
-sdv-id-FWLjEQ,18,Non-binary,64362.07,High School,Retired,Widowed,South,2,468,3.8,False
-sdv-id-mEJgNM,46,Female,53347.12,Associate,Doctor,Divorced,West,3,542,2.8,True
-sdv-id-pIGdpw,29,Male,87277.5,Bachelor,Nurse,Divorced,West,0,471,7.3,False
-sdv-id-gygGBd,18,Female,82644.43,High School,Teacher,Widowed,North,0,602,5.6,False
-sdv-id-BNofMJ,25,Female,139172.01,Associate,Accountant,Widowed,North,1,687,15.8,False
-sdv-id-zLPCAe,18,Male,56707.52,Master,Business Owner,Single,North,0,543,5.4,False
-sdv-id-tGSkfM,19,Non-binary,88770.99,Bachelor,Engineer,Widowed,North,0,658,11.4,True
-sdv-id-RuGAkF,21,Male,264736.12,Bachelor,Doctor,Widowed,Central,2,512,0.1,False
-sdv-id-cvsmvH,41,Non-binary,74689.28,Master,Nurse,Divorced,West,0,521,14.6,True
-sdv-id-MOqxLe,64,Female,55017.81,High School,Retired,Widowed,North,2,565,2.8,False
-sdv-id-XATCBo,18,Non-binary,165649.07,High School,Teacher,Married,West,1,511,2.1,True
-sdv-id-rFsxyu,22,Non-binary,75605.9,Bachelor,Engineer,Single,North,2,613,12.4,False
-sdv-id-YxmnQl,24,Female,39470.91,Bachelor,Student,Married,West,0,508,1.8,False
-sdv-id-FSBofJ,51,Male,59472.55,Bachelor,Student,Widowed,North,0,579,13.8,True
-sdv-id-mlBDUz,32,Female,64313.76,High School,Student,Widowed,Central,1,583,12.5,False
-sdv-id-MrsQzS,18,Non-binary,42875.67,Bachelor,Teacher,Widowed,East,0,754,15.5,False
-sdv-id-zIPShp,18,Non-binary,59112.22,High School,Doctor,Widowed,North,2,517,1.9,False
-sdv-id-sCrHGW,18,Non-binary,97479.38,Associate,Retired,Married,West,2,466,13.0,False
-sdv-id-EEwgDC,18,Female,62112.57,PhD,Manager,Widowed,North,1,477,5.3,False
-sdv-id-tHLgfW,18,Non-binary,48809.64,High School,Retired,Widowed,North,2,570,4.8,True
-sdv-id-vHBeSb,40,Female,41954.77,Bachelor,Engineer,Widowed,East,2,485,0.1,True
-sdv-id-XSvadP,30,Female,53635.68,High School,Teacher,Divorced,West,0,519,15.2,False
-sdv-id-syXfyG,43,Non-binary,66402.87,Associate,Retired,Widowed,West,1,548,12.4,False
-sdv-id-LTpVrG,39,Non-binary,148363.8,PhD,Student,Widowed,North,0,767,13.2,False
-sdv-id-tUYtUF,19,Female,57765.66,Associate,Accountant,Single,North,0,481,1.7,True
-sdv-id-UoGlfb,18,Female,82336.62,High School,Engineer,Divorced,West,0,486,1.0,False
-sdv-id-umYCaj,18,Non-binary,43488.75,High School,Teacher,Widowed,North,2,727,0.1,True
-sdv-id-ZmFjQm,22,Male,90684.91,High School,Teacher,Married,East,1,526,8.6,False
-sdv-id-QVtebH,31,Male,21391.73,Associate,Lawyer,Widowed,South,3,583,9.5,False
-sdv-id-VTBPHr,51,Male,41426.15,Bachelor,Accountant,Married,North,2,601,4.7,False
-sdv-id-dKcdQV,41,Non-binary,90126.87,High School,Nurse,Widowed,North,0,685,13.2,False
-sdv-id-MWPLZY,39,Female,26854.36,High School,Business Owner,Widowed,North,1,552,13.6,True
-sdv-id-QBSzGB,33,Non-binary,21328.33,Associate,Student,Widowed,North,0,495,7.8,True
-sdv-id-wLUgPr,24,Male,62763.92,Associate,Retail Worker,Widowed,North,0,775,0.1,True
-sdv-id-YnTyUV,23,Non-binary,67447.03,Master,Lawyer,Widowed,North,0,564,3.1,False
-sdv-id-nFqlbB,27,Non-binary,62722.93,Bachelor,Doctor,Married,East,0,780,19.0,False
-sdv-id-tJymcY,21,Female,89046.0,High School,Retail Worker,Divorced,West,0,675,13.5,False
-sdv-id-looryC,44,Non-binary,15000.0,High School,Teacher,Widowed,South,0,618,7.0,False
-sdv-id-ESGwuf,19,Male,35475.61,Bachelor,Accountant,Widowed,Central,2,525,9.3,True
-sdv-id-CQbseF,23,Non-binary,83375.98,High School,Retired,Widowed,North,1,565,11.4,False
-sdv-id-RIPDLX,18,Non-binary,74719.64,Associate,Retired,Widowed,North,2,633,0.1,False
-sdv-id-ulAXuv,37,Male,112165.92,Associate,Retired,Widowed,Central,0,566,16.1,False
-sdv-id-WTClpv,71,Non-binary,71583.0,PhD,Nurse,Widowed,West,3,509,19.9,True
-sdv-id-flbKfs,24,Non-binary,31853.15,Associate,Engineer,Widowed,North,0,565,0.9,False
-sdv-id-yzytDW,19,Non-binary,39159.62,High School,Nurse,Married,North,2,573,0.1,False
-sdv-id-JhodoE,29,Non-binary,105268.05,Associate,Doctor,Married,South,1,641,17.2,False
-sdv-id-ayWnRX,32,Non-binary,54961.42,High School,Engineer,Married,South,0,668,7.9,True
-sdv-id-SchcCV,19,Non-binary,80450.26,Associate,Student,Widowed,East,0,564,2.1,True
-sdv-id-gNhvcz,23,Male,26028.61,High School,Teacher,Married,North,0,545,9.7,True
-sdv-id-YwZSaE,30,Female,28747.91,High School,Engineer,Married,West,0,589,17.9,False
-sdv-id-UElzIY,35,Female,15000.0,Bachelor,Engineer,Widowed,East,0,799,12.0,False
-sdv-id-Xaffzu,20,Non-binary,85558.73,High School,Retired,Widowed,North,1,601,4.3,False
-sdv-id-jLtNci,35,Male,71509.26,Associate,Doctor,Widowed,North,1,537,12.4,False
-sdv-id-CoMCbs,19,Non-binary,162401.76,Master,Accountant,Divorced,North,0,474,18.8,False
-sdv-id-kLqAkI,32,Non-binary,45170.41,High School,Business Owner,Married,North,0,462,9.8,True
-sdv-id-nqGXjx,30,Non-binary,73007.46,High School,Engineer,Widowed,West,0,462,12.3,False
-sdv-id-rVVbiX,21,Male,46341.71,High School,Nurse,Married,Central,0,547,9.2,True
-sdv-id-bhlewe,40,Non-binary,69097.71,High School,Nurse,Married,North,0,605,1.0,False
-sdv-id-oCXzdr,80,Non-binary,117962.52,High School,Retired,Widowed,North,1,610,19.9,False
-sdv-id-yLBCKq,65,Non-binary,59288.6,Bachelor,Teacher,Married,West,0,510,19.9,False
-sdv-id-deqdEp,18,Non-binary,149598.93,High School,Accountant,Widowed,North,2,521,0.1,True
-sdv-id-RXVXpd,18,Non-binary,99448.82,Bachelor,Retired,Widowed,North,2,610,0.1,True
-sdv-id-sRMrpX,18,Non-binary,98782.76,Bachelor,Engineer,Widowed,North,3,598,0.1,True
-sdv-id-SOvkvU,51,Non-binary,169293.4,Associate,Lawyer,Divorced,Central,0,540,11.1,True
-sdv-id-KmoNuo,18,Male,39374.62,High School,Accountant,Widowed,West,0,591,5.6,False
-sdv-id-SdaglO,23,Female,70503.27,Bachelor,Student,Widowed,North,3,505,0.5,False
-sdv-id-hCTHDv,53,Male,98289.61,High School,Manager,Widowed,North,0,614,9.5,False
-sdv-id-FHtPCh,23,Male,217984.62,Associate,Retail Worker,Married,East,0,522,15.3,True
-sdv-id-oJYwIG,19,Male,21168.18,High School,Nurse,Widowed,Central,2,607,5.5,True
-sdv-id-JDCYqx,68,Female,86966.03,Associate,Accountant,Married,South,3,488,19.9,True
-sdv-id-CtFsCN,27,Non-binary,59120.02,High School,Retired,Married,West,3,532,4.2,True
-sdv-id-JqPCwF,34,Non-binary,27335.87,Bachelor,Retired,Widowed,North,2,489,17.5,False
-sdv-id-kkjBlA,23,Non-binary,50672.62,High School,Retired,Widowed,East,0,538,8.6,False
-sdv-id-fBCKiJ,44,Non-binary,61895.78,High School,Nurse,Widowed,East,2,673,15.0,False
-sdv-id-BkOoAv,18,Non-binary,105652.18,High School,Retired,Widowed,North,0,737,7.2,False
-sdv-id-qrdngy,18,Non-binary,68481.53,Associate,Retired,Widowed,South,2,669,0.1,False
-sdv-id-gNGGlO,51,Non-binary,48215.32,High School,Engineer,Widowed,North,0,559,10.9,False
-sdv-id-rRiDgd,18,Female,79319.7,High School,Student,Widowed,North,0,490,2.2,False
-sdv-id-TOswVU,60,Non-binary,96046.6,High School,Retired,Widowed,West,2,656,16.6,False
-sdv-id-ZfhlzR,42,Non-binary,87498.01,Bachelor,Teacher,Married,North,0,537,0.6,True
-sdv-id-ELOSVF,43,Female,78256.43,High School,Accountant,Widowed,South,2,561,9.8,True
-sdv-id-cngUPD,46,Non-binary,34846.37,High School,Nurse,Married,North,0,484,10.0,False
-sdv-id-oZsCUW,18,Male,80359.23,High School,Retired,Widowed,North,0,582,1.5,False
-sdv-id-iXrHkT,18,Male,41640.17,High School,Retired,Married,North,0,626,2.2,True
-sdv-id-asgDni,24,Non-binary,105463.72,High School,Engineer,Married,North,1,462,9.7,False
-sdv-id-jEuiRM,18,Non-binary,96536.66,Bachelor,Lawyer,Widowed,West,0,666,6.4,False
-sdv-id-XQJDFs,40,Female,124882.92,High School,Retired,Married,East,1,591,18.0,False
-sdv-id-LaTCDt,41,Non-binary,95750.08,High School,Manager,Married,West,0,493,9.5,False
-sdv-id-AWKPja,31,Male,78035.96,Bachelor,Teacher,Married,West,0,462,15.2,False
-sdv-id-vYoueW,28,Male,101272.26,High School,Lawyer,Widowed,West,0,726,12.7,False
-sdv-id-ggIbQu,51,Male,181070.43,Bachelor,Doctor,Widowed,South,0,558,13.5,True
-sdv-id-ZgCbAo,30,Male,77491.97,High School,Engineer,Widowed,West,1,602,0.1,False
-sdv-id-mfPJno,29,Non-binary,50558.39,High School,Retired,Divorced,South,0,526,11.9,True
-sdv-id-CtWmVW,29,Non-binary,113763.2,High School,Retired,Married,North,2,573,3.6,False
-sdv-id-imtGlk,18,Male,233667.91,Bachelor,Doctor,Widowed,North,0,570,3.6,False
-sdv-id-qzCBBL,18,Non-binary,82867.52,Associate,Teacher,Widowed,East,0,528,2.6,False
-sdv-id-WQkVIM,18,Female,15000.0,High School,Retired,Married,East,0,654,8.1,True
-sdv-id-pksYQE,33,Non-binary,62225.3,Associate,Doctor,Widowed,West,2,558,12.8,False
-sdv-id-BsxvDy,28,Male,76679.82,Bachelor,Doctor,Divorced,North,1,786,6.6,False
-sdv-id-LqqdWi,38,Non-binary,44149.21,Master,Accountant,Married,West,0,549,10.8,True
-sdv-id-kxhNOe,25,Male,15000.0,Bachelor,Engineer,Widowed,South,2,575,10.3,True
-sdv-id-szqbsZ,22,Non-binary,70759.38,Bachelor,Student,Married,West,2,541,14.7,True
-sdv-id-IInGmU,33,Female,26023.24,High School,Manager,Married,North,2,619,10.7,True
-sdv-id-hggdpz,22,Non-binary,72170.09,Bachelor,Teacher,Widowed,East,0,507,11.2,True
-sdv-id-kWwVjx,45,Non-binary,15000.0,High School,Student,Married,West,0,462,19.9,True
-sdv-id-ZMbCpu,55,Male,65719.36,Associate,Retired,Widowed,West,3,570,19.8,False
-sdv-id-AzmnaT,27,Non-binary,44077.08,Bachelor,Student,Married,North,2,643,15.9,True
-sdv-id-ZwlRem,18,Non-binary,15000.0,Master,Student,Married,Central,0,513,5.3,False
-sdv-id-OhYDsC,22,Non-binary,86666.53,Master,Student,Married,North,0,631,1.5,False
-sdv-id-jgyZwF,18,Non-binary,72494.44,High School,Manager,Married,East,1,492,6.6,True
-sdv-id-FRquTo,48,Non-binary,43967.32,Bachelor,Engineer,Widowed,West,0,495,14.9,False
-sdv-id-lknOsR,51,Non-binary,166894.75,High School,Nurse,Widowed,North,1,577,3.8,False
-sdv-id-LcZdEu,18,Non-binary,102531.05,High School,Retired,Widowed,South,1,617,0.2,False
-sdv-id-RQZUuS,35,Non-binary,39265.37,High School,Retail Worker,Widowed,South,0,473,19.9,True
-sdv-id-xneQOY,20,Female,15000.0,High School,Engineer,Married,East,1,513,10.5,False
-sdv-id-mIgAew,18,Non-binary,57369.29,High School,Teacher,Widowed,East,0,494,7.9,False
-sdv-id-IpRLpn,22,Non-binary,103719.24,High School,Lawyer,Widowed,South,2,644,3.9,False
-sdv-id-RNkLEs,23,Male,28130.46,High School,Nurse,Married,North,0,562,1.2,True
-sdv-id-WADShh,43,Non-binary,64075.88,PhD,Engineer,Widowed,West,0,697,12.1,True
-sdv-id-kIIFLg,25,Non-binary,67171.7,High School,Engineer,Widowed,North,0,548,0.1,True
-sdv-id-lVnjrV,38,Male,65871.58,PhD,Lawyer,Widowed,South,0,679,17.0,False
-sdv-id-DXeyOd,36,Non-binary,51662.9,High School,Retired,Married,North,2,525,13.0,False
-sdv-id-RkvMhz,23,Female,30776.05,Associate,Student,Married,East,1,592,17.3,False
-sdv-id-mdMbIR,30,Female,65063.52,High School,Student,Widowed,West,1,462,13.4,True
-sdv-id-WOlgkv,23,Non-binary,40595.74,Associate,Nurse,Widowed,North,0,500,8.7,True
-sdv-id-TEsLMy,30,Male,42113.58,High School,Retail Worker,Single,North,1,624,6.7,False
-sdv-id-pEfHeG,34,Non-binary,37490.6,High School,Retired,Widowed,North,2,584,15.9,True
-sdv-id-InAlAU,32,Non-binary,46841.37,PhD,Nurse,Married,Central,2,669,13.5,True
-sdv-id-RnZmVX,24,Non-binary,85463.25,Associate,Retired,Divorced,North,0,522,19.9,False
-sdv-id-fLuwNz,18,Non-binary,163656.81,High School,Accountant,Married,East,2,687,15.2,False
-sdv-id-FsPIDZ,23,Non-binary,132822.6,Master,Accountant,Married,West,1,462,5.9,True
-sdv-id-vLpGyi,18,Non-binary,34091.12,High School,Teacher,Widowed,North,2,603,8.7,False
-sdv-id-tLtwEp,80,Non-binary,185675.1,Bachelor,Doctor,Widowed,North,0,627,9.9,True
-sdv-id-NAEOKS,19,Non-binary,146940.86,Bachelor,Teacher,Widowed,North,0,742,9.3,False
-sdv-id-yjNRwS,20,Non-binary,163015.24,High School,Doctor,Widowed,North,1,500,6.2,False
-sdv-id-SizABj,74,Non-binary,112426.68,Bachelor,Accountant,Single,West,2,546,19.0,True
-sdv-id-PXnqSd,63,Female,50347.66,Bachelor,Lawyer,Married,Central,2,501,17.5,True
-sdv-id-hSbHsq,34,Male,104680.28,Bachelor,Lawyer,Married,West,0,550,7.7,False
-sdv-id-JyMagP,40,Non-binary,146040.28,Bachelor,Teacher,Married,East,1,765,9.9,True
-sdv-id-plqRLe,30,Male,85424.73,Bachelor,Retired,Married,North,0,693,12.4,True
-sdv-id-jmUAZP,34,Non-binary,87445.76,High School,Accountant,Widowed,North,0,488,2.4,False
-sdv-id-KCmncF,51,Non-binary,78244.1,High School,Doctor,Married,North,0,546,14.9,False
-sdv-id-pjiqVB,26,Non-binary,83802.22,High School,Nurse,Widowed,West,2,584,7.2,False
-sdv-id-qIvAvr,31,Non-binary,59019.32,High School,Retired,Widowed,West,0,525,10.2,False
-sdv-id-hkpxoL,26,Non-binary,101032.53,Bachelor,Engineer,Widowed,Central,0,509,0.2,False
-sdv-id-OMPYUt,33,Non-binary,93786.22,High School,Nurse,Divorced,South,0,600,18.8,False
-sdv-id-VPbiIN,21,Non-binary,53626.82,Bachelor,Retired,Widowed,West,0,776,8.3,False
-sdv-id-xrOxMC,31,Non-binary,65872.08,Bachelor,Engineer,Widowed,South,0,507,7.7,False
-sdv-id-tkbbWV,18,Male,96013.28,Bachelor,Accountant,Widowed,Central,0,539,10.2,True
-sdv-id-zXJiDO,51,Non-binary,40090.13,PhD,Retail Worker,Divorced,South,1,533,19.5,False
-sdv-id-vwWTAS,29,Female,43404.67,High School,Retired,Widowed,West,0,680,10.9,True
-sdv-id-QSFgbm,18,Non-binary,95264.33,Master,Retail Worker,Widowed,North,3,612,2.9,True
-sdv-id-OLnqNb,18,Male,69697.88,Bachelor,Accountant,Married,South,0,462,1.6,True
-sdv-id-IoAtnz,29,Non-binary,52863.22,High School,Lawyer,Widowed,North,0,496,16.2,False
-sdv-id-EdgWAz,45,Non-binary,20039.73,High School,Student,Widowed,Central,2,522,5.0,True
-sdv-id-gekbgm,21,Non-binary,165885.18,Bachelor,Retired,Married,East,0,767,0.3,True
-sdv-id-IQiGMg,36,Male,28691.09,Bachelor,Doctor,Married,North,0,517,14.4,True
-sdv-id-XrmAJt,20,Non-binary,70602.72,Associate,Retired,Married,North,0,486,11.9,True
-sdv-id-OsbdZA,34,Non-binary,53602.64,High School,Accountant,Widowed,North,0,583,16.1,False
-sdv-id-urfUqc,34,Male,92707.58,High School,Retired,Widowed,West,0,462,11.3,True
-sdv-id-daskuJ,18,Non-binary,238704.94,Bachelor,Retired,Widowed,East,0,708,7.7,True
-sdv-id-RdIbXJ,18,Male,69777.88,Associate,Lawyer,Widowed,North,1,565,0.1,False
-sdv-id-wPbZqB,60,Male,62753.71,High School,Business Owner,Married,West,0,538,6.5,True
-sdv-id-jiCnqf,19,Male,26443.89,PhD,Doctor,Married,East,0,491,2.1,True
-sdv-id-ZnPacb,58,Female,15000.0,Bachelor,Nurse,Divorced,East,2,501,0.1,False
-sdv-id-jDjNwV,69,Non-binary,113634.85,High School,Engineer,Single,West,0,469,12.5,True
-sdv-id-Ntelja,39,Female,92593.77,Bachelor,Engineer,Divorced,Central,0,644,6.6,True
-sdv-id-dzoJAd,28,Non-binary,52655.73,High School,Retired,Widowed,West,0,678,13.4,True
-sdv-id-MlNEaX,20,Non-binary,56795.83,Master,Nurse,Widowed,West,0,577,10.0,False
-sdv-id-jsBJif,24,Non-binary,88162.3,Bachelor,Student,Widowed,East,0,605,4.5,False
-sdv-id-eqBCRD,31,Female,77516.43,Associate,Retired,Widowed,South,2,566,11.3,False
-sdv-id-WuXdil,22,Female,242958.49,High School,Retired,Married,North,2,546,2.4,False
-sdv-id-CJmrUO,27,Non-binary,75650.19,Bachelor,Engineer,Married,Central,2,601,4.9,False
-sdv-id-EHuBPW,34,Female,127117.33,Bachelor,Accountant,Married,South,0,668,11.7,False
-sdv-id-EcLLLb,18,Female,69110.53,Bachelor,Doctor,Married,East,2,542,1.8,False
-sdv-id-ekGoEA,60,Male,32677.3,PhD,Engineer,Married,West,1,610,11.6,True
-sdv-id-QJtxoI,18,Non-binary,102885.45,High School,Teacher,Widowed,Central,2,614,10.4,False
-sdv-id-OxkHFt,19,Non-binary,52636.87,Bachelor,Manager,Widowed,West,2,631,7.3,True
-sdv-id-hkWFNi,30,Female,88246.92,Master,Doctor,Divorced,South,0,547,18.8,False
-sdv-id-NOXCHr,31,Male,99823.71,Bachelor,Accountant,Married,South,0,550,0.7,True
-sdv-id-HouHwT,35,Non-binary,165004.48,High School,Retired,Married,West,0,495,1.5,True
-sdv-id-HHFLiw,18,Male,113340.9,Bachelor,Retired,Married,South,1,482,7.9,False
-sdv-id-olJMac,51,Female,88159.93,Associate,Retired,Married,East,2,462,11.8,False
-sdv-id-LXfZdG,35,Non-binary,25010.21,Associate,Lawyer,Widowed,North,2,518,10.7,False
-sdv-id-SgBCcA,21,Non-binary,18663.13,Associate,Teacher,Widowed,North,1,469,4.8,False
-sdv-id-UCSTVP,28,Male,77737.21,High School,Doctor,Divorced,South,2,462,0.1,True
-sdv-id-QPvDNx,52,Non-binary,162747.6,High School,Nurse,Widowed,East,0,481,2.0,True
-sdv-id-XCSJLI,69,Male,53581.29,High School,Retired,Widowed,North,1,486,7.2,True
-sdv-id-NcYhDP,20,Female,54384.34,High School,Student,Widowed,North,1,605,10.2,False
-sdv-id-epryLW,27,Male,146136.79,Bachelor,Doctor,Married,West,2,569,0.7,False
-sdv-id-VWpVfx,29,Non-binary,40966.4,Associate,Doctor,Widowed,North,0,584,5.6,False
-sdv-id-SSbSaS,40,Female,17445.35,High School,Doctor,Widowed,North,1,620,7.3,False
-sdv-id-xKUYcp,18,Non-binary,59300.02,Bachelor,Teacher,Divorced,South,0,508,5.5,False
-sdv-id-EHpztt,32,Non-binary,89743.48,Associate,Retired,Widowed,North,0,662,7.1,True
-sdv-id-IPMUkn,18,Non-binary,15000.0,Master,Retired,Married,West,2,530,2.2,False
-sdv-id-rmyxsE,67,Non-binary,94441.32,High School,Nurse,Married,North,1,488,18.4,False
-sdv-id-zVqNmM,18,Female,21133.43,Bachelor,Lawyer,Widowed,Central,1,599,11.7,False
-sdv-id-bSgCWs,25,Non-binary,21182.82,Master,Retail Worker,Married,North,3,567,7.2,True
-sdv-id-ookuAb,49,Non-binary,90923.63,Bachelor,Teacher,Widowed,West,1,654,10.3,True
-sdv-id-bfSfZG,51,Non-binary,208538.02,Bachelor,Doctor,Widowed,West,0,619,18.3,True
-sdv-id-EDdYZH,40,Non-binary,61067.27,High School,Lawyer,Married,East,0,487,15.2,False
-sdv-id-DSHNHE,30,Female,106195.08,High School,Retired,Widowed,West,1,642,0.1,True
-sdv-id-yVomfh,33,Non-binary,91720.92,Bachelor,Accountant,Married,North,0,575,4.1,True
-sdv-id-FKBPqo,71,Non-binary,264736.12,High School,Nurse,Widowed,North,2,581,6.8,False
-sdv-id-OrYSla,20,Non-binary,49523.16,Associate,Retail Worker,Widowed,North,0,648,1.7,False
-sdv-id-OklHWH,35,Non-binary,135030.16,Associate,Retired,Widowed,West,0,462,6.8,True
-sdv-id-nuNmfQ,35,Male,106440.72,PhD,Teacher,Single,East,2,512,9.4,False
-sdv-id-TJaWeh,30,Female,70834.41,High School,Nurse,Married,West,2,487,3.7,True
-sdv-id-QUYSCW,32,Non-binary,228406.46,High School,Retired,Married,South,2,552,16.9,True
-sdv-id-ijzPBo,18,Non-binary,55516.85,Associate,Engineer,Married,Central,2,519,6.0,True
-sdv-id-JMDvuW,18,Non-binary,39961.12,High School,Retired,Widowed,North,0,656,0.1,False
-sdv-id-EDwtFy,18,Non-binary,105055.91,Master,Retired,Divorced,South,0,564,6.1,True
-sdv-id-BzuylE,50,Non-binary,71349.05,High School,Engineer,Widowed,North,1,512,11.4,True
-sdv-id-LabqNG,51,Male,77260.84,High School,Retired,Widowed,North,3,727,1.8,False
-sdv-id-XhdBQq,20,Non-binary,54231.74,High School,Engineer,Married,West,0,507,1.4,False
-sdv-id-PtPWZO,18,Non-binary,85613.6,Master,Retired,Divorced,North,1,544,0.7,False
-sdv-id-NiIlqs,22,Male,79766.36,Master,Teacher,Widowed,Central,0,503,1.0,False
-sdv-id-ODwMrZ,18,Non-binary,74741.69,High School,Nurse,Married,West,2,613,4.8,True
-sdv-id-EgGrXy,18,Non-binary,47149.59,Master,Lawyer,Widowed,West,0,591,5.2,True
-sdv-id-qZAOPU,46,Female,47980.46,Master,Retired,Widowed,South,0,512,19.0,True
-sdv-id-gdtBxG,31,Non-binary,33890.09,Master,Retired,Widowed,West,2,595,17.6,False
-sdv-id-PUGUrj,35,Male,166378.84,High School,Teacher,Married,North,0,495,19.9,True
-sdv-id-tWNjaa,77,Non-binary,196303.05,Bachelor,Retired,Married,West,1,763,15.0,False
-sdv-id-ymqkjS,50,Non-binary,75816.03,High School,Retired,Widowed,North,0,581,18.0,False
-sdv-id-dXoSfU,35,Non-binary,145602.85,High School,Nurse,Widowed,North,0,465,15.1,True
-sdv-id-rtiHRx,31,Non-binary,22400.49,High School,Nurse,Widowed,Central,0,649,11.8,False
-sdv-id-OxOEwz,18,Non-binary,22718.09,Associate,Student,Married,Central,0,570,1.5,True
-sdv-id-boiMrf,24,Non-binary,105911.71,Associate,Student,Single,Central,4,687,6.6,True
-sdv-id-tKMkAV,18,Female,46529.74,Master,Nurse,Widowed,East,0,541,6.4,False
-sdv-id-jVtHgw,36,Non-binary,96447.51,Bachelor,Retired,Widowed,Central,2,572,11.6,False
-sdv-id-iBweEQ,24,Non-binary,88805.97,High School,Nurse,Married,East,2,804,12.8,False
-sdv-id-KtNdmY,33,Male,61752.79,Bachelor,Business Owner,Single,North,1,538,8.1,True
-sdv-id-KMIuRm,49,Male,87158.16,Associate,Retired,Widowed,East,0,603,5.6,True
-sdv-id-usPNet,63,Male,21909.68,High School,Accountant,Widowed,East,2,549,9.3,False
-sdv-id-hvWIXq,31,Non-binary,20043.15,Associate,Retired,Widowed,East,0,605,8.9,False
-sdv-id-swcdYJ,18,Female,99540.3,High School,Retail Worker,Widowed,North,2,495,0.1,False
-sdv-id-tBEsfK,30,Male,19145.6,Bachelor,Accountant,Divorced,West,0,462,9.5,True
-sdv-id-XJfRFB,21,Non-binary,72134.68,Bachelor,Retired,Widowed,West,0,629,7.9,False
-sdv-id-vKluiJ,73,Non-binary,62024.11,PhD,Engineer,Married,South,2,585,6.4,False
-sdv-id-nbSbDy,55,Non-binary,89430.63,High School,Retired,Divorced,North,0,563,19.1,False
-sdv-id-zHrcoM,44,Male,42046.92,Bachelor,Student,Widowed,East,2,640,14.0,True
-sdv-id-znzBAH,47,Male,46347.48,High School,Teacher,Widowed,West,2,562,17.2,False
-sdv-id-ZTonKh,38,Male,47555.89,High School,Doctor,Widowed,West,0,619,19.8,False
-sdv-id-HKJSpb,18,Female,15000.0,High School,Lawyer,Widowed,North,0,462,0.9,True
-sdv-id-naAXVZ,30,Female,35239.51,High School,Teacher,Divorced,West,1,537,7.6,True
-sdv-id-chsMQa,37,Male,145407.45,High School,Retired,Widowed,North,0,601,19.9,False
-sdv-id-rZbXWp,42,Non-binary,179682.28,PhD,Accountant,Widowed,North,0,536,19.9,False
-sdv-id-LHIGnN,66,Male,56169.16,Master,Doctor,Divorced,South,0,510,0.1,False
-sdv-id-gXHQNT,50,Non-binary,91542.25,Bachelor,Lawyer,Divorced,East,0,500,9.5,True
-sdv-id-NWIIeF,18,Male,205704.93,Bachelor,Business Owner,Married,West,1,514,6.0,False
-sdv-id-iqWvSU,29,Non-binary,34973.82,Bachelor,Student,Widowed,East,1,554,5.9,False
-sdv-id-cgaKWT,34,Non-binary,46911.43,Associate,Engineer,Divorced,East,0,569,12.9,True
-sdv-id-NSzRLn,19,Male,43782.2,Bachelor,Doctor,Widowed,Central,2,552,3.2,True
-sdv-id-OMEaDT,42,Female,86054.36,High School,Engineer,Married,West,1,613,0.1,True
-sdv-id-HnXsEN,21,Female,54703.31,High School,Lawyer,Widowed,Central,3,535,11.8,False
-sdv-id-sEOZTy,32,Male,208216.26,High School,Lawyer,Widowed,North,2,523,0.1,False
-sdv-id-kvKYcA,32,Non-binary,84019.04,High School,Nurse,Married,South,2,525,15.9,False
-sdv-id-dkVCmZ,21,Male,167947.18,Associate,Student,Widowed,West,2,510,12.1,True
-sdv-id-UlfsQK,18,Non-binary,98916.38,PhD,Accountant,Divorced,North,2,537,4.9,False
-sdv-id-CJwAjt,42,Non-binary,92633.39,Bachelor,Student,Widowed,North,0,606,15.5,True
-sdv-id-yBBQrk,18,Non-binary,84399.22,Associate,Nurse,Widowed,Central,0,545,0.1,False
-sdv-id-lKjNVW,31,Female,15627.79,High School,Teacher,Widowed,West,0,525,11.9,True
-sdv-id-FFHsJV,58,Non-binary,95997.84,High School,Retired,Widowed,North,2,554,16.7,False
-sdv-id-AwCXzD,18,Non-binary,89522.11,Associate,Retail Worker,Married,North,0,661,3.6,False
-sdv-id-KxzKXU,37,Non-binary,54800.89,High School,Manager,Married,North,0,548,12.0,False
-sdv-id-CmTVch,33,Female,49570.04,High School,Student,Widowed,East,2,681,12.0,True
-sdv-id-ykgZKH,20,Female,40816.93,Master,Student,Single,Central,2,541,5.7,False
-sdv-id-LlUMbi,18,Non-binary,125252.92,High School,Retired,Married,West,2,643,4.9,False
-sdv-id-pbyARW,36,Non-binary,73119.26,Associate,Manager,Divorced,South,0,498,18.3,True
-sdv-id-IFQBtU,25,Non-binary,106719.74,High School,Nurse,Widowed,North,0,741,13.2,False
-sdv-id-MRFrLa,44,Male,67737.9,Master,Retired,Widowed,South,3,484,8.7,True
-sdv-id-mrIPoG,62,Female,55871.85,Bachelor,Nurse,Widowed,East,0,539,19.9,False
-sdv-id-eVWtXg,44,Non-binary,144127.78,Bachelor,Retired,Divorced,West,0,509,8.4,False
-sdv-id-yGntnA,18,Non-binary,96921.86,High School,Engineer,Married,North,0,480,3.9,False
-sdv-id-FMHmEN,34,Male,221153.3,Bachelor,Accountant,Married,West,2,515,13.9,True
-sdv-id-QcezsO,18,Non-binary,46702.17,Bachelor,Lawyer,Widowed,West,0,462,5.0,True
-sdv-id-ujdglN,21,Non-binary,45290.36,High School,Teacher,Married,South,0,576,8.2,False
-sdv-id-EqJzyD,18,Female,189329.25,Bachelor,Engineer,Married,Central,0,519,13.9,False
-sdv-id-pFmYWo,19,Non-binary,42686.58,Associate,Retired,Widowed,North,0,523,8.6,True
-sdv-id-OxMrNd,24,Non-binary,189253.79,High School,Teacher,Divorced,Central,1,515,19.9,False
-sdv-id-KNqqxg,43,Female,89686.67,Bachelor,Accountant,Married,West,0,538,15.0,True
-sdv-id-NFCKwI,33,Non-binary,45158.05,Master,Retired,Married,East,0,502,3.2,True
-sdv-id-LgALDy,37,Non-binary,46184.41,High School,Retired,Widowed,North,2,555,15.1,True
-sdv-id-uKboZC,43,Female,111977.11,High School,Nurse,Married,West,0,500,1.8,True
-sdv-id-wEHgYu,25,Non-binary,44272.33,High School,Retired,Widowed,North,2,567,1.7,True
-sdv-id-eMDuGT,55,Non-binary,47375.15,Associate,Teacher,Divorced,South,0,492,8.1,False
-sdv-id-ddInyp,28,Non-binary,83290.96,High School,Nurse,Widowed,North,1,471,19.9,False
-sdv-id-pjQKqU,65,Non-binary,117405.55,High School,Engineer,Married,North,2,515,13.3,True
-sdv-id-zMMjpN,33,Female,156745.07,Bachelor,Retired,Widowed,South,0,546,15.2,True
-sdv-id-NfPHeQ,18,Non-binary,160844.88,Master,Engineer,Single,Central,0,637,11.6,False
-sdv-id-OyLTHJ,18,Female,132732.21,High School,Accountant,Married,South,2,462,7.1,False
-sdv-id-NQyMTj,33,Non-binary,90323.81,Bachelor,Retired,Widowed,West,0,644,10.5,False
-sdv-id-hIrubf,18,Female,15000.0,Master,Nurse,Married,East,0,520,9.8,False
-sdv-id-pKdCjA,32,Non-binary,41879.54,Associate,Lawyer,Widowed,North,1,466,2.2,True
-sdv-id-vCXEqY,18,Non-binary,78226.63,High School,Retired,Widowed,North,2,590,0.1,False
-sdv-id-pMZgbi,66,Non-binary,76444.93,High School,Retired,Widowed,West,2,611,10.9,True
-sdv-id-aWIQdJ,64,Non-binary,55445.92,High School,Retired,Widowed,East,1,579,17.2,True
-sdv-id-qFTNrk,46,Non-binary,32033.87,High School,Engineer,Widowed,West,1,462,17.0,True
-sdv-id-rxYMVv,31,Non-binary,96938.07,Associate,Retired,Widowed,South,2,551,5.0,False
-sdv-id-vWests,25,Female,91694.67,High School,Retired,Widowed,South,2,491,4.9,True
-sdv-id-pbFryt,43,Non-binary,173465.58,High School,Teacher,Single,West,2,547,9.8,True
-sdv-id-NZAjRN,36,Female,47564.89,High School,Doctor,Widowed,East,2,538,8.9,True
-sdv-id-ezlhMm,29,Non-binary,65031.44,High School,Retired,Widowed,North,0,515,12.5,True
-sdv-id-CZUcno,20,Male,209356.2,Bachelor,Student,Divorced,West,2,579,7.8,False
-sdv-id-rvsaSS,18,Non-binary,15000.0,High School,Retired,Widowed,West,0,591,0.1,True
-sdv-id-ZTHgVE,18,Male,103378.58,High School,Engineer,Widowed,West,2,549,0.1,False
-sdv-id-HPvTqJ,19,Male,15000.0,High School,Doctor,Widowed,South,0,465,0.1,True
-sdv-id-ZNTkXU,67,Non-binary,29548.56,Bachelor,Student,Widowed,North,0,462,13.2,True
-sdv-id-CWzmcu,18,Non-binary,165151.87,High School,Doctor,Widowed,West,0,512,7.4,False
-sdv-id-uyNuci,38,Non-binary,45813.41,Bachelor,Lawyer,Widowed,Central,0,555,17.8,False
-sdv-id-lGwRoT,36,Non-binary,86694.23,High School,Retired,Widowed,West,1,551,1.2,True
-sdv-id-PQPHiv,18,Non-binary,160779.01,Bachelor,Nurse,Married,East,2,585,2.6,True
-sdv-id-yTKhNK,29,Non-binary,31380.47,Associate,Manager,Widowed,North,1,462,14.4,False
-sdv-id-uqyYGH,43,Female,46067.9,Associate,Teacher,Widowed,South,2,476,12.1,True
-sdv-id-CjzXJq,22,Male,155410.99,Bachelor,Doctor,Widowed,West,0,481,0.1,False
-sdv-id-JJNbbK,18,Non-binary,53268.27,High School,Nurse,Widowed,East,1,489,11.7,False
-sdv-id-SGkXbz,18,Male,90874.51,High School,Nurse,Married,West,2,685,0.1,False
-sdv-id-jejuFG,57,Female,62990.87,High School,Engineer,Widowed,South,0,474,4.6,False
-sdv-id-bapXja,18,Non-binary,161476.3,High School,Retail Worker,Widowed,West,0,638,0.1,True
-sdv-id-wOdxfl,29,Non-binary,241063.69,Associate,Teacher,Single,Central,2,611,12.9,False
-sdv-id-bdSBns,26,Non-binary,56268.63,High School,Teacher,Widowed,East,1,583,0.1,False
-sdv-id-zTHrus,26,Non-binary,47660.9,High School,Retired,Divorced,East,2,508,16.0,False
-sdv-id-jumHbZ,26,Male,66089.39,High School,Engineer,Married,North,2,527,0.1,True
-sdv-id-gUVzAT,27,Non-binary,81885.63,Master,Nurse,Widowed,South,2,629,7.9,False
-sdv-id-gjHYYf,18,Non-binary,104886.72,High School,Retired,Widowed,North,1,534,0.1,True
-sdv-id-axyLjR,51,Non-binary,42059.27,PhD,Nurse,Widowed,North,1,589,16.1,True
-sdv-id-qhlVVH,26,Non-binary,15000.0,High School,Business Owner,Widowed,North,2,636,14.9,False
-sdv-id-KXVKYU,28,Non-binary,32655.44,Master,Student,Widowed,Central,0,623,11.2,True
-sdv-id-jODvgF,39,Female,103991.02,Associate,Retail Worker,Widowed,North,0,644,2.4,False
-sdv-id-zxYOGl,46,Non-binary,78858.02,High School,Engineer,Widowed,East,0,551,3.8,False
-sdv-id-IckrpC,30,Female,47757.11,High School,Accountant,Divorced,North,0,727,0.1,False
-sdv-id-RKMOHN,19,Female,76309.1,Associate,Engineer,Divorced,South,2,586,5.8,True
-sdv-id-oSFjRi,18,Non-binary,15000.0,PhD,Doctor,Widowed,Central,0,583,3.0,True
-sdv-id-GQzgan,18,Non-binary,45290.85,High School,Business Owner,Divorced,North,2,669,5.2,False
-sdv-id-BnKehM,24,Male,72561.61,Associate,Engineer,Married,North,2,504,13.2,True
-sdv-id-kPKVNW,18,Non-binary,91660.92,Bachelor,Engineer,Widowed,South,0,661,0.1,False
-sdv-id-SMznGX,32,Non-binary,71827.15,High School,Retired,Widowed,North,0,508,15.0,True
-sdv-id-ezsOhf,39,Male,74603.46,High School,Retired,Widowed,West,1,668,13.3,False
-sdv-id-zQPcJD,54,Male,223776.92,High School,Teacher,Widowed,North,2,544,16.1,False
-sdv-id-fihihd,56,Male,126155.76,Bachelor,Retired,Widowed,West,0,631,15.7,False
-sdv-id-sFRNoD,42,Female,28767.51,Associate,Teacher,Married,South,2,520,1.1,False
-sdv-id-EudVUJ,46,Female,50729.08,Associate,Engineer,Widowed,West,0,692,5.3,True
-sdv-id-gckxqM,44,Non-binary,115800.49,Bachelor,Lawyer,Married,West,0,566,6.4,True
-sdv-id-TMDChq,18,Male,45955.73,High School,Retail Worker,Married,East,0,507,0.1,True
-sdv-id-RYTZvo,18,Male,65182.38,High School,Retail Worker,Divorced,North,2,568,4.7,False
-sdv-id-YkKoSx,22,Non-binary,84594.94,High School,Engineer,Widowed,North,0,622,0.1,True
-sdv-id-oQRxAu,27,Male,170514.19,Associate,Retired,Widowed,West,2,671,17.6,False
-sdv-id-VEdXTd,20,Non-binary,73404.54,PhD,Retired,Widowed,Central,2,493,0.1,True
-sdv-id-XikJEJ,33,Non-binary,33792.59,Bachelor,Accountant,Widowed,North,1,599,13.6,False
-sdv-id-betRiu,18,Male,23052.41,PhD,Accountant,Married,Central,2,486,3.6,True
-sdv-id-NFNaHb,24,Male,73306.04,PhD,Student,Married,East,1,555,9.1,False
-sdv-id-GjaqbT,57,Non-binary,34633.22,High School,Retired,Widowed,West,3,669,18.7,False
-sdv-id-ziLZKx,41,Female,108690.14,High School,Lawyer,Widowed,Central,0,486,9.0,False
-sdv-id-ELlKqa,18,Non-binary,89470.06,Bachelor,Lawyer,Widowed,West,0,519,3.7,True
-sdv-id-asHktF,18,Non-binary,51785.82,Associate,Lawyer,Married,North,0,490,6.8,True
-sdv-id-nwnqiZ,23,Non-binary,33068.01,Associate,Retail Worker,Widowed,North,0,591,12.4,False
-sdv-id-yyfDuf,37,Non-binary,59091.38,High School,Engineer,Married,North,0,531,13.1,False
-sdv-id-EIsizY,52,Non-binary,91568.38,High School,Retired,Widowed,West,2,608,10.3,False
-sdv-id-eJCNPf,22,Non-binary,44849.23,Bachelor,Accountant,Married,West,0,618,13.1,False
-sdv-id-giSZPj,26,Non-binary,202589.67,Associate,Accountant,Widowed,North,1,504,8.2,True
-sdv-id-OemrAP,35,Non-binary,87082.77,PhD,Accountant,Widowed,North,1,659,14.3,True
-sdv-id-QqlJye,36,Non-binary,76689.62,High School,Engineer,Widowed,North,1,611,3.2,False
-sdv-id-fLhVcQ,23,Male,58731.84,High School,Doctor,Widowed,South,1,526,4.8,False
-sdv-id-yKBCza,38,Female,41539.61,High School,Manager,Married,North,0,637,3.0,False
-sdv-id-OocYNI,28,Non-binary,116169.01,Master,Teacher,Widowed,East,1,563,1.6,False
-sdv-id-YMoVkh,18,Non-binary,34935.95,Bachelor,Engineer,Married,Central,2,566,5.7,True
-sdv-id-OKNaPR,48,Non-binary,88611.48,High School,Retired,Divorced,East,0,598,11.2,False
-sdv-id-vBwTaB,45,Non-binary,113768.51,High School,Engineer,Widowed,Central,0,566,10.7,False
-sdv-id-ajZxUa,18,Female,32014.25,High School,Doctor,Widowed,Central,1,523,0.9,False
-sdv-id-DaRZSN,55,Non-binary,158167.17,High School,Retired,Married,Central,1,546,16.8,False
-sdv-id-QjLOTC,70,Non-binary,75219.07,Master,Manager,Divorced,North,2,662,6.6,False
-sdv-id-LaUltH,18,Male,58682.47,High School,Retired,Widowed,West,2,595,0.1,False
-sdv-id-NqpnHb,39,Male,191708.74,Master,Retail Worker,Married,South,2,509,3.6,False
-sdv-id-uCUfgB,18,Non-binary,84261.1,High School,Retired,Married,North,0,524,2.3,True
-sdv-id-MYChmo,33,Male,76612.02,High School,Nurse,Widowed,North,1,663,9.3,False
-sdv-id-PXIuam,40,Female,79853.85,PhD,Accountant,Widowed,North,0,462,3.0,False
-sdv-id-CvUTbI,28,Non-binary,32265.36,High School,Teacher,Widowed,East,0,515,17.1,False
-sdv-id-ncQWlm,34,Non-binary,120668.95,High School,Accountant,Married,North,2,527,9.6,False
-sdv-id-BfwoMo,18,Male,77969.23,Master,Engineer,Widowed,West,2,551,4.7,False
-sdv-id-HzcuJQ,29,Female,51441.77,Bachelor,Student,Divorced,North,2,532,12.0,False
-sdv-id-Ogarkx,36,Non-binary,75102.85,Bachelor,Teacher,Divorced,South,1,567,3.7,False
-sdv-id-keTpoN,18,Male,98128.1,High School,Engineer,Widowed,North,0,511,0.1,True
-sdv-id-FRHOYq,80,Non-binary,54913.47,High School,Retired,Divorced,South,1,710,18.5,False
-sdv-id-mXpRas,42,Non-binary,15000.0,High School,Retail Worker,Divorced,Central,1,566,13.1,False
-sdv-id-sxUCAM,18,Non-binary,107377.75,PhD,Engineer,Divorced,North,2,588,4.3,False
-sdv-id-odDOXS,23,Non-binary,38462.4,High School,Lawyer,Widowed,South,1,537,3.1,True
-sdv-id-yxKdnh,18,Male,79093.32,High School,Nurse,Widowed,Central,0,628,0.1,True
-sdv-id-qBZZAt,20,Male,128759.01,Bachelor,Lawyer,Widowed,South,3,597,8.7,False
-sdv-id-IeBcGi,24,Non-binary,40728.46,Associate,Retired,Widowed,West,1,536,6.7,False
-sdv-id-aihlud,33,Male,65644.6,High School,Retired,Married,North,2,630,4.7,False
-sdv-id-QTKsAS,33,Non-binary,80039.44,High School,Business Owner,Married,North,0,462,8.2,True
-sdv-id-uMMATB,18,Non-binary,146017.27,High School,Accountant,Widowed,South,0,497,4.3,False
-sdv-id-uRcDCT,18,Male,191190.0,Bachelor,Accountant,Widowed,East,2,482,1.6,False
-sdv-id-KurWXk,24,Non-binary,99746.58,High School,Student,Widowed,North,0,493,15.5,True
-sdv-id-jvgrJk,34,Male,105135.26,High School,Teacher,Married,North,2,506,10.5,True
-sdv-id-DXpiWT,47,Non-binary,100029.87,High School,Student,Widowed,North,1,550,9.0,False
-sdv-id-LGSWQc,18,Non-binary,24972.99,High School,Manager,Widowed,Central,2,462,0.6,True
-sdv-id-ITHAeh,18,Non-binary,44855.83,High School,Retired,Widowed,North,2,621,1.0,False
-sdv-id-sljKlH,45,Non-binary,19858.08,PhD,Business Owner,Divorced,West,1,487,16.1,False
-sdv-id-iSPdWE,18,Female,15000.0,High School,Engineer,Married,South,1,462,6.1,False
-sdv-id-XaiqZs,20,Non-binary,92383.97,Master,Nurse,Married,East,2,625,6.5,False
-sdv-id-vYiMMY,44,Non-binary,55120.58,Associate,Engineer,Widowed,West,2,517,19.9,True
-sdv-id-mtnVCA,46,Female,82052.36,Bachelor,Doctor,Widowed,North,2,516,11.6,False
-sdv-id-fzWMfS,25,Male,71295.27,High School,Nurse,Divorced,North,0,533,9.7,True
-sdv-id-xPguvu,40,Female,27114.01,Bachelor,Nurse,Widowed,North,1,591,10.0,True
-sdv-id-uBgeDf,42,Non-binary,123779.47,Master,Retired,Divorced,East,0,574,6.6,False
-sdv-id-fhBUAB,45,Non-binary,73042.42,High School,Retired,Widowed,West,0,462,11.3,False
-sdv-id-ytIKBv,47,Female,23861.78,High School,Accountant,Married,West,0,550,6.0,True
-sdv-id-oIvdBs,32,Non-binary,57520.78,High School,Retired,Married,West,0,669,19.6,True
-sdv-id-sYcnIf,41,Female,54389.1,Associate,Manager,Widowed,West,0,508,16.8,False
-sdv-id-TESckR,39,Male,72272.34,Bachelor,Engineer,Widowed,Central,0,615,1.0,False
-sdv-id-LrIiuM,38,Non-binary,81950.98,High School,Retired,Widowed,West,0,728,9.9,True
-sdv-id-CAQLrz,36,Non-binary,251871.63,High School,Accountant,Married,Central,0,672,3.8,False
-sdv-id-pjXnxN,18,Non-binary,101969.45,Bachelor,Student,Widowed,North,2,542,0.8,False
-sdv-id-XIgBgc,29,Non-binary,66496.17,Bachelor,Student,Married,South,2,696,0.1,True
-sdv-id-oztIjD,75,Male,189985.79,Master,Teacher,Widowed,North,2,521,19.9,True
-sdv-id-rJjRjH,22,Non-binary,64793.14,Associate,Accountant,Married,West,1,577,0.1,False
-sdv-id-QKTlDR,36,Non-binary,22013.0,High School,Accountant,Married,South,1,507,5.6,True
-sdv-id-mRjWyl,18,Female,76718.01,High School,Retired,Divorced,North,0,484,14.2,False
-sdv-id-ESTPwV,47,Non-binary,138706.42,High School,Nurse,Widowed,East,0,494,10.7,False
-sdv-id-KcrNkQ,25,Female,15000.0,Master,Retired,Widowed,West,2,493,6.2,True
-sdv-id-FVldBK,43,Female,78018.4,Associate,Lawyer,Married,North,0,570,11.8,True
-sdv-id-ZtaZJP,21,Male,75570.81,High School,Engineer,Widowed,North,2,554,0.1,True
-sdv-id-UhZjIz,18,Female,35333.85,Bachelor,Retail Worker,Divorced,West,2,617,0.1,True
-sdv-id-YnOGer,49,Non-binary,131305.43,Bachelor,Teacher,Widowed,West,0,733,0.8,False
-sdv-id-Blkkds,27,Non-binary,160007.77,Bachelor,Teacher,Widowed,West,0,492,15.2,True
-sdv-id-IrDdam,58,Non-binary,42975.79,Bachelor,Retired,Divorced,North,2,481,19.9,True
-sdv-id-ZbiqGa,18,Male,59722.77,High School,Lawyer,Widowed,North,2,492,1.1,False
-sdv-id-AXFaMA,55,Non-binary,57217.76,High School,Nurse,Widowed,West,0,462,14.3,False
-sdv-id-DJxrok,27,Male,86521.05,Associate,Engineer,Widowed,East,0,564,10.2,True
-sdv-id-gVpzeh,18,Non-binary,65894.49,High School,Nurse,Single,North,2,501,5.1,True
-sdv-id-yUgqjw,48,Female,228249.94,High School,Retail Worker,Widowed,West,3,730,17.8,False
-sdv-id-DciOHU,21,Non-binary,191225.5,Associate,Doctor,Widowed,West,0,612,0.3,True
-sdv-id-PrzCcK,18,Non-binary,101670.13,High School,Student,Widowed,Central,2,476,3.0,True
-sdv-id-vfgpMa,60,Non-binary,130681.66,High School,Nurse,Widowed,North,2,507,19.7,False
-sdv-id-MMuXCh,21,Male,93669.42,High School,Retired,Widowed,Central,0,472,11.9,True
-sdv-id-FKZakC,80,Male,43136.3,Bachelor,Engineer,Widowed,West,0,559,6.7,False
-sdv-id-VYOfSC,25,Female,160602.59,Bachelor,Retired,Divorced,North,0,610,6.1,True
-sdv-id-HJMbsV,45,Male,37965.61,Associate,Nurse,Divorced,North,2,517,5.6,True
-sdv-id-hNFMzd,36,Male,64854.96,High School,Retired,Married,Central,3,636,13.2,False
-sdv-id-xkApuS,31,Non-binary,15000.0,High School,Student,Married,East,2,506,6.7,True
-sdv-id-VewTfh,48,Male,83754.22,Bachelor,Retired,Widowed,East,2,526,14.9,False
-sdv-id-svQKzM,33,Male,140064.72,Bachelor,Retired,Widowed,North,2,511,15.7,False
-sdv-id-ZlVQwZ,46,Female,94590.81,High School,Retired,Widowed,West,0,712,1.0,True
-sdv-id-emDxic,32,Non-binary,39298.13,High School,Teacher,Divorced,West,0,618,1.5,True
-sdv-id-hrePiO,18,Non-binary,144994.26,Bachelor,Engineer,Widowed,North,0,576,11.9,False
-sdv-id-ThGmZG,18,Non-binary,123937.8,High School,Nurse,Widowed,East,0,626,3.5,False
-sdv-id-AzvMVv,23,Male,15000.0,High School,Engineer,Divorced,Central,0,510,6.5,True
-sdv-id-KXKcfN,34,Non-binary,44102.23,High School,Lawyer,Married,West,0,491,19.8,False
-sdv-id-yhsBjU,34,Female,15000.0,High School,Engineer,Married,East,2,573,19.9,True
-sdv-id-eAuNQt,23,Non-binary,72862.81,PhD,Retired,Widowed,North,0,569,7.3,False
-sdv-id-tIcCkV,33,Female,15000.0,High School,Engineer,Widowed,Central,0,584,11.7,True
-sdv-id-cBjnzY,34,Non-binary,56218.72,High School,Retired,Widowed,Central,1,508,10.7,True
-sdv-id-ToSZfJ,24,Female,138119.9,Bachelor,Nurse,Married,South,1,530,15.0,False
-sdv-id-YFYlAW,34,Non-binary,51643.41,High School,Doctor,Married,North,2,531,8.1,False
-sdv-id-BYtqpo,19,Non-binary,65876.44,PhD,Retired,Widowed,South,1,619,0.1,True
-sdv-id-UNJQze,36,Non-binary,158896.81,Associate,Business Owner,Divorced,West,2,577,3.6,False
-sdv-id-kKvryD,21,Male,162670.61,High School,Student,Married,West,0,491,0.1,False
-sdv-id-RHGcoY,20,Non-binary,93388.87,Bachelor,Engineer,Widowed,West,0,582,13.8,True
-sdv-id-tWphYN,37,Non-binary,67285.42,High School,Retired,Widowed,North,0,519,19.9,True
-sdv-id-yZPzaB,36,Non-binary,55444.22,Bachelor,Student,Widowed,East,1,601,13.5,False
-sdv-id-sQZKSq,49,Non-binary,199630.22,PhD,Engineer,Single,West,1,473,7.5,True
-sdv-id-xfqLvn,21,Male,58526.81,Bachelor,Retired,Widowed,West,0,692,13.2,True
-sdv-id-MJuawQ,52,Non-binary,127783.94,Associate,Accountant,Married,Central,3,585,11.9,True
-sdv-id-UQjInx,29,Male,54860.47,Bachelor,Teacher,Widowed,West,1,536,16.3,False
-sdv-id-HOeJBS,18,Non-binary,107722.8,Bachelor,Retired,Widowed,Central,0,520,9.8,True
-sdv-id-GGXYFJ,20,Non-binary,88132.96,High School,Accountant,Widowed,Central,1,544,5.6,True
-sdv-id-kWFAAi,18,Female,39346.29,High School,Accountant,Widowed,Central,0,539,2.1,True
-sdv-id-mppLxX,18,Non-binary,63701.52,Associate,Business Owner,Widowed,North,0,618,5.8,True
-sdv-id-YxBsdO,22,Non-binary,72419.04,High School,Retired,Widowed,South,1,641,17.0,False
-sdv-id-taZXCZ,18,Female,103892.78,Associate,Student,Married,East,0,551,1.0,False
-sdv-id-eoyPlU,43,Non-binary,69086.14,Bachelor,Retired,Widowed,North,0,528,2.0,False
-sdv-id-ptffzv,42,Non-binary,50279.16,High School,Retired,Widowed,South,2,601,12.2,False
-sdv-id-vYTbym,47,Female,81879.87,High School,Retired,Married,North,3,491,13.5,False
-sdv-id-ZcPDnH,18,Non-binary,175169.69,High School,Retired,Widowed,North,2,638,2.6,False
-sdv-id-aDBdJC,18,Male,57864.71,High School,Engineer,Widowed,North,0,484,2.4,False
-sdv-id-PhOhUO,26,Non-binary,48474.3,Master,Manager,Widowed,East,2,470,5.8,False
-sdv-id-lOgwcp,19,Female,63524.15,High School,Doctor,Married,West,1,585,11.4,False
-sdv-id-UffwHX,25,Non-binary,53103.26,Bachelor,Teacher,Widowed,North,0,541,1.6,True
-sdv-id-lCXNAj,22,Female,15000.0,High School,Lawyer,Married,South,0,535,14.4,True
-sdv-id-EubtgP,51,Male,52906.34,Associate,Business Owner,Married,North,0,526,17.8,True
-sdv-id-EOlTVe,21,Non-binary,57250.73,High School,Engineer,Single,West,0,602,7.4,False
-sdv-id-GPZOPh,18,Female,72555.06,High School,Teacher,Widowed,West,0,497,6.4,False
-sdv-id-FVOezu,19,Male,20473.61,High School,Manager,Divorced,South,0,633,3.6,True
-sdv-id-gIbsPi,18,Male,43239.41,High School,Nurse,Divorced,North,0,728,0.1,True
-sdv-id-RtfvVQ,70,Non-binary,15000.0,High School,Retired,Divorced,North,0,556,11.0,False
-sdv-id-rRKKbh,23,Non-binary,15874.99,High School,Nurse,Widowed,East,2,585,8.9,True
-sdv-id-ieUHxW,26,Female,112548.29,High School,Teacher,Widowed,Central,2,572,12.3,False
-sdv-id-bcdUoy,18,Non-binary,70162.22,High School,Retail Worker,Widowed,East,0,556,5.9,False
-sdv-id-giMVLp,24,Non-binary,89701.09,PhD,Nurse,Married,West,0,676,14.8,True
-sdv-id-ppTyll,47,Non-binary,41401.34,High School,Engineer,Widowed,West,1,603,6.8,False
-sdv-id-WVcnYg,21,Female,110211.19,High School,Doctor,Widowed,West,1,473,1.7,False
-sdv-id-ZQaGDT,18,Non-binary,68753.64,Bachelor,Retired,Divorced,West,3,513,4.2,False
-sdv-id-CclgDb,18,Non-binary,78524.7,High School,Manager,Widowed,North,0,553,6.5,False
-sdv-id-lClXNf,20,Male,67764.24,High School,Accountant,Married,Central,0,516,6.2,False
-sdv-id-CQBKZH,18,Non-binary,54619.57,Bachelor,Doctor,Widowed,South,1,562,0.1,True
-sdv-id-zKXESY,18,Non-binary,56431.48,High School,Doctor,Married,North,2,462,0.5,False
-sdv-id-wiypRO,18,Non-binary,98526.14,High School,Teacher,Married,Central,1,463,1.2,False
-sdv-id-qkoWro,43,Non-binary,35158.27,Bachelor,Lawyer,Widowed,South,2,533,7.2,True
-sdv-id-hcScEU,33,Non-binary,34315.53,High School,Teacher,Widowed,North,0,709,10.8,False
-sdv-id-fewUMQ,19,Non-binary,19510.91,Bachelor,Lawyer,Widowed,South,2,526,4.4,False
-sdv-id-AGKDKx,30,Non-binary,117322.58,PhD,Teacher,Widowed,Central,2,462,0.1,False
-sdv-id-PacOhA,29,Non-binary,38591.89,Associate,Student,Married,North,0,484,16.3,False
-sdv-id-OtCWps,28,Non-binary,185663.47,High School,Retired,Married,West,1,491,14.4,False
-sdv-id-nJbzvW,38,Male,69347.32,Associate,Retired,Widowed,West,3,749,19.9,False
-sdv-id-suVOCE,41,Non-binary,88917.51,PhD,Retired,Widowed,North,0,531,18.2,False
-sdv-id-RqCGkQ,56,Non-binary,46645.38,High School,Engineer,Widowed,North,2,538,14.5,False
-sdv-id-ovHsVZ,28,Non-binary,111954.85,Associate,Retired,Married,North,1,560,7.2,False
-sdv-id-bABTcw,27,Male,36752.76,Bachelor,Teacher,Married,North,0,462,9.5,False
-sdv-id-ebKRzj,23,Male,36649.19,High School,Retired,Married,North,2,503,5.6,False
-sdv-id-rUtESp,24,Non-binary,57410.62,Bachelor,Accountant,Widowed,North,0,475,7.9,False
-sdv-id-kUwvGT,54,Non-binary,40180.66,High School,Doctor,Married,North,0,597,14.4,False
-sdv-id-wQkcIj,18,Non-binary,77029.37,Bachelor,Engineer,Widowed,East,0,673,0.1,False
-sdv-id-yskphk,40,Male,223798.68,Associate,Engineer,Married,Central,2,588,4.2,False
-sdv-id-qgiGsc,25,Female,136118.8,Bachelor,Accountant,Single,North,2,690,19.3,False
-sdv-id-CaYawH,23,Non-binary,163901.32,Master,Teacher,Widowed,East,3,548,16.5,True
-sdv-id-CRarbs,29,Male,84325.55,High School,Manager,Widowed,West,0,464,8.1,False
-sdv-id-tPhHYm,53,Non-binary,79874.12,Associate,Engineer,Widowed,North,2,755,2.5,False
-sdv-id-LJFLlG,26,Female,37302.55,PhD,Retail Worker,Widowed,North,1,567,19.9,True
-sdv-id-Dcmpdf,29,Non-binary,99642.11,High School,Retired,Widowed,Central,2,579,2.7,True
-sdv-id-pLhRJL,22,Non-binary,41641.87,High School,Doctor,Widowed,North,0,509,1.8,True
-sdv-id-jsvKuq,48,Male,87103.11,Bachelor,Student,Widowed,West,0,503,14.4,True
-sdv-id-zpTSyx,20,Non-binary,76978.39,Associate,Teacher,Widowed,North,0,688,11.3,False
-sdv-id-IrUYZH,44,Non-binary,82386.17,High School,Retired,Widowed,Central,0,501,0.9,True
-sdv-id-mvrNFm,32,Male,15000.0,High School,Retired,Widowed,South,0,485,14.9,True
-sdv-id-MfbCMd,24,Female,19112.72,High School,Lawyer,Widowed,South,1,533,2.4,False
-sdv-id-gEjGvF,58,Non-binary,139973.12,Bachelor,Teacher,Widowed,North,0,552,14.0,True
-sdv-id-RWWuZP,39,Female,56227.21,High School,Retail Worker,Married,Central,0,468,8.0,False
-sdv-id-RwwQIL,18,Male,42544.59,Associate,Accountant,Widowed,East,0,513,1.7,False
-sdv-id-Rfbbgn,23,Female,83776.96,Master,Doctor,Married,East,1,533,0.1,True
-sdv-id-RNYuaJ,25,Male,91390.78,High School,Teacher,Divorced,North,0,601,18.7,False
-sdv-id-PfJaeV,63,Female,132965.17,High School,Student,Widowed,North,0,508,13.6,False
-sdv-id-GHXJeT,43,Female,61654.12,High School,Business Owner,Married,West,0,488,1.8,True
-sdv-id-kFepLI,18,Non-binary,102508.45,Associate,Retired,Widowed,North,0,707,4.0,False
-sdv-id-goUzAF,25,Non-binary,60505.36,High School,Retired,Married,Central,0,515,4.8,True
-sdv-id-BBpUnr,45,Non-binary,136913.66,PhD,Retired,Widowed,North,0,765,6.6,True
-sdv-id-skWGpD,60,Non-binary,104599.85,PhD,Manager,Widowed,North,0,606,9.7,False
-sdv-id-QsIkHD,78,Male,98097.64,High School,Retired,Widowed,East,2,624,19.0,True
-sdv-id-okyKss,21,Non-binary,42558.3,Bachelor,Manager,Married,West,0,494,8.7,False
-sdv-id-PmIuQR,30,Non-binary,202424.56,Bachelor,Engineer,Married,South,0,571,9.2,True
-sdv-id-Jhruxy,49,Non-binary,39055.55,Master,Teacher,Married,North,2,594,9.3,False
-sdv-id-ejapqa,18,Male,129719.59,High School,Doctor,Widowed,South,0,542,1.9,False
-sdv-id-MgoLCh,18,Non-binary,84381.8,High School,Lawyer,Widowed,Central,1,597,3.6,False
-sdv-id-dmXRLc,26,Non-binary,200877.41,High School,Engineer,Widowed,West,2,568,14.3,True
-sdv-id-efVhiq,28,Non-binary,125942.38,High School,Teacher,Married,North,0,470,19.9,False
-sdv-id-pCLzpT,31,Non-binary,78566.4,Associate,Student,Widowed,South,0,566,16.3,False
-sdv-id-wjFbeU,18,Non-binary,58204.13,PhD,Nurse,Married,North,0,505,7.5,False
-sdv-id-prAiiI,18,Male,120682.35,Bachelor,Retail Worker,Widowed,East,1,483,5.3,False
-sdv-id-BVxcBv,26,Male,38303.61,Associate,Engineer,Widowed,West,0,484,8.1,True
-sdv-id-wQNJFL,18,Non-binary,80339.62,High School,Engineer,Widowed,West,2,619,0.1,True
-sdv-id-hgiIXY,18,Non-binary,72974.93,High School,Retail Worker,Widowed,North,2,536,0.1,False
-sdv-id-PeklTh,57,Non-binary,37093.31,Bachelor,Engineer,Married,North,2,556,0.1,True
-sdv-id-OPzJuO,78,Female,94697.66,Bachelor,Accountant,Married,South,0,570,19.9,False
-sdv-id-yRqPao,31,Female,34894.43,Master,Nurse,Married,North,0,512,9.0,True
-sdv-id-OgHoaT,27,Non-binary,106681.36,Associate,Engineer,Divorced,North,2,494,15.9,False
-sdv-id-lNsuvJ,57,Non-binary,40922.7,Bachelor,Nurse,Widowed,West,1,492,13.5,False
-sdv-id-HkhZnW,26,Non-binary,61453.01,Bachelor,Nurse,Widowed,North,1,642,5.1,True
-sdv-id-ETOcDI,18,Male,105488.83,Associate,Engineer,Widowed,East,2,646,8.4,True
-sdv-id-PdhBCa,31,Female,42196.42,High School,Engineer,Widowed,North,1,607,13.3,True
-sdv-id-EGOMmG,55,Non-binary,129557.97,Bachelor,Nurse,Single,Central,1,462,15.1,False
-sdv-id-ibCKze,31,Female,38694.91,Bachelor,Teacher,Widowed,Central,1,462,4.6,False
-sdv-id-MQMoEM,22,Female,59155.92,PhD,Lawyer,Widowed,West,0,551,2.7,True
-sdv-id-MmPyYz,19,Female,106567.09,High School,Student,Widowed,North,0,625,16.7,False
-sdv-id-lUfUVL,32,Non-binary,88618.11,High School,Retired,Widowed,West,0,546,16.6,False
-sdv-id-ZVBxCR,35,Female,108286.6,Associate,Student,Married,West,0,500,3.8,False
-sdv-id-SrkciZ,45,Male,139459.42,Master,Nurse,Widowed,West,1,632,0.1,False
-sdv-id-ChbxGo,30,Male,17342.08,Master,Nurse,Widowed,South,1,563,4.7,False
-sdv-id-GlYDns,32,Non-binary,136039.31,Master,Nurse,Widowed,North,0,485,19.9,False
-sdv-id-fGCaRN,18,Female,191403.39,Bachelor,Manager,Widowed,Central,1,617,0.1,False
-sdv-id-tCmThp,65,Non-binary,32858.42,High School,Student,Married,North,0,578,0.1,True
-sdv-id-jordSA,48,Non-binary,74177.82,Bachelor,Student,Widowed,North,2,612,19.9,False
-sdv-id-tYDJpl,40,Non-binary,32781.77,Bachelor,Retired,Married,South,2,556,14.1,True
-sdv-id-HnqNqK,54,Non-binary,62515.51,High School,Retired,Widowed,North,1,659,0.1,True
-sdv-id-JooTUq,33,Female,48298.65,Bachelor,Retail Worker,Single,North,1,535,16.7,True
-sdv-id-AnQnZh,52,Male,94945.13,High School,Lawyer,Widowed,East,2,495,5.9,False
-sdv-id-VEGXpr,40,Non-binary,123103.44,High School,Engineer,Divorced,West,3,625,16.4,False
-sdv-id-cpLWTk,35,Non-binary,149862.27,Bachelor,Teacher,Widowed,Central,1,563,0.1,False
-sdv-id-NzZEko,35,Non-binary,35039.99,High School,Accountant,Single,East,2,585,7.7,False
-sdv-id-CYNvCs,43,Non-binary,30116.38,High School,Accountant,Divorced,West,0,677,14.3,True
-sdv-id-zRcSyu,22,Male,156556.05,High School,Accountant,Divorced,North,0,600,9.4,True
-sdv-id-SJSXch,29,Non-binary,93457.86,High School,Manager,Married,West,0,466,18.0,False
-sdv-id-awnuhP,18,Female,63939.6,High School,Business Owner,Married,South,2,555,12.0,False
-sdv-id-phclgH,49,Female,80111.18,High School,Teacher,Widowed,West,0,573,7.3,False
-sdv-id-wRmxZQ,23,Non-binary,96860.13,Master,Teacher,Married,North,2,556,7.8,False
-sdv-id-EYhPHD,20,Male,58131.5,Bachelor,Nurse,Single,East,1,587,9.4,False
-sdv-id-irnhzg,32,Male,30504.49,PhD,Nurse,Widowed,North,2,773,3.1,False
-sdv-id-xoVbjR,62,Non-binary,72553.05,Bachelor,Teacher,Married,North,1,474,9.5,True
-sdv-id-WteXsm,30,Female,54240.36,Associate,Student,Married,Central,0,591,1.0,False
-sdv-id-EAePZm,31,Female,71969.52,Associate,Retail Worker,Widowed,North,1,737,7.6,True
-sdv-id-JpXMke,30,Non-binary,85721.25,High School,Retired,Single,West,2,523,13.0,False
-sdv-id-fiyCPv,34,Non-binary,86976.1,Associate,Engineer,Married,North,0,511,11.8,False
-sdv-id-aszsUc,18,Non-binary,84655.04,Bachelor,Student,Widowed,West,2,597,0.1,False
-sdv-id-RuvZNS,29,Male,19003.97,PhD,Business Owner,Widowed,North,0,500,17.8,True
-sdv-id-HeCiUr,63,Male,22302.88,Master,Engineer,Widowed,West,2,462,15.9,True
-sdv-id-FSnSsM,28,Non-binary,72107.88,Bachelor,Teacher,Married,West,2,649,16.0,False
-sdv-id-yWsSIR,29,Male,22421.62,High School,Doctor,Widowed,North,4,576,9.1,False
-sdv-id-OogvsD,41,Non-binary,36063.0,High School,Retired,Widowed,Central,0,563,13.4,True
-sdv-id-XexEsF,42,Female,64733.45,High School,Retired,Widowed,West,2,583,14.1,True
-sdv-id-nZGYFB,18,Non-binary,100730.97,High School,Retired,Widowed,West,2,502,3.7,True
-sdv-id-hphaJK,20,Female,98999.91,High School,Nurse,Married,North,1,501,6.7,False
-sdv-id-MKAAbs,18,Non-binary,63152.2,High School,Teacher,Married,Central,2,627,4.6,False
-sdv-id-qtuxnT,27,Male,149133.71,High School,Retired,Divorced,Central,5,569,12.8,False
-sdv-id-yvSbbi,54,Male,84805.18,High School,Doctor,Widowed,Central,0,555,15.1,False
-sdv-id-jHNiix,35,Non-binary,74196.11,Bachelor,Lawyer,Married,West,2,561,11.1,False
-sdv-id-uDXKNt,35,Female,86432.23,High School,Manager,Widowed,West,0,552,0.1,True
-sdv-id-aHbBuO,25,Non-binary,165412.78,High School,Teacher,Married,West,0,477,0.1,True
-sdv-id-MIxygh,29,Non-binary,58375.55,Bachelor,Student,Married,Central,1,673,7.1,False
-sdv-id-tAlMmY,18,Non-binary,54941.97,High School,Doctor,Widowed,West,2,497,6.3,True
-sdv-id-VfKhXL,36,Non-binary,95374.49,High School,Nurse,Married,North,0,469,5.8,False
-sdv-id-eLHvOa,30,Non-binary,103397.27,High School,Doctor,Widowed,North,0,482,8.5,False
-sdv-id-Ryvcdh,18,Non-binary,84803.43,Associate,Nurse,Married,Central,0,494,4.5,False
-sdv-id-fwHQiy,38,Non-binary,46343.88,High School,Engineer,Widowed,East,0,708,1.4,False
-sdv-id-dmXgUc,58,Non-binary,66327.22,Associate,Accountant,Divorced,North,2,473,16.4,False
-sdv-id-wZHnJM,39,Male,48439.23,Bachelor,Accountant,Widowed,West,0,673,6.2,True
-sdv-id-wBWWIC,20,Female,105203.28,High School,Retired,Married,West,0,690,9.6,False
-sdv-id-NcvASW,35,Non-binary,35400.45,High School,Retired,Widowed,West,0,554,3.1,False
-sdv-id-WKuYzr,20,Non-binary,75373.99,Associate,Retired,Widowed,Central,2,640,10.2,False
-sdv-id-qKrpQS,18,Non-binary,58765.31,Bachelor,Engineer,Married,West,0,604,0.1,False
-sdv-id-HQggrk,25,Non-binary,83266.0,Bachelor,Retired,Married,Central,3,622,19.8,False
-sdv-id-FrInSE,24,Non-binary,93264.84,High School,Engineer,Widowed,West,0,774,0.4,True
-sdv-id-FqmeAs,31,Non-binary,125852.5,High School,Student,Widowed,North,2,635,6.0,True
-sdv-id-BfILUk,22,Female,74702.88,High School,Doctor,Married,North,2,534,6.2,True
-sdv-id-pUVFXX,32,Female,106290.04,High School,Retired,Divorced,North,0,520,7.1,True
-sdv-id-GIXiXQ,32,Female,45028.12,Bachelor,Teacher,Widowed,North,0,658,4.0,False
-sdv-id-gFnNGm,26,Non-binary,15000.0,Associate,Retired,Widowed,Central,1,593,1.8,False
-sdv-id-mKIepz,34,Male,150673.57,High School,Lawyer,Widowed,West,2,553,12.4,False
-sdv-id-zVGgNW,57,Non-binary,121827.56,High School,Student,Divorced,Central,0,471,15.2,True
-sdv-id-cptoAA,66,Non-binary,115420.17,High School,Retired,Married,North,0,502,15.2,True
-sdv-id-eKvazn,36,Female,79722.2,High School,Engineer,Widowed,North,0,560,16.2,False
-sdv-id-KjpYcQ,26,Female,109312.36,High School,Engineer,Widowed,North,3,571,15.4,False
-sdv-id-ZuMCRs,18,Male,78519.26,High School,Student,Married,Central,3,575,3.4,False
-sdv-id-GqNWsw,18,Female,51038.0,High School,Doctor,Married,East,1,477,5.3,False
-sdv-id-fKItwJ,27,Male,51338.53,Bachelor,Engineer,Widowed,Central,0,691,7.1,True
-sdv-id-ConjiA,23,Non-binary,37032.15,High School,Engineer,Widowed,West,0,566,7.4,False
-sdv-id-bfyVBH,65,Non-binary,97998.0,Associate,Retired,Widowed,Central,2,571,8.6,True
-sdv-id-YLBmCt,43,Non-binary,40413.27,Associate,Engineer,Widowed,West,0,568,13.4,False
-sdv-id-WnZdmB,22,Female,33351.08,High School,Student,Widowed,East,2,574,12.0,False
-sdv-id-lfzHnb,44,Non-binary,70885.42,High School,Retired,Widowed,South,1,602,4.9,True
-sdv-id-JwIHkA,23,Male,78484.5,PhD,Retail Worker,Single,North,2,529,8.8,False
-sdv-id-MMmDto,80,Male,57357.66,Bachelor,Business Owner,Married,South,2,536,19.1,False
-sdv-id-aRAieN,38,Male,51672.17,Bachelor,Engineer,Divorced,North,0,642,5.5,True
-sdv-id-qWfcQe,23,Male,52232.82,High School,Engineer,Married,North,0,534,1.2,True
-sdv-id-tsgqGX,18,Female,66955.73,High School,Accountant,Married,North,0,484,2.6,False
-sdv-id-muVtCv,54,Male,62239.39,Bachelor,Accountant,Married,West,0,524,3.8,False
-sdv-id-UsLnSM,18,Female,74718.4,Bachelor,Accountant,Widowed,East,2,600,12.7,False
-sdv-id-CJRDGz,36,Female,25753.37,High School,Accountant,Widowed,Central,2,525,3.3,False
-sdv-id-gUflSl,22,Non-binary,207299.13,Master,Retired,Widowed,West,0,554,5.7,False
-sdv-id-rPdyDy,22,Male,26603.25,High School,Retired,Widowed,West,1,524,16.7,False
-sdv-id-WJnIel,20,Non-binary,126750.85,Associate,Retired,Widowed,Central,2,504,4.3,False
-sdv-id-kygOOJ,34,Non-binary,15000.0,PhD,Nurse,Divorced,North,0,575,3.9,False
-sdv-id-xsrmlV,27,Female,104410.27,High School,Teacher,Single,East,0,732,10.7,False
-sdv-id-kieYWu,35,Non-binary,84905.8,High School,Engineer,Widowed,South,2,543,0.1,True
-sdv-id-fXaYsb,37,Non-binary,110539.6,Associate,Nurse,Married,North,2,511,10.3,False
-sdv-id-HRXMxN,24,Female,41225.47,Bachelor,Retired,Married,West,1,535,0.5,True
-sdv-id-UeMuJO,50,Female,62414.82,Bachelor,Accountant,Widowed,Central,1,551,9.3,False
-sdv-id-tWzsWs,18,Male,25034.57,High School,Nurse,Widowed,Central,0,589,0.1,False
-sdv-id-fcMlQQ,20,Non-binary,15000.0,Bachelor,Retail Worker,Widowed,West,2,609,0.4,False
-sdv-id-RdRMKy,26,Non-binary,47348.64,High School,Retired,Widowed,West,0,531,0.8,False
-sdv-id-JZwfec,18,Non-binary,45738.47,Bachelor,Nurse,Widowed,Central,2,589,4.6,True
-sdv-id-mCNwTg,34,Male,66874.49,High School,Nurse,Married,West,1,542,15.4,True
-sdv-id-GJBhDB,25,Non-binary,218780.8,High School,Retired,Widowed,West,2,645,8.2,False
-sdv-id-PZwhLg,28,Male,34184.02,High School,Lawyer,Widowed,East,0,609,9.4,True
-sdv-id-aqvtTn,36,Non-binary,106538.59,High School,Doctor,Widowed,North,0,617,15.3,False
-sdv-id-bPQHtI,29,Non-binary,264736.12,High School,Student,Single,East,1,688,14.9,False
-sdv-id-GdWIHD,27,Non-binary,30272.9,High School,Retired,Widowed,East,1,612,9.0,False
-sdv-id-EKAAmH,21,Non-binary,40733.32,High School,Doctor,Widowed,North,0,556,0.8,False
-sdv-id-PHrdyM,39,Non-binary,57806.49,Bachelor,Retail Worker,Married,North,1,574,18.6,False
-sdv-id-FOpynq,21,Female,32862.73,High School,Lawyer,Widowed,North,2,596,6.7,False
-sdv-id-yQAZgx,75,Female,71776.05,High School,Retired,Widowed,East,2,492,13.6,True
-sdv-id-uPCnRX,22,Male,36354.06,High School,Manager,Divorced,Central,0,587,4.0,False
-sdv-id-FfhJzV,18,Female,113230.85,Master,Nurse,Widowed,Central,1,629,0.4,False
-sdv-id-NvswGT,24,Non-binary,67660.39,PhD,Doctor,Married,South,1,607,6.6,False
-sdv-id-OsTDFB,29,Non-binary,101990.32,High School,Nurse,Married,West,2,462,16.3,True
-sdv-id-dJsaPE,18,Non-binary,19186.78,High School,Accountant,Widowed,North,3,535,0.1,False
-sdv-id-WRLxEP,18,Non-binary,18898.27,Bachelor,Nurse,Widowed,North,0,618,0.6,True
-sdv-id-yoZxOp,47,Non-binary,88316.37,Bachelor,Retired,Married,South,2,462,16.3,True
-sdv-id-ljXnmH,28,Male,31873.56,High School,Engineer,Widowed,West,0,570,0.9,False
-sdv-id-LnfOzC,26,Non-binary,94646.47,High School,Student,Widowed,North,2,473,7.3,True
-sdv-id-vwIMhh,22,Non-binary,77918.56,High School,Accountant,Widowed,West,0,485,13.4,False
-sdv-id-nEDrDT,20,Non-binary,15000.0,Associate,Doctor,Widowed,South,2,553,0.3,True
-sdv-id-bvuJnv,32,Non-binary,111781.3,Bachelor,Lawyer,Widowed,North,2,545,12.3,True
-sdv-id-NCGWJD,18,Male,55162.11,Master,Student,Married,Central,1,617,1.9,True
-sdv-id-qXEIyn,32,Non-binary,108322.66,Bachelor,Doctor,Married,West,0,628,12.5,True
-sdv-id-ZGrYzn,25,Non-binary,83593.48,PhD,Teacher,Married,East,1,524,5.4,False
-sdv-id-PQeGLM,39,Male,67090.21,Bachelor,Nurse,Widowed,North,0,609,9.1,False
-sdv-id-XtpDSt,29,Male,62501.17,High School,Retired,Widowed,South,1,624,10.4,False
-sdv-id-BjkPXT,28,Male,26166.86,High School,Nurse,Married,North,0,505,6.4,False
-sdv-id-uCpzjY,22,Male,55614.44,Associate,Manager,Married,West,2,575,8.7,False
-sdv-id-NvitwZ,33,Female,48345.78,Bachelor,Teacher,Married,South,3,737,11.5,False
-sdv-id-iqRTSp,62,Non-binary,75910.92,High School,Retired,Widowed,North,1,535,11.3,True
-sdv-id-xZCveR,18,Male,60252.69,High School,Accountant,Married,North,1,547,12.8,False
-sdv-id-tHDvUe,41,Female,218993.27,High School,Engineer,Married,West,2,546,13.1,False
-sdv-id-jvAqXh,39,Male,33896.68,High School,Lawyer,Divorced,South,2,622,19.0,False
-sdv-id-YkNpdm,18,Non-binary,154635.8,Associate,Manager,Widowed,West,0,478,7.6,False
-sdv-id-xLPhOa,41,Non-binary,44988.51,Bachelor,Nurse,Single,North,0,508,11.3,False
-sdv-id-qPnwlX,27,Male,78386.81,PhD,Retired,Widowed,South,2,586,0.1,False
-sdv-id-InCJrp,32,Female,72959.59,Bachelor,Retired,Married,North,2,509,10.7,True
-sdv-id-zyjIPh,26,Non-binary,134434.54,High School,Retired,Widowed,West,1,709,7.9,True
-sdv-id-uFsIJi,40,Non-binary,58542.58,Bachelor,Doctor,Widowed,Central,2,462,13.8,True
-sdv-id-OSFcOz,18,Non-binary,170565.25,High School,Business Owner,Divorced,North,1,484,2.9,False
-sdv-id-TAcBKi,44,Non-binary,93691.1,High School,Retired,Divorced,North,1,492,19.7,False
-sdv-id-ydBBeH,39,Male,221172.21,PhD,Manager,Divorced,North,1,623,16.1,False
-sdv-id-UDNMRt,33,Female,71432.43,High School,Engineer,Widowed,Central,1,473,13.2,False
-sdv-id-PfGIYc,36,Non-binary,66882.0,High School,Accountant,Widowed,North,1,541,4.9,False
-sdv-id-dUzbHm,37,Non-binary,28803.05,High School,Lawyer,Widowed,West,2,541,5.9,True
-sdv-id-PgGFbE,28,Male,57692.69,Associate,Business Owner,Single,North,0,609,6.0,False
-sdv-id-GVDCYQ,23,Non-binary,70636.73,Bachelor,Retired,Widowed,Central,0,462,7.4,False
-sdv-id-RxeLGa,23,Non-binary,52291.84,High School,Retired,Married,East,5,474,10.4,False
-sdv-id-fTKsOe,67,Non-binary,108704.06,High School,Retired,Widowed,Central,2,518,15.0,False
-sdv-id-lOIlON,32,Female,69545.5,Bachelor,Nurse,Widowed,Central,0,696,3.2,True
-sdv-id-BiemDE,26,Male,114975.09,PhD,Retail Worker,Married,West,0,462,7.7,False
-sdv-id-aJeizK,35,Non-binary,19034.94,Associate,Nurse,Widowed,South,2,558,9.5,True
-sdv-id-NDkmAo,22,Non-binary,23875.46,Master,Engineer,Widowed,West,0,497,1.0,True
-sdv-id-JPsAyb,18,Non-binary,20670.36,High School,Lawyer,Divorced,West,3,501,0.6,False
-sdv-id-KDPbYh,23,Non-binary,69329.12,High School,Retired,Widowed,North,0,634,14.3,False
-sdv-id-pryByx,42,Male,15000.0,High School,Retail Worker,Widowed,East,2,601,8.7,False
-sdv-id-xKiWZx,25,Female,57084.9,High School,Retired,Single,South,2,491,6.5,False
-sdv-id-ZPzyYr,25,Male,26531.42,Associate,Engineer,Married,North,3,486,13.7,True
-sdv-id-evzIAQ,24,Non-binary,17554.65,Master,Business Owner,Widowed,East,2,462,15.8,True
-sdv-id-YsOLRk,48,Non-binary,46053.66,High School,Retired,Widowed,North,0,584,4.9,True
-sdv-id-AwvyPu,18,Non-binary,70438.14,Associate,Retired,Widowed,East,0,650,9.2,True
-sdv-id-BOOUBE,18,Female,15524.03,Bachelor,Teacher,Widowed,South,1,511,3.6,False
-sdv-id-XqvBfG,35,Male,116025.7,Bachelor,Retired,Widowed,North,0,749,4.8,True
-sdv-id-dIUqDg,33,Non-binary,81796.04,Associate,Retired,Widowed,North,1,584,4.0,False
-sdv-id-jmVhKa,50,Female,40126.63,Associate,Doctor,Widowed,South,0,578,14.2,False
-sdv-id-SyNwBK,39,Non-binary,91561.29,Bachelor,Retired,Married,West,0,588,3.2,False
-sdv-id-YXSaJL,18,Non-binary,15000.0,High School,Business Owner,Married,North,1,462,4.7,True
-sdv-id-ceghvo,24,Non-binary,72651.09,High School,Retired,Widowed,Central,2,541,12.8,False
-sdv-id-VkliRU,26,Non-binary,48689.26,High School,Engineer,Widowed,Central,0,742,16.7,True
-sdv-id-KFuuBK,24,Male,50296.39,Associate,Retired,Widowed,North,1,620,17.1,False
-sdv-id-gRGSrF,18,Male,165460.26,Bachelor,Retired,Widowed,North,2,717,4.2,True
-sdv-id-KtCxYW,25,Non-binary,51780.38,High School,Doctor,Married,North,2,623,10.5,True
-sdv-id-XYlzIR,22,Non-binary,264736.12,Bachelor,Nurse,Widowed,North,1,712,12.9,False
-sdv-id-gQMFnj,20,Non-binary,43248.51,PhD,Engineer,Widowed,West,2,510,14.2,True
-sdv-id-JgELjg,34,Female,88221.69,Master,Retired,Widowed,West,0,462,7.6,True
-sdv-id-wqHsMI,29,Non-binary,73310.05,High School,Nurse,Widowed,East,0,523,12.3,False
-sdv-id-Xzehed,29,Non-binary,43057.68,Bachelor,Retired,Married,East,1,595,17.1,False
-sdv-id-AHsrHE,18,Non-binary,89537.89,High School,Nurse,Widowed,Central,0,604,3.0,False
-sdv-id-BXENem,20,Non-binary,71651.16,High School,Accountant,Married,North,0,475,12.1,True
-sdv-id-HkWYWb,36,Female,83608.05,High School,Nurse,Divorced,West,1,616,8.9,False
-sdv-id-spAviw,42,Non-binary,205904.13,Associate,Retired,Married,West,0,650,18.8,False
-sdv-id-ZmFKKV,25,Female,114598.56,High School,Accountant,Widowed,Central,2,685,15.8,True
-sdv-id-LnEWvV,54,Non-binary,59344.23,Associate,Accountant,Widowed,East,0,489,19.9,True
-sdv-id-vnoOqk,31,Non-binary,48975.89,PhD,Manager,Married,North,0,531,9.7,True
-sdv-id-MLEJjN,35,Non-binary,52901.8,Associate,Retired,Widowed,Central,1,534,11.5,True
-sdv-id-QfuSOf,24,Non-binary,88050.85,High School,Retired,Widowed,West,1,544,4.1,False
-sdv-id-UbPEDK,18,Non-binary,53243.8,High School,Student,Married,West,2,566,0.1,False
-sdv-id-hJEKnw,18,Female,214269.88,High School,Retired,Widowed,North,2,599,2.9,True
-sdv-id-kxlcjZ,23,Female,15000.0,High School,Engineer,Widowed,North,0,548,16.5,True
-sdv-id-DCsLAh,25,Male,49228.49,Bachelor,Doctor,Divorced,Central,1,495,6.4,True
-sdv-id-ogBakp,44,Non-binary,79417.75,Bachelor,Engineer,Widowed,East,0,503,6.5,True
-sdv-id-dNFCEm,80,Non-binary,84722.69,Bachelor,Retired,Married,Central,2,604,14.4,True
-sdv-id-EpbzsA,18,Non-binary,75197.08,Associate,Retired,Married,West,3,501,5.6,False
-sdv-id-afqOvg,18,Non-binary,106540.67,High School,Retired,Married,East,2,671,0.1,False
-sdv-id-ohvGMa,22,Non-binary,71350.18,PhD,Lawyer,Widowed,North,0,536,6.8,False
-sdv-id-inFxya,35,Non-binary,25243.42,PhD,Lawyer,Widowed,South,1,578,15.8,False
-sdv-id-jvppjQ,18,Non-binary,83131.5,High School,Business Owner,Widowed,West,2,514,0.1,False
-sdv-id-oLqZGV,22,Male,112641.71,Master,Accountant,Widowed,Central,0,476,5.6,True
-sdv-id-mWzWtW,18,Non-binary,19118.7,Bachelor,Retired,Widowed,East,0,462,0.1,False
-sdv-id-iDRLzt,24,Male,92675.84,High School,Lawyer,Married,East,0,652,10.4,False
-sdv-id-pWfgYb,18,Non-binary,103152.16,High School,Teacher,Married,Central,0,558,0.2,False
-sdv-id-bzCVpo,18,Female,56823.31,Associate,Lawyer,Married,Central,0,478,7.4,True
-sdv-id-MbgaZO,33,Non-binary,46716.49,Master,Business Owner,Widowed,West,0,594,16.0,False
-sdv-id-lfdahk,39,Female,71998.02,Bachelor,Teacher,Divorced,West,2,675,12.3,False
-sdv-id-FvOlZO,24,Female,104102.39,Master,Nurse,Widowed,East,3,534,0.1,True
-sdv-id-jKvkFd,42,Male,53278.67,Master,Retired,Widowed,North,2,581,9.4,False
-sdv-id-HPOVld,31,Non-binary,90910.86,Master,Retired,Widowed,West,2,558,2.0,False
-sdv-id-ZRCNOa,20,Non-binary,51592.76,Master,Retail Worker,Widowed,Central,0,619,14.5,False
-sdv-id-njbJaj,31,Male,177034.37,Bachelor,Retired,Widowed,North,0,477,11.6,True
-sdv-id-gFVgRI,37,Male,124134.07,High School,Manager,Divorced,South,0,516,14.6,False
-sdv-id-xOuYZQ,30,Non-binary,75992.7,High School,Doctor,Widowed,North,0,478,12.1,False
-sdv-id-ptJjde,18,Non-binary,121747.96,High School,Accountant,Widowed,North,0,665,0.1,False
-sdv-id-AZWVHq,41,Non-binary,79004.71,High School,Engineer,Divorced,Central,1,492,19.9,False
-sdv-id-YoRXyS,19,Male,107456.26,Bachelor,Lawyer,Married,East,2,580,0.5,True
-sdv-id-UNlqBR,18,Non-binary,161284.67,Bachelor,Teacher,Widowed,North,1,662,5.6,True
-sdv-id-wpsOSd,40,Non-binary,15000.0,High School,Student,Divorced,West,0,478,14.6,False
-sdv-id-aAhUEv,29,Male,132875.22,High School,Retired,Widowed,East,2,501,19.8,True
-sdv-id-xqpwNu,24,Male,82868.54,Associate,Nurse,Single,South,0,507,16.9,False
-sdv-id-jzPOGl,57,Non-binary,15000.0,High School,Engineer,Widowed,South,2,542,19.9,True
-sdv-id-GHUHvF,65,Non-binary,41244.93,Associate,Accountant,Married,North,1,681,5.5,True
-sdv-id-WJDbEC,58,Non-binary,45823.83,Associate,Nurse,Married,North,1,489,18.2,True
-sdv-id-WgRWib,34,Female,49025.47,Bachelor,Retired,Single,West,2,515,17.8,False
-sdv-id-bSXnQg,18,Female,44885.27,High School,Accountant,Widowed,Central,2,669,1.1,True
-sdv-id-coHeMm,30,Non-binary,15000.0,High School,Teacher,Married,South,0,462,14.3,False
-sdv-id-IcLrJY,28,Male,42004.41,High School,Retired,Single,North,1,521,11.1,True
-sdv-id-WdSsqI,28,Female,40802.76,High School,Engineer,Married,West,0,559,3.0,True
-sdv-id-eoKCbJ,32,Non-binary,87633.39,Bachelor,Nurse,Widowed,West,1,518,6.3,False
-sdv-id-lvCCVC,18,Female,82569.73,Bachelor,Retired,Widowed,South,2,636,1.0,False
-sdv-id-NDgTar,18,Male,41854.57,Bachelor,Lawyer,Single,North,0,626,1.8,True
-sdv-id-yePtXJ,45,Non-binary,73246.44,High School,Accountant,Widowed,West,0,497,10.0,False
-sdv-id-cCQCEK,44,Non-binary,50420.05,High School,Retired,Widowed,North,0,500,14.4,True
-sdv-id-VLtjdd,39,Non-binary,57518.41,High School,Engineer,Widowed,West,1,515,4.0,False
-sdv-id-mijDHW,18,Non-binary,28515.08,High School,Business Owner,Married,South,2,585,2.7,True
-sdv-id-hnylHz,34,Female,31540.32,Master,Retired,Widowed,North,2,564,14.6,False
-sdv-id-guAZoe,22,Non-binary,60018.5,Bachelor,Retired,Widowed,Central,2,802,0.1,True
-sdv-id-OFpkdm,60,Non-binary,30334.14,Bachelor,Student,Widowed,North,1,537,13.9,False
-sdv-id-yTKiSR,24,Non-binary,103542.55,Bachelor,Student,Married,North,1,505,18.2,False
-sdv-id-KhvMKb,46,Non-binary,67215.03,Bachelor,Retired,Widowed,North,2,655,19.4,True
+sdv-id-FwpFay,59,Male,15000.0,Bachelor,Accountant,Single,Central,0,461,7.7,False
+sdv-id-vthVpX,59,Male,99181.17,PhD,Doctor,Married,South,0,543,7.9,False
+sdv-id-XnlgaZ,55,Non-binary,15000.0,Master,Nurse,Single,South,2,589,16.7,True
+sdv-id-mLbuan,80,Male,75867.06,Bachelor,Business Owner,Married,South,2,498,9.5,False
+sdv-id-jWWKIV,80,Female,15000.0,High School,Retail Worker,Single,South,1,626,17.6,False
+sdv-id-QoLaRM,36,Female,15000.0,Master,Business Owner,Single,South,1,521,9.0,True
+sdv-id-iIZxOY,55,Female,15000.0,Bachelor,Manager,Single,South,0,495,12.1,False
+sdv-id-GbyukC,63,Non-binary,73057.31,Bachelor,Manager,Single,South,1,678,2.5,False
+sdv-id-FChuMs,61,Female,15000.0,Bachelor,Engineer,Single,West,0,509,5.5,False
+sdv-id-otyTTI,80,Non-binary,90514.42,PhD,Accountant,Married,South,0,590,13.2,True
+sdv-id-REeyrv,47,Female,43936.19,Bachelor,Doctor,Single,South,1,496,11.3,False
+sdv-id-BKGJmG,80,Non-binary,62149.09,Bachelor,Business Owner,Married,Central,2,529,19.9,False
+sdv-id-Fhveac,74,Female,15000.0,PhD,Teacher,Single,West,0,633,10.5,False
+sdv-id-PIchIV,65,Female,15000.0,Associate,Nurse,Single,East,2,472,5.8,False
+sdv-id-nbtaME,57,Male,108852.56,Bachelor,Retired,Married,Central,3,684,4.8,False
+sdv-id-iJgMWZ,45,Non-binary,64382.62,Bachelor,Business Owner,Single,South,2,632,14.2,False
+sdv-id-mvlnhQ,61,Non-binary,15000.0,Master,Lawyer,Single,West,1,468,11.6,False
+sdv-id-vIzFWL,80,Male,23388.54,Bachelor,Retired,Single,Central,0,561,3.5,True
+sdv-id-aYfPFf,61,Female,15000.0,Master,Accountant,Single,South,0,505,19.3,True
+sdv-id-DjXAFi,80,Male,46510.16,High School,Retired,Single,South,0,515,15.9,False
+sdv-id-HHyeJq,80,Male,15000.0,Bachelor,Manager,Single,Central,2,461,18.6,False
+sdv-id-vgZlGh,80,Non-binary,91035.9,Bachelor,Teacher,Married,South,0,557,13.6,True
+sdv-id-ZhZKee,48,Male,15000.0,Bachelor,Nurse,Single,South,2,504,9.3,False
+sdv-id-tWBpjH,75,Female,73417.41,Master,Business Owner,Single,South,2,738,9.8,False
+sdv-id-PFqeat,80,Non-binary,15000.0,PhD,Retail Worker,Single,South,0,528,15.1,False
+sdv-id-SSpJBj,63,Female,126839.53,Master,Retail Worker,Single,East,0,657,8.5,False
+sdv-id-DNRKBY,55,Non-binary,109259.17,High School,Nurse,Single,North,1,492,10.7,False
+sdv-id-InmFNO,41,Female,15000.0,Master,Nurse,Single,Central,1,586,0.4,False
+sdv-id-rBHjHP,80,Male,109944.84,PhD,Engineer,Single,North,1,493,19.9,False
+sdv-id-bLhNYB,80,Non-binary,15000.0,PhD,Teacher,Single,Central,1,639,16.2,True
+sdv-id-dbtMmE,18,Male,15000.0,Bachelor,Manager,Single,South,2,521,7.9,False
+sdv-id-OjCmpd,28,Non-binary,179029.65,PhD,Business Owner,Married,South,2,617,6.1,False
+sdv-id-ZMgEQb,56,Male,133536.99,Bachelor,Student,Single,North,2,613,9.2,False
+sdv-id-vMjXsB,80,Male,82659.04,PhD,Engineer,Widowed,Central,0,594,17.4,False
+sdv-id-cTQiLK,74,Female,20869.37,Bachelor,Accountant,Single,West,0,561,17.3,False
+sdv-id-tSGcIm,80,Female,37802.55,Master,Student,Single,West,0,681,3.9,False
+sdv-id-TFdgHt,68,Female,15000.0,Associate,Engineer,Married,East,0,571,13.9,False
+sdv-id-raGkgW,30,Female,48619.53,Master,Business Owner,Married,East,1,524,7.3,False
+sdv-id-xYznOJ,57,Non-binary,27909.71,PhD,Teacher,Single,South,6,667,19.9,False
+sdv-id-JqOJJh,64,Male,40523.2,Associate,Engineer,Married,West,0,509,17.3,False
+sdv-id-dcXrxF,43,Female,212555.88,Bachelor,Teacher,Divorced,East,1,617,4.9,False
+sdv-id-FFWYyV,33,Non-binary,15000.0,PhD,Business Owner,Single,North,1,494,15.4,True
+sdv-id-NkuBeg,46,Non-binary,41709.53,Bachelor,Retired,Single,West,2,532,14.8,False
+sdv-id-VEfaTd,79,Non-binary,15000.0,High School,Lawyer,Single,South,1,492,5.0,False
+sdv-id-WYfWTu,74,Non-binary,73207.5,Bachelor,Doctor,Married,West,0,615,6.1,False
+sdv-id-ywBVKB,80,Female,15000.0,PhD,Doctor,Single,East,0,528,3.7,False
+sdv-id-nvAGem,35,Female,230166.34,PhD,Business Owner,Single,South,0,515,2.0,False
+sdv-id-hVsbaT,30,Non-binary,15000.0,PhD,Retired,Single,South,1,662,3.9,False
+sdv-id-imIXTS,57,Female,99383.94,PhD,Business Owner,Single,North,2,663,6.2,True
+sdv-id-ezADuu,80,Non-binary,67537.96,Bachelor,Retail Worker,Married,East,0,483,13.1,False
+sdv-id-uPYWeG,80,Female,15000.0,High School,Teacher,Married,Central,1,714,18.6,False
+sdv-id-DJpSsV,26,Male,29724.0,Bachelor,Lawyer,Single,South,1,461,0.8,False
+sdv-id-TCParK,28,Female,15000.0,Master,Nurse,Single,South,0,461,0.1,False
+sdv-id-WvkigN,34,Non-binary,96034.18,PhD,Engineer,Single,South,0,526,15.1,False
+sdv-id-GLBiQd,75,Female,61226.32,Bachelor,Retail Worker,Single,South,1,771,2.8,False
+sdv-id-ujmLTC,73,Male,45919.99,Bachelor,Engineer,Single,West,1,509,15.0,False
+sdv-id-rfWeZd,30,Male,15000.0,PhD,Engineer,Single,South,1,461,5.9,False
+sdv-id-BUWTPn,60,Male,183449.16,Bachelor,Engineer,Single,West,2,662,3.8,False
+sdv-id-UlUuwk,76,Non-binary,64581.44,PhD,Teacher,Single,South,0,701,5.0,False
+sdv-id-xRVnIm,67,Female,59088.5,Bachelor,Engineer,Single,West,0,461,9.2,True
+sdv-id-HuZORX,25,Non-binary,105409.07,PhD,Student,Married,South,1,481,4.8,False
+sdv-id-OBLEPS,80,Female,24571.97,Bachelor,Business Owner,Single,West,1,529,13.1,False
+sdv-id-UcOoUC,51,Male,89889.29,Bachelor,Teacher,Married,South,0,640,9.2,False
+sdv-id-mOoVGi,78,Female,15000.0,PhD,Teacher,Single,Central,4,555,10.6,False
+sdv-id-QeMIAb,51,Female,15000.0,High School,Business Owner,Single,West,0,461,13.9,False
+sdv-id-FFCxMP,75,Non-binary,51954.79,Master,Doctor,Single,South,2,753,19.0,False
+sdv-id-BLgeVa,76,Non-binary,15000.0,Associate,Student,Single,North,3,585,5.6,False
+sdv-id-VThUoY,35,Non-binary,64054.17,Bachelor,Retired,Single,West,1,547,5.4,False
+sdv-id-HyzjjY,73,Non-binary,40762.28,High School,Student,Single,East,6,610,1.1,False
+sdv-id-IuYsYA,47,Non-binary,21315.5,Master,Nurse,Single,West,0,599,16.7,False
+sdv-id-QDhofU,80,Non-binary,16350.93,Associate,Student,Married,East,1,581,16.2,False
+sdv-id-uXywtg,52,Female,57783.68,Bachelor,Engineer,Single,Central,0,733,8.2,False
+sdv-id-MBDlQW,28,Female,15207.72,Bachelor,Student,Widowed,South,0,611,0.1,False
+sdv-id-sQdHyP,64,Female,26319.96,Bachelor,Business Owner,Single,West,0,643,15.2,False
+sdv-id-hwVPLd,18,Female,29862.76,Bachelor,Student,Married,North,1,507,8.2,True
+sdv-id-TFkoFv,54,Non-binary,53470.49,Bachelor,Nurse,Married,Central,1,655,14.9,False
+sdv-id-GhfdNt,80,Male,102461.15,Bachelor,Retail Worker,Married,East,1,605,15.6,False
+sdv-id-WoiStL,68,Female,80263.62,High School,Nurse,Single,West,0,646,17.0,False
+sdv-id-YTlLzt,80,Non-binary,15000.0,Bachelor,Engineer,Married,West,1,583,9.9,False
+sdv-id-fdsodw,80,Non-binary,42232.34,PhD,Business Owner,Single,North,3,536,12.7,False
+sdv-id-YFofAx,80,Female,15000.0,Bachelor,Retired,Divorced,North,1,515,14.1,False
+sdv-id-ZfhMxm,74,Female,36943.46,Master,Doctor,Single,North,1,502,13.8,True
+sdv-id-QHCVen,80,Female,146062.54,Bachelor,Accountant,Single,Central,1,529,14.6,False
+sdv-id-opisqP,61,Female,100843.78,Bachelor,Lawyer,Widowed,North,1,513,14.6,False
+sdv-id-YouaAn,80,Male,45679.08,High School,Business Owner,Married,South,0,542,7.8,True
+sdv-id-UoKFVb,26,Male,49507.86,Bachelor,Manager,Single,West,1,491,11.4,False
+sdv-id-HcXjCA,67,Female,67876.4,High School,Retail Worker,Single,West,0,536,3.5,False
+sdv-id-BcomRN,80,Female,168021.73,PhD,Business Owner,Single,Central,2,470,11.7,False
+sdv-id-snHGMA,80,Female,15000.0,PhD,Teacher,Single,South,3,620,8.5,False
+sdv-id-kcqqzq,18,Non-binary,139178.26,PhD,Retired,Single,South,2,667,2.9,False
+sdv-id-PNlwFV,62,Female,21984.97,Master,Retail Worker,Married,South,1,502,1.5,True
+sdv-id-BQHsek,80,Female,37241.09,Bachelor,Student,Married,West,2,506,15.1,False
+sdv-id-PBmxUt,52,Female,160075.83,Bachelor,Lawyer,Single,West,0,542,7.4,False
+sdv-id-RMOWEv,51,Non-binary,261688.35,Bachelor,Doctor,Married,South,4,768,14.9,False
+sdv-id-rsWNXL,80,Male,23952.57,Bachelor,Manager,Single,East,1,606,19.9,False
+sdv-id-BgGacp,50,Male,48687.5,Bachelor,Business Owner,Widowed,East,0,463,7.5,False
+sdv-id-zeoZfW,78,Male,111817.19,High School,Engineer,Single,South,0,677,12.4,False
+sdv-id-YhmgXo,67,Male,24588.0,Bachelor,Business Owner,Married,North,2,481,10.5,False
+sdv-id-SZFAfv,59,Female,70009.74,Bachelor,Teacher,Married,South,1,517,2.4,False
+sdv-id-PciXNl,77,Non-binary,42921.5,Bachelor,Retail Worker,Single,South,0,653,16.2,True
+sdv-id-lEgWTQ,80,Non-binary,35103.61,PhD,Manager,Married,East,0,634,16.0,False
+sdv-id-QyBHyV,80,Non-binary,15000.0,Bachelor,Engineer,Married,Central,5,592,18.3,False
+sdv-id-JFAiqn,35,Male,153594.48,Associate,Engineer,Single,East,0,683,16.1,False
+sdv-id-YCkZLK,80,Female,89420.26,Bachelor,Doctor,Single,West,2,646,4.1,False
+sdv-id-AmdpMX,70,Non-binary,37333.06,Master,Engineer,Single,East,4,543,16.1,False
+sdv-id-gmMaHB,78,Non-binary,43849.75,High School,Business Owner,Married,West,0,521,2.3,False
+sdv-id-PKWqVl,29,Non-binary,15000.0,Bachelor,Nurse,Single,Central,1,504,11.5,False
+sdv-id-JiqIUE,66,Male,15000.0,Bachelor,Student,Married,South,1,542,13.7,False
+sdv-id-FgYHgl,80,Female,92934.03,Bachelor,Lawyer,Single,South,0,535,17.9,False
+sdv-id-bywUFh,80,Female,43033.89,Associate,Teacher,Single,South,1,552,17.1,False
+sdv-id-WIwWZt,50,Female,24080.92,High School,Teacher,Single,Central,1,590,6.7,False
+sdv-id-oAvOjg,54,Female,15000.0,Bachelor,Business Owner,Single,West,2,565,12.4,False
+sdv-id-rPJxBQ,75,Non-binary,15000.0,Bachelor,Lawyer,Married,West,0,688,13.9,False
+sdv-id-wGMjrz,80,Male,15000.0,Master,Accountant,Single,Central,2,633,10.8,False
+sdv-id-tekdDe,80,Male,227936.94,Bachelor,Nurse,Single,North,0,775,16.4,False
+sdv-id-tHEbbR,80,Non-binary,52142.55,Bachelor,Teacher,Married,West,0,599,17.7,False
+sdv-id-AFxMMQ,36,Female,98909.46,Master,Lawyer,Married,North,6,541,8.4,False
+sdv-id-vQmmSN,80,Non-binary,23341.71,Master,Manager,Single,North,2,688,19.8,False
+sdv-id-SnVKys,80,Female,21983.15,Bachelor,Manager,Single,West,0,596,4.0,False
+sdv-id-RgfPHw,80,Male,89001.48,Bachelor,Business Owner,Married,South,1,723,7.8,True
+sdv-id-dmUhdn,55,Female,15000.0,Bachelor,Business Owner,Single,Central,2,525,14.3,False
+sdv-id-UyDfPP,80,Female,15000.0,High School,Business Owner,Single,North,0,512,8.5,True
+sdv-id-gqekPz,74,Non-binary,40612.74,Master,Manager,Single,South,2,611,16.4,False
+sdv-id-gGSJMf,36,Female,15000.0,PhD,Business Owner,Single,South,2,518,14.1,False
+sdv-id-KEcMtq,80,Female,27866.86,Bachelor,Engineer,Single,South,0,502,6.9,False
+sdv-id-cdOxVD,80,Female,85124.9,PhD,Engineer,Married,West,1,623,13.7,False
+sdv-id-zMflYz,18,Male,18788.55,PhD,Lawyer,Single,South,1,541,3.2,False
+sdv-id-vfWqLL,80,Male,34598.85,Bachelor,Nurse,Single,South,2,530,15.1,False
+sdv-id-KWbpPf,43,Female,15000.0,Bachelor,Lawyer,Single,West,2,512,7.7,True
+sdv-id-ASlhhI,75,Male,51047.86,Bachelor,Business Owner,Single,South,2,550,17.9,False
+sdv-id-UgAgmj,65,Female,15000.0,Bachelor,Business Owner,Single,South,1,461,10.4,False
+sdv-id-affIHl,80,Male,39970.45,High School,Student,Widowed,Central,2,708,17.6,False
+sdv-id-VPTxAa,55,Male,15000.0,Bachelor,Business Owner,Single,South,0,536,4.5,False
+sdv-id-mjKsHE,58,Non-binary,15000.0,PhD,Accountant,Single,South,0,481,8.0,True
+sdv-id-yWyPES,80,Female,15000.0,Bachelor,Business Owner,Single,North,2,497,19.9,False
+sdv-id-xFQxpK,37,Male,15000.0,High School,Accountant,Married,Central,2,495,5.5,False
+sdv-id-zYeYkm,69,Female,79226.82,Bachelor,Nurse,Single,East,0,645,13.4,False
+sdv-id-ZdkBQC,80,Female,197842.55,Master,Student,Married,South,0,461,8.7,False
+sdv-id-mbZImP,77,Female,57954.85,Master,Nurse,Divorced,East,2,462,8.9,False
+sdv-id-BFFcNF,80,Female,77285.63,PhD,Teacher,Single,South,2,564,19.9,False
+sdv-id-BbUDAM,46,Non-binary,70208.09,Master,Teacher,Married,South,2,492,7.5,False
+sdv-id-hbqVpb,74,Non-binary,19681.93,PhD,Engineer,Married,West,0,665,14.5,False
+sdv-id-wpmZEv,70,Non-binary,65091.35,PhD,Student,Married,West,2,539,1.0,False
+sdv-id-iHlUzM,46,Non-binary,24633.83,Bachelor,Retired,Married,South,1,495,4.0,True
+sdv-id-LuSUbR,68,Male,52857.65,Associate,Accountant,Married,East,1,635,15.9,False
+sdv-id-LrkjoW,80,Non-binary,97995.24,PhD,Accountant,Single,South,2,595,11.0,True
+sdv-id-NnWqDX,67,Non-binary,47407.57,Master,Engineer,Single,Central,0,608,10.8,False
+sdv-id-dGbGru,59,Female,72967.05,Bachelor,Engineer,Single,South,0,520,6.4,True
+sdv-id-frQKZK,80,Male,117952.91,Bachelor,Manager,Single,South,0,617,18.1,False
+sdv-id-xYxONd,41,Female,134397.82,PhD,Retail Worker,Married,West,2,527,5.6,False
+sdv-id-rLDiAK,80,Female,86079.75,Bachelor,Teacher,Married,South,1,481,15.7,False
+sdv-id-rNtPao,46,Non-binary,159709.49,Associate,Engineer,Single,West,1,592,18.3,False
+sdv-id-vqpLmL,54,Non-binary,30553.92,Bachelor,Accountant,Single,South,2,527,5.4,False
+sdv-id-nkwCri,59,Male,21486.67,Associate,Business Owner,Single,South,2,533,16.3,False
+sdv-id-Icqfug,71,Non-binary,53715.49,Master,Manager,Single,North,2,708,4.5,False
+sdv-id-YCtURf,65,Male,81754.76,PhD,Accountant,Single,South,2,640,5.6,False
+sdv-id-ZYCgPp,26,Female,39674.49,PhD,Doctor,Married,West,2,716,9.3,False
+sdv-id-xuzyQK,80,Non-binary,20133.06,PhD,Retail Worker,Married,South,2,522,19.9,False
+sdv-id-qUHXJZ,80,Female,90790.23,Bachelor,Teacher,Married,South,1,574,19.9,False
+sdv-id-QbzWaq,79,Male,96981.88,PhD,Lawyer,Single,South,1,675,6.2,False
+sdv-id-mWsjTa,63,Female,83985.7,Associate,Engineer,Single,North,0,461,11.1,False
+sdv-id-uZBIOh,80,Female,38395.24,Bachelor,Business Owner,Married,East,0,540,18.3,False
+sdv-id-MJZgaF,80,Male,45193.15,PhD,Retail Worker,Single,North,1,703,2.2,True
+sdv-id-eZgklC,50,Non-binary,15000.0,Master,Engineer,Single,North,1,812,19.5,False
+sdv-id-OBIdvh,80,Non-binary,15507.63,PhD,Business Owner,Single,North,2,611,19.9,False
+sdv-id-UfYroM,80,Non-binary,15000.0,Master,Engineer,Single,Central,0,507,11.2,False
+sdv-id-VCvUuL,80,Female,15000.0,PhD,Accountant,Single,South,2,575,12.2,False
+sdv-id-onCHWY,52,Female,38191.34,Master,Business Owner,Married,South,0,669,6.9,True
+sdv-id-muxPGl,73,Male,39974.92,Associate,Teacher,Married,South,2,502,6.6,False
+sdv-id-DFThqL,80,Non-binary,25083.78,PhD,Nurse,Married,South,0,517,18.8,False
+sdv-id-cpqcEk,70,Male,104145.18,Bachelor,Teacher,Divorced,West,0,596,18.5,False
+sdv-id-wpDSmp,45,Male,25847.31,Bachelor,Doctor,Single,West,1,525,18.3,False
+sdv-id-AGbGDr,44,Female,15000.0,Bachelor,Engineer,Married,Central,2,551,4.3,False
+sdv-id-HxeJHv,80,Female,15000.0,Master,Accountant,Widowed,North,1,556,17.3,False
+sdv-id-gyRKou,37,Non-binary,28017.53,Associate,Manager,Married,East,0,542,18.9,False
+sdv-id-KDRirX,80,Female,15206.05,High School,Accountant,Married,South,1,473,9.9,False
+sdv-id-nwbQgE,67,Non-binary,214524.71,Bachelor,Lawyer,Married,West,1,501,19.9,False
+sdv-id-pQQDSb,80,Male,55105.16,PhD,Manager,Single,West,2,650,3.0,True
+sdv-id-PTZiKB,54,Male,41941.97,PhD,Accountant,Married,North,2,719,9.9,True
+sdv-id-qxxjAV,59,Female,32932.06,PhD,Business Owner,Married,South,1,616,10.2,True
+sdv-id-dNrwqQ,75,Female,98473.77,Bachelor,Nurse,Single,North,1,577,18.4,False
+sdv-id-TSoksd,73,Non-binary,15000.0,High School,Business Owner,Single,East,2,513,15.1,False
+sdv-id-OAGaNj,54,Male,172299.0,PhD,Business Owner,Divorced,Central,0,542,1.7,True
+sdv-id-wTvOIk,57,Female,38930.06,Bachelor,Engineer,Married,South,2,709,5.7,False
+sdv-id-oDDAYb,52,Non-binary,15000.0,Associate,Business Owner,Married,Central,0,481,4.1,False
+sdv-id-LIisTY,72,Non-binary,25648.84,PhD,Lawyer,Married,West,2,589,12.6,False
+sdv-id-nNYhjY,18,Non-binary,155029.76,Master,Student,Married,South,0,525,9.3,False
+sdv-id-OMtdXj,37,Non-binary,54257.67,Bachelor,Business Owner,Married,South,0,523,15.6,False
+sdv-id-eUriVf,49,Male,79783.51,Bachelor,Nurse,Single,Central,1,559,3.0,False
+sdv-id-YVuLbv,80,Non-binary,15000.0,Master,Doctor,Single,North,2,596,7.0,False
+sdv-id-wKUlPp,18,Female,29804.84,High School,Accountant,Married,North,1,475,8.9,False
+sdv-id-wXPHEV,46,Male,45500.24,PhD,Accountant,Married,South,0,519,7.3,False
+sdv-id-CSFvSS,44,Non-binary,15000.0,PhD,Accountant,Divorced,West,0,528,5.0,True
+sdv-id-vfwldp,64,Non-binary,83094.53,Bachelor,Teacher,Married,North,1,589,14.0,True
+sdv-id-WcMyRP,18,Female,116124.3,Associate,Nurse,Single,South,2,527,7.8,True
+sdv-id-MbJWrD,76,Female,90233.27,Master,Retail Worker,Single,North,2,619,11.3,True
+sdv-id-hIWnAS,80,Non-binary,38851.28,PhD,Nurse,Married,South,1,605,7.0,True
+sdv-id-lwVQqo,20,Female,88011.93,Master,Teacher,Divorced,Central,2,467,12.5,False
+sdv-id-aNPfQh,67,Female,21867.19,PhD,Doctor,Single,South,2,470,11.8,False
+sdv-id-nriiam,44,Male,15000.0,PhD,Teacher,Married,West,1,629,13.5,False
+sdv-id-NcLaJH,80,Male,118608.64,PhD,Manager,Married,West,2,564,5.1,False
+sdv-id-AZvEmU,80,Male,33194.23,Master,Engineer,Married,South,1,486,19.9,False
+sdv-id-FWLjEQ,57,Male,15000.0,Master,Business Owner,Single,South,2,461,7.8,False
+sdv-id-mEJgNM,68,Male,28475.36,PhD,Teacher,Married,South,2,677,11.4,False
+sdv-id-pIGdpw,56,Female,23425.65,Associate,Accountant,Single,North,2,493,13.0,False
+sdv-id-gygGBd,80,Female,149557.96,PhD,Doctor,Single,West,0,593,14.2,False
+sdv-id-BNofMJ,51,Male,16123.59,Bachelor,Engineer,Single,North,5,524,15.7,False
+sdv-id-zLPCAe,80,Female,55676.19,Bachelor,Manager,Single,South,0,513,11.0,True
+sdv-id-tGSkfM,53,Male,15000.0,Bachelor,Teacher,Widowed,Central,2,526,15.5,False
+sdv-id-RuGAkF,47,Non-binary,219945.79,Bachelor,Student,Married,West,1,689,0.9,False
+sdv-id-cvsmvH,32,Female,15000.0,Bachelor,Business Owner,Single,Central,0,656,12.4,False
+sdv-id-MOqxLe,71,Non-binary,15000.0,Bachelor,Student,Single,South,2,490,16.2,False
+sdv-id-XATCBo,80,Non-binary,26649.28,Master,Nurse,Single,North,2,523,13.5,False
+sdv-id-rFsxyu,47,Non-binary,15000.0,Bachelor,Nurse,Single,South,0,525,4.5,False
+sdv-id-YxmnQl,65,Non-binary,89500.54,Master,Accountant,Single,South,2,585,17.2,False
+sdv-id-FSBofJ,80,Male,15000.0,Bachelor,Manager,Single,West,1,499,19.4,False
+sdv-id-mlBDUz,18,Male,44082.39,High School,Accountant,Single,West,1,521,2.9,False
+sdv-id-MrsQzS,80,Female,26316.31,PhD,Business Owner,Married,South,1,601,8.4,False
+sdv-id-zIPShp,66,Female,55850.65,Master,Manager,Married,South,1,615,12.8,False
+sdv-id-sCrHGW,73,Non-binary,15000.0,Bachelor,Engineer,Married,South,2,617,4.1,False
+sdv-id-EEwgDC,22,Male,15000.0,High School,Business Owner,Married,Central,0,623,9.7,False
+sdv-id-tHLgfW,80,Female,41146.8,Bachelor,Business Owner,Single,South,0,613,9.1,False
+sdv-id-vHBeSb,43,Male,15000.0,Bachelor,Nurse,Single,South,0,572,4.7,False
+sdv-id-XSvadP,18,Male,94205.18,Bachelor,Business Owner,Single,East,1,655,9.3,False
+sdv-id-syXfyG,75,Male,45769.33,Associate,Engineer,Married,South,1,676,19.8,False
+sdv-id-LTpVrG,36,Male,23956.8,Master,Student,Married,South,1,612,3.3,False
+sdv-id-tUYtUF,73,Female,30161.53,Master,Accountant,Single,South,1,461,4.9,False
+sdv-id-UoGlfb,67,Female,16316.63,Associate,Doctor,Married,Central,2,552,11.2,False
+sdv-id-umYCaj,70,Male,121712.02,PhD,Student,Single,West,0,486,7.1,False
+sdv-id-ZmFjQm,53,Female,18608.45,Bachelor,Nurse,Single,West,0,575,10.4,False
+sdv-id-QVtebH,54,Female,79029.06,Bachelor,Nurse,Single,North,0,461,4.0,True
+sdv-id-VTBPHr,80,Female,17391.05,High School,Lawyer,Single,Central,3,505,14.0,False
+sdv-id-dKcdQV,80,Non-binary,126033.63,PhD,Doctor,Single,East,1,745,9.9,False
+sdv-id-MWPLZY,33,Female,39327.51,Associate,Lawyer,Single,South,0,497,0.8,False
+sdv-id-QBSzGB,65,Female,88969.97,PhD,Student,Married,South,0,566,0.1,False
+sdv-id-wLUgPr,73,Male,102364.15,Master,Business Owner,Married,East,0,577,5.0,False
+sdv-id-YnTyUV,67,Non-binary,15000.0,Bachelor,Retail Worker,Married,West,0,631,16.3,False
+sdv-id-nFqlbB,30,Female,98719.83,Bachelor,Accountant,Married,South,0,554,0.4,True
+sdv-id-tJymcY,65,Female,52045.55,Bachelor,Retail Worker,Widowed,South,1,521,4.8,True
+sdv-id-looryC,29,Male,122262.09,Bachelor,Nurse,Single,North,0,581,14.8,False
+sdv-id-ESGwuf,54,Female,15000.0,Bachelor,Retail Worker,Single,North,2,508,19.9,True
+sdv-id-CQbseF,46,Female,36837.8,PhD,Teacher,Single,South,1,580,8.4,False
+sdv-id-RIPDLX,52,Male,23480.52,Bachelor,Engineer,Single,Central,0,516,7.4,True
+sdv-id-ulAXuv,38,Non-binary,30959.74,PhD,Accountant,Single,South,2,576,6.9,False
+sdv-id-WTClpv,77,Female,53575.39,Master,Business Owner,Single,East,0,521,15.2,False
+sdv-id-flbKfs,80,Male,120441.7,Master,Business Owner,Married,Central,4,515,19.2,False
+sdv-id-yzytDW,80,Male,67057.77,Master,Engineer,Single,West,2,595,8.4,False
+sdv-id-JhodoE,45,Non-binary,25064.03,Bachelor,Retired,Single,West,0,605,9.1,False
+sdv-id-ayWnRX,80,Female,20237.48,Master,Business Owner,Single,East,0,464,8.3,False
+sdv-id-SchcCV,49,Non-binary,117995.17,Master,Business Owner,Married,South,1,573,6.9,False
+sdv-id-gNhvcz,80,Non-binary,15000.0,Bachelor,Nurse,Single,East,1,552,17.5,False
+sdv-id-YwZSaE,70,Male,26065.48,Master,Student,Married,North,2,632,6.7,False
+sdv-id-UElzIY,42,Female,15000.0,Bachelor,Manager,Divorced,South,2,610,7.0,True
+sdv-id-Xaffzu,80,Female,89531.36,PhD,Lawyer,Single,Central,2,562,16.1,False
+sdv-id-jLtNci,70,Non-binary,66370.06,PhD,Student,Married,Central,0,572,5.5,True
+sdv-id-CoMCbs,60,Female,77507.31,Associate,Teacher,Single,North,2,461,17.4,False
+sdv-id-kLqAkI,34,Female,15000.0,Associate,Student,Married,North,0,474,9.1,False
+sdv-id-nqGXjx,80,Male,15000.0,Bachelor,Engineer,Married,South,2,474,18.0,False
+sdv-id-rVVbiX,77,Non-binary,15000.0,High School,Doctor,Married,East,0,462,7.3,False
+sdv-id-bhlewe,70,Male,145113.17,PhD,Engineer,Married,South,0,582,11.6,False
+sdv-id-oCXzdr,66,Male,15000.0,High School,Engineer,Single,South,2,508,5.9,False
+sdv-id-yLBCKq,70,Female,20887.82,Master,Business Owner,Single,West,0,553,4.9,False
+sdv-id-deqdEp,49,Non-binary,25954.61,Bachelor,Nurse,Single,East,0,697,14.7,False
+sdv-id-RXVXpd,80,Female,90487.92,Bachelor,Lawyer,Single,South,2,505,12.3,False
+sdv-id-sRMrpX,44,Male,21372.52,Bachelor,Business Owner,Single,North,0,624,7.0,False
+sdv-id-SOvkvU,18,Non-binary,87799.18,Bachelor,Student,Married,South,0,770,13.3,False
+sdv-id-KmoNuo,52,Non-binary,31017.47,Master,Business Owner,Single,West,0,512,7.4,True
+sdv-id-SdaglO,47,Male,15000.0,Bachelor,Nurse,Single,North,0,637,7.8,True
+sdv-id-hCTHDv,62,Female,15000.0,PhD,Teacher,Married,South,0,551,4.1,False
+sdv-id-FHtPCh,80,Non-binary,38059.27,Master,Retail Worker,Single,South,3,500,18.2,False
+sdv-id-oJYwIG,50,Non-binary,96137.08,Associate,Doctor,Single,West,0,538,9.9,False
+sdv-id-JDCYqx,35,Female,15000.0,Bachelor,Accountant,Single,South,0,526,5.6,True
+sdv-id-CtFsCN,61,Male,15000.0,PhD,Student,Single,Central,0,703,12.3,False
+sdv-id-JqPCwF,51,Non-binary,15000.0,Bachelor,Retired,Married,North,0,515,19.2,False
+sdv-id-kkjBlA,80,Non-binary,69827.14,PhD,Student,Single,Central,2,633,13.1,False
+sdv-id-fBCKiJ,80,Male,47564.14,PhD,Retail Worker,Single,East,1,734,18.9,False
+sdv-id-BkOoAv,62,Non-binary,15000.0,Bachelor,Accountant,Widowed,West,2,699,9.2,False
+sdv-id-qrdngy,80,Male,46238.36,PhD,Retired,Married,East,0,560,4.5,False
+sdv-id-gNGGlO,54,Female,218276.73,PhD,Student,Single,South,0,538,8.8,False
+sdv-id-rRiDgd,80,Female,88370.38,Associate,Business Owner,Single,South,1,682,8.0,False
+sdv-id-TOswVU,80,Male,37996.08,PhD,Student,Single,South,2,795,13.3,False
+sdv-id-ZfhlzR,32,Female,15000.0,Bachelor,Engineer,Married,South,1,511,5.2,False
+sdv-id-ELOSVF,44,Female,15000.0,PhD,Student,Married,South,1,564,11.8,False
+sdv-id-cngUPD,70,Female,158553.42,PhD,Engineer,Married,South,5,717,19.9,True
+sdv-id-oZsCUW,38,Male,42108.11,PhD,Accountant,Single,East,5,565,8.5,False
+sdv-id-iXrHkT,72,Male,36618.96,Bachelor,Manager,Single,South,2,528,18.3,False
+sdv-id-asgDni,72,Female,29607.94,Bachelor,Accountant,Single,West,0,628,16.3,False
+sdv-id-jEuiRM,57,Female,58422.61,PhD,Retail Worker,Widowed,East,0,490,10.2,False
+sdv-id-XQJDFs,58,Non-binary,35624.33,Associate,Teacher,Married,Central,0,604,5.0,True
+sdv-id-LaTCDt,79,Non-binary,172977.17,Bachelor,Retail Worker,Single,South,0,682,15.4,True
+sdv-id-AWKPja,67,Non-binary,15000.0,Master,Teacher,Single,West,1,642,4.0,False
+sdv-id-vYoueW,75,Female,60484.48,PhD,Retail Worker,Married,South,0,626,16.2,False
+sdv-id-ggIbQu,44,Male,54470.62,Bachelor,Doctor,Married,East,1,596,4.8,False
+sdv-id-ZgCbAo,76,Male,61145.31,PhD,Teacher,Single,North,0,582,18.1,True
+sdv-id-mfPJno,80,Non-binary,48904.48,Bachelor,Teacher,Married,South,0,469,19.9,False
+sdv-id-CtWmVW,80,Non-binary,44056.63,Bachelor,Lawyer,Single,North,0,515,19.9,False
+sdv-id-imtGlk,80,Male,73113.09,PhD,Business Owner,Married,South,1,575,18.4,False
+sdv-id-qzCBBL,73,Male,74129.24,Bachelor,Manager,Single,North,2,605,19.9,False
+sdv-id-WQkVIM,80,Male,20796.62,Bachelor,Doctor,Single,East,2,461,4.8,False
+sdv-id-pksYQE,80,Male,45060.6,PhD,Accountant,Single,West,0,540,17.4,False
+sdv-id-BsxvDy,71,Male,40949.86,Master,Lawyer,Single,East,0,634,7.2,False
+sdv-id-LqqdWi,80,Male,23670.51,Bachelor,Doctor,Single,West,0,473,5.3,False
+sdv-id-kxhNOe,80,Female,20758.32,Bachelor,Business Owner,Single,West,2,461,13.1,False
+sdv-id-szqbsZ,80,Non-binary,15000.0,Bachelor,Engineer,Divorced,South,1,617,13.6,False
+sdv-id-IInGmU,42,Female,109477.23,PhD,Retail Worker,Single,East,2,566,5.6,False
+sdv-id-hggdpz,57,Non-binary,31731.57,Bachelor,Student,Married,South,0,572,8.8,False
+sdv-id-kWwVjx,68,Male,64131.11,Associate,Accountant,Married,West,0,667,16.5,False
+sdv-id-ZMbCpu,64,Female,15000.0,Bachelor,Lawyer,Single,Central,1,576,7.2,False
+sdv-id-AzmnaT,18,Female,152121.54,Associate,Lawyer,Single,North,0,581,11.9,False
+sdv-id-ZwlRem,56,Male,131388.04,Bachelor,Nurse,Single,West,0,476,16.2,False
+sdv-id-OhYDsC,74,Male,114236.33,Master,Teacher,Widowed,South,0,500,12.9,False
+sdv-id-jgyZwF,30,Non-binary,15000.0,PhD,Business Owner,Married,Central,0,591,4.2,False
+sdv-id-FRquTo,35,Male,35262.59,Bachelor,Nurse,Single,South,0,631,5.4,True
+sdv-id-lknOsR,61,Female,80625.01,Associate,Lawyer,Married,South,0,575,10.1,False
+sdv-id-LcZdEu,66,Non-binary,82433.83,Associate,Engineer,Single,East,2,516,8.3,False
+sdv-id-RQZUuS,74,Female,163812.13,Bachelor,Accountant,Single,South,2,610,0.7,False
+sdv-id-xneQOY,51,Female,45622.36,PhD,Teacher,Married,Central,3,541,5.0,False
+sdv-id-mIgAew,18,Female,67260.68,Bachelor,Manager,Single,West,2,646,13.0,False
+sdv-id-IpRLpn,66,Female,34849.27,Bachelor,Accountant,Single,South,1,538,0.1,False
+sdv-id-RNkLEs,78,Male,47395.96,Associate,Student,Single,Central,2,633,8.9,False
+sdv-id-WADShh,80,Non-binary,123044.55,PhD,Retired,Married,North,0,549,6.6,False
+sdv-id-kIIFLg,59,Non-binary,15000.0,Bachelor,Engineer,Single,West,2,493,11.9,False
+sdv-id-lVnjrV,50,Male,105908.23,Bachelor,Business Owner,Single,Central,1,550,5.5,False
+sdv-id-DXeyOd,80,Male,34763.66,Bachelor,Nurse,Single,South,1,509,19.9,False
+sdv-id-RkvMhz,52,Male,15000.0,Bachelor,Retail Worker,Single,South,2,561,3.3,False
+sdv-id-mdMbIR,79,Female,15000.0,Bachelor,Business Owner,Single,West,0,461,0.4,True
+sdv-id-WOlgkv,60,Female,217076.17,PhD,Lawyer,Single,West,2,615,13.9,False
+sdv-id-TEsLMy,80,Male,42714.04,Bachelor,Student,Single,South,0,658,18.6,False
+sdv-id-pEfHeG,80,Non-binary,25084.94,Master,Student,Single,South,0,570,7.2,False
+sdv-id-InAlAU,54,Female,42459.77,Bachelor,Engineer,Single,South,2,531,19.2,False
+sdv-id-RnZmVX,42,Female,15000.0,Bachelor,Accountant,Single,Central,1,523,14.9,False
+sdv-id-fLuwNz,50,Male,15000.0,Bachelor,Business Owner,Married,Central,2,519,12.6,False
+sdv-id-FsPIDZ,47,Non-binary,15000.0,PhD,Lawyer,Single,South,0,528,8.0,False
+sdv-id-vLpGyi,78,Female,67096.2,High School,Student,Single,South,0,489,4.2,False
+sdv-id-tLtwEp,80,Non-binary,17821.32,Bachelor,Engineer,Single,West,1,672,17.7,False
+sdv-id-NAEOKS,74,Female,98520.31,PhD,Teacher,Married,South,1,601,16.3,False
+sdv-id-yjNRwS,59,Non-binary,42989.66,High School,Business Owner,Single,East,2,583,14.9,False
+sdv-id-SizABj,80,Male,30958.59,Bachelor,Accountant,Single,South,2,657,2.3,False
+sdv-id-PXnqSd,54,Female,121759.66,Master,Engineer,Married,East,1,502,7.9,False
+sdv-id-hSbHsq,58,Non-binary,15000.0,High School,Retired,Single,East,2,463,8.9,False
+sdv-id-JyMagP,58,Female,15000.0,Bachelor,Teacher,Single,South,2,551,12.1,False
+sdv-id-plqRLe,52,Male,15000.0,Master,Nurse,Single,East,0,510,3.2,False
+sdv-id-jmUAZP,74,Female,77028.48,Master,Teacher,Single,Central,1,575,8.6,False
+sdv-id-KCmncF,59,Non-binary,65174.07,PhD,Teacher,Married,Central,1,595,10.6,False
+sdv-id-pjiqVB,80,Non-binary,206152.78,PhD,Engineer,Single,Central,0,541,14.8,False
+sdv-id-qIvAvr,33,Female,55127.2,Master,Manager,Single,West,2,526,9.2,False
+sdv-id-hkpxoL,32,Non-binary,37734.22,Bachelor,Business Owner,Single,East,1,531,13.9,False
+sdv-id-OMPYUt,69,Non-binary,15000.0,Bachelor,Nurse,Married,Central,1,510,13.6,False
+sdv-id-VPbiIN,80,Female,84874.65,Bachelor,Engineer,Single,West,0,831,18.4,False
+sdv-id-xrOxMC,55,Male,15000.0,Master,Accountant,Single,South,0,653,19.9,True
+sdv-id-tkbbWV,80,Non-binary,77579.03,PhD,Accountant,Married,North,6,607,3.2,False
+sdv-id-zXJiDO,28,Male,76834.96,PhD,Business Owner,Single,North,0,657,15.2,False
+sdv-id-vwWTAS,80,Female,15000.0,High School,Engineer,Single,North,1,461,11.8,False
+sdv-id-QSFgbm,80,Female,85064.21,PhD,Nurse,Single,East,0,466,19.3,False
+sdv-id-OLnqNb,33,Female,117443.06,Master,Business Owner,Single,South,2,482,13.2,True
+sdv-id-IoAtnz,79,Female,108814.6,PhD,Engineer,Married,Central,0,586,4.8,False
+sdv-id-EdgWAz,80,Non-binary,23592.57,PhD,Student,Single,South,0,473,7.9,False
+sdv-id-gekbgm,80,Non-binary,36648.63,PhD,Engineer,Married,South,2,593,18.5,False
+sdv-id-IQiGMg,41,Female,15000.0,Bachelor,Retired,Married,West,2,476,6.6,False
+sdv-id-XrmAJt,80,Female,68267.49,PhD,Engineer,Single,South,2,629,14.9,False
+sdv-id-OsbdZA,40,Female,38832.35,Master,Manager,Single,Central,2,733,15.9,False
+sdv-id-urfUqc,29,Non-binary,34046.91,Master,Retired,Single,South,2,670,9.0,False
+sdv-id-daskuJ,43,Female,62186.21,Master,Business Owner,Single,West,1,534,10.8,False
+sdv-id-RdIbXJ,58,Non-binary,23841.18,High School,Retired,Married,Central,1,554,12.4,False
+sdv-id-wPbZqB,47,Male,15332.25,PhD,Student,Single,West,0,540,7.1,True
+sdv-id-jiCnqf,53,Non-binary,15000.0,High School,Student,Single,South,1,660,9.5,False
+sdv-id-ZnPacb,80,Female,21963.86,Bachelor,Teacher,Single,East,2,501,19.9,False
+sdv-id-jDjNwV,80,Female,55794.91,Bachelor,Teacher,Single,North,0,571,17.1,False
+sdv-id-Ntelja,55,Male,33756.5,High School,Lawyer,Single,North,1,543,6.4,False
+sdv-id-dzoJAd,80,Non-binary,88718.86,Bachelor,Nurse,Married,South,0,547,16.8,False
+sdv-id-MlNEaX,18,Female,117275.65,Bachelor,Manager,Single,South,1,706,0.1,False
+sdv-id-jsBJif,46,Female,122262.82,Bachelor,Retail Worker,Married,Central,2,629,2.3,False
+sdv-id-eqBCRD,80,Male,55997.44,High School,Nurse,Single,South,2,479,19.9,True
+sdv-id-WuXdil,26,Male,15000.0,PhD,Manager,Married,West,0,570,8.8,False
+sdv-id-CJmrUO,62,Non-binary,15000.0,Associate,Nurse,Married,South,5,514,15.2,True
+sdv-id-EHuBPW,80,Non-binary,189880.92,Master,Business Owner,Married,West,2,476,12.0,False
+sdv-id-EcLLLb,80,Male,214609.93,Bachelor,Accountant,Single,West,2,514,19.9,False
+sdv-id-ekGoEA,79,Non-binary,52360.48,Bachelor,Engineer,Single,East,1,525,0.7,True
+sdv-id-QJtxoI,76,Female,15000.0,Associate,Nurse,Single,West,0,515,3.3,False
+sdv-id-OxkHFt,72,Male,30187.84,Bachelor,Engineer,Married,South,1,616,13.0,False
+sdv-id-hkWFNi,61,Male,17886.22,High School,Business Owner,Single,South,1,582,19.9,False
+sdv-id-NOXCHr,80,Non-binary,15000.0,Associate,Teacher,Single,South,1,562,11.7,False
+sdv-id-HouHwT,40,Non-binary,85282.94,Bachelor,Accountant,Single,South,2,527,9.3,False
+sdv-id-HHFLiw,80,Female,28495.01,Master,Engineer,Single,South,0,535,9.1,True
+sdv-id-olJMac,80,Male,38135.68,Bachelor,Nurse,Married,West,1,525,14.2,False
+sdv-id-LXfZdG,61,Female,85687.71,Bachelor,Lawyer,Single,Central,3,507,6.5,True
+sdv-id-SgBCcA,49,Male,21283.79,Bachelor,Retired,Single,East,1,474,16.6,False
+sdv-id-UCSTVP,40,Male,15138.86,High School,Student,Married,South,1,461,15.7,False
+sdv-id-QPvDNx,80,Male,15000.0,PhD,Lawyer,Single,South,1,486,16.6,False
+sdv-id-XCSJLI,80,Non-binary,15000.0,Bachelor,Engineer,Married,South,1,489,11.9,False
+sdv-id-NcYhDP,36,Male,48317.03,Bachelor,Teacher,Married,South,2,659,7.1,False
+sdv-id-epryLW,80,Male,15000.0,High School,Retired,Single,East,0,467,19.9,False
+sdv-id-VWpVfx,80,Female,106716.06,Master,Business Owner,Single,Central,1,637,17.7,False
+sdv-id-SSbSaS,56,Non-binary,159685.8,High School,Student,Single,Central,1,603,18.0,False
+sdv-id-xKUYcp,80,Non-binary,18811.27,PhD,Business Owner,Single,West,2,483,14.2,False
+sdv-id-EHpztt,65,Female,63259.98,Master,Engineer,Single,Central,2,524,14.3,False
+sdv-id-IPMUkn,42,Non-binary,15000.0,High School,Teacher,Single,East,1,573,13.1,False
+sdv-id-rmyxsE,73,Male,46960.72,Bachelor,Business Owner,Married,South,2,598,0.1,False
+sdv-id-zVqNmM,39,Male,40530.82,Bachelor,Teacher,Single,North,0,625,12.2,True
+sdv-id-bSgCWs,58,Non-binary,15000.0,Associate,Retired,Single,North,1,571,11.8,False
+sdv-id-ookuAb,80,Male,121483.1,Associate,Manager,Married,South,0,570,10.3,False
+sdv-id-bfSfZG,66,Female,15833.16,PhD,Accountant,Single,North,2,597,18.0,False
+sdv-id-EDdYZH,80,Female,74546.19,Master,Engineer,Single,South,2,466,18.9,False
+sdv-id-DSHNHE,80,Male,16507.5,High School,Student,Single,South,0,546,19.9,False
+sdv-id-yVomfh,69,Non-binary,67814.65,High School,Engineer,Single,South,1,731,13.0,False
+sdv-id-FKBPqo,76,Female,15000.0,Bachelor,Accountant,Single,West,2,521,11.9,False
+sdv-id-OrYSla,80,Non-binary,32939.0,Bachelor,Accountant,Single,North,1,534,10.4,False
+sdv-id-OklHWH,67,Male,51505.32,PhD,Lawyer,Married,South,2,594,10.4,False
+sdv-id-nuNmfQ,80,Non-binary,216167.77,PhD,Business Owner,Single,Central,1,523,10.2,False
+sdv-id-TJaWeh,80,Non-binary,112486.13,Associate,Retired,Single,Central,2,480,13.4,False
+sdv-id-QUYSCW,80,Non-binary,15249.24,Associate,Nurse,Widowed,West,0,463,14.7,False
+sdv-id-ijzPBo,58,Non-binary,86475.48,Bachelor,Engineer,Single,North,0,497,17.7,False
+sdv-id-JMDvuW,75,Female,43565.77,PhD,Teacher,Single,East,4,491,11.9,False
+sdv-id-EDwtFy,58,Male,37887.99,Bachelor,Nurse,Single,South,2,547,10.5,False
+sdv-id-BzuylE,77,Non-binary,75248.66,Bachelor,Nurse,Single,East,0,524,10.9,True
+sdv-id-LabqNG,80,Non-binary,15000.0,High School,Lawyer,Married,East,1,644,9.2,False
+sdv-id-XhdBQq,55,Male,35359.81,PhD,Accountant,Single,West,0,566,7.8,False
+sdv-id-PtPWZO,80,Female,31910.87,PhD,Nurse,Single,North,1,589,18.0,False
+sdv-id-NiIlqs,80,Non-binary,81612.31,Bachelor,Student,Single,Central,1,542,18.0,False
+sdv-id-ODwMrZ,80,Female,178201.71,Bachelor,Teacher,Married,South,0,544,13.6,False
+sdv-id-EgGrXy,78,Female,24883.67,Bachelor,Accountant,Single,West,0,527,13.6,False
+sdv-id-qZAOPU,65,Non-binary,15000.0,Bachelor,Engineer,Single,South,1,537,19.4,False
+sdv-id-gdtBxG,20,Non-binary,85071.43,PhD,Business Owner,Married,South,3,581,12.5,False
+sdv-id-PUGUrj,27,Male,35261.37,Associate,Engineer,Married,South,2,506,5.3,False
+sdv-id-tWNjaa,51,Female,15000.0,Associate,Student,Married,West,0,542,15.7,False
+sdv-id-ymqkjS,37,Female,15000.0,Bachelor,Business Owner,Married,South,0,593,8.8,False
+sdv-id-dXoSfU,80,Non-binary,15000.0,Bachelor,Business Owner,Single,South,1,470,18.0,False
+sdv-id-rtiHRx,42,Female,84118.5,PhD,Doctor,Single,North,0,503,3.2,False
+sdv-id-OxOEwz,76,Female,47752.49,Master,Doctor,Married,South,0,583,12.8,False
+sdv-id-boiMrf,53,Female,124293.51,PhD,Lawyer,Married,South,0,612,4.7,False
+sdv-id-tKMkAV,80,Male,15000.0,Bachelor,Nurse,Married,North,2,677,18.0,False
+sdv-id-jVtHgw,35,Female,15000.0,Bachelor,Accountant,Married,South,0,633,19.9,False
+sdv-id-iBweEQ,77,Male,16907.66,PhD,Student,Married,West,1,472,6.4,False
+sdv-id-KtNdmY,36,Female,15000.0,Bachelor,Manager,Divorced,West,2,611,15.9,False
+sdv-id-KMIuRm,80,Female,53894.24,PhD,Lawyer,Married,Central,0,478,11.3,True
+sdv-id-usPNet,26,Male,15000.0,High School,Business Owner,Married,East,1,661,19.9,False
+sdv-id-hvWIXq,78,Male,15000.0,PhD,Lawyer,Single,South,1,470,17.6,False
+sdv-id-swcdYJ,37,Female,64985.57,High School,Student,Single,South,0,629,4.6,False
+sdv-id-tBEsfK,80,Male,186717.4,Associate,Student,Single,South,1,769,17.8,False
+sdv-id-XJfRFB,46,Female,191771.95,Bachelor,Business Owner,Married,South,0,559,4.8,False
+sdv-id-vKluiJ,23,Male,55406.98,High School,Nurse,Married,East,0,461,9.5,True
+sdv-id-nbSbDy,27,Female,15000.0,PhD,Retail Worker,Single,Central,1,598,0.1,False
+sdv-id-zHrcoM,79,Non-binary,100090.56,Master,Teacher,Single,North,4,573,3.7,False
+sdv-id-znzBAH,71,Female,221429.23,Associate,Business Owner,Divorced,South,3,653,17.9,False
+sdv-id-ZTonKh,27,Male,29202.99,PhD,Business Owner,Single,North,2,575,8.6,True
+sdv-id-HKJSpb,76,Female,63130.81,PhD,Manager,Single,South,1,602,5.1,False
+sdv-id-naAXVZ,52,Non-binary,131816.47,Master,Retired,Single,South,0,572,14.8,False
+sdv-id-chsMQa,56,Male,84257.75,PhD,Lawyer,Married,South,1,461,19.9,False
+sdv-id-rZbXWp,80,Non-binary,193342.35,Master,Business Owner,Married,East,2,596,19.9,False
+sdv-id-LHIGnN,80,Female,96428.03,Bachelor,Engineer,Single,West,2,549,12.1,True
+sdv-id-gXHQNT,80,Female,74921.76,Bachelor,Lawyer,Single,West,2,652,18.4,False
+sdv-id-NWIIeF,71,Non-binary,55947.91,Bachelor,Accountant,Divorced,South,1,461,14.5,False
+sdv-id-iqWvSU,63,Female,30561.83,High School,Doctor,Single,South,2,513,0.5,False
+sdv-id-cgaKWT,80,Non-binary,91563.35,Associate,Engineer,Single,East,1,463,17.8,False
+sdv-id-NSzRLn,74,Non-binary,63169.19,Bachelor,Manager,Single,South,2,501,12.6,False
+sdv-id-OMEaDT,80,Non-binary,66465.24,Bachelor,Student,Single,South,2,461,7.6,True
+sdv-id-HnXsEN,43,Female,75351.45,Master,Accountant,Single,South,2,588,8.2,False
+sdv-id-sEOZTy,80,Female,58448.87,PhD,Business Owner,Single,West,3,528,11.1,False
+sdv-id-kvKYcA,35,Male,63323.92,Bachelor,Business Owner,Single,West,1,629,1.1,True
+sdv-id-dkVCmZ,42,Male,42541.4,Bachelor,Manager,Single,West,5,498,10.6,False
+sdv-id-UlfsQK,79,Male,15000.0,Bachelor,Student,Single,Central,0,544,19.9,False
+sdv-id-CJwAjt,80,Female,192790.73,Master,Student,Single,South,1,546,11.7,False
+sdv-id-yBBQrk,80,Female,15000.0,Bachelor,Lawyer,Single,South,2,507,15.2,False
+sdv-id-lKjNVW,76,Male,77614.02,Bachelor,Business Owner,Single,South,1,471,12.6,False
+sdv-id-FFHsJV,80,Non-binary,15000.0,High School,Doctor,Single,West,1,558,14.1,False
+sdv-id-AwCXzD,80,Male,20683.52,Master,Engineer,Single,West,1,481,2.8,False
+sdv-id-KxzKXU,54,Male,25899.58,Bachelor,Teacher,Married,West,2,567,19.9,False
+sdv-id-CmTVch,57,Female,15000.0,PhD,Student,Single,East,0,638,16.2,False
+sdv-id-ykgZKH,22,Male,135040.11,Master,Retail Worker,Single,East,2,568,19.6,False
+sdv-id-LlUMbi,43,Non-binary,15000.0,Bachelor,Accountant,Single,Central,2,513,2.7,False
+sdv-id-pbyARW,36,Male,69331.49,High School,Business Owner,Single,South,2,604,16.6,False
+sdv-id-IFQBtU,46,Female,15000.0,Bachelor,Retail Worker,Single,South,2,517,1.5,False
+sdv-id-MRFrLa,67,Female,87140.79,Bachelor,Retired,Married,Central,0,540,13.0,False
+sdv-id-mrIPoG,39,Non-binary,15000.0,High School,Accountant,Married,South,2,466,8.9,False
+sdv-id-eVWtXg,42,Male,23073.39,PhD,Nurse,Single,West,0,492,8.3,False
+sdv-id-yGntnA,80,Female,15000.0,Master,Nurse,Single,West,2,629,10.1,False
+sdv-id-FMHmEN,68,Male,48711.09,Associate,Business Owner,Single,South,1,565,0.1,False
+sdv-id-QcezsO,56,Non-binary,49834.05,Associate,Manager,Single,Central,1,558,8.4,True
+sdv-id-ujdglN,76,Male,40570.3,Bachelor,Engineer,Single,West,1,562,19.9,False
+sdv-id-EqJzyD,63,Male,24906.2,High School,Student,Single,Central,0,509,17.5,False
+sdv-id-pFmYWo,53,Non-binary,17769.07,PhD,Business Owner,Married,South,0,575,1.9,False
+sdv-id-OxMrNd,27,Male,139154.69,PhD,Accountant,Single,East,1,625,3.9,False
+sdv-id-KNqqxg,80,Male,111296.67,High School,Lawyer,Married,Central,1,461,7.9,False
+sdv-id-NFCKwI,80,Non-binary,15000.0,Master,Manager,Married,South,2,481,19.3,False
+sdv-id-LgALDy,80,Male,55253.87,Bachelor,Student,Married,South,0,653,15.9,False
+sdv-id-uKboZC,34,Female,93176.68,Master,Retail Worker,Single,West,1,723,11.5,False
+sdv-id-wEHgYu,70,Non-binary,15000.0,PhD,Lawyer,Widowed,East,0,488,2.5,False
+sdv-id-eMDuGT,80,Female,15000.0,Associate,Business Owner,Single,East,0,500,17.7,False
+sdv-id-ddInyp,80,Non-binary,15000.0,Bachelor,Engineer,Married,Central,0,554,17.2,False
+sdv-id-pjQKqU,59,Male,15000.0,PhD,Manager,Single,South,3,616,5.6,False
+sdv-id-zMMjpN,80,Female,17265.3,Master,Engineer,Married,West,0,461,19.9,False
+sdv-id-NfPHeQ,80,Male,23480.73,Master,Business Owner,Single,East,0,518,13.8,False
+sdv-id-OyLTHJ,61,Female,20577.32,PhD,Engineer,Single,South,1,510,16.1,True
+sdv-id-NQyMTj,80,Non-binary,131191.68,Associate,Engineer,Single,West,1,679,19.9,False
+sdv-id-hIrubf,57,Female,47668.56,PhD,Business Owner,Married,Central,2,590,15.7,True
+sdv-id-pKdCjA,80,Female,83275.47,PhD,Student,Single,East,0,514,5.9,False
+sdv-id-vCXEqY,80,Female,34577.01,Master,Business Owner,Married,West,0,487,13.9,True
+sdv-id-pMZgbi,29,Male,15000.0,PhD,Manager,Married,South,0,461,11.8,False
+sdv-id-aWIQdJ,80,Female,71463.81,Bachelor,Business Owner,Married,West,1,563,18.0,False
+sdv-id-qFTNrk,22,Non-binary,29546.84,PhD,Accountant,Single,South,2,522,5.7,False
+sdv-id-rxYMVv,42,Non-binary,22921.74,Master,Business Owner,Married,South,0,510,12.1,False
+sdv-id-vWests,75,Female,18812.94,Bachelor,Business Owner,Single,South,5,461,13.0,False
+sdv-id-pbFryt,80,Male,38934.11,Master,Teacher,Married,South,1,461,14.7,False
+sdv-id-NZAjRN,60,Female,15000.0,High School,Teacher,Single,South,1,461,4.4,False
+sdv-id-ezlhMm,80,Male,15000.0,Master,Business Owner,Married,Central,4,626,18.7,False
+sdv-id-CZUcno,29,Male,105935.46,Bachelor,Student,Married,West,1,618,0.1,False
+sdv-id-rvsaSS,64,Non-binary,44181.0,PhD,Lawyer,Single,East,1,507,8.1,False
+sdv-id-ZTHgVE,80,Non-binary,45565.37,Master,Teacher,Single,South,2,538,13.7,False
+sdv-id-HPvTqJ,22,Female,65362.41,Bachelor,Engineer,Single,Central,0,649,19.9,False
+sdv-id-ZNTkXU,80,Male,165060.34,Master,Manager,Single,West,1,498,8.5,False
+sdv-id-CWzmcu,64,Male,15000.0,Master,Engineer,Single,South,2,471,9.8,False
+sdv-id-uyNuci,71,Male,47073.67,PhD,Engineer,Single,South,1,531,17.4,True
+sdv-id-lGwRoT,69,Non-binary,22889.72,Bachelor,Lawyer,Single,North,1,660,4.2,False
+sdv-id-PQPHiv,44,Non-binary,54326.42,Bachelor,Manager,Married,South,2,534,10.5,False
+sdv-id-yTKhNK,26,Non-binary,63518.1,Master,Student,Single,North,1,679,0.1,False
+sdv-id-uqyYGH,70,Non-binary,42491.35,PhD,Student,Single,South,1,724,18.4,False
+sdv-id-CjzXJq,45,Male,33239.87,Master,Accountant,Single,South,1,596,10.9,False
+sdv-id-JJNbbK,69,Female,38972.76,PhD,Business Owner,Single,North,0,581,19.5,False
+sdv-id-SGkXbz,80,Male,24081.86,PhD,Teacher,Married,North,0,531,10.2,False
+sdv-id-jejuFG,62,Non-binary,15000.0,Master,Teacher,Single,South,1,500,8.6,False
+sdv-id-bapXja,80,Non-binary,187020.72,Bachelor,Nurse,Divorced,East,2,519,8.5,False
+sdv-id-wOdxfl,64,Non-binary,15000.0,Bachelor,Manager,Single,South,0,461,9.7,False
+sdv-id-bdSBns,49,Non-binary,28015.7,PhD,Retail Worker,Single,North,0,551,7.5,False
+sdv-id-zTHrus,46,Female,15000.0,Bachelor,Accountant,Married,South,0,484,6.8,False
+sdv-id-jumHbZ,80,Male,15000.0,Master,Retired,Single,West,1,574,17.3,False
+sdv-id-gUVzAT,80,Female,75007.4,Bachelor,Teacher,Single,West,4,533,12.6,False
+sdv-id-gjHYYf,80,Non-binary,22598.79,Associate,Teacher,Married,Central,6,521,19.9,False
+sdv-id-axyLjR,80,Male,42639.93,Bachelor,Lawyer,Widowed,East,1,577,19.1,False
+sdv-id-qhlVVH,69,Non-binary,15000.0,Master,Doctor,Married,South,0,619,18.3,True
+sdv-id-KXVKYU,80,Male,167385.26,Bachelor,Business Owner,Single,East,2,675,12.4,False
+sdv-id-jODvgF,74,Female,47870.14,Master,Engineer,Single,Central,2,527,15.4,False
+sdv-id-zxYOGl,80,Female,34599.8,Bachelor,Retail Worker,Single,North,2,510,6.4,False
+sdv-id-IckrpC,44,Female,15000.0,Bachelor,Doctor,Single,North,1,588,9.8,False
+sdv-id-RKMOHN,80,Male,68494.06,PhD,Business Owner,Single,North,2,563,8.1,False
+sdv-id-oSFjRi,80,Non-binary,181293.75,PhD,Engineer,Single,South,2,586,15.5,False
+sdv-id-GQzgan,76,Male,150962.73,Bachelor,Business Owner,Single,South,1,529,8.6,False
+sdv-id-BnKehM,54,Female,58049.19,Bachelor,Student,Widowed,South,1,641,18.2,False
+sdv-id-kPKVNW,80,Female,36227.98,Bachelor,Manager,Single,North,0,547,13.1,False
+sdv-id-SMznGX,80,Female,15000.0,Bachelor,Accountant,Single,East,2,561,17.3,False
+sdv-id-ezsOhf,60,Female,95321.33,PhD,Nurse,Single,West,1,500,10.7,False
+sdv-id-zQPcJD,43,Non-binary,53749.32,PhD,Retired,Single,Central,2,641,14.5,False
+sdv-id-fihihd,79,Non-binary,19146.9,Bachelor,Retail Worker,Divorced,Central,1,614,0.1,False
+sdv-id-sFRNoD,58,Female,103328.29,Bachelor,Nurse,Married,West,0,526,8.3,False
+sdv-id-EudVUJ,54,Female,15000.0,Master,Nurse,Single,Central,2,538,6.6,False
+sdv-id-gckxqM,47,Male,15000.0,PhD,Retail Worker,Single,West,1,601,12.7,False
+sdv-id-TMDChq,70,Female,50002.62,Bachelor,Retail Worker,Widowed,South,0,602,14.1,False
+sdv-id-RYTZvo,56,Female,65546.47,Master,Retail Worker,Single,North,0,493,6.5,False
+sdv-id-YkKoSx,62,Female,84591.87,Bachelor,Lawyer,Married,West,0,461,16.9,False
+sdv-id-oQRxAu,80,Female,149954.4,Master,Business Owner,Single,East,2,514,15.5,False
+sdv-id-VEdXTd,80,Female,87007.36,Bachelor,Teacher,Married,Central,4,622,6.8,False
+sdv-id-XikJEJ,18,Non-binary,15000.0,Master,Nurse,Single,North,1,461,2.9,False
+sdv-id-betRiu,78,Male,15000.0,Master,Retail Worker,Single,South,2,507,11.0,False
+sdv-id-NFNaHb,63,Non-binary,68631.61,Bachelor,Manager,Single,West,1,574,19.9,False
+sdv-id-GjaqbT,80,Female,15000.0,High School,Accountant,Single,East,2,509,18.0,True
+sdv-id-ziLZKx,71,Female,101491.76,PhD,Manager,Married,South,1,554,17.9,False
+sdv-id-ELlKqa,38,Non-binary,50307.73,Master,Retired,Single,West,3,630,0.1,False
+sdv-id-asHktF,77,Female,78386.74,PhD,Manager,Single,North,2,536,16.2,False
+sdv-id-nwnqiZ,80,Female,63959.09,Master,Engineer,Married,South,2,575,14.0,True
+sdv-id-yyfDuf,76,Male,27082.06,High School,Business Owner,Single,South,1,570,18.1,True
+sdv-id-EIsizY,23,Female,45220.48,Bachelor,Retail Worker,Single,South,0,670,8.6,False
+sdv-id-eJCNPf,44,Female,18700.24,Bachelor,Accountant,Married,East,2,503,2.4,True
+sdv-id-giSZPj,62,Non-binary,76046.15,PhD,Engineer,Single,East,2,539,5.4,False
+sdv-id-OemrAP,69,Male,122620.23,Master,Business Owner,Married,South,2,614,1.2,False
+sdv-id-QqlJye,72,Female,15000.0,Bachelor,Doctor,Married,South,0,503,14.2,False
+sdv-id-fLhVcQ,58,Non-binary,50969.16,Master,Accountant,Married,West,0,568,7.7,True
+sdv-id-yKBCza,60,Non-binary,15000.0,Master,Teacher,Single,North,2,547,15.9,True
+sdv-id-OocYNI,57,Female,131739.46,Associate,Engineer,Divorced,South,5,600,10.3,False
+sdv-id-YMoVkh,76,Female,79080.17,Master,Teacher,Married,South,1,687,10.5,False
+sdv-id-OKNaPR,80,Female,74265.27,Bachelor,Teacher,Single,West,1,542,16.3,False
+sdv-id-vBwTaB,48,Female,27991.32,PhD,Nurse,Single,West,2,543,5.5,False
+sdv-id-ajZxUa,53,Non-binary,15000.0,Master,Manager,Divorced,West,6,709,16.1,False
+sdv-id-DaRZSN,60,Female,15000.0,PhD,Doctor,Single,South,1,461,5.1,False
+sdv-id-QjLOTC,36,Female,30960.04,High School,Retail Worker,Divorced,Central,2,665,0.7,False
+sdv-id-LaUltH,40,Non-binary,15000.0,High School,Nurse,Single,South,2,576,15.6,False
+sdv-id-NqpnHb,32,Non-binary,15000.0,Bachelor,Accountant,Single,Central,0,504,19.9,False
+sdv-id-uCUfgB,72,Female,22290.96,High School,Lawyer,Single,South,1,490,7.9,False
+sdv-id-MYChmo,18,Male,133164.8,Bachelor,Accountant,Single,Central,0,494,0.1,False
+sdv-id-PXIuam,62,Male,40276.85,Master,Retail Worker,Single,West,2,571,3.8,False
+sdv-id-CvUTbI,59,Male,69726.87,Master,Business Owner,Single,East,1,510,10.2,False
+sdv-id-ncQWlm,19,Female,15000.0,Bachelor,Engineer,Single,South,1,611,0.1,True
+sdv-id-BfwoMo,79,Female,15000.0,Bachelor,Nurse,Single,South,2,607,7.5,True
+sdv-id-HzcuJQ,43,Female,15000.0,PhD,Teacher,Married,South,1,559,3.7,False
+sdv-id-Ogarkx,80,Non-binary,76745.0,PhD,Manager,Single,South,2,492,15.2,False
+sdv-id-keTpoN,61,Male,28566.06,Bachelor,Retired,Single,South,2,653,16.9,False
+sdv-id-FRHOYq,20,Female,46453.14,Bachelor,Manager,Single,West,2,540,6.4,False
+sdv-id-mXpRas,45,Female,91569.94,High School,Business Owner,Married,West,0,566,12.7,False
+sdv-id-sxUCAM,69,Male,53698.05,Bachelor,Lawyer,Married,West,0,773,16.9,False
+sdv-id-odDOXS,51,Male,97915.74,High School,Manager,Single,South,1,461,11.1,False
+sdv-id-yxKdnh,18,Male,112701.08,PhD,Student,Married,West,0,611,4.3,False
+sdv-id-qBZZAt,45,Female,15000.0,Bachelor,Nurse,Married,South,0,507,2.6,False
+sdv-id-IeBcGi,62,Female,15000.0,Master,Accountant,Single,West,1,608,2.5,False
+sdv-id-aihlud,45,Male,50950.73,PhD,Engineer,Divorced,West,2,550,14.0,False
+sdv-id-QTKsAS,37,Male,80467.46,High School,Student,Single,Central,2,606,0.1,False
+sdv-id-uMMATB,74,Female,87326.28,Master,Nurse,Married,North,0,510,9.6,False
+sdv-id-uRcDCT,66,Non-binary,180678.72,Master,Business Owner,Single,North,0,501,15.0,False
+sdv-id-KurWXk,76,Male,79462.97,Master,Lawyer,Married,South,2,461,3.0,False
+sdv-id-jvgrJk,60,Male,22934.67,Bachelor,Student,Single,West,0,645,19.9,False
+sdv-id-DXpiWT,79,Non-binary,142937.46,PhD,Business Owner,Single,Central,2,647,16.9,False
+sdv-id-LGSWQc,80,Male,59549.53,PhD,Business Owner,Married,West,1,585,14.7,False
+sdv-id-ITHAeh,58,Non-binary,15000.0,PhD,Student,Divorced,West,1,461,16.2,False
+sdv-id-sljKlH,72,Male,98580.58,Bachelor,Business Owner,Single,North,2,567,17.2,True
+sdv-id-iSPdWE,56,Female,15000.0,PhD,Lawyer,Single,South,0,592,1.5,False
+sdv-id-XaiqZs,57,Male,48542.25,PhD,Student,Single,South,0,520,13.2,False
+sdv-id-vYiMMY,80,Female,85365.36,PhD,Engineer,Married,North,1,496,16.7,False
+sdv-id-mtnVCA,41,Male,41057.89,Bachelor,Business Owner,Single,West,2,493,8.7,False
+sdv-id-fzWMfS,66,Non-binary,17753.65,High School,Nurse,Married,South,6,517,17.1,False
+sdv-id-xPguvu,56,Male,15000.0,Bachelor,Business Owner,Single,South,1,576,16.8,False
+sdv-id-uBgeDf,80,Non-binary,72488.13,Bachelor,Student,Single,South,1,505,6.7,False
+sdv-id-fhBUAB,45,Female,60427.81,High School,Business Owner,Single,Central,2,523,9.9,False
+sdv-id-ytIKBv,43,Non-binary,67901.24,Master,Student,Single,South,2,704,16.0,False
+sdv-id-oIvdBs,57,Non-binary,124356.27,Bachelor,Business Owner,Single,Central,2,588,10.8,False
+sdv-id-sYcnIf,62,Male,81140.75,Bachelor,Accountant,Single,Central,0,648,19.9,False
+sdv-id-TESckR,63,Female,165096.28,Bachelor,Accountant,Married,West,2,567,5.2,False
+sdv-id-LrIiuM,60,Non-binary,28832.54,PhD,Manager,Single,South,1,591,4.8,False
+sdv-id-CAQLrz,63,Male,15000.0,High School,Retail Worker,Single,South,0,556,11.3,False
+sdv-id-pjXnxN,60,Female,52692.07,PhD,Manager,Single,East,1,630,13.4,False
+sdv-id-XIgBgc,80,Male,15000.0,PhD,Nurse,Single,Central,0,591,12.8,False
+sdv-id-oztIjD,80,Female,34470.41,Associate,Teacher,Single,East,1,461,8.9,True
+sdv-id-rJjRjH,65,Female,126672.91,Bachelor,Lawyer,Married,Central,0,643,19.6,False
+sdv-id-QKTlDR,59,Non-binary,59813.93,Bachelor,Student,Married,South,1,562,7.2,False
+sdv-id-mRjWyl,59,Male,20972.94,Associate,Engineer,Married,East,1,507,18.7,False
+sdv-id-ESTPwV,70,Non-binary,76699.49,Bachelor,Lawyer,Single,West,1,651,5.2,False
+sdv-id-KcrNkQ,80,Male,58316.27,Master,Engineer,Single,South,2,518,19.9,False
+sdv-id-FVldBK,40,Female,64179.57,PhD,Engineer,Single,East,2,595,13.8,False
+sdv-id-ZtaZJP,71,Male,51260.01,Master,Teacher,Married,South,0,613,4.8,False
+sdv-id-UhZjIz,72,Male,46649.59,PhD,Teacher,Single,South,0,568,8.8,True
+sdv-id-YnOGer,38,Female,15000.0,Bachelor,Accountant,Married,West,1,549,9.9,False
+sdv-id-Blkkds,52,Non-binary,62828.74,High School,Manager,Married,South,0,487,14.1,False
+sdv-id-IrDdam,80,Female,120169.11,Bachelor,Nurse,Married,South,1,489,18.7,False
+sdv-id-ZbiqGa,56,Male,29282.23,Master,Engineer,Single,South,2,520,12.8,False
+sdv-id-AXFaMA,72,Non-binary,32082.4,Master,Teacher,Widowed,Central,1,571,19.1,False
+sdv-id-DJxrok,80,Male,96308.31,Master,Business Owner,Single,North,0,595,15.3,True
+sdv-id-gVpzeh,80,Female,15000.0,Bachelor,Teacher,Married,Central,0,540,19.9,False
+sdv-id-yUgqjw,60,Non-binary,114239.06,Bachelor,Business Owner,Single,South,0,585,10.6,False
+sdv-id-DciOHU,80,Male,20907.27,Associate,Retail Worker,Married,Central,1,566,19.9,False
+sdv-id-PrzCcK,70,Male,74881.39,PhD,Accountant,Single,Central,0,485,3.2,False
+sdv-id-vfgpMa,43,Non-binary,15000.0,PhD,Business Owner,Single,South,2,568,6.9,True
+sdv-id-MMuXCh,74,Male,17403.44,Bachelor,Accountant,Single,West,1,532,9.2,False
+sdv-id-FKZakC,80,Female,15000.0,Bachelor,Business Owner,Single,North,3,470,17.2,False
+sdv-id-VYOfSC,52,Non-binary,29207.27,Bachelor,Accountant,Single,South,0,566,5.3,False
+sdv-id-HJMbsV,78,Male,15000.0,PhD,Lawyer,Married,West,0,536,14.8,False
+sdv-id-hNFMzd,80,Male,70839.09,Bachelor,Retail Worker,Married,West,2,583,16.5,False
+sdv-id-xkApuS,28,Female,55040.14,Bachelor,Manager,Single,East,2,508,4.0,False
+sdv-id-VewTfh,80,Female,59033.0,High School,Retail Worker,Single,South,1,461,19.5,False
+sdv-id-svQKzM,69,Non-binary,144934.8,PhD,Teacher,Single,West,1,576,10.5,False
+sdv-id-ZlVQwZ,80,Male,15000.0,Bachelor,Lawyer,Single,South,0,519,14.0,False
+sdv-id-emDxic,54,Non-binary,57920.57,Master,Lawyer,Single,West,1,534,19.9,False
+sdv-id-hrePiO,50,Non-binary,15000.0,High School,Teacher,Single,East,1,656,3.6,False
+sdv-id-ThGmZG,31,Non-binary,25862.01,Master,Business Owner,Single,East,1,487,1.4,False
+sdv-id-AzvMVv,61,Non-binary,22676.22,Bachelor,Business Owner,Married,Central,2,594,9.9,False
+sdv-id-KXKcfN,67,Non-binary,117318.69,Bachelor,Business Owner,Single,South,2,611,17.3,True
+sdv-id-yhsBjU,80,Female,28092.26,Bachelor,Business Owner,Single,South,2,508,17.9,False
+sdv-id-eAuNQt,42,Male,25416.58,PhD,Engineer,Single,Central,2,637,12.3,False
+sdv-id-tIcCkV,80,Female,18267.97,Bachelor,Manager,Married,South,1,524,15.0,False
+sdv-id-cBjnzY,80,Male,15000.0,PhD,Doctor,Single,West,0,524,18.1,False
+sdv-id-ToSZfJ,79,Female,136478.09,Bachelor,Manager,Single,West,1,614,8.3,False
+sdv-id-YFYlAW,80,Male,15000.0,High School,Business Owner,Single,Central,1,498,19.9,False
+sdv-id-BYtqpo,80,Non-binary,93571.3,Master,Accountant,Single,Central,2,505,8.5,False
+sdv-id-UNJQze,41,Female,38918.7,Bachelor,Student,Single,East,1,559,2.3,False
+sdv-id-kKvryD,79,Male,15000.0,PhD,Accountant,Single,South,0,461,11.3,False
+sdv-id-RHGcoY,80,Female,29647.67,Bachelor,Retail Worker,Married,South,1,461,19.7,False
+sdv-id-tWphYN,56,Female,34483.38,Bachelor,Business Owner,Single,West,2,662,19.9,False
+sdv-id-yZPzaB,80,Male,126964.93,Bachelor,Business Owner,Married,South,2,554,19.9,False
+sdv-id-sQZKSq,46,Female,30866.16,PhD,Accountant,Single,South,0,490,6.8,False
+sdv-id-xfqLvn,69,Male,53512.13,PhD,Engineer,Married,Central,2,543,3.1,True
+sdv-id-MJuawQ,63,Non-binary,58572.32,High School,Retired,Married,West,0,591,7.5,True
+sdv-id-UQjInx,38,Male,121460.95,Bachelor,Business Owner,Single,South,0,570,5.8,False
+sdv-id-HOeJBS,80,Male,31092.82,PhD,Retired,Single,South,2,546,2.5,False
+sdv-id-GGXYFJ,62,Non-binary,33187.12,Bachelor,Engineer,Single,South,2,678,12.3,False
+sdv-id-kWFAAi,28,Female,33231.94,PhD,Doctor,Single,South,2,627,7.9,False
+sdv-id-mppLxX,22,Female,38048.91,Associate,Engineer,Married,Central,2,562,17.6,False
+sdv-id-YxBsdO,63,Male,21833.75,Bachelor,Teacher,Married,South,2,564,5.3,False
+sdv-id-taZXCZ,28,Non-binary,41586.06,Master,Student,Married,South,3,556,9.5,False
+sdv-id-eoyPlU,44,Non-binary,15000.0,Bachelor,Business Owner,Married,East,0,461,16.7,False
+sdv-id-ptffzv,53,Male,40830.69,PhD,Student,Single,South,1,488,4.8,False
+sdv-id-vYTbym,80,Non-binary,59738.36,Master,Teacher,Single,North,0,703,19.1,False
+sdv-id-ZcPDnH,35,Male,51182.84,Bachelor,Engineer,Widowed,South,1,488,7.0,False
+sdv-id-aDBdJC,55,Female,66473.51,Bachelor,Teacher,Single,North,4,559,8.6,False
+sdv-id-PhOhUO,41,Female,15000.0,Master,Lawyer,Single,South,1,482,12.8,False
+sdv-id-lOgwcp,18,Non-binary,117849.45,PhD,Teacher,Single,East,1,506,14.3,False
+sdv-id-UffwHX,80,Non-binary,133819.21,Bachelor,Engineer,Married,South,0,477,19.9,False
+sdv-id-lCXNAj,63,Male,15000.0,Bachelor,Retail Worker,Single,East,5,542,18.4,False
+sdv-id-EubtgP,80,Female,43192.76,Bachelor,Business Owner,Single,North,0,598,15.1,False
+sdv-id-EOlTVe,80,Non-binary,16293.27,Bachelor,Business Owner,Single,South,5,461,19.9,False
+sdv-id-GPZOPh,25,Female,125838.26,Master,Manager,Single,South,0,461,1.6,True
+sdv-id-FVOezu,72,Non-binary,15000.0,Bachelor,Student,Single,West,2,697,8.0,False
+sdv-id-gIbsPi,80,Female,160113.49,Associate,Retail Worker,Widowed,East,0,461,19.9,False
+sdv-id-RtfvVQ,80,Non-binary,15000.0,Bachelor,Retired,Married,South,1,482,14.1,False
+sdv-id-rRKKbh,48,Female,148470.77,Bachelor,Lawyer,Married,East,2,522,5.8,False
+sdv-id-ieUHxW,80,Female,18987.96,PhD,Nurse,Single,West,2,465,18.9,False
+sdv-id-bcdUoy,60,Female,15000.0,Bachelor,Engineer,Single,Central,1,634,8.9,True
+sdv-id-giMVLp,39,Female,15000.0,High School,Business Owner,Single,Central,0,597,11.3,True
+sdv-id-ppTyll,33,Male,53798.69,Master,Accountant,Single,Central,1,600,13.2,False
+sdv-id-WVcnYg,79,Non-binary,21810.25,PhD,Nurse,Single,South,2,679,0.6,False
+sdv-id-ZQaGDT,80,Female,15000.0,PhD,Manager,Married,West,1,529,3.1,False
+sdv-id-CclgDb,80,Male,26683.93,Master,Business Owner,Single,South,2,659,19.5,True
+sdv-id-lClXNf,51,Male,15000.0,Bachelor,Nurse,Married,South,2,657,18.7,True
+sdv-id-CQBKZH,60,Female,15038.38,Associate,Business Owner,Single,South,2,558,4.4,False
+sdv-id-zKXESY,66,Non-binary,19844.2,Bachelor,Teacher,Single,Central,2,571,10.6,False
+sdv-id-wiypRO,74,Male,110161.2,PhD,Business Owner,Single,South,2,653,9.0,False
+sdv-id-qkoWro,80,Female,131087.65,Master,Student,Single,East,1,471,17.0,False
+sdv-id-hcScEU,80,Non-binary,15000.0,PhD,Nurse,Single,West,2,461,17.6,False
+sdv-id-fewUMQ,80,Female,65389.34,Bachelor,Doctor,Single,South,2,515,14.4,False
+sdv-id-AGKDKx,80,Male,66796.87,Bachelor,Doctor,Married,West,2,558,19.9,True
+sdv-id-PacOhA,66,Male,55975.13,PhD,Business Owner,Single,South,0,505,6.7,False
+sdv-id-OtCWps,80,Male,15000.0,PhD,Manager,Widowed,South,0,526,16.5,False
+sdv-id-nJbzvW,69,Non-binary,18349.74,Bachelor,Accountant,Single,North,1,531,8.2,False
+sdv-id-suVOCE,30,Non-binary,59621.11,High School,Business Owner,Married,Central,1,587,9.6,False
+sdv-id-RqCGkQ,80,Female,15000.0,PhD,Nurse,Married,East,1,547,3.8,True
+sdv-id-ovHsVZ,80,Male,178021.07,Master,Business Owner,Single,South,1,534,12.4,False
+sdv-id-bABTcw,80,Non-binary,45215.06,PhD,Manager,Single,West,2,623,16.4,True
+sdv-id-ebKRzj,29,Non-binary,28300.8,Master,Doctor,Divorced,North,2,601,1.2,False
+sdv-id-rUtESp,80,Non-binary,22608.49,Bachelor,Teacher,Single,South,1,648,19.9,True
+sdv-id-kUwvGT,60,Female,26297.97,Bachelor,Teacher,Married,North,1,502,10.7,False
+sdv-id-wQkcIj,80,Male,158214.41,Master,Student,Single,South,1,483,19.9,True
+sdv-id-yskphk,79,Female,15000.0,PhD,Accountant,Single,South,2,516,0.1,True
+sdv-id-qgiGsc,71,Female,42517.78,Associate,Doctor,Married,South,0,782,18.0,False
+sdv-id-CaYawH,38,Non-binary,85422.68,PhD,Student,Single,West,0,626,0.1,False
+sdv-id-CRarbs,53,Female,15000.0,PhD,Engineer,Single,West,2,554,18.9,False
+sdv-id-tPhHYm,80,Non-binary,29303.28,PhD,Lawyer,Widowed,North,2,517,12.3,False
+sdv-id-LJFLlG,80,Female,15000.0,Bachelor,Nurse,Single,West,1,540,17.0,False
+sdv-id-Dcmpdf,80,Non-binary,115123.64,Master,Accountant,Married,South,2,686,19.9,False
+sdv-id-pLhRJL,70,Non-binary,30095.84,Master,Student,Widowed,South,0,509,11.5,True
+sdv-id-jsvKuq,80,Female,15000.0,Bachelor,Nurse,Single,South,1,616,15.9,False
+sdv-id-zpTSyx,55,Female,57795.75,PhD,Teacher,Married,South,0,606,10.5,False
+sdv-id-IrUYZH,80,Male,98140.6,Bachelor,Manager,Single,South,1,764,7.0,False
+sdv-id-mvrNFm,43,Non-binary,15000.0,Master,Teacher,Single,South,0,659,8.3,True
+sdv-id-MfbCMd,73,Non-binary,57353.31,PhD,Teacher,Single,North,0,590,9.3,False
+sdv-id-gEjGvF,30,Male,232298.91,Bachelor,Engineer,Single,North,0,516,8.1,False
+sdv-id-RWWuZP,24,Female,159444.86,PhD,Teacher,Married,West,0,631,1.0,False
+sdv-id-RwwQIL,40,Female,107186.59,Master,Nurse,Married,South,2,478,7.5,False
+sdv-id-Rfbbgn,39,Male,104791.88,High School,Nurse,Single,North,0,735,11.7,False
+sdv-id-RNYuaJ,72,Non-binary,15000.0,PhD,Manager,Single,South,2,597,16.7,False
+sdv-id-PfJaeV,52,Female,15000.0,PhD,Accountant,Single,Central,1,461,4.3,False
+sdv-id-GHXJeT,63,Female,57815.0,Bachelor,Doctor,Married,West,1,532,4.8,True
+sdv-id-kFepLI,80,Non-binary,15000.0,PhD,Nurse,Married,East,0,507,11.3,False
+sdv-id-goUzAF,79,Female,18478.96,Associate,Teacher,Single,North,2,461,1.8,False
+sdv-id-BBpUnr,80,Male,15000.0,Associate,Student,Single,East,0,583,6.5,False
+sdv-id-skWGpD,45,Non-binary,41884.43,Bachelor,Lawyer,Single,West,0,615,12.4,False
+sdv-id-QsIkHD,53,Non-binary,15000.0,High School,Manager,Widowed,West,1,699,19.0,False
+sdv-id-okyKss,50,Non-binary,112025.82,Bachelor,Lawyer,Single,West,0,534,18.2,True
+sdv-id-PmIuQR,80,Male,15000.0,Bachelor,Nurse,Married,East,2,600,13.4,True
+sdv-id-Jhruxy,51,Female,60086.15,Bachelor,Student,Single,South,2,603,3.7,False
+sdv-id-ejapqa,67,Female,92328.98,Associate,Engineer,Married,South,1,521,8.9,False
+sdv-id-MgoLCh,74,Non-binary,83853.3,Master,Nurse,Single,South,5,694,17.9,False
+sdv-id-dmXRLc,80,Non-binary,40914.98,Associate,Nurse,Single,West,1,568,19.9,True
+sdv-id-efVhiq,49,Non-binary,69017.74,PhD,Business Owner,Married,North,2,700,13.7,False
+sdv-id-pCLzpT,77,Non-binary,15000.0,Master,Business Owner,Married,West,2,606,4.1,False
+sdv-id-wjFbeU,48,Male,77594.48,Bachelor,Engineer,Single,North,2,530,8.3,False
+sdv-id-prAiiI,52,Male,69542.74,Associate,Business Owner,Married,South,1,468,11.7,False
+sdv-id-BVxcBv,48,Non-binary,107480.41,Master,Nurse,Single,East,1,492,2.2,False
+sdv-id-wQNJFL,66,Female,62025.06,PhD,Engineer,Married,South,2,523,14.3,False
+sdv-id-hgiIXY,45,Male,55739.07,Bachelor,Engineer,Single,South,1,461,4.8,False
+sdv-id-PeklTh,29,Female,29756.58,Associate,Accountant,Single,South,1,660,5.2,False
+sdv-id-OPzJuO,47,Male,116764.02,Associate,Lawyer,Divorced,North,0,480,19.1,False
+sdv-id-yRqPao,80,Non-binary,132962.9,Bachelor,Student,Single,West,0,511,19.3,False
+sdv-id-OgHoaT,80,Non-binary,15000.0,High School,Accountant,Married,West,2,618,18.4,False
+sdv-id-lNsuvJ,80,Male,34781.88,Associate,Business Owner,Married,West,1,684,17.1,False
+sdv-id-HkhZnW,31,Male,15000.0,PhD,Student,Married,South,0,621,6.3,False
+sdv-id-ETOcDI,53,Non-binary,137282.67,Associate,Manager,Married,West,0,486,11.7,False
+sdv-id-PdhBCa,75,Male,105963.77,PhD,Accountant,Single,East,3,545,7.8,False
+sdv-id-EGOMmG,51,Male,33190.0,High School,Business Owner,Single,South,1,638,3.5,False
+sdv-id-ibCKze,29,Male,21704.38,High School,Retail Worker,Single,North,0,474,7.2,False
+sdv-id-MQMoEM,66,Non-binary,34836.32,Associate,Retail Worker,Single,South,1,507,8.7,True
+sdv-id-MmPyYz,58,Non-binary,15183.84,PhD,Nurse,Married,South,1,599,2.4,False
+sdv-id-lUfUVL,65,Male,15000.0,Bachelor,Business Owner,Single,South,1,616,5.5,False
+sdv-id-ZVBxCR,80,Female,105061.79,Bachelor,Doctor,Single,Central,0,529,6.8,False
+sdv-id-SrkciZ,66,Male,15000.0,Associate,Engineer,Married,Central,4,504,5.7,False
+sdv-id-ChbxGo,66,Non-binary,42510.93,High School,Lawyer,Married,West,1,624,10.8,False
+sdv-id-GlYDns,80,Female,30962.68,Bachelor,Teacher,Single,West,1,516,19.6,False
+sdv-id-fGCaRN,37,Female,170142.06,Bachelor,Engineer,Single,South,0,668,5.7,False
+sdv-id-tCmThp,30,Non-binary,15000.0,Bachelor,Student,Married,South,3,478,17.9,False
+sdv-id-jordSA,80,Male,34897.56,Bachelor,Manager,Married,South,0,569,5.5,False
+sdv-id-tYDJpl,80,Female,15000.0,Associate,Nurse,Married,Central,1,536,8.0,False
+sdv-id-HnqNqK,80,Male,16210.75,Bachelor,Manager,Single,West,0,684,12.4,False
+sdv-id-JooTUq,40,Male,22550.3,PhD,Retired,Single,Central,0,508,1.9,False
+sdv-id-AnQnZh,60,Female,32987.61,Master,Business Owner,Single,East,1,674,13.7,True
+sdv-id-VEGXpr,51,Male,55770.83,Associate,Business Owner,Single,South,1,568,2.9,False
+sdv-id-cpLWTk,59,Female,25808.69,High School,Accountant,Married,West,0,611,6.8,False
+sdv-id-NzZEko,80,Female,15000.0,Associate,Retired,Married,West,0,490,11.7,False
+sdv-id-CYNvCs,45,Female,69802.09,Bachelor,Teacher,Single,West,1,522,12.2,False
+sdv-id-zRcSyu,33,Female,15000.0,Associate,Engineer,Married,West,1,468,5.8,False
+sdv-id-SJSXch,58,Female,33108.25,PhD,Engineer,Single,South,0,681,0.1,True
+sdv-id-awnuhP,80,Non-binary,78291.39,Bachelor,Engineer,Married,West,0,618,3.5,False
+sdv-id-phclgH,32,Female,132715.12,Bachelor,Doctor,Single,Central,2,540,3.3,True
+sdv-id-wRmxZQ,72,Non-binary,154346.04,Bachelor,Accountant,Single,Central,4,617,15.7,False
+sdv-id-EYhPHD,80,Male,33497.61,High School,Accountant,Married,Central,4,479,16.8,True
+sdv-id-irnhzg,73,Male,64724.28,Bachelor,Manager,Single,West,1,547,8.1,False
+sdv-id-xoVbjR,80,Female,31775.38,Bachelor,Manager,Single,Central,5,603,16.2,False
+sdv-id-WteXsm,37,Male,25675.38,Associate,Teacher,Married,Central,0,582,3.1,False
+sdv-id-EAePZm,60,Female,72102.48,Bachelor,Retired,Married,South,2,505,15.1,True
+sdv-id-JpXMke,60,Male,15000.0,PhD,Engineer,Married,Central,1,528,17.0,True
+sdv-id-fiyCPv,46,Female,53032.68,Master,Engineer,Single,West,0,561,18.8,False
+sdv-id-aszsUc,62,Female,59429.6,PhD,Retired,Single,North,0,575,18.3,True
+sdv-id-RuvZNS,18,Female,90353.68,Bachelor,Teacher,Single,Central,1,608,12.6,False
+sdv-id-HeCiUr,49,Male,79452.42,Bachelor,Retail Worker,Single,West,2,509,15.3,False
+sdv-id-FSnSsM,64,Male,114738.99,Bachelor,Manager,Married,South,1,521,17.9,False
+sdv-id-yWsSIR,80,Non-binary,17460.74,Bachelor,Teacher,Single,South,0,672,18.0,False
+sdv-id-OogvsD,80,Non-binary,63049.29,Bachelor,Student,Single,Central,2,535,16.9,False
+sdv-id-XexEsF,80,Non-binary,190335.02,Master,Engineer,Single,East,1,461,12.6,False
+sdv-id-nZGYFB,30,Non-binary,15000.0,High School,Accountant,Single,South,1,509,12.0,False
+sdv-id-hphaJK,73,Non-binary,104468.74,Master,Teacher,Single,South,2,717,12.8,False
+sdv-id-MKAAbs,21,Non-binary,15000.0,PhD,Nurse,Single,East,1,591,2.8,False
+sdv-id-qtuxnT,52,Male,68638.99,Associate,Business Owner,Married,South,2,503,10.9,True
+sdv-id-yvSbbi,46,Female,35092.3,Associate,Engineer,Married,West,2,628,7.7,True
+sdv-id-jHNiix,61,Female,89385.61,Master,Manager,Married,South,2,461,4.8,False
+sdv-id-uDXKNt,77,Female,26921.69,PhD,Nurse,Single,West,0,589,7.8,False
+sdv-id-aHbBuO,80,Non-binary,37492.65,Bachelor,Retail Worker,Single,South,1,523,19.3,False
+sdv-id-MIxygh,53,Female,30289.88,Associate,Accountant,Single,South,1,775,12.5,False
+sdv-id-tAlMmY,27,Female,15000.0,Master,Business Owner,Single,Central,1,513,6.7,False
+sdv-id-VfKhXL,46,Female,83138.47,PhD,Engineer,Married,South,2,682,18.6,False
+sdv-id-eLHvOa,80,Non-binary,15000.0,PhD,Teacher,Widowed,South,0,503,15.1,False
+sdv-id-Ryvcdh,80,Male,55800.84,PhD,Teacher,Single,North,2,479,16.1,True
+sdv-id-fwHQiy,80,Non-binary,15000.0,Bachelor,Business Owner,Single,South,0,461,7.8,False
+sdv-id-dmXgUc,72,Male,15000.0,Bachelor,Teacher,Single,South,1,461,9.5,False
+sdv-id-wZHnJM,72,Female,15000.0,Bachelor,Business Owner,Married,West,0,461,4.2,False
+sdv-id-wBWWIC,80,Non-binary,15000.0,Bachelor,Business Owner,Married,West,2,516,13.4,False
+sdv-id-NcvASW,80,Male,76474.88,Bachelor,Engineer,Single,South,6,505,9.6,True
+sdv-id-WKuYzr,69,Male,132270.19,PhD,Business Owner,Single,South,2,516,16.3,False
+sdv-id-qKrpQS,79,Non-binary,63405.43,PhD,Engineer,Married,West,0,689,19.9,False
+sdv-id-HQggrk,80,Female,15000.0,Bachelor,Business Owner,Married,South,0,502,12.3,True
+sdv-id-FrInSE,80,Non-binary,28660.9,High School,Engineer,Single,East,2,507,14.5,False
+sdv-id-FqmeAs,59,Non-binary,58615.16,Bachelor,Accountant,Single,Central,2,831,11.4,False
+sdv-id-BfILUk,80,Female,29928.2,Master,Manager,Widowed,Central,1,461,9.2,False
+sdv-id-pUVFXX,80,Non-binary,36178.78,Associate,Engineer,Married,North,2,576,19.9,False
+sdv-id-GIXiXQ,68,Non-binary,19055.52,PhD,Business Owner,Married,Central,1,575,7.6,False
+sdv-id-gFnNGm,80,Female,15000.0,Bachelor,Teacher,Single,North,2,519,17.9,False
+sdv-id-mKIepz,51,Male,25131.58,Bachelor,Teacher,Married,South,2,695,11.0,False
+sdv-id-zVGgNW,80,Female,15000.0,Bachelor,Teacher,Single,Central,0,495,13.0,False
+sdv-id-cptoAA,55,Non-binary,178805.98,Master,Accountant,Single,West,2,569,18.2,False
+sdv-id-eKvazn,41,Non-binary,15000.0,PhD,Teacher,Single,West,1,514,10.8,False
+sdv-id-KjpYcQ,80,Female,67484.18,Bachelor,Teacher,Single,North,3,527,6.5,True
+sdv-id-ZuMCRs,77,Non-binary,24615.49,Bachelor,Business Owner,Single,South,0,479,7.3,True
+sdv-id-GqNWsw,63,Non-binary,15513.78,Bachelor,Lawyer,Married,West,1,524,13.0,False
+sdv-id-fKItwJ,80,Female,79153.06,PhD,Student,Single,East,1,461,19.9,False
+sdv-id-ConjiA,80,Female,137298.89,Bachelor,Nurse,Married,North,2,472,19.9,False
+sdv-id-bfyVBH,80,Female,42283.2,Bachelor,Student,Single,South,0,564,19.9,False
+sdv-id-YLBmCt,48,Non-binary,35767.64,High School,Student,Single,East,2,555,8.0,False
+sdv-id-WnZdmB,61,Female,89678.49,Bachelor,Engineer,Married,South,0,512,4.8,False
+sdv-id-lfzHnb,75,Male,63261.12,PhD,Lawyer,Single,North,1,652,15.1,True
+sdv-id-JwIHkA,59,Male,15000.0,High School,Manager,Single,South,1,505,6.0,True
+sdv-id-MMmDto,75,Female,18286.82,PhD,Engineer,Married,South,1,589,17.7,False
+sdv-id-aRAieN,79,Female,15000.0,PhD,Business Owner,Single,South,1,573,17.9,False
+sdv-id-qWfcQe,80,Male,68546.91,High School,Teacher,Single,South,2,515,9.3,False
+sdv-id-tsgqGX,80,Non-binary,15000.0,PhD,Manager,Single,West,1,654,14.8,False
+sdv-id-muVtCv,27,Male,33579.45,Master,Business Owner,Single,Central,2,656,10.3,False
+sdv-id-UsLnSM,80,Male,103897.05,Associate,Accountant,Single,South,0,471,18.3,False
+sdv-id-CJRDGz,40,Non-binary,174287.95,PhD,Student,Single,North,0,684,13.1,False
+sdv-id-gUflSl,51,Male,109965.87,PhD,Lawyer,Married,East,1,595,14.6,False
+sdv-id-rPdyDy,64,Female,15000.0,PhD,Business Owner,Single,West,1,550,19.9,True
+sdv-id-WJnIel,40,Female,43766.34,Associate,Engineer,Single,Central,2,588,6.1,True
+sdv-id-kygOOJ,57,Non-binary,16852.37,Bachelor,Teacher,Single,East,2,469,1.7,False
+sdv-id-xsrmlV,76,Non-binary,47299.83,PhD,Lawyer,Married,South,2,628,5.0,False
+sdv-id-kieYWu,31,Male,15000.0,Bachelor,Retail Worker,Single,Central,1,464,9.7,False
+sdv-id-fXaYsb,80,Male,15000.0,Bachelor,Nurse,Single,South,0,548,10.5,False
+sdv-id-HRXMxN,77,Male,48704.83,Bachelor,Teacher,Single,Central,2,536,17.1,False
+sdv-id-UeMuJO,38,Male,15000.0,Associate,Student,Single,West,0,474,6.3,False
+sdv-id-tWzsWs,18,Male,128579.05,PhD,Accountant,Single,South,0,461,0.3,True
+sdv-id-fcMlQQ,58,Male,26052.1,Bachelor,Business Owner,Single,South,2,581,11.6,True
+sdv-id-RdRMKy,50,Female,31125.55,Master,Engineer,Divorced,Central,0,609,5.9,False
+sdv-id-JZwfec,52,Female,24685.06,Master,Retail Worker,Married,West,1,523,11.1,False
+sdv-id-mCNwTg,53,Non-binary,15000.0,Bachelor,Business Owner,Single,West,3,583,14.8,False
+sdv-id-GJBhDB,80,Female,28046.25,Bachelor,Engineer,Single,South,2,619,16.7,False
+sdv-id-PZwhLg,80,Non-binary,16927.94,PhD,Business Owner,Single,East,0,528,19.5,False
+sdv-id-aqvtTn,80,Non-binary,42479.79,Bachelor,Manager,Married,North,0,729,15.5,False
+sdv-id-bPQHtI,44,Male,54565.56,Bachelor,Doctor,Divorced,West,0,554,17.0,False
+sdv-id-GdWIHD,63,Male,62663.65,Associate,Student,Divorced,North,6,690,4.6,False
+sdv-id-EKAAmH,60,Non-binary,15000.0,Bachelor,Lawyer,Married,Central,1,599,0.9,False
+sdv-id-PHrdyM,46,Non-binary,92278.99,Bachelor,Engineer,Single,Central,0,776,2.2,False
+sdv-id-FOpynq,80,Male,102201.39,Bachelor,Accountant,Single,South,1,527,5.0,False
+sdv-id-yQAZgx,57,Non-binary,28343.35,Bachelor,Accountant,Single,West,0,535,11.9,False
+sdv-id-uPCnRX,59,Female,20736.32,Associate,Teacher,Single,East,0,525,15.2,False
+sdv-id-FfhJzV,80,Female,70560.55,PhD,Student,Single,West,2,534,18.0,False
+sdv-id-NvswGT,27,Female,19415.5,Bachelor,Engineer,Married,North,1,607,9.2,False
+sdv-id-OsTDFB,18,Female,38382.35,Master,Business Owner,Single,South,0,547,5.9,True
+sdv-id-dJsaPE,36,Female,15000.0,Bachelor,Lawyer,Married,West,1,512,6.1,False
+sdv-id-WRLxEP,80,Female,15000.0,Master,Teacher,Single,South,2,607,9.0,False
+sdv-id-yoZxOp,33,Female,80665.81,PhD,Retail Worker,Single,East,2,545,19.9,False
+sdv-id-ljXnmH,78,Female,43230.4,High School,Nurse,Married,West,1,573,8.0,False
+sdv-id-LnfOzC,80,Non-binary,15000.0,Master,Lawyer,Single,North,1,532,19.9,False
+sdv-id-vwIMhh,25,Male,111329.96,Master,Student,Single,West,1,514,9.4,False
+sdv-id-nEDrDT,51,Female,15120.23,Bachelor,Teacher,Married,South,0,521,15.9,False
+sdv-id-bvuJnv,80,Male,75387.55,Bachelor,Student,Single,West,0,507,19.9,False
+sdv-id-NCGWJD,80,Male,136723.0,Master,Accountant,Single,West,3,529,13.5,False
+sdv-id-qXEIyn,37,Female,61673.04,Bachelor,Lawyer,Married,Central,2,708,9.2,False
+sdv-id-ZGrYzn,68,Non-binary,15000.0,Bachelor,Lawyer,Single,South,3,715,10.1,False
+sdv-id-PQeGLM,40,Female,147150.55,PhD,Manager,Single,North,1,649,15.4,False
+sdv-id-XtpDSt,18,Female,15000.0,Bachelor,Accountant,Single,Central,1,485,7.2,False
+sdv-id-BjkPXT,43,Female,178996.2,Bachelor,Manager,Single,East,5,588,16.2,False
+sdv-id-uCpzjY,71,Female,98208.94,Bachelor,Teacher,Single,Central,1,551,16.9,False
+sdv-id-NvitwZ,70,Male,75640.61,Master,Student,Married,North,0,619,12.5,False
+sdv-id-iqRTSp,80,Male,127376.65,PhD,Accountant,Single,West,0,717,16.2,False
+sdv-id-xZCveR,79,Female,140183.89,Bachelor,Doctor,Single,South,2,755,4.5,True
+sdv-id-tHDvUe,80,Female,167218.39,Associate,Engineer,Single,South,0,487,15.6,False
+sdv-id-jvAqXh,70,Male,79344.63,Bachelor,Engineer,Married,North,1,636,4.4,False
+sdv-id-YkNpdm,74,Male,70774.4,Bachelor,Student,Married,North,1,519,17.2,True
+sdv-id-xLPhOa,23,Non-binary,15000.0,Bachelor,Nurse,Single,East,2,516,10.8,False
+sdv-id-qPnwlX,63,Female,22162.33,Bachelor,Lawyer,Single,South,2,491,4.5,True
+sdv-id-InCJrp,80,Female,27041.34,Bachelor,Business Owner,Single,South,1,480,19.9,False
+sdv-id-zyjIPh,36,Male,15000.0,Associate,Student,Married,West,1,477,4.9,False
+sdv-id-uFsIJi,56,Female,21711.9,PhD,Accountant,Single,East,0,519,4.5,False
+sdv-id-OSFcOz,53,Female,104389.14,Bachelor,Engineer,Single,North,0,537,0.1,False
+sdv-id-TAcBKi,76,Female,21428.82,Bachelor,Engineer,Divorced,East,1,707,0.1,False
+sdv-id-ydBBeH,34,Female,15000.0,Bachelor,Doctor,Single,West,0,513,14.0,False
+sdv-id-UDNMRt,22,Non-binary,15000.0,Bachelor,Engineer,Single,North,2,556,18.4,False
+sdv-id-PfGIYc,79,Female,44897.15,PhD,Student,Single,East,2,604,9.7,False
+sdv-id-dUzbHm,80,Male,49212.8,Associate,Accountant,Single,West,2,462,16.3,False
+sdv-id-PgGFbE,40,Female,37676.86,Master,Engineer,Married,North,2,462,18.2,True
+sdv-id-GVDCYQ,80,Non-binary,15000.0,Bachelor,Doctor,Single,South,0,478,12.7,False
+sdv-id-RxeLGa,59,Male,83221.6,Associate,Doctor,Single,South,2,461,16.5,False
+sdv-id-fTKsOe,77,Female,29789.26,High School,Retail Worker,Single,North,1,461,18.2,True
+sdv-id-lOIlON,55,Female,15000.0,High School,Nurse,Single,North,0,507,7.2,False
+sdv-id-BiemDE,35,Female,31705.8,Master,Engineer,Single,East,0,461,5.9,False
+sdv-id-aJeizK,40,Non-binary,18734.17,Master,Retail Worker,Married,West,1,513,0.1,False
+sdv-id-NDkmAo,71,Male,31034.86,High School,Retail Worker,Married,South,0,604,8.1,False
+sdv-id-JPsAyb,71,Female,173723.31,PhD,Teacher,Single,Central,0,484,11.5,False
+sdv-id-KDPbYh,80,Female,201474.61,Master,Doctor,Single,West,2,532,6.0,False
+sdv-id-pryByx,59,Non-binary,90091.67,PhD,Student,Single,East,0,648,4.9,False
+sdv-id-xKiWZx,59,Female,41105.82,Bachelor,Business Owner,Single,West,0,607,1.6,True
+sdv-id-ZPzyYr,80,Female,15000.0,Master,Student,Single,North,1,461,14.9,False
+sdv-id-evzIAQ,48,Female,72439.03,Master,Accountant,Single,South,2,585,18.8,False
+sdv-id-YsOLRk,37,Male,15000.0,PhD,Accountant,Single,East,0,800,3.2,False
+sdv-id-AwvyPu,71,Non-binary,15000.0,Master,Teacher,Married,South,2,673,0.1,False
+sdv-id-BOOUBE,41,Female,20777.23,Bachelor,Nurse,Divorced,North,1,633,8.2,False
+sdv-id-XqvBfG,80,Male,50009.77,Bachelor,Student,Married,South,2,612,10.3,False
+sdv-id-dIUqDg,80,Non-binary,183174.81,Bachelor,Nurse,Single,Central,1,479,19.9,False
+sdv-id-jmVhKa,80,Male,35178.42,Bachelor,Business Owner,Single,South,2,577,14.3,False
+sdv-id-SyNwBK,34,Male,25200.99,PhD,Business Owner,Single,South,1,551,5.1,True
+sdv-id-YXSaJL,31,Female,34927.96,PhD,Business Owner,Single,South,2,643,11.2,False
+sdv-id-ceghvo,41,Non-binary,15000.0,Master,Retired,Divorced,South,0,478,4.7,False
+sdv-id-VkliRU,80,Non-binary,33629.12,Master,Manager,Single,South,2,508,2.4,False
+sdv-id-KFuuBK,62,Non-binary,52725.01,PhD,Business Owner,Married,South,1,620,13.6,False
+sdv-id-gRGSrF,27,Male,15000.0,Master,Business Owner,Single,South,1,461,14.1,False
+sdv-id-KtCxYW,54,Non-binary,23230.19,Associate,Teacher,Single,South,1,706,12.2,False
+sdv-id-XYlzIR,46,Non-binary,29739.33,Associate,Doctor,Married,Central,1,570,7.1,False
+sdv-id-gQMFnj,73,Male,21356.3,Bachelor,Lawyer,Married,South,2,565,4.0,False
+sdv-id-JgELjg,65,Female,15000.0,Master,Business Owner,Single,East,0,669,9.3,True
+sdv-id-wqHsMI,59,Male,15000.0,Master,Manager,Married,South,2,548,3.8,False
+sdv-id-Xzehed,29,Male,48916.75,Bachelor,Nurse,Married,West,2,556,9.9,False
+sdv-id-AHsrHE,26,Female,162104.78,Master,Lawyer,Married,Central,2,667,5.1,False
+sdv-id-BXENem,80,Non-binary,15000.0,Bachelor,Engineer,Single,South,2,614,10.9,False
+sdv-id-HkWYWb,36,Male,15000.0,Associate,Business Owner,Single,North,1,509,0.4,False
+sdv-id-spAviw,66,Female,95464.36,Master,Business Owner,Single,South,2,636,5.9,False
+sdv-id-ZmFKKV,41,Non-binary,56467.78,Bachelor,Doctor,Single,North,1,535,5.2,True
+sdv-id-LnEWvV,80,Female,19978.55,Associate,Lawyer,Single,South,0,461,17.8,False
+sdv-id-vnoOqk,80,Non-binary,110192.73,Bachelor,Business Owner,Single,South,2,518,3.8,False
+sdv-id-MLEJjN,50,Female,73562.6,Master,Manager,Divorced,South,1,483,4.9,True
+sdv-id-QfuSOf,27,Non-binary,15000.0,PhD,Lawyer,Single,South,0,658,3.1,True
+sdv-id-UbPEDK,80,Female,163488.14,PhD,Engineer,Single,Central,0,635,11.1,False
+sdv-id-hJEKnw,80,Female,152104.71,Master,Engineer,Single,South,1,745,11.5,False
+sdv-id-kxlcjZ,55,Male,68189.12,PhD,Nurse,Married,Central,0,590,16.6,False
+sdv-id-DCsLAh,64,Male,69157.35,Bachelor,Accountant,Single,East,0,589,17.6,False
+sdv-id-ogBakp,71,Male,15000.0,Bachelor,Retail Worker,Single,South,2,666,13.2,False
+sdv-id-dNFCEm,60,Male,15000.0,PhD,Accountant,Married,South,0,546,19.8,False
+sdv-id-EpbzsA,67,Female,25770.15,Bachelor,Business Owner,Single,East,0,581,15.0,False
+sdv-id-afqOvg,80,Non-binary,197696.99,PhD,Student,Single,South,1,650,19.9,False
+sdv-id-ohvGMa,66,Male,74702.62,Master,Student,Single,South,0,643,11.2,False
+sdv-id-inFxya,18,Non-binary,15000.0,Master,Business Owner,Single,South,1,482,9.8,False
+sdv-id-jvppjQ,80,Male,57921.62,Associate,Business Owner,Single,Central,1,511,8.4,True
+sdv-id-oLqZGV,80,Non-binary,15000.0,Bachelor,Retail Worker,Divorced,East,1,813,17.8,False
+sdv-id-mWzWtW,80,Non-binary,60603.72,PhD,Student,Single,South,2,461,2.2,True
+sdv-id-iDRLzt,61,Non-binary,45904.81,Bachelor,Accountant,Widowed,South,1,712,0.3,False
+sdv-id-pWfgYb,71,Female,15000.0,Master,Student,Married,West,1,469,7.7,False
+sdv-id-bzCVpo,78,Female,71439.23,Bachelor,Nurse,Single,South,1,541,17.2,False
+sdv-id-MbgaZO,66,Male,70875.06,Bachelor,Accountant,Divorced,South,0,510,7.5,False
+sdv-id-lfdahk,57,Male,50657.98,PhD,Business Owner,Single,Central,2,600,19.0,False
+sdv-id-FvOlZO,75,Non-binary,15000.0,Bachelor,Accountant,Married,South,1,510,6.3,False
+sdv-id-jKvkFd,78,Male,60370.36,PhD,Engineer,Single,Central,0,670,7.9,False
+sdv-id-HPOVld,80,Non-binary,15000.0,Bachelor,Business Owner,Single,Central,2,479,19.9,False
+sdv-id-ZRCNOa,52,Non-binary,55934.48,Bachelor,Accountant,Single,East,1,581,12.4,False
+sdv-id-njbJaj,34,Male,15000.0,Bachelor,Student,Single,South,0,733,14.5,False
+sdv-id-gFVgRI,80,Female,117870.86,PhD,Nurse,Married,East,2,704,8.9,False
+sdv-id-xOuYZQ,53,Non-binary,15000.0,Bachelor,Accountant,Single,North,1,648,16.0,False
+sdv-id-ptJjde,80,Female,127426.99,PhD,Accountant,Single,East,0,667,16.8,False
+sdv-id-AZWVHq,42,Male,37165.27,Bachelor,Manager,Single,West,0,541,6.7,False
+sdv-id-YoRXyS,27,Non-binary,15000.0,High School,Accountant,Single,Central,2,719,16.8,False
+sdv-id-UNlqBR,80,Male,150182.1,High School,Business Owner,Single,West,2,553,19.9,False
+sdv-id-wpsOSd,33,Female,17687.73,PhD,Nurse,Married,Central,1,475,13.7,False
+sdv-id-aAhUEv,58,Female,119696.67,Master,Manager,Single,Central,0,600,18.2,False
+sdv-id-xqpwNu,43,Male,110166.14,PhD,Retail Worker,Married,South,2,470,5.6,False
+sdv-id-jzPOGl,65,Female,15000.0,Associate,Business Owner,Single,South,2,539,19.5,False
+sdv-id-GHUHvF,57,Male,25779.51,Master,Business Owner,Single,Central,4,490,8.2,False
+sdv-id-WJDbEC,80,Female,58076.59,PhD,Nurse,Single,Central,0,557,13.0,False
+sdv-id-WgRWib,41,Male,57462.89,Bachelor,Retail Worker,Married,Central,0,686,10.1,False
+sdv-id-bSXnQg,80,Non-binary,59153.12,Bachelor,Retail Worker,Single,South,2,597,13.4,True
+sdv-id-coHeMm,80,Female,33519.46,Bachelor,Retired,Single,East,2,520,15.6,False
+sdv-id-IcLrJY,80,Non-binary,25908.75,Bachelor,Student,Married,South,2,777,17.2,False
+sdv-id-WdSsqI,62,Female,41135.16,Bachelor,Accountant,Single,West,0,511,10.5,False
+sdv-id-eoKCbJ,61,Non-binary,15000.0,Bachelor,Accountant,Single,North,0,646,19.4,False
+sdv-id-lvCCVC,80,Female,49787.78,PhD,Accountant,Single,West,2,554,19.2,False
+sdv-id-NDgTar,27,Non-binary,111928.94,Bachelor,Business Owner,Single,Central,1,729,0.6,False
+sdv-id-yePtXJ,19,Non-binary,100462.38,Bachelor,Lawyer,Single,Central,1,572,7.1,False
+sdv-id-cCQCEK,80,Male,15000.0,PhD,Retail Worker,Single,South,0,611,3.8,False
+sdv-id-VLtjdd,73,Non-binary,23904.6,PhD,Nurse,Single,South,1,583,12.9,False
+sdv-id-mijDHW,38,Female,43063.6,PhD,Manager,Single,Central,2,530,8.8,False
+sdv-id-hnylHz,80,Non-binary,48993.62,High School,Business Owner,Single,Central,0,531,17.2,False
+sdv-id-guAZoe,78,Female,21288.47,Master,Business Owner,Single,West,0,653,12.5,False
+sdv-id-OFpkdm,75,Non-binary,15000.0,High School,Student,Single,Central,1,507,4.8,False
+sdv-id-yTKiSR,46,Female,15000.0,Bachelor,Business Owner,Married,West,1,599,14.0,False
+sdv-id-KhvMKb,39,Female,81759.02,Associate,Manager,Single,South,1,551,4.0,False

@@ -24,7 +24,8 @@ PANEL  = RGBColor(0xF3, 0xF5, 0xF7)
 GOOD   = RGBColor(0x2E, 0x7D, 0x32)
 WARN   = RGBColor(0xC6, 0x28, 0x28)
 METHOD = {"M1": RGBColor(0x4E,0x79,0xA7), "M2": RGBColor(0xF2,0x8E,0x2B),
-          "M3": RGBColor(0x59,0xA1,0x4F), "M4": RGBColor(0xE1,0x57,0x59)}
+          "M3": RGBColor(0x59,0xA1,0x4F), "M4": RGBColor(0xE1,0x57,0x59),
+          "M5": RGBColor(0xB0,0x7A,0xA1)}
 
 prs = Presentation()
 prs.slide_width  = Inches(13.333)
@@ -133,10 +134,10 @@ tf = box(s, 0.9, 2.3, 11.5, 2.6)
 _set(tf.paragraphs[0], "SYNTHETIC BANKING DATA", 15, RGBColor(0x9F,0xC0,0xE0), bold=True)
 p = tf.add_paragraph(); _set(p, "A constrained, benchmarked generation pipeline", 40, BG, bold=True)
 p = tf.add_paragraph()
-_set(p, "4 synthesis methods · SDV CAG constraints · LLM product recommender", 20,
+_set(p, "5 methods (SDV + differential privacy) · constraints · LLM recommender", 20,
      RGBColor(0xC9,0xD3,0xDD))
 tf = box(s, 0.9, 6.4, 11.5, 0.6)
-_set(tf.paragraphs[0], "SDV · SDMetrics · DeepSeek  |  customers + transactions", 14,
+_set(tf.paragraphs[0], "SDV · OpenDP SmartNoise · SDMetrics · DeepSeek  |  customers + transactions", 14,
      RGBColor(0x8A,0x97,0xA3))
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -171,7 +172,7 @@ def arrow(x, y):
 yy, hh = 2.9, 1.7
 stage(0.85, yy, 2.5, hh, "Seed data", "1,000 customers\nbusiness rules", INK)
 arrow(3.45, yy+0.6)
-stage(4.05, yy, 2.9, hh, "4 synthesizers", "HMA · CTGAN\nPAR · TVAE", ACCENT)
+stage(4.05, yy, 2.9, hh, "5 synthesizers", "SDV: HMA·CTGAN\nPAR·TVAE  +  DP", ACCENT)
 arrow(7.05, yy+0.6)
 stage(7.65, yy, 2.5, hh, "Evaluation", "SDMetrics +\ncustom metrics", METHOD["M3"])
 arrow(10.25, yy+0.6)
@@ -192,19 +193,21 @@ caption(s, "Income↔occupation, credit eligibility, age→channel — the real 
 # ════════════════════════════════════════════════════════════════════════════
 # 5 — The four methods
 # ════════════════════════════════════════════════════════════════════════════
-s = slide(); header(s, "Four synthesis strategies", "Methods")
+s = slide(); header(s, "Five synthesis strategies — SDV vs OpenDP", "Methods")
 rows = [
-    ["", "Synthesizer", "Idea", "Strength"],
-    ["M1", "HMA + Gaussian Copula", "Relational, hierarchical", "Joint structure, native FK"],
-    ["M2", "Independent CTGAN", "GAN per table", "Sharp marginals, timing"],
-    ["M3", "CTGAN + PAR", "Sequential transactions", "Temporal / cross-table context"],
-    ["M4", "Independent TVAE", "VAE per table", "Smooth, stable, correlated"],
+    ["", "Synthesizer", "Library", "Strength"],
+    ["M1", "HMA + Gaussian Copula", "SDV", "Joint structure, native FK"],
+    ["M2", "Independent CTGAN", "SDV", "Sharp marginals, timing"],
+    ["M3", "CTGAN + PAR", "SDV", "Temporal / cross-table context"],
+    ["M4", "Independent TVAE", "SDV", "Smooth, stable, correlated"],
+    ["M5", "SmartNoise MST", "OpenDP", "(ε, δ)-differential privacy"],
 ]
-cc = {(i+1, 0): METHOD[m] for i, m in enumerate(["M1","M2","M3","M4"])}
-table(s, rows, 0.85, 2.1, 11.6, 3.0, font=15,
-      col_widths=[0.9, 3.3, 3.5, 3.9], cell_colors=cc)
-bullets(s, ["Same seed data, same metadata — only the synthesizer changes, so the comparison is clean."],
-        y=5.4, size=16)
+cc = {(i+1, 0): METHOD[m] for i, m in enumerate(["M1","M2","M3","M4","M5"])}
+table(s, rows, 0.85, 1.95, 11.6, 3.3, font=14,
+      col_widths=[0.9, 3.9, 2.0, 4.8], cell_colors=cc)
+bullets(s, ["M1–M4 (SDV) optimise statistical fidelity; M5 (SmartNoise/OpenDP) adds a formal privacy guarantee.",
+            "Same seed data and metadata — only the synthesizer changes, so the comparison is clean."],
+        y=5.5, size=15, gap=8)
 
 # ════════════════════════════════════════════════════════════════════════════
 # 6 — Constraints
@@ -234,15 +237,15 @@ rows = [
     ["M2 CTGAN", "0", "✓", "✓", "✓", "✓"],
     ["M3 CTGAN+PAR", "15", "✓", "✓", "✓", "✓"],
     ["M4 TVAE", "0", "✓", "✓", "✓", "✓"],
+    ["M5 SmartNoise", "0", "✓", "✓", "✓", "✓"],
 ]
-cc = {(1,1):GOOD,(2,1):GOOD,(4,1):GOOD,(3,1):WARN}
-table(s, rows, 0.85, 2.1, 11.6, 2.7, font=14,
+cc = {(1,1):GOOD,(2,1):GOOD,(4,1):GOOD,(5,1):GOOD,(3,1):WARN}
+table(s, rows, 0.85, 2.0, 11.6, 3.0, font=13,
       col_widths=[2.6,2.2,1.6,2.2,1.5,1.5], cell_colors=cc)
 bullets(s, [
-    "M1 / M2 / M4 satisfy every constraint with 0 orphan foreign keys.",
+    "M1 / M2 / M4 (SDV constraints) and M5 (DP + post-processing) satisfy every rule, 0 orphan FKs.",
     "M3 keeps 15 product/category drifts — PAR merges the two columns and rejects FixedCombinations.",
-    ("We document the limitation rather than hide it.", 1),
-], y=5.1, size=15, gap=8)
+], y=5.3, size=14, gap=8)
 
 # ════════════════════════════════════════════════════════════════════════════
 # 8 — Evaluation metrics
@@ -287,25 +290,29 @@ caption(s, "Real (grey fill) vs each method (coloured outline) — per variable 
 # ════════════════════════════════════════════════════════════════════════════
 # 12 — Verdict
 # ════════════════════════════════════════════════════════════════════════════
-s = slide(); header(s, "Results at 1,000 seeds", "Verdict")
+s = slide(); header(s, "Results at 1,000 seeds — SDV vs DP", "Verdict")
 rows = [
-    ["Metric", "M1", "M2", "M3", "M4", "Winner"],
-    ["Overall quality", "0.849", "0.830", "0.541", "0.846", "M1"],
-    ["Diagnostic / FK", "1.000", "1.000", "0.779", "1.000", "M1/M2/M4"],
-    ["Cust. pair trends", "0.764", "0.543", "0.571", "0.689", "M1"],
-    ["Txn. column shapes", "0.813", "0.869", "0.742", "0.791", "M2"],
-    ["Cross-table MAD ↓", "0.265", "0.253", "0.163", "0.271", "M3"],
-    ["Autocorr MAE ↓", "0.046", "0.003", "0.103", "0.014", "M2"],
+    ["Metric", "M1", "M2", "M3", "M4", "M5", "Winner"],
+    ["Overall quality", "0.851", "0.840", "0.544", "0.826", "0.887", "M5"],
+    ["Diagnostic / FK", "1.000", "1.000", "0.765", "1.000", "1.000", "tie"],
+    ["Cust. pair trends", "0.720", "0.544", "0.540", "0.683", "0.680", "M1"],
+    ["Txn. column shapes", "0.818", "0.851", "0.739", "0.788", "0.880", "M5"],
+    ["Cross-table MAD ↓", "0.242", "0.281", "0.195", "0.288", "0.297", "M3"],
+    ["Autocorr MAE ↓", "0.076", "0.063", "0.124", "0.022", "0.005", "M5"],
+    ["Differential privacy", "✗", "✗", "✗", "✗", "✓", "M5"],
 ]
-table(s, rows, 0.85, 2.0, 9.3, 3.6, font=13,
-      col_widths=[2.9,1.1,1.1,1.1,1.1,2.0])
-tf = box(s, 10.4, 2.0, 2.6, 4.0); tf.word_wrap = True
+table(s, rows, 0.7, 1.95, 9.2, 3.9, font=12,
+      col_widths=[2.5,0.95,0.95,0.95,0.95,0.95,1.95])
+tf = box(s, 10.15, 1.95, 2.9, 4.2); tf.word_wrap = True
 _set(tf.paragraphs[0], "Pick by need", 16, ACCENT, bold=True)
-for t in ["M1 — profiles & correlations (the recommender's need)",
-          "M4 — strong runner-up, simple per-table",
-          "M2 — transaction shapes & timing",
+for t in ["M5 — privacy + best overall fidelity",
+          "M1 — demographic correlations (recommender)",
+          "M4 — simple per-table SDV pipeline",
+          "M2 — transaction timing",
           "M3 — cross-table only, costly"]:
     p = tf.add_paragraph(); _set(p, "• " + t, 13, INK); p.space_after = Pt(8)
+p = tf.add_paragraph()
+_set(p, "DP costs ~0 on marginals — but most on cross-table signal.", 12, METHOD["M5"], italic=True)
 
 # ════════════════════════════════════════════════════════════════════════════
 # 13 — LLM application
@@ -315,12 +322,12 @@ tf = box(s, 0.85, 1.85, 11.6, 0.9); tf.word_wrap = True
 _set(tf.paragraphs[0], "Feed a synthetic M1 customer profile to DeepSeek (deepseek-chat) → 3 ranked products.",
      17, INK)
 p = tf.add_paragraph()
-_set(p, "Synthetic customer C01502 — 67, Business Owner, income ~$131k, credit 636", 14, MUTED, italic=True)
+_set(p, "Synthetic customer C01502 — 42, Business Owner, income ~$91k, credit 675, PhD", 14, MUTED, italic=True)
 rows = [
     ["#", "Product", "Why"],
-    ["1", "Fixed Deposit 1Y", "low-risk, retirement-aligned, no term deposit held"],
-    ["2", "Health Insurance Premium", "business owner, costs rise with age"],
-    ["3", "Credit Card Premium", "high income + established credit → perks"],
+    ["1", "Investment Fund A", "high income + PhD → wealth growth, low-med risk, not held"],
+    ["2", "Fixed Deposit 1Y", "already holds savings; low-risk, stable returns"],
+    ["3", "Personal Loan", "good credit, no credit products → consolidate / build history"],
 ]
 table(s, rows, 0.85, 3.0, 11.6, 2.2, font=14, header_fill=METHOD["M4"],
       col_widths=[0.7, 3.6, 7.3])
@@ -334,11 +341,12 @@ bullets(s, ["Catalog cached in the system prompt — repeat calls hit 512 cached
 s = slide(); header(s, "Takeaways", "Wrap-up")
 bullets(s, [
     "Method choice is task-dependent — there is no universal winner.",
-    ("For demographic/recommendation use cases, M1 (HMA+GC) wins; M4 (TVAE) is the simple fallback.", 1),
+    ("Privacy? M5 (SmartNoise DP). Demographic correlations? M1 (HMA+GC). Per-table SDV? M4 (TVAE).", 1),
+    "Differential privacy was nearly free on marginal fidelity here — but costs most on cross-table signal.",
     "Constraints turn 'realistic-looking' data into provably valid data.",
     "Measure correlations and business signal, not just per-column histograms.",
     "End-to-end & reproducible: seed → synthesize → evaluate → recommend, all in one notebook.",
-], gap=14, size=19)
+], gap=12, size=18)
 tf = box(s, 0.85, 6.5, 11.6, 0.6)
 _set(tf.paragraphs[0], "Code: src/{methods,constraints,evaluate,llm_suggest}.py  ·  synthetic_data_pipeline.ipynb",
      13, MUTED, italic=True)

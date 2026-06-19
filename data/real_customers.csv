@@ -3,999 +3,999 @@ C00001,48,Non-binary,103086.78,High School,Business Owner,Single,South,2,611,14.
 C00002,33,Male,84244.91,Associate,Manager,Married,Central,0,611,4.1,False
 C00003,62,Male,33193.79,Bachelor,Retail Worker,Divorced,Central,0,649,5.4,True
 C00004,33,Female,138332.25,Bachelor,Doctor,Single,South,1,677,15.5,False
-C00005,24,Non-binary,28735.94,Bachelor,Student,Married,Central,1,575,14.6,False
-C00006,54,Female,19074.81,High School,Student,Divorced,East,1,510,4.3,False
-C00007,52,Male,52514.01,Associate,Teacher,Married,West,0,553,12.0,False
-C00008,60,Female,78559.8,Bachelor,Accountant,Single,East,0,648,19.4,False
-C00009,30,Non-binary,122311.34,Associate,Manager,Divorced,West,0,618,19.3,False
-C00010,48,Non-binary,143357.56,PhD,Doctor,Single,East,1,695,16.0,True
-C00011,48,Male,74819.43,Bachelor,Accountant,Single,West,0,613,18.1,False
-C00012,35,Male,186926.5,High School,Doctor,Married,South,0,689,8.1,False
-C00013,34,Non-binary,53480.1,Bachelor,Manager,Married,East,1,595,4.2,False
-C00014,49,Female,167736.03,Master,Lawyer,Married,South,0,803,8.8,False
-C00015,45,Male,26779.21,Bachelor,Student,Single,East,0,575,4.2,False
-C00016,31,Male,118741.65,Bachelor,Business Owner,Single,East,2,622,15.4,False
-C00017,38,Female,69512.58,PhD,Teacher,Widowed,South,1,665,17.3,False
-C00018,51,Female,136563.32,Bachelor,Lawyer,Single,South,2,674,8.0,False
-C00019,50,Male,91444.06,High School,Nurse,Married,East,0,593,8.8,False
-C00020,37,Non-binary,41071.75,Bachelor,Retail Worker,Married,West,1,566,13.5,False
-C00021,43,Non-binary,171983.05,Master,Doctor,Married,Central,0,693,4.0,False
-C00022,42,Non-binary,101051.85,Bachelor,Engineer,Married,North,1,627,9.2,False
-C00023,31,Female,149839.05,Bachelor,Manager,Married,Central,0,675,9.0,False
-C00024,48,Non-binary,109365.85,PhD,Engineer,Divorced,Central,1,592,7.7,True
-C00025,42,Non-binary,126959.94,Associate,Accountant,Divorced,Central,2,652,10.7,False
-C00026,43,Female,93242.61,High School,Accountant,Single,East,1,657,7.6,False
-C00027,35,Male,99372.23,Bachelor,Lawyer,Single,North,0,664,11.3,False
-C00028,33,Non-binary,24376.78,Master,Student,Married,East,2,578,10.7,False
-C00029,53,Male,139158.38,Master,Doctor,Single,West,4,680,5.0,False
-C00030,66,Male,60363.61,Bachelor,Nurse,Married,East,0,624,13.3,False
-C00031,34,Male,70579.23,Associate,Accountant,Single,Central,0,597,19.5,False
-C00032,41,Male,49962.06,High School,Nurse,Married,Central,0,529,4.6,False
-C00033,41,Non-binary,30169.11,Bachelor,Student,Widowed,North,2,593,19.0,False
-C00034,42,Non-binary,154422.65,Bachelor,Lawyer,Married,Central,1,708,4.6,False
-C00035,39,Non-binary,15000.0,Master,Student,Single,South,1,517,9.5,False
-C00036,58,Non-binary,78270.61,Bachelor,Engineer,Widowed,Central,1,566,16.0,False
-C00037,37,Male,41013.15,Bachelor,Nurse,Married,Central,0,584,5.4,True
-C00038,63,Female,83399.46,High School,Accountant,Married,West,2,617,7.8,False
-C00039,61,Non-binary,27280.61,PhD,Retail Worker,Divorced,West,0,627,2.1,False
-C00040,56,Female,22063.03,Master,Business Owner,Married,West,1,573,13.0,False
-C00041,41,Male,38224.95,Bachelor,Retail Worker,Married,South,1,574,10.7,False
-C00042,40,Non-binary,15000.0,Associate,Student,Single,West,2,549,12.8,False
-C00043,40,Female,58237.88,Bachelor,Business Owner,Single,West,0,599,17.1,True
-C00044,33,Male,65271.76,PhD,Accountant,Divorced,East,0,662,15.5,False
-C00045,40,Female,62222.98,Bachelor,Business Owner,Divorced,East,1,579,18.3,False
-C00046,32,Male,106738.08,Bachelor,Doctor,Single,South,0,653,17.2,False
-C00047,49,Non-binary,15000.0,Bachelor,Student,Single,North,0,549,12.7,False
-C00048,42,Female,63381.0,Associate,Accountant,Widowed,East,2,595,2.1,False
-C00049,18,Male,35469.49,Bachelor,Teacher,Married,Central,0,576,0.2,False
-C00050,80,Non-binary,85559.78,High School,Doctor,Married,East,0,559,10.3,True
-C00051,49,Male,108831.37,Bachelor,Accountant,Single,North,1,666,6.5,False
-C00052,46,Female,58821.85,Master,Nurse,Married,West,0,609,8.0,False
-C00053,30,Male,22357.98,Master,Retail Worker,Divorced,East,2,582,2.4,False
-C00054,73,Non-binary,157274.65,PhD,Doctor,Married,South,0,744,7.6,False
-C00055,47,Female,59787.1,Bachelor,Nurse,Single,Central,1,624,2.4,False
-C00056,47,Female,77521.55,Master,Teacher,Single,Central,0,605,14.1,False
-C00057,42,Male,34257.31,Associate,Student,Married,North,2,571,8.0,False
-C00058,63,Non-binary,76839.84,Bachelor,Accountant,Single,West,1,604,12.7,False
-C00059,38,Male,26062.27,Bachelor,Accountant,Married,North,2,564,9.1,False
-C00060,27,Female,115500.08,PhD,Manager,Married,South,1,671,7.3,False
-C00061,34,Male,19737.97,Bachelor,Student,Married,East,1,543,6.3,False
-C00062,22,Female,45666.2,Associate,Teacher,Single,East,1,593,16.9,True
-C00063,59,Female,63660.06,Associate,Teacher,Divorced,Central,0,549,16.2,False
-C00064,38,Female,106881.27,Associate,Lawyer,Married,West,3,594,18.1,False
-C00065,66,Male,40101.99,Master,Teacher,Divorced,North,1,575,12.9,False
-C00066,47,Female,98870.96,High School,Manager,Married,West,3,631,19.9,False
-C00067,49,Male,160167.22,Master,Manager,Widowed,Central,1,741,10.6,True
-C00068,55,Female,33323.8,Bachelor,Student,Married,North,0,603,16.8,False
-C00069,44,Non-binary,53669.26,Bachelor,Nurse,Divorced,North,0,547,12.7,False
-C00070,44,Non-binary,92151.34,Master,Accountant,Single,South,0,606,1.0,False
-C00071,20,Female,71992.37,Master,Accountant,Divorced,West,3,579,6.8,False
-C00072,40,Male,39965.38,Bachelor,Retail Worker,Single,East,0,611,13.3,False
-C00073,39,Non-binary,44032.56,High School,Retail Worker,Married,East,1,541,5.1,True
-C00074,37,Non-binary,84442.68,Bachelor,Accountant,Single,South,1,610,17.1,False
-C00075,56,Female,65413.18,Master,Teacher,Married,South,1,633,15.9,False
-C00076,34,Female,142280.42,Master,Manager,Single,North,1,688,1.4,False
-C00077,29,Non-binary,42950.31,Bachelor,Teacher,Married,South,0,559,8.7,False
-C00078,41,Non-binary,107026.44,Associate,Manager,Divorced,North,1,656,5.1,False
-C00079,48,Male,69337.53,Master,Nurse,Married,North,0,702,10.0,False
-C00080,61,Male,56438.81,Associate,Nurse,Married,South,1,559,6.9,False
-C00081,57,Female,52241.65,Master,Nurse,Single,South,1,615,16.3,False
-C00082,18,Non-binary,68244.42,Bachelor,Engineer,Single,Central,2,628,15.9,False
-C00083,47,Non-binary,23203.3,High School,Student,Married,West,1,547,19.8,False
-C00084,40,Non-binary,69185.32,Master,Nurse,Single,South,2,634,0.7,False
-C00085,32,Non-binary,119876.17,PhD,Engineer,Married,Central,0,654,4.2,False
-C00086,68,Non-binary,92079.44,Bachelor,Doctor,Married,Central,0,566,7.7,False
-C00087,38,Non-binary,104121.65,Bachelor,Doctor,Married,Central,2,598,4.9,True
-C00088,37,Female,137692.56,Bachelor,Lawyer,Married,East,0,676,6.5,False
-C00089,41,Female,92769.0,Bachelor,Doctor,Married,West,0,585,13.0,False
-C00090,76,Non-binary,49049.61,High School,Teacher,Married,South,0,572,0.2,False
-C00091,47,Male,51840.14,Bachelor,Teacher,Married,Central,1,579,18.5,False
-C00092,32,Non-binary,84943.3,Master,Lawyer,Married,Central,3,636,17.5,True
-C00093,61,Male,127739.01,Master,Manager,Single,Central,0,742,3.1,False
-C00094,60,Non-binary,166053.75,Associate,Doctor,Single,East,1,751,14.0,False
-C00095,34,Female,62424.24,Bachelor,Teacher,Married,West,1,636,7.6,False
-C00096,24,Non-binary,53390.63,Master,Engineer,Divorced,West,1,620,12.3,False
-C00097,52,Non-binary,134056.89,Master,Lawyer,Married,South,1,673,19.7,False
-C00098,18,Male,68785.19,Bachelor,Teacher,Married,West,0,556,4.4,False
-C00099,38,Non-binary,199347.48,High School,Doctor,Single,Central,0,744,14.5,False
-C00100,59,Non-binary,104290.19,High School,Accountant,Divorced,Central,3,601,14.1,False
-C00101,42,Female,94652.8,Bachelor,Accountant,Married,East,1,632,18.3,False
-C00102,46,Male,129940.3,High School,Manager,Widowed,Central,2,543,14.4,False
-C00103,51,Male,49148.54,Bachelor,Retired,Widowed,East,2,569,5.2,False
-C00104,51,Non-binary,28656.1,Master,Retired,Married,South,1,637,2.2,True
-C00105,47,Female,112274.23,Bachelor,Accountant,Single,North,2,665,14.1,True
-C00106,30,Non-binary,110344.31,Master,Doctor,Single,Central,0,605,4.9,False
-C00107,32,Female,98786.54,High School,Nurse,Single,North,2,585,6.9,False
-C00108,50,Male,65240.99,High School,Teacher,Married,South,1,588,14.8,False
-C00109,39,Non-binary,73296.1,Bachelor,Nurse,Single,North,0,562,7.1,True
-C00110,19,Female,53388.78,High School,Teacher,Married,West,1,548,5.8,False
-C00111,49,Non-binary,36791.31,High School,Retail Worker,Married,South,0,577,9.6,False
-C00112,32,Non-binary,34223.89,Bachelor,Retired,Married,East,2,601,13.2,False
-C00113,48,Non-binary,136737.53,Master,Manager,Married,North,1,745,2.3,False
-C00114,64,Male,90165.51,Bachelor,Nurse,Married,Central,2,613,13.8,False
-C00115,33,Female,76049.3,Bachelor,Accountant,Married,West,1,597,6.4,False
-C00116,66,Female,20771.47,Bachelor,Student,Divorced,West,1,540,11.9,False
-C00117,37,Non-binary,45512.08,PhD,Retail Worker,Married,Central,2,589,7.9,True
-C00118,50,Male,58588.11,Bachelor,Accountant,Single,South,1,571,6.4,False
-C00119,48,Non-binary,71228.26,Bachelor,Accountant,Married,West,4,646,11.0,True
-C00120,60,Non-binary,65758.04,Associate,Nurse,Single,South,1,590,6.0,False
-C00121,41,Male,134325.08,Bachelor,Business Owner,Single,East,1,646,19.1,False
-C00122,36,Non-binary,50593.31,Bachelor,Teacher,Married,East,0,569,12.6,False
-C00123,74,Non-binary,108241.09,Master,Doctor,Married,West,2,661,4.4,False
-C00124,47,Male,37253.06,PhD,Teacher,Divorced,East,0,622,3.3,False
-C00125,41,Male,82523.27,PhD,Nurse,Married,West,1,636,1.5,False
-C00126,63,Male,45480.06,Associate,Retired,Single,Central,0,542,12.1,False
-C00127,30,Male,201952.45,Bachelor,Doctor,Single,Central,0,777,1.5,False
-C00128,55,Male,71080.12,Bachelor,Engineer,Single,North,1,601,18.5,False
-C00129,52,Non-binary,173737.17,Master,Doctor,Married,West,1,750,14.6,False
-C00130,35,Non-binary,81713.59,High School,Engineer,Single,East,0,590,10.5,False
-C00131,44,Male,24625.34,High School,Retail Worker,Married,South,2,521,3.7,False
-C00132,40,Male,43024.71,Master,Manager,Married,South,3,605,3.1,False
-C00133,36,Male,129123.2,Associate,Lawyer,Married,North,2,607,19.5,False
-C00134,47,Female,15000.0,High School,Student,Single,South,1,501,4.8,False
-C00135,59,Female,36722.13,Bachelor,Retired,Single,South,1,653,0.7,False
-C00136,57,Non-binary,55261.02,Bachelor,Nurse,Married,West,2,561,13.7,False
-C00137,22,Non-binary,67847.72,Bachelor,Nurse,Divorced,West,1,625,1.3,False
-C00138,26,Female,93522.16,Bachelor,Engineer,Married,South,0,580,0.7,False
-C00139,44,Male,16972.37,Associate,Student,Married,East,1,563,18.3,True
-C00140,59,Female,53798.15,Bachelor,Teacher,Married,North,0,587,1.2,False
-C00141,41,Non-binary,154065.77,PhD,Doctor,Divorced,East,1,700,19.2,False
-C00142,49,Non-binary,21561.81,PhD,Retired,Married,Central,2,585,13.9,False
-C00143,58,Female,109367.13,Associate,Doctor,Divorced,East,2,631,9.0,False
-C00144,70,Female,91547.94,Bachelor,Nurse,Single,West,1,600,15.8,False
-C00145,34,Male,134858.01,Master,Manager,Widowed,North,1,671,6.8,False
-C00146,49,Female,64642.09,Master,Retired,Married,South,1,607,2.0,False
-C00147,37,Male,87890.55,Master,Manager,Married,Central,0,656,4.6,True
-C00148,49,Non-binary,100174.32,Bachelor,Manager,Divorced,Central,2,608,3.0,False
-C00149,78,Male,138981.66,Master,Business Owner,Married,North,0,708,1.8,False
-C00150,41,Female,60013.96,Bachelor,Accountant,Married,West,2,584,0.8,False
-C00151,59,Male,110426.32,High School,Accountant,Widowed,East,1,622,0.5,False
-C00152,45,Non-binary,41116.43,Bachelor,Retired,Single,West,0,565,4.3,False
-C00153,46,Female,38913.5,High School,Retail Worker,Married,East,2,547,7.4,False
-C00154,43,Female,194023.9,Master,Doctor,Single,West,2,737,1.1,False
-C00155,36,Female,22716.12,Bachelor,Student,Married,East,1,543,13.7,False
-C00156,18,Non-binary,40555.99,PhD,Retired,Single,South,1,652,9.4,False
-C00157,39,Non-binary,81401.04,Bachelor,Accountant,Divorced,East,0,656,10.2,False
-C00158,50,Female,40226.27,Bachelor,Retail Worker,Married,Central,1,660,6.0,False
-C00159,38,Male,26166.95,Bachelor,Teacher,Married,North,3,634,2.7,False
-C00160,43,Non-binary,31483.29,Associate,Retail Worker,Widowed,East,0,485,15.2,False
-C00161,22,Non-binary,97506.83,Bachelor,Manager,Married,South,1,639,6.9,False
-C00162,57,Female,99786.45,High School,Lawyer,Married,South,1,611,4.3,True
-C00163,41,Non-binary,116903.66,High School,Engineer,Single,North,2,595,8.4,False
-C00164,46,Male,63354.12,High School,Accountant,Divorced,West,1,497,6.7,True
-C00165,39,Female,120660.13,Bachelor,Engineer,Single,South,1,695,17.5,False
-C00166,51,Male,57798.59,High School,Teacher,Married,South,3,523,6.6,False
-C00167,18,Female,55316.46,Associate,Nurse,Married,West,1,516,5.0,False
-C00168,18,Female,34602.2,High School,Retired,Married,Central,1,582,13.1,False
-C00169,52,Female,109218.8,High School,Lawyer,Married,West,0,632,8.1,False
-C00170,22,Female,104266.33,Bachelor,Accountant,Married,North,0,593,2.1,False
-C00171,41,Male,139119.95,Master,Lawyer,Single,East,1,699,16.6,False
-C00172,64,Male,91218.39,Master,Accountant,Single,West,0,642,2.2,False
-C00173,73,Female,74570.77,Bachelor,Nurse,Married,Central,1,629,18.3,False
-C00174,42,Non-binary,114818.56,Bachelor,Manager,Divorced,Central,1,649,12.7,False
-C00175,43,Male,49620.76,PhD,Retired,Single,North,0,617,13.8,False
-C00176,21,Non-binary,67862.87,High School,Business Owner,Single,West,0,549,16.6,False
-C00177,44,Non-binary,228282.55,Bachelor,Doctor,Married,East,2,761,10.6,False
-C00178,47,Female,36092.4,PhD,Retired,Single,East,4,615,9.0,False
-C00179,39,Non-binary,30612.48,Master,Retail Worker,Married,Central,0,533,9.0,True
-C00180,32,Non-binary,50029.55,Master,Nurse,Married,North,0,587,15.0,False
-C00181,42,Female,190148.38,PhD,Doctor,Single,East,1,750,12.2,False
-C00182,28,Male,29990.48,Master,Retail Worker,Single,Central,0,590,2.9,False
-C00183,37,Non-binary,96165.16,High School,Doctor,Single,Central,1,571,9.8,False
-C00184,30,Female,36532.06,High School,Retail Worker,Divorced,West,3,538,9.0,False
-C00185,40,Non-binary,15000.0,Bachelor,Student,Married,Central,1,555,4.3,True
-C00186,35,Female,143574.03,High School,Manager,Married,West,2,632,7.3,True
-C00187,22,Non-binary,47384.0,PhD,Retail Worker,Married,West,0,604,17.6,True
-C00188,42,Female,84923.44,PhD,Lawyer,Married,East,0,619,16.4,False
-C00189,26,Male,41729.46,High School,Retired,Single,South,1,462,3.8,False
-C00190,49,Female,79166.38,Master,Accountant,Single,South,2,660,13.0,False
-C00191,51,Non-binary,53877.21,Bachelor,Retired,Divorced,North,0,623,4.4,False
-C00192,51,Female,177078.66,Bachelor,Doctor,Single,West,1,705,2.7,True
-C00193,24,Male,35754.58,Master,Retired,Married,Central,0,605,8.5,False
-C00194,50,Non-binary,18105.85,Master,Student,Married,Central,0,607,0.2,False
-C00195,26,Non-binary,102208.93,Bachelor,Business Owner,Widowed,West,2,702,15.1,False
-C00196,18,Female,56544.5,Master,Nurse,Married,North,0,614,13.5,False
-C00197,42,Non-binary,58982.13,Master,Teacher,Married,North,0,679,16.1,False
-C00198,47,Male,55229.77,PhD,Teacher,Married,West,1,689,0.3,False
-C00199,62,Female,70334.2,Bachelor,Nurse,Married,South,1,572,10.4,False
-C00200,30,Male,110169.81,Bachelor,Manager,Single,North,0,672,16.1,False
-C00201,33,Male,16673.0,Bachelor,Business Owner,Single,South,1,586,13.6,False
-C00202,20,Male,121140.15,Bachelor,Lawyer,Single,South,0,648,17.5,False
-C00203,18,Non-binary,134315.98,Bachelor,Lawyer,Married,South,0,634,1.1,False
-C00204,47,Male,199431.29,Bachelor,Doctor,Married,Central,2,707,17.3,False
-C00205,42,Non-binary,106510.16,Associate,Doctor,Married,South,0,593,11.2,False
-C00206,25,Female,62995.75,Master,Teacher,Married,South,1,636,19.9,False
-C00207,33,Female,68428.65,Bachelor,Nurse,Single,Central,2,620,4.1,False
-C00208,53,Female,66644.72,Bachelor,Teacher,Divorced,East,0,630,8.5,False
-C00209,33,Female,127667.93,Bachelor,Doctor,Single,Central,2,634,3.2,False
-C00210,40,Non-binary,22231.89,Bachelor,Retired,Married,East,4,551,18.2,False
-C00211,35,Female,115488.97,Associate,Doctor,Married,South,0,646,10.4,False
-C00212,47,Non-binary,108825.14,High School,Doctor,Single,West,1,568,4.4,False
-C00213,26,Female,120895.29,Master,Engineer,Single,South,0,697,7.8,False
-C00214,23,Female,91936.84,Associate,Engineer,Divorced,South,1,657,19.5,False
-C00215,21,Non-binary,31172.1,Bachelor,Retired,Single,East,3,541,12.9,False
-C00216,65,Female,106809.22,Bachelor,Accountant,Single,South,1,671,10.9,False
-C00217,45,Male,48314.54,Bachelor,Retail Worker,Married,East,1,610,2.3,False
-C00218,49,Male,91441.15,Associate,Accountant,Single,North,2,609,11.5,False
-C00219,44,Female,85781.4,PhD,Doctor,Married,North,2,652,7.3,False
-C00220,30,Non-binary,97984.65,PhD,Manager,Married,West,2,656,14.9,False
-C00221,44,Female,95329.35,Bachelor,Accountant,Married,West,1,659,0.1,True
-C00222,34,Non-binary,150085.58,Bachelor,Lawyer,Married,East,1,690,15.9,False
-C00223,24,Female,77198.08,Bachelor,Nurse,Married,North,0,633,17.4,False
-C00224,80,Female,29957.44,Master,Student,Married,South,1,604,8.7,False
-C00225,30,Female,21401.69,Bachelor,Student,Single,West,0,650,8.5,False
-C00226,52,Non-binary,56345.26,Bachelor,Teacher,Married,North,0,648,7.6,False
-C00227,24,Male,18263.86,Master,Student,Single,West,2,569,13.1,True
-C00228,56,Female,233537.71,Bachelor,Doctor,Divorced,West,1,829,17.3,False
-C00229,45,Male,51569.81,Bachelor,Nurse,Divorced,North,1,579,18.9,False
-C00230,55,Non-binary,67107.93,Bachelor,Manager,Single,South,0,632,11.7,False
-C00231,32,Female,17794.38,Bachelor,Student,Single,South,2,586,4.7,True
-C00232,37,Female,167116.24,High School,Lawyer,Single,West,2,648,15.3,True
-C00233,38,Female,105787.94,Master,Accountant,Married,West,0,694,17.8,False
-C00234,31,Male,81639.91,Bachelor,Accountant,Married,North,3,624,17.6,False
-C00235,45,Male,61496.89,Master,Teacher,Married,West,3,664,1.9,False
-C00236,32,Male,184025.91,Master,Doctor,Single,South,1,739,14.4,False
-C00237,26,Female,56179.72,High School,Teacher,Divorced,Central,1,554,17.4,False
-C00238,49,Male,107815.71,PhD,Engineer,Married,East,0,710,0.3,False
-C00239,38,Male,120374.28,Associate,Manager,Single,Central,1,631,16.4,False
-C00240,59,Female,126097.25,PhD,Doctor,Married,East,1,670,7.4,False
-C00241,50,Female,176446.67,High School,Business Owner,Married,West,1,688,10.5,False
-C00242,54,Female,30261.15,High School,Retail Worker,Married,South,2,533,0.3,False
-C00243,54,Non-binary,88082.03,Master,Accountant,Married,West,1,617,18.6,True
-C00244,48,Female,27157.91,Master,Retail Worker,Married,East,1,679,8.3,False
-C00245,55,Non-binary,58135.2,Master,Teacher,Single,North,2,637,9.2,False
-C00246,41,Male,135915.93,Bachelor,Lawyer,Single,Central,1,660,6.5,False
-C00247,18,Male,78429.61,High School,Engineer,Single,West,1,547,3.3,False
-C00248,31,Non-binary,70877.58,High School,Accountant,Married,North,0,576,16.3,False
-C00249,50,Female,44282.67,High School,Accountant,Single,West,1,549,9.3,False
-C00250,30,Non-binary,65984.68,Associate,Teacher,Widowed,West,0,569,1.4,False
-C00251,65,Male,54103.07,Associate,Teacher,Divorced,North,1,561,15.2,False
-C00252,79,Female,63001.94,High School,Manager,Widowed,North,1,582,14.1,False
-C00253,31,Female,113259.58,High School,Manager,Married,East,0,600,16.8,False
-C00254,32,Female,15000.0,Bachelor,Student,Married,South,1,563,14.3,False
-C00255,29,Male,30952.4,Bachelor,Retired,Widowed,North,0,550,13.7,False
-C00256,58,Non-binary,91733.2,High School,Business Owner,Divorced,Central,0,595,0.6,False
-C00257,58,Female,112347.1,Master,Lawyer,Married,Central,0,670,17.3,False
-C00258,34,Female,69942.63,Master,Nurse,Married,South,1,617,13.2,False
-C00259,43,Female,105917.44,High School,Accountant,Married,East,1,600,19.2,False
-C00260,38,Female,84420.63,High School,Doctor,Married,East,1,572,4.5,False
-C00261,18,Non-binary,55118.57,Bachelor,Teacher,Divorced,South,2,609,4.6,False
-C00262,18,Female,87856.66,Associate,Doctor,Married,South,3,574,11.0,False
-C00263,38,Non-binary,98812.62,Bachelor,Engineer,Single,Central,1,621,14.6,False
-C00264,38,Male,107879.06,Bachelor,Engineer,Married,West,4,669,2.5,False
-C00265,46,Female,133335.81,Master,Business Owner,Married,South,0,708,11.1,False
-C00266,18,Female,117467.33,Bachelor,Manager,Married,West,3,655,9.7,False
-C00267,48,Male,124532.52,Bachelor,Lawyer,Divorced,Central,1,655,9.2,False
-C00268,18,Female,16390.73,Bachelor,Student,Single,South,2,572,7.7,False
-C00269,44,Non-binary,60390.62,Bachelor,Teacher,Single,West,1,525,1.7,True
-C00270,44,Male,80673.44,Bachelor,Business Owner,Married,North,1,627,11.2,False
-C00271,34,Female,68065.84,Bachelor,Nurse,Single,Central,1,617,16.1,False
-C00272,20,Male,98039.83,Associate,Engineer,Married,North,3,624,1.5,False
-C00273,18,Non-binary,54140.68,Bachelor,Business Owner,Single,West,1,592,8.3,False
-C00274,32,Male,165780.42,Master,Lawyer,Single,West,3,690,11.6,False
-C00275,56,Non-binary,78111.93,High School,Manager,Married,North,1,588,9.1,False
-C00276,35,Female,44914.35,Bachelor,Teacher,Divorced,West,0,578,3.8,False
-C00277,40,Male,179586.13,Master,Doctor,Married,East,0,742,14.7,True
-C00278,39,Female,20248.61,Bachelor,Student,Single,East,1,563,3.6,False
-C00279,38,Non-binary,95601.41,Master,Accountant,Married,Central,1,691,18.0,False
-C00280,31,Non-binary,64835.93,High School,Nurse,Widowed,Central,1,545,18.6,False
-C00281,32,Non-binary,65369.12,Bachelor,Manager,Married,East,1,552,11.4,False
-C00282,28,Female,105206.15,Master,Engineer,Single,East,1,635,9.2,False
-C00283,26,Female,80582.49,High School,Engineer,Married,West,1,574,15.4,False
-C00284,62,Non-binary,108862.82,PhD,Manager,Married,West,0,660,6.4,False
-C00285,48,Male,103669.87,Master,Accountant,Married,West,2,628,16.1,False
-C00286,45,Female,70363.8,Bachelor,Manager,Married,Central,1,584,15.1,False
-C00287,38,Non-binary,66649.34,Bachelor,Retired,Married,East,0,540,8.4,False
-C00288,42,Female,264736.12,PhD,Doctor,Married,Central,0,850,0.4,False
-C00289,30,Non-binary,30034.88,Associate,Retired,Single,North,3,581,12.0,False
-C00290,62,Female,52142.67,PhD,Teacher,Single,South,1,633,10.1,False
-C00291,38,Female,66351.95,Associate,Business Owner,Single,North,2,547,4.5,False
-C00292,58,Male,67014.45,PhD,Nurse,Married,North,2,649,1.6,False
-C00293,18,Male,45215.72,Associate,Retail Worker,Single,South,1,575,15.2,False
-C00294,46,Female,33856.39,Bachelor,Student,Single,North,3,594,3.7,False
-C00295,35,Female,23094.42,High School,Business Owner,Married,East,2,521,13.8,False
-C00296,44,Non-binary,113837.27,Master,Doctor,Single,West,1,706,8.1,False
-C00297,30,Female,56030.38,Master,Business Owner,Married,Central,3,591,11.9,False
-C00298,56,Male,83355.66,PhD,Nurse,Married,East,1,628,3.1,False
-C00299,39,Female,153143.08,Master,Doctor,Married,East,0,649,17.1,False
-C00300,31,Non-binary,118626.34,High School,Business Owner,Married,West,1,633,12.4,False
-C00301,43,Non-binary,75947.24,High School,Business Owner,Single,South,2,609,0.5,False
-C00302,25,Female,33655.15,Bachelor,Retired,Married,Central,4,578,6.1,False
-C00303,35,Non-binary,212173.83,Bachelor,Lawyer,Married,East,3,768,12.5,False
-C00304,39,Non-binary,48951.57,Master,Nurse,Widowed,North,1,612,10.5,False
-C00305,47,Male,134637.2,Associate,Lawyer,Married,East,1,662,9.3,False
-C00306,33,Non-binary,159399.11,Bachelor,Doctor,Single,North,1,683,15.5,False
-C00307,18,Male,121059.44,PhD,Accountant,Married,Central,2,679,1.1,False
-C00308,43,Male,38181.78,Master,Retired,Married,North,0,591,13.8,False
-C00309,19,Female,46794.0,PhD,Retired,Single,South,2,656,16.3,False
-C00310,18,Female,68843.08,Associate,Teacher,Divorced,East,1,630,15.8,False
-C00311,34,Female,87952.93,Bachelor,Nurse,Widowed,East,1,647,14.4,False
-C00312,56,Female,54899.97,Master,Engineer,Married,South,1,694,12.6,False
-C00313,33,Female,81168.53,Associate,Nurse,Married,West,2,614,17.5,False
-C00314,49,Male,15000.0,High School,Student,Married,East,1,486,3.1,False
-C00315,64,Male,80910.9,Bachelor,Business Owner,Married,South,2,585,8.4,False
-C00316,30,Female,107548.53,Master,Business Owner,Single,Central,2,662,1.3,False
-C00317,18,Female,148708.78,High School,Doctor,Married,South,1,667,9.0,False
-C00318,71,Non-binary,61953.03,Bachelor,Teacher,Married,West,1,526,15.3,False
-C00319,37,Female,106239.67,Bachelor,Accountant,Married,West,3,621,0.9,False
-C00320,43,Non-binary,72024.83,PhD,Engineer,Married,Central,1,605,3.7,False
-C00321,58,Non-binary,65665.53,High School,Engineer,Married,West,1,595,6.6,False
-C00322,42,Male,76731.95,PhD,Nurse,Single,South,1,633,3.3,False
-C00323,54,Male,24017.12,Master,Retail Worker,Married,West,1,594,12.7,True
-C00324,52,Female,112646.38,Bachelor,Manager,Single,North,1,660,10.3,False
-C00325,30,Male,62148.84,Master,Engineer,Single,East,2,605,6.3,False
-C00326,52,Female,64802.42,High School,Teacher,Single,North,0,552,16.3,False
-C00327,26,Male,16851.76,Master,Student,Single,East,2,579,11.4,False
-C00328,48,Male,59059.91,Bachelor,Retired,Married,West,1,609,2.4,False
-C00329,50,Female,66090.87,Master,Nurse,Widowed,East,1,631,15.9,False
-C00330,24,Male,18331.67,Associate,Manager,Single,North,2,566,6.8,True
-C00331,55,Male,33625.38,PhD,Student,Married,North,1,594,16.5,True
-C00332,54,Male,49832.51,Master,Manager,Married,South,3,567,2.8,False
-C00333,36,Male,72132.98,Bachelor,Engineer,Married,Central,0,627,18.9,True
-C00334,21,Non-binary,30312.58,Master,Retail Worker,Divorced,North,0,600,16.6,False
-C00335,35,Female,34616.25,Master,Retired,Married,South,2,535,17.6,True
-C00336,63,Male,99695.03,Bachelor,Manager,Single,North,2,648,10.3,False
-C00337,31,Female,71007.42,Bachelor,Engineer,Married,South,0,618,16.1,False
-C00338,27,Female,107659.85,Associate,Doctor,Married,Central,1,616,8.1,False
-C00339,44,Male,70639.34,High School,Teacher,Married,West,0,564,2.7,False
-C00340,63,Female,55823.64,High School,Teacher,Widowed,East,4,526,18.4,True
-C00341,29,Non-binary,135680.72,Bachelor,Business Owner,Divorced,South,1,695,3.7,False
-C00342,36,Non-binary,53515.25,Master,Teacher,Married,Central,0,630,12.8,False
-C00343,44,Non-binary,34948.27,High School,Retired,Divorced,East,1,570,13.0,False
-C00344,46,Non-binary,67468.86,Bachelor,Manager,Married,West,2,589,11.8,False
-C00345,26,Female,44176.49,High School,Retail Worker,Single,North,0,502,1.1,False
-C00346,38,Female,49080.6,Bachelor,Nurse,Single,North,1,587,8.2,False
-C00347,22,Male,67366.42,Bachelor,Nurse,Widowed,Central,0,599,9.1,True
-C00348,30,Female,33855.07,Master,Retail Worker,Married,West,2,617,5.5,False
-C00349,51,Male,38434.73,High School,Retail Worker,Widowed,West,1,549,0.3,False
-C00350,40,Non-binary,69972.03,Bachelor,Retired,Married,South,0,607,1.4,False
-C00351,48,Female,64618.93,High School,Manager,Married,East,3,569,10.4,True
-C00352,34,Female,20316.11,Bachelor,Retired,Married,North,2,605,9.7,False
-C00353,46,Non-binary,135952.52,High School,Engineer,Divorced,West,1,654,6.3,False
-C00354,36,Male,105909.21,High School,Doctor,Married,South,5,622,18.1,False
-C00355,18,Female,78218.41,Bachelor,Engineer,Married,South,1,556,1.1,False
-C00356,50,Non-binary,75353.91,Master,Accountant,Married,East,0,684,17.1,False
-C00357,19,Female,53593.73,Master,Nurse,Single,South,0,609,15.7,True
-C00358,34,Non-binary,52577.48,Associate,Manager,Single,South,0,637,0.5,False
-C00359,38,Non-binary,213941.52,Master,Doctor,Single,South,0,798,15.9,False
-C00360,31,Male,55397.24,Master,Accountant,Married,Central,2,612,1.4,False
-C00361,27,Male,30990.03,PhD,Retail Worker,Single,North,4,653,2.8,True
-C00362,20,Male,114928.34,Master,Lawyer,Single,North,1,664,7.3,False
-C00363,32,Female,48429.4,Bachelor,Retail Worker,Married,West,0,531,18.9,False
-C00364,43,Female,122287.27,Associate,Lawyer,Married,Central,0,668,11.8,False
-C00365,50,Male,75252.63,Bachelor,Engineer,Widowed,South,1,570,19.5,False
-C00366,20,Male,69444.63,Associate,Retired,Married,West,0,578,1.2,False
-C00367,40,Male,41100.57,PhD,Teacher,Married,West,0,570,14.9,False
-C00368,56,Female,30175.14,Bachelor,Student,Single,North,0,574,5.8,False
-C00369,34,Male,84870.6,Bachelor,Accountant,Single,West,2,558,7.7,False
-C00370,48,Male,51776.25,Bachelor,Teacher,Single,Central,1,536,14.9,False
-C00371,63,Female,36039.53,Master,Retired,Divorced,North,2,581,7.9,False
-C00372,30,Male,30320.74,High School,Retail Worker,Single,West,0,527,13.1,True
-C00373,47,Female,22108.41,Bachelor,Student,Married,North,1,490,14.3,False
-C00374,30,Male,36194.85,High School,Retail Worker,Married,South,0,551,3.1,False
-C00375,39,Male,71450.99,Bachelor,Nurse,Married,East,2,612,15.0,False
-C00376,49,Non-binary,39911.45,PhD,Retired,Married,South,3,570,12.2,False
-C00377,77,Female,44391.74,Bachelor,Retired,Single,West,0,640,1.7,False
-C00378,37,Female,182663.77,Bachelor,Business Owner,Married,West,1,720,11.3,False
-C00379,43,Non-binary,101786.0,High School,Engineer,Widowed,North,1,633,7.8,False
-C00380,29,Male,80475.09,Associate,Engineer,Widowed,East,2,616,12.7,False
-C00381,27,Female,82409.18,Bachelor,Manager,Married,West,2,685,11.8,False
-C00382,50,Male,61103.3,Associate,Teacher,Married,South,0,568,9.8,False
-C00383,72,Female,16942.18,Bachelor,Student,Single,South,0,536,1.7,True
-C00384,23,Non-binary,41031.92,Master,Nurse,Married,East,3,595,18.6,False
-C00385,37,Non-binary,79602.53,Bachelor,Accountant,Single,West,1,616,8.1,False
-C00386,32,Female,61862.08,Master,Lawyer,Single,South,1,636,15.1,False
-C00387,34,Non-binary,34456.69,Bachelor,Nurse,Married,Central,0,575,19.3,False
-C00388,51,Male,24654.23,Bachelor,Student,Married,North,1,595,8.0,False
-C00389,45,Non-binary,18866.67,Bachelor,Retired,Divorced,West,1,542,5.9,False
-C00390,18,Male,161262.09,PhD,Manager,Married,West,0,767,12.2,False
-C00391,33,Male,138795.22,Master,Business Owner,Married,South,3,694,11.6,False
-C00392,60,Male,139631.85,High School,Manager,Married,Central,0,635,8.7,False
-C00393,49,Female,27009.35,Bachelor,Student,Widowed,West,1,535,15.5,False
-C00394,18,Non-binary,136596.02,Bachelor,Doctor,Married,South,3,653,7.0,False
-C00395,18,Female,34238.3,Master,Engineer,Married,Central,0,624,14.1,False
-C00396,58,Male,173870.35,High School,Doctor,Married,East,0,613,19.3,False
-C00397,46,Female,65286.5,Bachelor,Manager,Single,North,1,565,13.3,True
-C00398,27,Female,25039.85,Bachelor,Student,Married,Central,1,576,5.2,False
-C00399,59,Male,70539.83,Bachelor,Teacher,Married,West,2,626,7.6,False
-C00400,41,Non-binary,15000.0,Bachelor,Student,Divorced,Central,1,567,5.5,True
-C00401,29,Female,183343.66,Bachelor,Business Owner,Single,East,1,739,14.2,False
-C00402,39,Non-binary,133279.19,High School,Lawyer,Widowed,South,1,653,11.5,True
-C00403,29,Non-binary,38738.54,Bachelor,Retired,Widowed,Central,0,589,13.7,True
-C00404,35,Male,81115.0,Bachelor,Nurse,Single,North,2,652,6.8,False
-C00405,62,Male,27780.94,Master,Student,Married,East,3,584,18.6,False
-C00406,63,Female,52671.05,High School,Accountant,Married,West,1,584,3.3,False
-C00407,53,Non-binary,78092.37,Master,Nurse,Single,North,0,609,15.9,False
-C00408,66,Male,88628.36,Master,Lawyer,Married,West,0,655,4.0,False
-C00409,36,Non-binary,131185.74,Bachelor,Lawyer,Single,West,2,653,9.6,False
-C00410,25,Male,201027.2,Bachelor,Business Owner,Divorced,North,0,730,8.7,False
-C00411,52,Non-binary,104100.16,High School,Manager,Married,South,2,634,6.7,False
-C00412,18,Non-binary,44878.3,PhD,Retired,Divorced,South,2,629,12.7,False
-C00413,42,Male,15000.0,Bachelor,Student,Single,South,0,547,14.8,False
-C00414,42,Female,109162.26,Bachelor,Lawyer,Single,South,1,648,11.5,False
-C00415,36,Male,75061.86,Bachelor,Engineer,Married,Central,1,673,19.4,False
-C00416,38,Male,175064.55,PhD,Doctor,Married,West,3,745,3.8,False
-C00417,44,Female,112020.76,High School,Manager,Single,North,1,574,12.1,False
-C00418,55,Male,179276.4,PhD,Doctor,Married,East,3,724,17.1,True
-C00419,37,Female,129479.28,High School,Lawyer,Single,West,0,644,7.8,False
-C00420,33,Male,90078.19,High School,Business Owner,Married,Central,2,627,6.7,False
-C00421,52,Non-binary,82235.98,Master,Accountant,Divorced,North,2,581,11.6,False
-C00422,64,Non-binary,71100.91,PhD,Nurse,Married,West,0,622,10.8,False
-C00423,48,Non-binary,65024.29,PhD,Nurse,Single,South,2,657,1.2,False
-C00424,47,Female,96869.87,High School,Lawyer,Single,Central,0,551,16.6,False
-C00425,38,Female,161470.66,Bachelor,Business Owner,Divorced,Central,0,725,6.2,False
-C00426,80,Male,82359.73,Associate,Engineer,Married,East,0,600,3.8,False
-C00427,45,Male,143995.32,High School,Doctor,Widowed,North,1,606,19.6,False
-C00428,30,Male,73990.66,Bachelor,Teacher,Married,North,0,606,17.7,True
-C00429,61,Male,87416.96,PhD,Manager,Married,Central,1,687,13.1,False
-C00430,37,Non-binary,150351.76,Bachelor,Lawyer,Widowed,Central,1,689,1.6,False
-C00431,51,Female,142046.01,Bachelor,Doctor,Married,West,1,712,6.3,False
-C00432,30,Female,49424.09,Master,Teacher,Widowed,Central,0,649,9.8,False
-C00433,29,Non-binary,36494.88,PhD,Retail Worker,Single,West,2,634,10.2,False
-C00434,77,Non-binary,90620.52,High School,Accountant,Married,Central,2,595,18.0,False
-C00435,47,Female,110339.21,Master,Lawyer,Married,North,0,678,6.4,False
-C00436,34,Male,111152.91,PhD,Nurse,Single,East,1,731,15.8,False
-C00437,55,Non-binary,85608.72,Bachelor,Nurse,Married,East,3,644,3.8,True
-C00438,31,Male,89142.81,Bachelor,Nurse,Married,Central,2,598,13.8,False
-C00439,26,Male,25367.29,Master,Student,Married,East,0,603,13.3,False
-C00440,50,Male,32821.18,Bachelor,Retired,Widowed,North,1,564,0.8,False
-C00441,60,Female,138782.36,Bachelor,Manager,Married,Central,3,728,8.8,False
-C00442,18,Non-binary,68017.23,Master,Retired,Single,West,1,661,3.9,False
-C00443,37,Female,36088.27,PhD,Retired,Married,West,1,682,0.3,False
-C00444,59,Non-binary,41319.36,Bachelor,Retail Worker,Single,Central,0,610,19.9,False
-C00445,36,Non-binary,90202.28,PhD,Manager,Single,East,0,695,4.2,True
-C00446,70,Female,49353.7,Master,Retired,Single,North,0,617,18.7,False
-C00447,75,Male,38012.87,Bachelor,Accountant,Married,West,0,598,1.6,False
-C00448,80,Male,150401.81,Bachelor,Business Owner,Widowed,South,0,664,12.2,False
-C00449,37,Female,199112.14,Associate,Doctor,Married,Central,0,767,13.1,False
-C00450,52,Female,36668.33,Associate,Retired,Divorced,East,3,557,19.2,True
-C00451,27,Female,132389.63,Master,Doctor,Married,North,2,707,19.2,False
-C00452,49,Female,63588.81,Bachelor,Teacher,Married,North,0,675,4.4,False
-C00453,18,Non-binary,35036.93,High School,Retired,Married,West,3,477,5.8,False
-C00454,43,Non-binary,40286.73,PhD,Accountant,Single,West,1,648,0.8,False
-C00455,45,Female,97660.97,Bachelor,Engineer,Married,West,1,637,9.9,False
-C00456,44,Female,66511.87,Master,Nurse,Single,North,3,596,3.9,False
-C00457,43,Female,66296.45,Master,Nurse,Single,South,2,613,18.5,False
-C00458,25,Non-binary,85008.39,High School,Manager,Divorced,South,1,581,13.2,False
-C00459,45,Female,46171.77,Master,Retired,Single,Central,3,573,2.2,False
-C00460,40,Non-binary,61232.3,Bachelor,Teacher,Married,North,2,579,14.9,False
-C00461,41,Female,75114.77,Bachelor,Manager,Married,West,0,619,5.5,True
-C00462,32,Male,55114.41,Master,Nurse,Married,North,1,646,4.5,False
-C00463,39,Female,146131.4,Master,Lawyer,Single,North,1,715,3.4,False
-C00464,45,Non-binary,15000.0,Master,Business Owner,Divorced,Central,1,598,10.1,False
-C00465,28,Female,68926.1,Bachelor,Accountant,Single,East,1,649,6.1,False
-C00466,47,Non-binary,80606.46,Master,Nurse,Married,North,3,581,4.0,False
-C00467,18,Female,79283.64,Bachelor,Engineer,Married,East,2,601,15.0,False
-C00468,52,Female,152446.26,Master,Doctor,Single,East,1,689,0.2,False
-C00469,30,Female,119271.18,Master,Manager,Married,Central,1,662,3.2,True
-C00470,67,Male,52592.36,Bachelor,Retired,Divorced,Central,1,601,2.9,False
-C00471,62,Female,40495.1,Bachelor,Retired,Married,West,3,595,7.1,False
-C00472,30,Female,27992.54,High School,Retired,Single,Central,0,546,9.3,True
-C00473,36,Non-binary,89592.83,High School,Lawyer,Single,North,1,600,16.7,False
-C00474,24,Male,33361.88,Master,Retired,Single,Central,1,595,14.9,False
-C00475,64,Male,38653.5,Master,Retail Worker,Married,Central,1,638,6.9,False
-C00476,57,Male,43064.49,Associate,Retired,Single,West,0,537,6.5,False
-C00477,59,Male,117796.19,Master,Doctor,Married,East,1,683,12.2,False
-C00478,19,Male,54540.36,Bachelor,Nurse,Married,North,1,631,6.5,False
-C00479,37,Non-binary,123124.07,High School,Manager,Single,North,0,633,10.0,True
-C00480,39,Non-binary,85390.71,PhD,Manager,Married,Central,1,699,1.2,False
-C00481,39,Male,50051.07,Master,Accountant,Widowed,East,2,554,14.5,True
-C00482,41,Male,100790.79,High School,Engineer,Single,South,1,622,10.7,False
-C00483,60,Male,52186.78,High School,Engineer,Single,Central,0,541,11.4,False
-C00484,21,Non-binary,51847.54,Bachelor,Retired,Single,North,1,584,1.6,False
-C00485,49,Female,20728.75,Master,Student,Married,North,1,534,4.2,False
-C00486,31,Male,111904.35,Bachelor,Engineer,Single,Central,1,640,7.7,False
-C00487,39,Female,15000.0,PhD,Student,Married,East,2,571,18.5,False
-C00488,53,Non-binary,166742.92,Master,Doctor,Married,East,1,737,17.2,False
-C00489,52,Non-binary,177215.35,PhD,Doctor,Widowed,Central,0,753,6.0,False
-C00490,61,Female,67426.91,Master,Accountant,Married,West,1,619,0.3,True
-C00491,63,Male,99543.35,High School,Engineer,Single,Central,0,611,17.2,False
-C00492,18,Non-binary,45473.86,PhD,Business Owner,Single,East,0,611,9.8,True
-C00493,40,Non-binary,98082.14,Bachelor,Lawyer,Married,Central,1,642,0.7,False
-C00494,27,Non-binary,15000.0,Bachelor,Business Owner,Single,Central,0,531,5.9,False
-C00495,36,Male,66660.85,Master,Nurse,Married,South,0,641,12.2,False
-C00496,31,Female,66769.17,Master,Accountant,Married,South,0,608,17.4,False
-C00497,31,Male,45524.07,Master,Retail Worker,Widowed,West,3,611,12.7,False
-C00498,29,Male,106183.32,Associate,Engineer,Married,East,1,577,13.5,False
-C00499,21,Non-binary,35604.61,Bachelor,Retail Worker,Single,North,2,607,5.8,False
-C00500,28,Female,149888.56,PhD,Doctor,Married,West,0,713,9.9,True
-C00501,46,Non-binary,99024.59,Bachelor,Doctor,Married,East,2,674,17.9,True
-C00502,58,Male,187016.2,Master,Business Owner,Married,West,1,724,16.3,False
-C00503,43,Female,23671.95,Master,Student,Married,Central,0,598,4.8,False
-C00504,36,Female,57854.94,PhD,Retired,Single,West,0,642,14.1,False
-C00505,44,Male,189785.2,Bachelor,Lawyer,Married,North,0,716,6.2,False
-C00506,54,Female,125299.11,Master,Lawyer,Single,South,1,694,18.2,False
-C00507,49,Female,220904.27,Master,Doctor,Single,West,2,744,0.5,False
-C00508,36,Female,68632.0,Bachelor,Nurse,Single,West,3,561,11.3,False
-C00509,33,Female,262973.22,Bachelor,Doctor,Single,Central,1,808,16.8,False
-C00510,21,Non-binary,105102.92,Associate,Accountant,Married,Central,1,610,11.1,False
-C00511,31,Male,77900.65,Master,Accountant,Single,Central,0,656,9.8,False
-C00512,18,Female,66684.71,Bachelor,Teacher,Single,Central,1,615,12.4,False
-C00513,47,Female,97995.24,High School,Engineer,Married,South,1,589,4.1,True
-C00514,35,Female,180275.43,Bachelor,Lawyer,Single,West,0,737,11.7,False
-C00515,27,Male,49624.46,High School,Teacher,Single,South,1,513,5.7,False
-C00516,33,Male,110160.61,High School,Lawyer,Widowed,North,2,572,18.6,False
-C00517,23,Male,42063.22,PhD,Retired,Divorced,South,0,590,16.8,False
-C00518,22,Male,35857.66,Associate,Retail Worker,Married,North,2,546,11.8,False
-C00519,33,Non-binary,15066.93,PhD,Student,Married,West,1,552,3.6,False
-C00520,51,Non-binary,35411.08,Master,Retail Worker,Divorced,East,1,679,18.0,False
-C00521,24,Male,105055.4,Bachelor,Manager,Married,East,3,656,9.4,False
-C00522,18,Female,63209.96,Associate,Teacher,Married,West,1,545,4.1,False
-C00523,18,Female,22328.05,Associate,Student,Single,West,0,509,6.3,False
-C00524,53,Female,15000.0,High School,Student,Married,Central,2,497,7.6,False
-C00525,47,Male,27876.98,Bachelor,Retail Worker,Married,West,1,586,13.6,False
-C00526,24,Male,15000.0,PhD,Student,Married,South,1,623,13.3,False
-C00527,39,Female,84351.59,Bachelor,Accountant,Single,South,0,604,4.1,False
-C00528,59,Non-binary,38904.76,Master,Retail Worker,Single,South,0,651,7.0,False
-C00529,51,Non-binary,42492.85,Master,Nurse,Married,Central,3,580,1.5,False
-C00530,57,Male,111877.09,Bachelor,Business Owner,Married,West,1,684,0.8,False
-C00531,56,Male,114250.16,Bachelor,Doctor,Married,North,1,642,13.2,False
-C00532,48,Female,72587.93,Bachelor,Nurse,Divorced,North,1,672,3.1,False
-C00533,28,Non-binary,70098.4,Bachelor,Engineer,Married,South,1,613,5.9,False
-C00534,59,Male,45010.81,High School,Retired,Divorced,North,2,495,7.7,False
-C00535,21,Male,116829.87,Associate,Business Owner,Married,North,0,637,16.8,False
-C00536,40,Non-binary,39820.64,Master,Retail Worker,Married,South,2,559,15.2,False
-C00537,36,Non-binary,103408.02,Bachelor,Doctor,Married,Central,1,647,16.6,False
-C00538,42,Male,113048.23,Master,Manager,Married,East,2,661,15.0,False
-C00539,54,Male,118573.47,Master,Business Owner,Married,West,1,692,19.8,False
-C00540,37,Non-binary,52431.23,PhD,Manager,Married,South,1,630,8.4,False
-C00541,55,Non-binary,68741.76,Master,Nurse,Married,North,1,640,12.4,False
-C00542,33,Non-binary,20491.16,Bachelor,Retired,Married,Central,0,547,17.3,False
-C00543,53,Male,42632.68,Master,Retail Worker,Divorced,South,2,639,5.0,False
-C00544,58,Non-binary,29464.55,Master,Retail Worker,Married,Central,2,668,12.6,False
-C00545,42,Non-binary,94448.94,Master,Accountant,Divorced,West,1,659,15.1,False
-C00546,49,Male,143128.13,Bachelor,Business Owner,Married,West,1,687,13.5,False
-C00547,37,Non-binary,22617.59,Bachelor,Retail Worker,Married,West,0,558,13.0,False
-C00548,47,Female,48681.06,Bachelor,Retired,Divorced,Central,0,583,18.0,False
-C00549,50,Non-binary,28484.5,Associate,Retired,Divorced,South,0,514,13.8,False
-C00550,29,Non-binary,101275.48,High School,Accountant,Single,North,1,578,9.6,True
-C00551,44,Non-binary,77145.26,Associate,Manager,Married,East,1,603,19.0,False
-C00552,53,Female,103139.82,Master,Doctor,Widowed,West,0,625,6.9,False
-C00553,36,Male,37268.65,Bachelor,Teacher,Married,Central,1,584,19.6,False
-C00554,31,Female,66463.61,Bachelor,Business Owner,Married,East,0,584,16.6,False
-C00555,36,Male,61342.06,Master,Lawyer,Single,East,3,624,6.0,False
-C00556,46,Female,74733.84,Bachelor,Accountant,Widowed,North,0,681,9.5,False
-C00557,27,Male,34869.46,Master,Retail Worker,Widowed,East,0,627,18.1,False
-C00558,36,Female,68954.77,Master,Accountant,Single,East,1,596,12.7,False
-C00559,72,Female,32662.19,Bachelor,Teacher,Married,North,1,557,3.7,False
-C00560,49,Male,46372.66,Bachelor,Retail Worker,Married,South,1,586,15.4,False
-C00561,18,Female,61673.28,High School,Nurse,Single,South,1,590,6.9,False
-C00562,26,Male,76204.29,High School,Teacher,Married,Central,1,544,14.5,False
-C00563,36,Female,115156.33,Bachelor,Manager,Single,West,1,697,0.4,False
-C00564,52,Non-binary,85334.0,Master,Accountant,Single,East,0,615,14.6,False
-C00565,55,Male,59507.67,Master,Retired,Single,North,0,634,15.8,True
-C00566,40,Male,42017.03,Master,Teacher,Divorced,North,1,629,10.8,False
-C00567,33,Female,35757.85,High School,Retired,Married,Central,1,579,13.4,True
-C00568,37,Non-binary,68236.14,PhD,Engineer,Married,West,2,627,12.7,False
-C00569,42,Non-binary,33519.22,PhD,Retail Worker,Widowed,South,1,649,5.2,False
-C00570,61,Non-binary,123889.53,Bachelor,Lawyer,Married,Central,1,650,3.4,False
-C00571,41,Female,72223.3,Bachelor,Manager,Widowed,West,1,608,9.4,False
-C00572,18,Male,49482.93,High School,Nurse,Single,West,0,632,14.8,False
-C00573,38,Male,37166.6,Master,Student,Married,West,1,550,6.0,False
-C00574,35,Non-binary,69716.76,Bachelor,Nurse,Married,North,3,589,17.3,False
-C00575,24,Non-binary,23509.34,PhD,Student,Single,South,2,545,7.3,False
-C00576,41,Male,92920.75,Bachelor,Engineer,Married,East,0,594,15.4,False
-C00577,43,Male,184114.97,Bachelor,Business Owner,Single,North,0,693,12.8,False
-C00578,40,Non-binary,98345.15,Bachelor,Business Owner,Married,Central,0,654,3.6,False
-C00579,60,Non-binary,78335.65,PhD,Engineer,Married,South,1,639,5.0,False
-C00580,33,Non-binary,76951.96,Associate,Teacher,Divorced,Central,0,612,8.1,False
-C00581,33,Non-binary,101020.28,Master,Manager,Married,Central,2,683,4.6,False
-C00582,32,Male,82483.51,High School,Accountant,Married,North,0,602,17.9,False
-C00583,37,Male,107992.81,PhD,Lawyer,Married,East,1,625,10.8,False
-C00584,52,Male,21902.09,Associate,Student,Married,South,1,512,16.7,True
-C00585,27,Female,129071.28,High School,Business Owner,Married,South,2,576,7.1,False
-C00586,44,Non-binary,24545.47,PhD,Student,Married,South,0,583,17.8,False
-C00587,24,Male,206985.11,PhD,Doctor,Divorced,East,2,804,18.7,True
-C00588,36,Male,96140.93,Associate,Accountant,Single,West,2,631,0.9,True
-C00589,50,Non-binary,113801.27,Bachelor,Manager,Married,Central,2,668,12.9,False
-C00590,35,Female,64804.39,Bachelor,Business Owner,Married,North,1,550,10.6,True
-C00591,63,Non-binary,56091.14,Bachelor,Retired,Married,North,3,583,10.7,True
-C00592,65,Male,140361.58,PhD,Doctor,Married,South,2,714,17.9,False
-C00593,41,Non-binary,57337.63,Bachelor,Nurse,Married,East,2,602,4.2,False
-C00594,42,Female,99362.14,Bachelor,Engineer,Married,West,0,627,0.9,False
-C00595,33,Female,76389.34,High School,Doctor,Married,South,0,616,19.0,False
-C00596,30,Non-binary,21502.4,High School,Student,Married,Central,1,541,15.4,False
-C00597,42,Male,49438.37,Master,Engineer,Married,Central,1,576,1.3,False
-C00598,45,Female,80271.34,PhD,Lawyer,Married,Central,0,648,5.1,False
-C00599,23,Female,31823.08,Master,Retail Worker,Married,West,1,590,16.1,False
-C00600,49,Female,27507.26,Bachelor,Retail Worker,Married,South,2,587,14.5,False
-C00601,24,Non-binary,173765.49,Bachelor,Lawyer,Single,Central,3,738,17.8,False
-C00602,43,Female,116714.39,Bachelor,Lawyer,Divorced,South,1,696,15.3,False
-C00603,59,Male,155750.59,Master,Doctor,Single,North,3,713,6.7,True
-C00604,24,Female,106324.45,Bachelor,Manager,Single,South,1,612,3.3,True
-C00605,29,Female,75305.85,High School,Engineer,Single,West,3,572,9.5,False
-C00606,62,Female,51514.55,Master,Teacher,Single,South,3,654,19.2,False
-C00607,50,Female,63400.16,PhD,Engineer,Married,East,2,693,5.3,False
-C00608,29,Male,93682.45,Master,Engineer,Married,South,2,633,18.1,False
-C00609,39,Male,185769.31,Master,Doctor,Single,North,1,722,14.8,False
-C00610,47,Female,80627.04,Bachelor,Teacher,Married,Central,1,629,17.3,True
-C00611,38,Male,39473.25,Associate,Retired,Divorced,East,2,595,12.1,False
-C00612,42,Non-binary,55266.76,High School,Retired,Single,South,0,542,1.4,True
-C00613,49,Female,24424.01,Master,Student,Married,North,1,619,11.4,False
-C00614,18,Female,20910.06,Master,Retail Worker,Widowed,West,0,553,8.4,False
-C00615,51,Male,44951.13,Associate,Teacher,Single,North,1,501,7.9,False
-C00616,34,Male,29234.13,High School,Retail Worker,Married,Central,2,484,5.9,False
-C00617,41,Male,108800.31,Bachelor,Manager,Single,East,0,703,16.2,False
-C00618,35,Female,38692.14,Associate,Retail Worker,Married,East,1,507,12.7,False
-C00619,53,Male,34968.6,Master,Student,Single,South,0,569,9.8,False
-C00620,76,Non-binary,113113.8,Bachelor,Manager,Married,Central,2,675,18.0,False
-C00621,31,Male,20045.49,Bachelor,Student,Married,South,2,535,15.7,False
-C00622,32,Female,174470.53,Bachelor,Lawyer,Married,West,0,674,5.8,False
-C00623,29,Male,36495.92,Bachelor,Retail Worker,Married,Central,1,575,0.9,False
-C00624,40,Male,130325.19,Bachelor,Manager,Single,West,0,776,12.9,False
-C00625,30,Female,78795.76,Associate,Business Owner,Single,North,0,575,12.9,False
-C00626,50,Female,53938.97,Bachelor,Retired,Married,West,0,559,11.0,True
-C00627,58,Non-binary,61031.88,High School,Retired,Married,East,1,522,5.4,False
-C00628,18,Male,43922.21,Master,Business Owner,Divorced,South,0,571,16.0,False
-C00629,37,Male,84380.8,Bachelor,Nurse,Married,South,2,585,2.0,False
-C00630,23,Male,59053.17,Bachelor,Business Owner,Married,South,0,550,2.5,False
-C00631,37,Female,83901.54,High School,Accountant,Married,West,1,600,8.3,False
-C00632,37,Female,90882.9,High School,Business Owner,Widowed,South,0,648,4.8,False
-C00633,69,Female,125580.41,Master,Manager,Single,East,2,677,8.2,False
-C00634,55,Male,30374.24,Master,Retail Worker,Married,South,3,581,12.0,False
-C00635,30,Male,77462.33,Bachelor,Manager,Married,South,3,621,14.8,False
-C00636,34,Female,45489.58,PhD,Retired,Married,Central,2,674,6.1,False
-C00637,56,Female,89033.17,Master,Nurse,Married,North,1,641,8.5,False
-C00638,19,Female,73344.64,Associate,Nurse,Single,South,1,536,11.3,False
-C00639,51,Female,128401.53,Bachelor,Engineer,Married,South,1,686,15.5,True
-C00640,58,Non-binary,61264.1,Bachelor,Accountant,Married,West,1,623,0.5,False
-C00641,28,Male,67213.29,Bachelor,Retired,Married,West,3,589,10.2,False
-C00642,69,Non-binary,50265.9,Associate,Nurse,Single,North,1,568,4.7,False
-C00643,41,Male,158060.87,Bachelor,Lawyer,Divorced,South,1,730,3.9,False
-C00644,61,Female,143153.74,Bachelor,Doctor,Married,South,1,720,12.6,False
-C00645,60,Male,41977.37,Bachelor,Manager,Divorced,South,3,579,4.9,False
-C00646,18,Non-binary,111867.97,Bachelor,Manager,Widowed,Central,0,636,10.8,False
-C00647,55,Male,81880.6,Master,Manager,Married,East,1,608,5.4,False
-C00648,41,Non-binary,118739.82,Bachelor,Doctor,Married,East,3,694,12.8,False
-C00649,52,Female,51034.97,Master,Nurse,Single,South,2,551,16.3,False
-C00650,50,Female,52435.88,Master,Teacher,Single,Central,1,551,6.4,False
-C00651,26,Female,19930.12,Bachelor,Student,Divorced,West,1,609,4.3,True
-C00652,51,Female,38345.9,PhD,Retired,Widowed,South,0,612,12.9,True
-C00653,21,Non-binary,110088.34,Bachelor,Manager,Divorced,North,3,627,19.6,False
-C00654,51,Female,47987.19,Bachelor,Teacher,Single,East,1,661,3.4,True
-C00655,18,Male,126187.99,Master,Manager,Divorced,Central,0,758,9.1,True
-C00656,59,Female,68305.09,PhD,Manager,Married,Central,2,647,11.6,False
-C00657,56,Male,53842.11,Bachelor,Nurse,Married,East,1,608,7.5,False
-C00658,28,Female,70994.93,Master,Accountant,Single,North,1,608,5.0,False
-C00659,43,Female,57104.63,PhD,Teacher,Single,North,0,651,3.0,False
-C00660,46,Non-binary,19707.36,Master,Student,Married,South,3,527,18.7,False
-C00661,23,Male,15000.0,Associate,Student,Single,South,1,577,8.6,False
-C00662,24,Female,32705.56,Bachelor,Retail Worker,Widowed,East,2,604,10.0,False
-C00663,42,Non-binary,39098.43,Bachelor,Retired,Single,East,3,521,18.5,True
-C00664,37,Non-binary,103291.64,Bachelor,Engineer,Single,South,0,656,0.8,False
-C00665,61,Male,130390.5,Master,Business Owner,Single,West,0,687,12.2,False
-C00666,50,Female,41533.63,Bachelor,Lawyer,Married,East,2,650,13.4,False
-C00667,26,Non-binary,130875.41,PhD,Manager,Married,East,1,701,18.8,False
-C00668,35,Female,69409.24,Master,Nurse,Married,East,1,583,9.0,False
-C00669,50,Non-binary,72411.19,Master,Manager,Single,West,0,600,17.8,False
-C00670,30,Female,73062.76,Bachelor,Nurse,Married,North,0,594,9.5,False
-C00671,25,Female,163338.89,Bachelor,Manager,Single,South,0,677,19.0,False
-C00672,26,Non-binary,30924.18,Master,Student,Married,West,4,589,19.8,False
-C00673,20,Male,111125.65,High School,Business Owner,Widowed,North,0,542,15.3,False
-C00674,21,Non-binary,111941.87,Master,Manager,Single,East,2,721,0.7,False
-C00675,30,Non-binary,20488.69,Bachelor,Student,Married,North,2,613,19.5,False
-C00676,40,Non-binary,33511.94,PhD,Retail Worker,Single,North,2,631,15.7,False
-C00677,47,Male,45717.43,Master,Nurse,Widowed,East,1,566,6.9,False
-C00678,41,Female,84131.85,High School,Business Owner,Married,North,1,625,17.4,False
-C00679,25,Non-binary,184208.06,Master,Doctor,Divorced,Central,2,752,18.7,False
-C00680,34,Male,121257.17,Master,Engineer,Married,West,1,653,2.0,False
-C00681,26,Male,101547.37,Bachelor,Manager,Divorced,South,0,685,1.7,False
-C00682,33,Non-binary,135293.66,Bachelor,Business Owner,Married,South,0,710,9.9,False
-C00683,30,Non-binary,62295.37,Bachelor,Teacher,Married,Central,1,645,2.5,False
-C00684,33,Male,58809.02,Bachelor,Teacher,Married,North,1,597,17.4,False
-C00685,18,Female,45178.89,Master,Retired,Single,West,0,650,6.4,False
-C00686,32,Male,56305.4,Bachelor,Teacher,Married,North,2,550,9.5,False
-C00687,36,Non-binary,41828.67,Bachelor,Teacher,Single,East,1,570,10.5,False
-C00688,55,Non-binary,15579.45,PhD,Student,Married,Central,1,565,18.4,False
-C00689,30,Female,141168.14,Associate,Manager,Single,North,1,665,2.2,False
-C00690,45,Non-binary,88919.57,Bachelor,Business Owner,Married,West,0,647,17.9,True
-C00691,63,Male,114858.79,Master,Engineer,Widowed,West,0,701,16.4,False
-C00692,62,Male,53078.44,Associate,Teacher,Single,North,3,604,14.7,False
-C00693,22,Male,61714.86,Bachelor,Engineer,Single,South,2,628,7.4,False
-C00694,31,Female,40629.78,High School,Retail Worker,Single,South,0,550,13.7,False
-C00695,27,Female,102312.93,Bachelor,Lawyer,Widowed,North,2,647,4.0,False
-C00696,42,Non-binary,154124.87,Bachelor,Doctor,Single,Central,3,642,1.8,False
-C00697,42,Male,49754.28,Bachelor,Retired,Married,East,0,573,9.3,False
-C00698,51,Female,108961.41,Bachelor,Doctor,Married,Central,2,667,12.9,False
-C00699,33,Male,98702.67,Bachelor,Engineer,Married,South,2,641,7.6,False
-C00700,18,Non-binary,107209.67,Bachelor,Engineer,Married,North,0,649,11.3,True
-C00701,44,Non-binary,76651.77,Associate,Doctor,Single,North,0,610,18.6,False
-C00702,61,Non-binary,68883.23,Master,Business Owner,Married,East,1,569,19.2,False
-C00703,46,Non-binary,36930.38,Bachelor,Retired,Married,West,2,575,6.0,True
-C00704,38,Male,106048.68,Bachelor,Engineer,Married,West,0,637,7.6,False
-C00705,64,Female,72582.53,Master,Teacher,Married,North,1,613,13.5,False
-C00706,29,Non-binary,35998.8,Bachelor,Doctor,Married,Central,2,592,19.5,False
-C00707,53,Female,103781.93,Master,Doctor,Widowed,Central,2,685,15.3,False
-C00708,38,Female,70426.99,High School,Teacher,Divorced,Central,2,568,18.5,False
-C00709,35,Male,67924.84,Bachelor,Lawyer,Single,Central,0,574,9.6,False
-C00710,46,Female,162200.02,Bachelor,Doctor,Single,North,1,707,13.9,False
-C00711,35,Non-binary,29487.11,High School,Retail Worker,Married,East,4,543,4.8,False
-C00712,50,Female,106918.7,Bachelor,Accountant,Married,Central,0,674,12.9,False
-C00713,57,Male,41444.6,High School,Retail Worker,Married,North,4,515,12.2,True
-C00714,52,Non-binary,37278.12,Bachelor,Retired,Married,Central,2,577,11.5,False
-C00715,36,Female,61992.07,Bachelor,Retired,Widowed,South,2,607,3.0,False
-C00716,18,Non-binary,93320.44,Bachelor,Engineer,Married,North,0,631,17.8,False
-C00717,68,Male,57858.06,Bachelor,Teacher,Married,East,0,572,11.3,False
-C00718,37,Non-binary,32100.26,Bachelor,Retail Worker,Married,Central,3,577,2.9,False
-C00719,35,Female,45828.84,Bachelor,Retired,Single,South,2,624,0.4,False
-C00720,46,Male,93756.04,Master,Manager,Married,West,2,582,18.2,False
-C00721,26,Male,152396.21,High School,Doctor,Married,North,1,639,12.3,False
-C00722,41,Female,66042.37,Master,Nurse,Married,West,0,582,13.5,False
-C00723,55,Non-binary,99063.53,Bachelor,Accountant,Widowed,North,0,662,19.6,False
-C00724,33,Male,36800.46,PhD,Retail Worker,Married,South,1,618,4.1,False
-C00725,55,Non-binary,143734.75,Bachelor,Business Owner,Single,North,0,686,14.5,False
-C00726,18,Male,74657.25,Bachelor,Accountant,Divorced,Central,0,634,9.7,False
-C00727,42,Female,179100.07,Associate,Manager,Married,West,1,733,15.7,False
-C00728,29,Female,98924.25,PhD,Engineer,Married,Central,0,677,10.9,False
-C00729,30,Male,66091.15,High School,Nurse,Married,East,0,531,0.4,False
-C00730,39,Non-binary,56203.48,Master,Teacher,Single,North,1,609,17.0,False
-C00731,41,Non-binary,86745.79,Bachelor,Doctor,Married,East,3,600,7.0,False
-C00732,34,Female,38196.52,Bachelor,Doctor,Widowed,North,2,630,14.4,False
-C00733,45,Non-binary,64316.72,Bachelor,Accountant,Widowed,North,4,639,15.8,False
-C00734,23,Male,24459.27,High School,Student,Single,South,2,543,12.7,False
-C00735,71,Female,53959.55,Bachelor,Retired,Married,South,1,595,17.2,False
-C00736,20,Female,82279.77,Associate,Lawyer,Married,Central,2,612,2.5,False
-C00737,18,Female,158347.83,High School,Business Owner,Married,East,2,650,14.9,False
-C00738,18,Male,36315.24,Master,Retired,Divorced,East,4,573,17.1,False
-C00739,63,Non-binary,18797.98,High School,Student,Divorced,North,1,517,16.3,False
-C00740,78,Male,78023.17,Bachelor,Nurse,Married,South,2,602,13.7,False
-C00741,18,Non-binary,76091.3,Bachelor,Accountant,Single,South,0,647,7.7,False
-C00742,44,Male,117612.94,High School,Manager,Widowed,South,1,626,18.4,False
-C00743,20,Non-binary,15000.0,High School,Business Owner,Married,North,2,519,7.6,True
-C00744,27,Male,27059.18,Bachelor,Student,Single,West,3,597,7.7,False
-C00745,53,Non-binary,64577.09,Master,Teacher,Widowed,North,1,581,6.6,False
-C00746,41,Female,31587.29,Master,Student,Single,East,2,612,4.8,False
-C00747,49,Female,65771.23,Associate,Engineer,Married,East,1,586,17.3,False
-C00748,40,Female,134041.88,High School,Engineer,Married,Central,1,670,9.4,False
-C00749,43,Non-binary,81934.73,Master,Accountant,Married,South,0,659,13.9,False
-C00750,26,Male,52753.58,High School,Teacher,Married,South,0,576,15.6,False
-C00751,53,Non-binary,68460.68,PhD,Nurse,Married,South,3,652,1.2,False
-C00752,53,Non-binary,151259.19,Associate,Business Owner,Married,West,0,699,7.7,False
-C00753,50,Male,42460.88,Master,Retired,Married,Central,1,664,2.9,False
-C00754,33,Female,161805.64,Master,Doctor,Divorced,North,1,705,16.1,False
-C00755,48,Non-binary,98115.92,Bachelor,Engineer,Married,South,1,631,19.4,True
-C00756,39,Female,115233.4,Associate,Accountant,Single,South,1,630,12.0,True
-C00757,48,Female,56717.2,Bachelor,Teacher,Divorced,North,0,566,4.5,False
-C00758,19,Female,70064.19,Bachelor,Nurse,Divorced,South,1,630,4.8,False
-C00759,40,Female,211502.05,Bachelor,Doctor,Married,West,0,737,10.4,False
-C00760,26,Female,137557.39,Bachelor,Lawyer,Divorced,South,1,674,2.4,False
-C00761,22,Female,51332.41,Bachelor,Teacher,Single,Central,0,614,1.4,False
-C00762,38,Non-binary,21615.99,High School,Student,Married,East,0,491,11.5,False
-C00763,38,Female,84822.91,Master,Manager,Widowed,South,1,696,13.0,False
-C00764,35,Female,150240.85,Master,Doctor,Married,East,3,700,3.4,False
-C00765,42,Non-binary,46916.12,Bachelor,Teacher,Divorced,North,1,566,19.5,False
-C00766,33,Male,49520.67,Bachelor,Engineer,Divorced,East,1,608,10.8,False
-C00767,77,Male,60239.76,Bachelor,Nurse,Married,Central,0,604,3.1,False
-C00768,27,Non-binary,37763.31,Bachelor,Retail Worker,Married,West,0,565,18.0,False
-C00769,50,Female,68280.77,PhD,Nurse,Single,West,1,643,10.3,False
-C00770,30,Non-binary,144248.53,PhD,Lawyer,Single,West,2,687,10.7,False
-C00771,58,Male,81068.54,Bachelor,Lawyer,Married,Central,1,586,12.8,False
-C00772,38,Male,43422.15,PhD,Retail Worker,Married,North,3,569,8.1,False
-C00773,80,Female,223601.46,Bachelor,Doctor,Married,West,0,790,17.9,False
-C00774,28,Non-binary,34699.01,Bachelor,Retired,Married,South,0,609,14.0,False
-C00775,45,Female,26617.52,Associate,Retail Worker,Single,South,1,551,2.1,False
-C00776,49,Female,36613.91,Bachelor,Retail Worker,Married,West,2,488,6.9,False
-C00777,64,Female,80613.1,Bachelor,Business Owner,Single,West,3,672,12.7,False
-C00778,47,Non-binary,51788.6,Bachelor,Nurse,Single,East,2,611,12.3,False
-C00779,40,Male,88677.3,High School,Manager,Single,West,1,601,11.8,False
-C00780,38,Male,22342.63,Associate,Student,Divorced,East,1,485,8.9,False
-C00781,62,Female,123864.63,Master,Manager,Single,Central,2,745,7.1,False
-C00782,54,Female,137029.48,Master,Business Owner,Single,West,2,707,5.2,False
-C00783,50,Non-binary,78713.25,Master,Accountant,Married,Central,3,625,14.7,False
-C00784,31,Male,188237.43,Master,Doctor,Married,West,1,712,19.3,False
-C00785,60,Female,62878.97,Bachelor,Retired,Widowed,East,1,593,5.3,True
-C00786,47,Non-binary,39578.1,Bachelor,Manager,Married,East,0,577,17.5,False
-C00787,38,Male,122845.2,Bachelor,Lawyer,Divorced,South,4,625,11.9,False
-C00788,52,Male,84600.12,Bachelor,Manager,Widowed,Central,1,669,11.2,False
-C00789,59,Female,133163.96,Master,Doctor,Single,North,1,646,16.4,False
-C00790,19,Male,77404.65,Bachelor,Doctor,Married,North,2,659,15.0,False
-C00791,40,Male,80783.03,Bachelor,Nurse,Divorced,North,0,634,7.5,False
-C00792,39,Female,211678.89,Bachelor,Doctor,Single,West,1,756,18.3,False
-C00793,28,Female,150755.7,Bachelor,Lawyer,Single,South,2,644,7.6,False
-C00794,28,Male,44673.17,Bachelor,Retail Worker,Divorced,West,1,596,3.7,False
-C00795,45,Female,33777.16,Master,Retail Worker,Married,Central,2,606,11.6,False
-C00796,47,Male,63054.61,Bachelor,Accountant,Single,North,0,562,13.5,False
-C00797,37,Non-binary,60249.09,Bachelor,Teacher,Married,South,0,577,3.3,False
-C00798,48,Male,33773.92,High School,Retail Worker,Married,North,2,516,14.2,True
-C00799,44,Female,58993.13,Associate,Teacher,Single,West,0,595,19.8,False
-C00800,48,Male,62906.87,High School,Nurse,Single,Central,1,570,18.5,False
-C00801,38,Non-binary,106676.64,Bachelor,Engineer,Single,Central,1,600,7.5,True
-C00802,29,Male,125351.96,PhD,Business Owner,Divorced,North,2,703,17.6,False
-C00803,54,Male,114587.26,PhD,Lawyer,Divorced,Central,0,640,1.7,False
-C00804,49,Female,41684.66,Associate,Retail Worker,Married,Central,1,538,15.3,False
-C00805,23,Non-binary,24749.84,Bachelor,Teacher,Married,South,0,569,7.7,False
-C00806,18,Female,15000.0,Bachelor,Student,Married,North,2,610,6.6,False
-C00807,45,Non-binary,24198.48,Bachelor,Retired,Married,South,2,560,12.7,False
-C00808,41,Female,75622.28,High School,Accountant,Married,South,1,582,9.3,False
-C00809,36,Male,102807.36,PhD,Engineer,Single,Central,0,638,2.5,False
-C00810,51,Male,197556.78,High School,Business Owner,Married,North,0,680,19.1,False
-C00811,61,Non-binary,82921.71,Bachelor,Business Owner,Single,South,2,664,19.9,False
-C00812,32,Female,37727.05,Bachelor,Retail Worker,Divorced,North,1,600,0.2,False
-C00813,52,Non-binary,31025.14,Bachelor,Student,Single,South,1,593,13.3,False
-C00814,48,Male,128309.51,High School,Engineer,Married,West,0,640,16.8,True
-C00815,52,Non-binary,19334.63,Bachelor,Student,Divorced,North,1,600,3.5,False
-C00816,45,Male,15000.0,High School,Student,Married,South,3,499,1.4,False
-C00817,41,Non-binary,28406.93,High School,Retail Worker,Married,West,1,556,2.2,True
-C00818,42,Male,71659.79,High School,Nurse,Married,South,3,563,10.2,False
-C00819,51,Non-binary,63424.13,Bachelor,Teacher,Married,South,2,591,2.8,False
-C00820,38,Male,46188.69,Associate,Teacher,Single,West,1,546,10.0,False
-C00821,40,Non-binary,47882.34,High School,Retail Worker,Divorced,West,1,566,5.1,False
-C00822,65,Male,85718.12,Bachelor,Manager,Single,North,0,617,5.3,False
-C00823,35,Male,194510.9,Associate,Doctor,Divorced,South,1,730,18.8,False
-C00824,20,Non-binary,67700.78,Master,Lawyer,Married,East,0,633,0.3,False
-C00825,49,Non-binary,19932.79,Bachelor,Retired,Married,East,2,546,5.4,False
-C00826,41,Female,87075.96,High School,Lawyer,Married,North,3,574,13.2,False
-C00827,35,Female,69103.24,PhD,Engineer,Divorced,South,0,616,1.6,False
-C00828,33,Male,15000.0,Bachelor,Student,Married,East,1,525,7.9,False
-C00829,47,Male,103804.22,Master,Lawyer,Single,East,3,654,2.8,False
-C00830,32,Non-binary,155199.93,Master,Doctor,Married,Central,2,683,16.5,False
-C00831,35,Female,55090.68,High School,Business Owner,Divorced,North,3,541,18.5,False
-C00832,30,Non-binary,163726.49,High School,Business Owner,Single,West,2,680,13.3,False
-C00833,33,Female,105316.02,PhD,Engineer,Single,South,2,705,7.6,False
-C00834,46,Non-binary,25998.13,Bachelor,Student,Married,South,1,584,18.2,False
-C00835,52,Male,88148.59,PhD,Manager,Widowed,North,0,677,10.3,False
-C00836,27,Male,194885.29,Bachelor,Doctor,Single,North,3,747,3.2,True
-C00837,37,Female,71093.04,Master,Accountant,Single,West,0,569,15.1,False
-C00838,41,Non-binary,16980.79,High School,Student,Single,South,2,511,7.0,False
-C00839,40,Female,67714.21,Associate,Retired,Single,West,1,592,4.9,False
-C00840,36,Female,72211.93,Master,Accountant,Single,East,0,672,5.1,True
-C00841,36,Female,48780.64,Bachelor,Business Owner,Single,North,3,561,11.6,False
-C00842,45,Non-binary,38476.46,Bachelor,Teacher,Married,North,2,604,3.1,True
-C00843,47,Female,95141.86,High School,Manager,Married,North,2,628,3.4,False
-C00844,28,Male,66193.69,Bachelor,Nurse,Married,North,1,582,9.3,False
-C00845,39,Non-binary,134553.1,Master,Lawyer,Single,North,1,717,12.6,False
-C00846,45,Male,34571.32,Bachelor,Retail Worker,Married,North,0,587,5.2,False
-C00847,43,Non-binary,100880.5,Bachelor,Accountant,Married,South,0,646,7.4,True
-C00848,44,Female,64324.34,Bachelor,Nurse,Single,East,1,576,15.1,False
-C00849,47,Non-binary,167785.01,Associate,Lawyer,Single,East,2,675,10.1,False
-C00850,36,Female,55504.16,High School,Teacher,Single,West,2,549,15.3,False
-C00851,44,Male,53176.59,Master,Teacher,Divorced,East,2,593,2.2,False
-C00852,33,Male,41265.25,Bachelor,Retail Worker,Married,South,1,564,5.3,False
-C00853,28,Non-binary,69657.08,Bachelor,Teacher,Married,East,1,588,7.7,False
-C00854,30,Female,47794.74,Bachelor,Accountant,Married,South,0,610,4.1,False
-C00855,22,Male,66359.06,Master,Lawyer,Single,South,1,634,5.1,False
-C00856,34,Male,103730.31,Master,Manager,Married,West,1,692,3.5,True
-C00857,47,Non-binary,190615.69,Master,Doctor,Divorced,West,1,715,12.9,False
-C00858,56,Female,140572.24,Bachelor,Lawyer,Married,West,4,640,3.2,False
-C00859,62,Non-binary,79445.75,Bachelor,Business Owner,Divorced,South,1,612,18.9,False
-C00860,46,Male,106449.48,Master,Manager,Married,Central,2,661,1.1,False
-C00861,33,Male,84114.08,High School,Nurse,Single,East,0,622,13.7,False
-C00862,47,Male,58637.41,PhD,Business Owner,Married,North,2,590,6.2,False
-C00863,18,Female,22146.03,Associate,Retired,Married,East,2,541,11.3,False
-C00864,55,Male,29628.62,High School,Student,Single,East,1,484,11.5,False
-C00865,25,Non-binary,39087.85,High School,Retired,Married,North,0,497,4.0,False
-C00866,41,Non-binary,135691.11,Bachelor,Lawyer,Married,South,1,636,1.4,False
-C00867,37,Female,90054.59,Bachelor,Engineer,Single,Central,1,588,2.3,False
-C00868,47,Non-binary,52787.7,Bachelor,Nurse,Married,North,1,557,12.0,False
-C00869,56,Non-binary,26188.46,PhD,Student,Married,North,0,591,1.9,False
-C00870,50,Non-binary,90703.39,High School,Engineer,Married,South,1,673,15.0,False
-C00871,35,Non-binary,81072.14,Master,Nurse,Divorced,Central,1,594,3.5,False
-C00872,33,Non-binary,44960.33,High School,Retail Worker,Married,Central,2,604,18.3,False
-C00873,39,Female,75919.76,Bachelor,Engineer,Married,West,3,594,9.9,True
-C00874,42,Non-binary,28659.86,Associate,Retired,Divorced,Central,2,581,10.5,False
-C00875,18,Non-binary,26683.97,Master,Retail Worker,Married,South,0,602,13.2,True
-C00876,32,Non-binary,83113.08,Bachelor,Accountant,Married,South,2,590,11.6,False
-C00877,36,Female,39033.22,Bachelor,Retail Worker,Married,Central,0,554,5.8,False
-C00878,50,Non-binary,39554.99,PhD,Retail Worker,Single,Central,0,593,10.8,False
-C00879,36,Non-binary,115924.05,Associate,Manager,Divorced,East,2,603,10.4,False
-C00880,45,Male,68384.5,High School,Accountant,Married,North,2,572,1.0,False
-C00881,39,Non-binary,20268.76,Master,Student,Married,South,0,544,0.4,False
-C00882,48,Female,15000.0,Bachelor,Student,Single,West,2,541,18.3,False
-C00883,32,Male,117139.44,Bachelor,Doctor,Single,East,0,705,18.4,False
-C00884,69,Male,37661.24,High School,Retail Worker,Married,West,3,561,17.5,False
-C00885,26,Non-binary,49555.84,Associate,Nurse,Married,North,2,576,17.0,False
-C00886,44,Male,129286.16,High School,Lawyer,Married,South,1,604,18.9,False
-C00887,18,Non-binary,44401.26,Bachelor,Retail Worker,Married,West,1,572,1.3,False
-C00888,29,Non-binary,15000.0,Bachelor,Student,Married,East,2,596,5.9,False
-C00889,51,Female,52185.91,Bachelor,Teacher,Divorced,Central,2,645,1.5,False
-C00890,25,Male,40320.2,Bachelor,Retired,Married,East,0,596,5.7,False
-C00891,45,Non-binary,60952.66,Master,Business Owner,Widowed,East,1,597,1.1,False
-C00892,44,Non-binary,67461.76,Master,Business Owner,Married,Central,0,663,14.5,False
-C00893,49,Non-binary,61242.61,Bachelor,Accountant,Divorced,West,1,604,0.4,False
-C00894,34,Male,40463.57,Bachelor,Accountant,Divorced,North,0,565,5.6,False
-C00895,32,Female,96891.58,Bachelor,Engineer,Married,South,4,653,11.2,False
-C00896,18,Non-binary,60736.45,Bachelor,Teacher,Married,North,3,557,13.5,False
-C00897,37,Female,146844.31,Master,Doctor,Divorced,North,0,736,1.0,False
-C00898,50,Non-binary,37208.82,Bachelor,Student,Married,South,1,600,4.3,False
-C00899,64,Male,176925.35,Bachelor,Doctor,Single,East,0,726,5.0,False
-C00900,22,Non-binary,66650.2,Bachelor,Engineer,Married,South,0,623,6.0,False
-C00901,48,Male,51507.53,High School,Retired,Married,North,0,545,2.8,False
-C00902,25,Non-binary,131352.1,Bachelor,Lawyer,Widowed,Central,1,640,8.3,False
-C00903,38,Non-binary,29215.06,Master,Retired,Widowed,North,1,574,11.4,False
-C00904,35,Female,57467.01,Master,Manager,Widowed,North,0,685,15.2,False
-C00905,38,Female,38796.03,Bachelor,Accountant,Married,East,0,589,2.0,False
-C00906,50,Male,24259.47,Master,Student,Single,East,1,510,9.1,False
-C00907,69,Male,142651.48,High School,Business Owner,Married,West,2,620,0.7,False
-C00908,26,Female,21868.76,Master,Student,Married,South,0,645,3.6,True
-C00909,49,Male,58270.22,Bachelor,Teacher,Married,West,4,629,13.9,False
-C00910,47,Female,106735.96,High School,Engineer,Married,South,1,603,3.3,True
-C00911,55,Male,50123.38,Master,Business Owner,Single,South,0,585,3.8,False
-C00912,39,Male,52356.3,Bachelor,Engineer,Single,South,1,617,8.5,False
-C00913,52,Male,66230.22,High School,Retired,Single,Central,0,590,11.7,False
-C00914,42,Female,84291.95,Bachelor,Engineer,Divorced,Central,2,642,10.6,False
-C00915,54,Non-binary,173643.62,Bachelor,Doctor,Widowed,North,2,708,11.5,False
-C00916,49,Male,39494.66,Bachelor,Retired,Single,South,2,567,15.7,False
-C00917,49,Non-binary,94044.16,Master,Nurse,Married,Central,0,636,2.3,True
-C00918,18,Male,68618.8,Bachelor,Retired,Single,South,2,621,2.6,False
-C00919,43,Male,101715.48,Master,Lawyer,Widowed,North,0,687,18.6,False
-C00920,50,Non-binary,43296.04,High School,Retail Worker,Single,South,0,535,5.6,False
-C00921,30,Female,214941.17,Bachelor,Doctor,Married,East,0,723,18.1,False
-C00922,36,Non-binary,57149.07,PhD,Manager,Married,North,1,631,11.0,False
-C00923,49,Non-binary,45790.08,PhD,Retired,Married,East,0,614,1.9,True
-C00924,49,Non-binary,140360.2,PhD,Business Owner,Married,North,0,688,19.4,False
-C00925,50,Male,42684.91,Bachelor,Retail Worker,Married,West,0,606,1.8,False
-C00926,31,Male,56421.51,Master,Teacher,Divorced,South,2,582,7.9,False
-C00927,36,Female,92173.34,PhD,Nurse,Widowed,South,1,689,5.6,True
-C00928,58,Female,55172.04,PhD,Teacher,Single,East,0,616,16.3,False
-C00929,42,Male,28450.31,Master,Student,Married,South,0,600,11.0,True
-C00930,34,Female,117661.54,Bachelor,Engineer,Married,North,2,620,16.3,False
-C00931,46,Male,77766.09,PhD,Lawyer,Single,West,2,619,11.1,False
-C00932,40,Male,91747.87,Associate,Accountant,Married,Central,1,589,16.5,False
-C00933,34,Non-binary,68515.18,Bachelor,Retired,Married,Central,1,630,6.6,False
-C00934,38,Female,114055.26,Bachelor,Engineer,Married,West,0,659,2.3,False
-C00935,32,Male,34413.67,Master,Retired,Married,Central,1,586,12.7,False
-C00936,73,Female,78804.46,Bachelor,Accountant,Single,West,2,616,0.5,False
-C00937,45,Non-binary,105691.89,Bachelor,Business Owner,Divorced,South,0,648,5.7,False
-C00938,44,Female,102072.56,Master,Manager,Widowed,East,1,577,8.1,False
-C00939,20,Male,99454.64,Bachelor,Doctor,Divorced,East,1,606,18.3,False
-C00940,44,Non-binary,35663.0,High School,Retail Worker,Single,West,1,544,17.1,False
-C00941,26,Male,100826.6,Bachelor,Engineer,Divorced,West,0,606,2.5,False
-C00942,80,Male,85641.64,Bachelor,Business Owner,Widowed,Central,0,559,0.4,False
-C00943,35,Female,148216.48,Bachelor,Business Owner,Single,West,1,699,13.1,False
-C00944,18,Male,60496.19,Bachelor,Teacher,Single,Central,2,594,7.8,False
-C00945,33,Male,42137.68,PhD,Retail Worker,Married,West,0,628,8.6,False
-C00946,52,Non-binary,104408.6,Bachelor,Accountant,Married,East,2,634,7.0,False
-C00947,45,Non-binary,74987.33,Associate,Engineer,Married,South,2,598,18.9,False
-C00948,29,Female,176910.27,Associate,Doctor,Divorced,Central,0,661,0.3,False
-C00949,52,Non-binary,15120.37,Bachelor,Student,Married,North,1,587,2.0,False
-C00950,52,Female,117894.59,Bachelor,Lawyer,Single,West,0,639,3.8,False
-C00951,44,Non-binary,70765.52,High School,Nurse,Married,East,0,518,5.3,False
-C00952,56,Female,105571.45,Master,Business Owner,Widowed,Central,0,658,16.4,True
-C00953,24,Non-binary,79991.56,Bachelor,Engineer,Married,West,1,597,19.9,False
-C00954,77,Non-binary,34245.0,PhD,Student,Single,South,1,629,7.0,False
-C00955,50,Female,72287.8,Bachelor,Engineer,Single,South,0,589,19.8,False
-C00956,27,Female,87627.4,Bachelor,Manager,Widowed,South,2,583,2.5,False
-C00957,41,Male,69514.37,High School,Accountant,Married,North,0,579,9.7,False
-C00958,40,Non-binary,71121.44,High School,Nurse,Married,South,3,544,2.1,False
-C00959,45,Non-binary,22422.16,High School,Retail Worker,Married,East,0,513,7.2,False
-C00960,50,Female,23599.32,Bachelor,Retired,Married,Central,2,511,15.8,False
-C00961,38,Non-binary,130117.9,Bachelor,Doctor,Married,Central,2,666,18.9,False
-C00962,32,Non-binary,48097.76,Bachelor,Teacher,Married,South,1,587,17.3,False
-C00963,44,Female,44936.97,Master,Retired,Widowed,West,1,656,3.4,False
-C00964,34,Female,80234.72,Bachelor,Business Owner,Divorced,East,2,618,16.6,True
-C00965,51,Non-binary,97682.49,High School,Accountant,Married,East,0,586,8.1,False
-C00966,39,Female,90675.26,Associate,Business Owner,Married,West,0,589,16.5,False
-C00967,62,Male,118884.9,Bachelor,Business Owner,Divorced,East,1,635,2.4,False
-C00968,57,Female,63243.54,Bachelor,Accountant,Married,North,5,577,3.4,False
-C00969,37,Non-binary,49032.07,Bachelor,Retired,Single,North,1,568,12.0,False
-C00970,29,Female,56996.85,Associate,Nurse,Married,South,1,574,6.5,False
-C00971,19,Female,44101.51,Bachelor,Retired,Married,North,0,535,5.6,False
-C00972,27,Male,74286.27,Bachelor,Accountant,Divorced,East,2,626,17.6,False
-C00973,31,Non-binary,219287.38,Associate,Doctor,Single,Central,0,666,6.2,True
-C00974,51,Male,57661.18,Master,Accountant,Single,West,1,586,11.9,False
-C00975,46,Non-binary,93337.49,Bachelor,Engineer,Married,South,1,610,11.5,False
-C00976,27,Female,62322.82,Bachelor,Teacher,Divorced,West,0,616,1.3,False
-C00977,36,Non-binary,61446.16,Master,Teacher,Married,Central,1,649,3.2,False
-C00978,57,Non-binary,81016.77,PhD,Accountant,Single,West,0,667,12.0,True
-C00979,40,Non-binary,76699.18,High School,Manager,Single,West,5,571,10.1,False
-C00980,54,Male,93109.4,High School,Engineer,Widowed,South,0,641,8.3,False
-C00981,44,Non-binary,29058.73,Master,Retail Worker,Widowed,South,0,617,12.9,False
-C00982,32,Male,87069.72,PhD,Nurse,Single,East,2,665,5.7,False
-C00983,59,Male,93646.33,Bachelor,Business Owner,Married,West,1,677,16.5,False
-C00984,34,Non-binary,26534.83,Bachelor,Retail Worker,Married,West,0,613,5.2,False
-C00985,39,Female,80669.99,Bachelor,Nurse,Married,South,0,602,19.2,False
-C00986,31,Female,60581.67,Associate,Manager,Married,South,2,588,19.2,False
-C00987,40,Non-binary,60870.54,Master,Teacher,Married,Central,2,635,15.8,False
-C00988,23,Male,111625.8,High School,Doctor,Single,North,1,576,13.1,False
-C00989,54,Male,72655.83,Bachelor,Engineer,Single,Central,1,622,10.0,False
-C00990,18,Female,29421.89,Bachelor,Retired,Married,South,1,602,13.4,False
-C00991,61,Male,63112.37,High School,Retired,Married,North,0,559,9.0,False
-C00992,35,Male,180556.12,Bachelor,Doctor,Married,East,0,708,1.3,False
-C00993,53,Non-binary,15000.0,Master,Student,Married,Central,0,562,4.0,False
-C00994,25,Female,224273.75,Bachelor,Doctor,Married,Central,0,805,1.5,False
-C00995,48,Female,99364.74,High School,Lawyer,Widowed,South,2,607,17.3,False
-C00996,40,Non-binary,46768.38,Bachelor,Accountant,Single,East,3,668,0.3,False
-C00997,46,Non-binary,75270.99,Bachelor,Engineer,Widowed,South,0,617,12.1,False
-C00998,59,Female,61134.13,High School,Nurse,Single,West,2,561,14.2,False
-C00999,62,Non-binary,64205.33,PhD,Nurse,Married,Central,3,626,14.4,False
-C01000,42,Non-binary,38409.25,Bachelor,Retail Worker,Married,East,0,548,3.3,False
+C00005,57,Female,86674.7,Master,Retired,Married,Central,0,682,12.7,False
+C00006,18,Female,69861.26,Master,Nurse,Married,South,0,618,9.2,True
+C00007,54,Male,180199.91,Master,Doctor,Married,Central,0,715,15.0,False
+C00008,25,Non-binary,41500.21,Associate,Retail Worker,Married,Central,2,602,19.1,False
+C00009,34,Female,55148.38,Bachelor,Manager,Married,South,1,588,4.6,False
+C00010,36,Female,43047.28,Bachelor,Nurse,Married,North,2,503,13.5,False
+C00011,39,Female,88081.02,Associate,Accountant,Single,North,2,607,8.9,False
+C00012,76,Male,76152.78,Bachelor,Accountant,Single,West,0,625,18.1,False
+C00013,61,Male,205693.03,PhD,Doctor,Divorced,North,1,770,11.9,False
+C00014,65,Male,111839.74,Bachelor,Engineer,Married,West,0,605,13.2,False
+C00015,53,Male,25153.09,Master,Retail Worker,Single,West,2,575,16.7,False
+C00016,45,Male,111185.04,Bachelor,Engineer,Married,North,0,659,18.0,False
+C00017,44,Female,40397.74,PhD,Teacher,Widowed,South,2,591,17.3,False
+C00018,54,Female,92812.16,Bachelor,Manager,Married,Central,2,624,6.7,True
+C00019,38,Female,144990.02,Master,Lawyer,Single,West,0,701,0.1,False
+C00020,30,Non-binary,162871.18,Master,Business Owner,Single,West,3,724,15.7,False
+C00021,47,Non-binary,133418.73,High School,Doctor,Married,South,0,635,3.6,False
+C00022,67,Female,140903.06,Master,Manager,Married,South,2,725,14.9,False
+C00023,37,Female,85751.64,Bachelor,Manager,Single,South,2,606,4.7,False
+C00024,29,Male,107023.73,Bachelor,Business Owner,Married,North,1,639,7.8,False
+C00025,21,Female,168158.19,Associate,Business Owner,Married,South,1,688,9.1,False
+C00026,51,Female,155043.79,Associate,Doctor,Married,North,1,656,15.1,False
+C00027,35,Non-binary,36159.53,Master,Retired,Single,East,0,621,17.0,False
+C00028,43,Male,105553.3,Bachelor,Accountant,Single,West,2,627,11.4,False
+C00029,38,Non-binary,74672.63,Bachelor,Engineer,Single,South,4,584,8.1,False
+C00030,39,Female,15000.0,Bachelor,Student,Widowed,Central,0,545,12.0,False
+C00031,35,Male,84076.45,Bachelor,Accountant,Married,East,2,580,3.8,True
+C00032,39,Female,64714.76,Master,Nurse,Married,Central,0,594,1.3,False
+C00033,30,Female,24154.77,Bachelor,Student,Married,North,2,610,4.7,False
+C00034,42,Male,159175.22,High School,Business Owner,Married,Central,1,673,18.4,False
+C00035,23,Female,100652.01,PhD,Accountant,Married,East,0,626,6.5,True
+C00036,59,Non-binary,50139.31,Bachelor,Engineer,Widowed,Central,0,572,16.0,False
+C00037,43,Male,103585.94,Bachelor,Accountant,Married,Central,2,645,15.3,False
+C00038,61,Female,50526.15,Master,Nurse,Married,South,0,631,10.0,True
+C00039,18,Non-binary,60418.54,PhD,Engineer,Married,West,2,579,15.7,False
+C00040,21,Non-binary,86927.22,Bachelor,Engineer,Single,North,0,624,5.9,False
+C00041,52,Female,109825.77,Bachelor,Lawyer,Married,Central,2,633,2.9,False
+C00042,40,Female,29471.37,PhD,Retired,Married,North,0,611,8.9,False
+C00043,53,Non-binary,35694.54,Bachelor,Retired,Married,North,1,559,11.4,False
+C00044,53,Non-binary,60603.21,High School,Business Owner,Married,West,2,556,3.6,False
+C00045,65,Male,185265.59,Bachelor,Doctor,Single,South,2,796,17.2,False
+C00046,18,Non-binary,187651.38,PhD,Doctor,Married,West,2,748,0.5,False
+C00047,18,Female,107116.06,High School,Engineer,Widowed,East,1,618,17.9,True
+C00048,31,Male,56829.13,Bachelor,Lawyer,Widowed,West,1,604,1.9,False
+C00049,29,Female,47177.97,Master,Teacher,Widowed,Central,1,608,5.1,False
+C00050,49,Female,46532.55,Bachelor,Retail Worker,Married,North,1,603,9.1,False
+C00051,58,Non-binary,107632.63,Bachelor,Manager,Married,West,0,629,19.9,False
+C00052,47,Female,60946.95,Master,Nurse,Married,North,2,649,6.3,False
+C00053,29,Non-binary,161477.65,Bachelor,Doctor,Married,West,2,711,17.4,False
+C00054,43,Non-binary,86117.13,Master,Business Owner,Single,East,2,684,14.1,False
+C00055,19,Female,37247.71,Bachelor,Retail Worker,Single,East,1,582,13.7,False
+C00056,53,Female,101686.28,High School,Nurse,Widowed,North,0,605,0.3,False
+C00057,63,Non-binary,143679.68,PhD,Doctor,Married,North,1,710,4.9,False
+C00058,20,Non-binary,41313.85,High School,Retired,Married,Central,1,533,15.2,False
+C00059,49,Non-binary,64017.79,Bachelor,Accountant,Married,North,2,599,9.0,False
+C00060,77,Female,105715.82,PhD,Doctor,Married,South,0,678,0.9,False
+C00061,38,Non-binary,18800.98,Master,Student,Divorced,East,0,594,1.7,False
+C00062,40,Female,45449.75,Bachelor,Retired,Married,South,0,607,13.4,False
+C00063,34,Non-binary,38915.0,Bachelor,Retail Worker,Single,East,1,571,3.7,False
+C00064,18,Female,181764.04,Associate,Lawyer,Married,West,2,680,16.3,False
+C00065,34,Female,111974.08,Bachelor,Manager,Single,West,4,716,1.9,False
+C00066,44,Female,43259.53,Master,Teacher,Married,West,0,663,9.0,True
+C00067,45,Male,27861.53,Bachelor,Student,Married,North,2,563,16.8,False
+C00068,49,Non-binary,34113.84,Bachelor,Retired,Married,Central,0,531,19.5,True
+C00069,78,Non-binary,38946.54,Master,Retail Worker,Single,East,1,604,11.0,False
+C00070,43,Non-binary,85721.01,Associate,Teacher,Single,West,1,602,0.8,False
+C00071,66,Female,81190.99,PhD,Manager,Married,North,0,715,15.1,False
+C00072,47,Male,140529.29,Bachelor,Business Owner,Married,Central,4,634,14.4,False
+C00073,57,Male,43793.76,Associate,Retired,Married,West,1,521,19.0,True
+C00074,27,Female,30223.41,Master,Student,Single,East,1,602,8.0,False
+C00075,74,Non-binary,89114.84,High School,Manager,Single,East,3,636,17.0,False
+C00076,27,Female,26592.7,Bachelor,Retail Worker,Married,Central,0,565,2.7,False
+C00077,39,Male,98516.09,Master,Manager,Single,South,1,678,3.3,False
+C00078,36,Male,27396.45,High School,Retired,Married,East,2,510,13.1,False
+C00079,50,Non-binary,39347.99,High School,Retail Worker,Married,East,1,571,19.5,False
+C00080,41,Male,103767.87,Master,Accountant,Widowed,West,1,649,10.0,False
+C00081,32,Male,114848.67,Associate,Manager,Married,North,3,659,1.0,False
+C00082,44,Female,38303.5,Bachelor,Retired,Single,West,0,584,5.4,False
+C00083,35,Male,66917.04,Bachelor,Nurse,Single,South,4,653,8.3,False
+C00084,27,Female,145417.82,Associate,Business Owner,Married,South,0,699,13.8,False
+C00085,50,Male,48637.01,Bachelor,Business Owner,Widowed,North,0,638,7.0,False
+C00086,49,Female,79421.5,Bachelor,Accountant,Single,South,0,629,0.2,False
+C00087,62,Male,54854.12,PhD,Nurse,Married,South,0,688,18.7,False
+C00088,55,Female,138924.05,Associate,Doctor,Married,West,0,658,13.0,False
+C00089,41,Male,39199.11,Bachelor,Retail Worker,Married,North,0,632,13.4,False
+C00090,40,Non-binary,52851.86,Associate,Teacher,Married,West,0,550,15.0,False
+C00091,47,Non-binary,120443.35,High School,Manager,Divorced,South,1,623,11.5,False
+C00092,80,Non-binary,146134.84,Associate,Doctor,Single,East,1,632,14.0,False
+C00093,18,Non-binary,50988.35,PhD,Retired,Widowed,East,2,650,17.9,False
+C00094,65,Male,58116.74,PhD,Nurse,Married,South,3,657,16.7,False
+C00095,32,Male,89361.15,Associate,Engineer,Married,South,0,644,10.8,False
+C00096,32,Male,41661.52,Bachelor,Nurse,Married,North,0,573,19.4,False
+C00097,53,Female,69670.01,Bachelor,Teacher,Married,East,3,600,4.1,False
+C00098,52,Male,20415.57,Associate,Student,Married,Central,0,536,4.4,False
+C00099,43,Female,71788.02,Master,Nurse,Married,East,2,694,6.2,False
+C00100,57,Female,26680.75,Master,Retail Worker,Divorced,East,0,594,6.3,True
+C00101,46,Male,38266.19,PhD,Retired,Single,North,3,620,8.3,False
+C00102,62,Non-binary,104110.07,Bachelor,Engineer,Married,East,1,654,10.8,False
+C00103,28,Non-binary,15000.0,PhD,Retired,Married,North,0,556,8.2,False
+C00104,18,Non-binary,66340.15,Master,Accountant,Single,North,2,584,12.4,False
+C00105,31,Non-binary,60789.87,PhD,Nurse,Widowed,East,1,611,0.7,False
+C00106,28,Male,82107.51,PhD,Accountant,Married,East,1,622,2.1,True
+C00107,43,Male,162215.37,Bachelor,Lawyer,Married,West,1,713,11.9,False
+C00108,67,Female,68590.3,PhD,Business Owner,Married,West,0,623,19.4,False
+C00109,45,Non-binary,86892.4,High School,Nurse,Married,South,2,536,12.7,False
+C00110,33,Non-binary,33419.72,Bachelor,Retail Worker,Widowed,West,1,554,2.2,True
+C00111,51,Non-binary,118930.86,Bachelor,Accountant,Single,West,2,675,6.4,False
+C00112,29,Female,94256.45,PhD,Lawyer,Married,South,3,711,3.8,False
+C00113,50,Non-binary,48941.08,Bachelor,Nurse,Married,East,1,562,7.1,False
+C00114,36,Non-binary,60567.67,PhD,Teacher,Married,West,1,627,5.8,False
+C00115,27,Female,106261.37,Bachelor,Accountant,Married,North,3,720,11.5,False
+C00116,42,Female,171187.71,Master,Doctor,Married,South,2,644,4.3,False
+C00117,63,Male,136562.86,Bachelor,Manager,Single,Central,0,655,3.5,False
+C00118,44,Male,125620.09,Master,Lawyer,Married,West,2,685,9.8,False
+C00119,25,Non-binary,198312.37,High School,Doctor,Married,West,2,688,12.7,False
+C00120,43,Female,15000.0,Bachelor,Student,Single,West,0,554,15.8,False
+C00121,25,Female,44398.67,Master,Retired,Single,West,1,535,12.5,False
+C00122,72,Non-binary,98799.98,Bachelor,Lawyer,Single,North,3,639,2.9,False
+C00123,30,Non-binary,84482.17,Bachelor,Nurse,Single,North,0,660,15.7,False
+C00124,55,Non-binary,77296.15,Bachelor,Manager,Married,West,1,607,19.1,False
+C00125,67,Male,63949.62,PhD,Teacher,Married,West,1,661,11.8,False
+C00126,46,Male,41525.9,Associate,Retail Worker,Married,East,0,570,3.4,False
+C00127,42,Female,146225.13,Bachelor,Doctor,Married,North,2,683,10.1,False
+C00128,48,Male,61242.98,Associate,Nurse,Single,Central,0,580,7.0,False
+C00129,58,Female,125608.68,PhD,Doctor,Married,Central,1,682,2.8,False
+C00130,52,Female,106950.84,Associate,Lawyer,Single,Central,2,644,2.3,True
+C00131,34,Female,209536.97,High School,Lawyer,Widowed,West,1,755,10.3,False
+C00132,43,Female,209101.2,Master,Doctor,Divorced,East,1,747,2.5,False
+C00133,50,Female,185163.2,Associate,Lawyer,Divorced,East,1,672,5.7,False
+C00134,44,Non-binary,130988.92,Bachelor,Manager,Married,East,1,665,18.3,False
+C00135,33,Female,101719.36,Bachelor,Engineer,Married,South,1,664,11.6,False
+C00136,29,Non-binary,22840.18,Master,Student,Single,East,0,576,19.0,False
+C00137,34,Female,54831.77,High School,Teacher,Married,South,0,482,15.5,False
+C00138,43,Female,63428.88,High School,Teacher,Married,West,0,566,15.9,False
+C00139,19,Non-binary,29317.91,High School,Student,Married,Central,0,516,4.3,False
+C00140,34,Female,60145.8,Master,Teacher,Divorced,West,0,640,17.6,False
+C00141,41,Female,132064.79,Associate,Doctor,Married,North,1,712,6.8,False
+C00142,32,Male,92028.28,Bachelor,Lawyer,Married,Central,0,666,14.5,False
+C00143,31,Female,114167.35,Master,Business Owner,Married,West,1,700,9.8,False
+C00144,35,Non-binary,138430.49,Bachelor,Manager,Married,West,2,707,11.5,False
+C00145,46,Female,56413.57,Associate,Retired,Single,Central,0,638,5.2,False
+C00146,55,Female,44499.09,Master,Retail Worker,Divorced,East,2,682,7.7,False
+C00147,60,Non-binary,79542.64,High School,Accountant,Single,West,1,604,14.8,False
+C00148,18,Non-binary,109089.78,Master,Engineer,Single,South,1,706,15.1,False
+C00149,35,Male,26970.38,Associate,Student,Married,South,2,506,17.2,False
+C00150,56,Non-binary,39199.01,High School,Teacher,Married,Central,5,547,16.0,False
+C00151,57,Non-binary,107588.1,High School,Manager,Widowed,East,0,605,11.3,False
+C00152,44,Female,55641.78,PhD,Retired,Married,East,0,622,5.3,False
+C00153,34,Female,106484.51,Bachelor,Engineer,Married,Central,0,634,16.3,False
+C00154,19,Male,68389.53,Master,Manager,Married,South,1,596,18.0,False
+C00155,42,Male,132163.56,High School,Lawyer,Married,Central,0,667,17.9,False
+C00156,45,Male,193682.08,High School,Lawyer,Married,North,2,660,17.9,False
+C00157,18,Male,23393.87,Bachelor,Student,Married,North,2,567,14.8,False
+C00158,35,Male,31883.74,PhD,Nurse,Single,South,0,599,14.6,False
+C00159,32,Non-binary,66236.6,High School,Nurse,Married,Central,0,522,5.5,False
+C00160,31,Non-binary,125958.73,Bachelor,Business Owner,Single,North,1,706,10.0,False
+C00161,57,Non-binary,50210.66,Master,Teacher,Widowed,Central,1,590,1.6,False
+C00162,54,Male,83286.73,High School,Engineer,Widowed,South,1,556,2.2,False
+C00163,48,Female,106384.04,Bachelor,Doctor,Single,East,1,688,0.3,False
+C00164,34,Female,35742.76,Bachelor,Retail Worker,Widowed,North,0,516,10.2,False
+C00165,48,Female,15000.0,Bachelor,Student,Married,East,1,534,14.3,True
+C00166,37,Male,76694.91,PhD,Nurse,Single,South,0,658,14.4,True
+C00167,30,Non-binary,128945.55,Bachelor,Manager,Single,West,1,717,0.2,False
+C00168,40,Female,72599.78,PhD,Accountant,Divorced,South,0,598,8.3,False
+C00169,18,Female,36466.4,Master,Retail Worker,Married,Central,3,561,10.3,False
+C00170,39,Non-binary,86395.47,High School,Business Owner,Married,South,0,588,19.7,False
+C00171,46,Non-binary,78491.97,Bachelor,Nurse,Single,East,2,604,13.9,True
+C00172,45,Female,73136.15,High School,Accountant,Married,South,0,569,0.9,False
+C00173,45,Non-binary,34560.85,Bachelor,Retail Worker,Single,Central,4,583,10.7,False
+C00174,74,Female,126729.89,Master,Lawyer,Married,North,1,745,19.0,False
+C00175,55,Male,61157.03,Master,Teacher,Single,East,0,636,0.9,True
+C00176,19,Female,113313.33,Associate,Lawyer,Single,West,0,616,15.2,False
+C00177,55,Male,63735.4,Associate,Lawyer,Married,East,0,560,4.0,False
+C00178,23,Female,18765.85,Master,Teacher,Married,East,2,584,16.2,False
+C00179,31,Non-binary,65679.0,Bachelor,Teacher,Married,South,1,615,17.8,False
+C00180,41,Non-binary,90163.16,Master,Manager,Single,South,1,654,3.7,False
+C00181,35,Female,97487.78,Bachelor,Accountant,Divorced,North,3,649,19.6,False
+C00182,54,Male,79480.96,Bachelor,Nurse,Widowed,South,4,656,10.4,False
+C00183,40,Non-binary,36699.22,Master,Doctor,Married,West,1,597,16.2,False
+C00184,62,Non-binary,58920.94,Bachelor,Teacher,Married,North,0,607,17.8,False
+C00185,29,Female,175535.68,Bachelor,Doctor,Single,West,1,699,2.7,True
+C00186,20,Non-binary,104647.38,Bachelor,Doctor,Single,South,0,637,18.0,False
+C00187,70,Male,158652.68,PhD,Doctor,Single,Central,1,742,8.2,False
+C00188,50,Female,135838.37,Bachelor,Doctor,Single,Central,0,658,5.1,False
+C00189,38,Female,87347.95,Master,Nurse,Married,North,1,644,15.0,False
+C00190,33,Non-binary,59372.05,Bachelor,Nurse,Married,Central,2,589,5.8,False
+C00191,18,Non-binary,22640.52,Bachelor,Student,Single,North,0,581,13.3,True
+C00192,30,Female,214476.94,Bachelor,Business Owner,Single,South,0,755,9.1,False
+C00193,33,Non-binary,123753.0,Bachelor,Accountant,Widowed,Central,1,606,9.7,False
+C00194,19,Non-binary,136176.04,Master,Lawyer,Married,South,1,701,15.2,False
+C00195,46,Non-binary,73738.84,PhD,Accountant,Married,East,0,653,9.9,False
+C00196,35,Male,85317.56,Master,Accountant,Married,North,1,708,0.3,False
+C00197,19,Female,36980.1,PhD,Retail Worker,Married,West,2,621,8.1,False
+C00198,28,Non-binary,71859.27,Master,Accountant,Married,Central,2,652,17.2,True
+C00199,18,Non-binary,51135.42,Bachelor,Retired,Widowed,South,0,551,11.6,False
+C00200,48,Female,38234.36,Master,Retail Worker,Married,Central,1,618,19.3,False
+C00201,18,Female,120739.46,Bachelor,Doctor,Married,West,1,630,5.6,False
+C00202,25,Male,54994.69,High School,Retired,Married,East,1,568,17.3,False
+C00203,67,Female,133408.51,Bachelor,Lawyer,Divorced,West,0,685,6.2,False
+C00204,19,Female,95858.7,PhD,Accountant,Single,West,2,735,15.2,False
+C00205,55,Male,62603.34,Associate,Teacher,Single,South,1,585,6.9,False
+C00206,49,Female,91244.34,Master,Engineer,Single,South,0,705,7.8,False
+C00207,53,Non-binary,124024.33,Associate,Doctor,Single,West,2,667,6.6,False
+C00208,44,Male,15000.0,PhD,Student,Married,West,1,607,13.8,False
+C00209,32,Non-binary,66183.76,Bachelor,Teacher,Single,North,1,593,9.8,False
+C00210,28,Female,132032.58,Master,Lawyer,Married,North,0,690,13.2,False
+C00211,33,Male,73931.07,Associate,Engineer,Single,West,1,644,3.9,True
+C00212,47,Female,146664.63,PhD,Doctor,Married,North,0,732,7.3,False
+C00213,19,Male,66112.75,Bachelor,Teacher,Married,Central,0,636,7.9,True
+C00214,45,Male,149929.51,Bachelor,Manager,Married,South,1,711,10.7,False
+C00215,49,Female,53580.86,Bachelor,Retired,Married,East,2,591,12.2,False
+C00216,46,Non-binary,119483.04,High School,Business Owner,Single,South,1,669,4.4,False
+C00217,66,Non-binary,31051.63,Bachelor,Student,Single,North,1,555,9.3,False
+C00218,32,Non-binary,113352.32,Master,Doctor,Married,East,0,648,0.8,False
+C00219,43,Male,25941.46,Bachelor,Student,Single,Central,0,608,14.0,False
+C00220,44,Non-binary,180658.69,Bachelor,Doctor,Married,West,1,744,15.5,False
+C00221,36,Female,34636.71,Associate,Retail Worker,Married,West,0,533,12.5,False
+C00222,24,Non-binary,124396.16,Associate,Manager,Married,East,0,660,11.0,False
+C00223,59,Male,42446.28,Bachelor,Business Owner,Married,East,2,542,17.3,True
+C00224,42,Male,130883.68,PhD,Business Owner,Single,East,3,736,18.0,False
+C00225,43,Non-binary,71169.59,High School,Retired,Single,Central,0,549,13.7,False
+C00226,50,Male,18831.31,Master,Student,Divorced,East,0,561,1.4,False
+C00227,47,Male,28053.66,Master,Retail Worker,Single,West,1,604,2.8,False
+C00228,51,Non-binary,41867.61,Bachelor,Retail Worker,Divorced,South,0,574,8.6,False
+C00229,62,Non-binary,129905.76,Master,Manager,Single,West,0,727,16.6,True
+C00230,41,Male,101740.68,Master,Manager,Single,West,0,653,6.5,True
+C00231,35,Non-binary,43703.42,Master,Manager,Married,South,0,622,7.6,False
+C00232,54,Non-binary,173743.75,High School,Business Owner,Married,West,1,693,5.8,False
+C00233,50,Male,93366.81,Bachelor,Accountant,Married,North,1,647,12.2,False
+C00234,45,Male,61496.89,High School,Teacher,Single,East,3,604,12.3,False
+C00235,31,Female,75630.78,High School,Business Owner,Married,West,2,548,10.5,False
+C00236,22,Female,111204.36,PhD,Engineer,Single,West,3,654,12.5,True
+C00237,38,Male,120374.28,Bachelor,Manager,Married,North,1,651,2.4,False
+C00238,34,Female,120369.93,Bachelor,Engineer,Single,East,1,642,16.0,False
+C00239,47,Male,81364.71,Bachelor,Nurse,Single,North,3,625,17.3,False
+C00240,33,Non-binary,35988.38,Associate,Retail Worker,Widowed,Central,2,572,6.3,False
+C00241,47,Male,84230.91,Bachelor,Lawyer,Single,Central,1,612,6.5,False
+C00242,60,Non-binary,26772.14,Master,Student,Single,North,3,601,6.3,False
+C00243,44,Female,148263.82,Bachelor,Business Owner,Married,South,1,664,14.3,False
+C00244,55,Male,37309.23,Bachelor,Retail Worker,Married,South,2,579,10.2,False
+C00245,39,Non-binary,53801.32,Bachelor,Nurse,Married,East,0,574,10.9,False
+C00246,38,Female,78764.72,Bachelor,Accountant,Single,West,0,633,1.5,True
+C00247,61,Non-binary,80150.14,Bachelor,Lawyer,Single,East,0,638,6.1,False
+C00248,50,Male,46424.01,Bachelor,Manager,Widowed,North,1,591,14.1,False
+C00249,30,Male,152038.66,Bachelor,Lawyer,Married,East,0,675,16.8,False
+C00250,21,Non-binary,87266.54,Associate,Manager,Single,Central,2,638,11.6,True
+C00251,39,Non-binary,85912.49,High School,Accountant,Married,North,1,540,13.7,False
+C00252,48,Female,31556.92,Bachelor,Retail Worker,Married,East,0,538,5.9,True
+C00253,44,Male,83439.29,Bachelor,Business Owner,Single,Central,1,637,5.7,False
+C00254,48,Non-binary,18303.78,Master,Retail Worker,Widowed,South,0,560,12.0,False
+C00255,46,Female,100633.55,High School,Business Owner,Married,North,1,582,1.1,False
+C00256,49,Non-binary,103893.57,Bachelor,Retired,Married,Central,0,645,15.4,False
+C00257,37,Non-binary,128721.25,Bachelor,Lawyer,Single,Central,0,641,1.9,False
+C00258,26,Female,179714.38,Master,Doctor,Married,East,1,743,15.4,False
+C00259,43,Female,54459.08,Master,Nurse,Married,North,0,578,5.2,False
+C00260,33,Female,93113.54,Bachelor,Manager,Married,West,1,663,9.6,False
+C00261,41,Female,89697.57,High School,Accountant,Married,East,1,651,13.0,False
+C00262,57,Female,62342.66,High School,Engineer,Married,South,0,547,16.2,False
+C00263,41,Non-binary,17240.53,High School,Retired,Single,South,0,476,12.7,False
+C00264,69,Male,40840.26,Bachelor,Retired,Married,North,4,602,19.5,False
+C00265,44,Non-binary,44055.35,Bachelor,Teacher,Single,West,1,588,1.7,True
+C00266,28,Female,66162.21,Bachelor,Nurse,Single,South,0,553,12.2,True
+C00267,22,Male,40225.54,High School,Retail Worker,Single,West,1,553,5.1,False
+C00268,18,Male,131953.65,Bachelor,Doctor,Single,West,2,688,15.7,False
+C00269,42,Non-binary,15000.0,Bachelor,Business Owner,Single,West,0,535,9.2,False
+C00270,39,Female,141357.57,Master,Lawyer,Single,West,1,706,11.6,False
+C00271,18,Male,167867.32,Bachelor,Business Owner,Single,West,0,746,15.5,False
+C00272,37,Non-binary,47296.53,Bachelor,Retired,Single,East,0,617,10.7,False
+C00273,58,Female,117017.99,Bachelor,Business Owner,Married,West,1,651,5.6,True
+C00274,29,Male,201178.6,Associate,Doctor,Married,West,3,699,3.1,False
+C00275,59,Male,193509.59,Bachelor,Doctor,Single,South,0,694,16.7,False
+C00276,37,Female,49526.15,Associate,Business Owner,Single,East,2,544,19.4,False
+C00277,38,Male,162435.36,Master,Business Owner,Single,South,0,772,16.8,False
+C00278,34,Female,68121.94,Bachelor,Accountant,Single,South,0,604,4.2,False
+C00279,32,Female,67055.11,PhD,Teacher,Widowed,East,0,595,3.2,False
+C00280,33,Male,142926.42,Bachelor,Lawyer,Married,South,0,679,15.6,False
+C00281,27,Non-binary,20530.86,PhD,Retired,Married,South,1,640,14.3,False
+C00282,23,Non-binary,90471.39,Master,Nurse,Divorced,East,0,624,3.4,False
+C00283,50,Male,44143.4,High School,Business Owner,Married,Central,2,567,19.7,True
+C00284,36,Non-binary,169117.64,Bachelor,Business Owner,Divorced,East,0,685,9.9,False
+C00285,57,Non-binary,162639.58,Master,Business Owner,Married,West,0,729,18.1,False
+C00286,44,Male,66136.54,Bachelor,Teacher,Married,South,2,622,7.2,True
+C00287,50,Female,31830.99,Bachelor,Retail Worker,Single,Central,0,598,7.1,False
+C00288,54,Non-binary,28873.12,Bachelor,Retail Worker,Single,East,0,537,0.7,False
+C00289,52,Male,49256.27,High School,Retired,Married,North,1,519,9.4,False
+C00290,24,Non-binary,105684.39,Master,Manager,Single,South,0,672,19.3,False
+C00291,44,Male,28617.49,Associate,Retail Worker,Widowed,West,2,561,4.4,False
+C00292,26,Male,69551.3,Master,Teacher,Single,South,0,681,6.8,False
+C00293,29,Male,97628.15,Bachelor,Accountant,Single,South,0,659,0.7,False
+C00294,29,Non-binary,177772.14,Bachelor,Business Owner,Married,North,0,718,15.2,False
+C00295,33,Male,91513.4,High School,Manager,Married,East,0,572,17.7,False
+C00296,46,Male,30931.12,Master,Retired,Married,North,0,642,8.6,False
+C00297,46,Female,40559.31,Bachelor,Retired,Married,Central,1,573,6.1,False
+C00298,51,Male,15000.0,Master,Student,Single,East,1,634,5.5,False
+C00299,23,Non-binary,15000.0,Bachelor,Student,Divorced,West,2,550,18.7,False
+C00300,27,Non-binary,83450.01,Associate,Nurse,Single,East,1,594,13.0,False
+C00301,33,Non-binary,114202.9,PhD,Lawyer,Single,South,1,707,0.7,False
+C00302,64,Female,41586.65,PhD,Teacher,Single,Central,1,626,14.7,False
+C00303,36,Female,15000.0,Bachelor,Student,Single,Central,0,575,7.6,False
+C00304,30,Female,117410.95,Bachelor,Lawyer,Single,South,1,655,18.3,False
+C00305,48,Male,61837.12,Bachelor,Teacher,Married,South,0,618,0.2,False
+C00306,78,Male,52976.17,Bachelor,Retired,Married,Central,3,575,13.7,False
+C00307,33,Female,18125.32,PhD,Student,Single,North,0,622,18.5,False
+C00308,46,Male,44666.78,High School,Retail Worker,Single,Central,1,582,2.4,False
+C00309,20,Male,56587.27,High School,Teacher,Divorced,West,1,520,13.8,False
+C00310,40,Female,36590.89,PhD,Retired,Widowed,Central,1,649,14.2,False
+C00311,36,Female,82530.46,Associate,Accountant,Widowed,West,2,580,2.7,False
+C00312,35,Female,77314.5,Master,Nurse,Single,East,0,634,12.3,False
+C00313,43,Non-binary,73324.42,Bachelor,Accountant,Single,South,1,582,1.2,False
+C00314,61,Male,73956.39,PhD,Accountant,Single,East,1,575,19.8,False
+C00315,29,Female,68611.54,Associate,Teacher,Married,East,1,607,11.3,False
+C00316,23,Female,52540.72,Master,Retired,Single,East,1,602,11.8,False
+C00317,46,Non-binary,97050.07,Bachelor,Engineer,Married,Central,0,613,19.0,False
+C00318,64,Male,82546.54,Master,Manager,Single,West,2,607,17.7,False
+C00319,30,Non-binary,98529.12,Bachelor,Manager,Single,West,2,633,8.8,False
+C00320,41,Male,74608.14,Master,Nurse,Single,West,0,638,17.5,False
+C00321,42,Male,113405.23,Bachelor,Engineer,Single,West,2,658,9.3,False
+C00322,68,Non-binary,26656.57,Associate,Retired,Divorced,Central,0,501,3.9,False
+C00323,60,Female,119564.14,High School,Engineer,Single,West,2,688,19.6,False
+C00324,52,Non-binary,45509.21,Bachelor,Teacher,Single,South,1,545,9.4,False
+C00325,42,Female,186421.85,High School,Lawyer,Single,South,1,657,9.8,False
+C00326,45,Female,136435.11,Master,Doctor,Widowed,Central,2,707,12.2,False
+C00327,26,Female,107759.83,Master,Manager,Married,North,1,674,3.2,False
+C00328,40,Female,110219.62,PhD,Manager,Married,East,4,721,18.9,False
+C00329,37,Non-binary,60749.91,PhD,Retired,Divorced,East,0,646,8.4,False
+C00330,54,Female,90547.4,High School,Manager,Married,South,1,618,10.5,False
+C00331,37,Male,111194.75,Master,Business Owner,Married,East,2,663,2.6,False
+C00332,65,Male,50859.13,High School,Manager,Married,East,1,497,9.1,False
+C00333,22,Male,71827.28,Bachelor,Accountant,Single,Central,0,590,17.3,True
+C00334,49,Female,162867.14,PhD,Doctor,Married,West,1,747,2.3,False
+C00335,43,Male,36336.61,Bachelor,Student,Married,West,2,569,18.0,False
+C00336,51,Non-binary,68941.58,Bachelor,Accountant,Married,North,1,585,2.5,False
+C00337,18,Non-binary,23772.34,Master,Student,Married,Central,1,521,11.0,False
+C00338,40,Male,68310.16,PhD,Manager,Single,South,1,616,3.7,False
+C00339,30,Female,153403.16,Bachelor,Doctor,Single,South,1,687,15.1,False
+C00340,63,Male,35549.1,Bachelor,Retail Worker,Married,West,4,545,1.4,True
+C00341,27,Non-binary,44286.55,Associate,Teacher,Married,South,1,579,15.7,False
+C00342,36,Non-binary,102638.78,High School,Doctor,Married,North,1,590,16.6,False
+C00343,39,Male,37075.54,PhD,Retired,Single,Central,1,587,17.9,False
+C00344,58,Non-binary,216956.06,PhD,Doctor,Married,South,1,782,8.9,False
+C00345,26,Female,102941.23,High School,Accountant,Divorced,Central,0,561,4.3,False
+C00346,38,Non-binary,15000.0,Master,Student,Married,North,1,573,11.8,False
+C00347,55,Non-binary,23878.22,High School,Retail Worker,Married,West,0,528,5.6,False
+C00348,52,Female,28338.36,Master,Retail Worker,Married,South,2,586,18.9,False
+C00349,49,Non-binary,39104.21,High School,Retired,Widowed,North,4,569,9.1,False
+C00350,65,Female,61148.84,Master,Accountant,Single,South,2,587,16.0,True
+C00351,21,Non-binary,97244.66,Master,Manager,Divorced,West,3,685,6.9,False
+C00352,44,Male,120374.34,Bachelor,Engineer,Married,South,0,680,9.4,False
+C00353,58,Female,116946.04,Master,Lawyer,Single,North,1,679,3.6,False
+C00354,46,Non-binary,223524.03,Master,Doctor,Single,South,1,802,15.9,False
+C00355,70,Non-binary,105812.89,Master,Accountant,Married,Central,0,709,8.1,False
+C00356,68,Female,33380.78,Associate,Retired,Single,North,1,494,6.0,False
+C00357,18,Female,60195.53,Master,Nurse,Widowed,Central,1,669,13.7,True
+C00358,19,Non-binary,45874.98,High School,Teacher,Married,South,0,542,5.9,False
+C00359,39,Non-binary,15833.09,Bachelor,Student,Divorced,Central,0,508,17.4,False
+C00360,45,Male,60100.65,High School,Nurse,Single,South,5,538,5.9,False
+C00361,72,Non-binary,15000.0,PhD,Student,Single,West,2,558,5.6,True
+C00362,40,Non-binary,23146.46,Bachelor,Student,Divorced,West,1,576,9.3,True
+C00363,53,Non-binary,68754.43,Bachelor,Nurse,Married,North,0,633,4.9,False
+C00364,43,Non-binary,80922.08,High School,Engineer,Single,West,0,520,7.7,False
+C00365,42,Non-binary,54294.82,PhD,Teacher,Married,East,2,619,16.8,False
+C00366,39,Female,88103.26,PhD,Lawyer,Single,West,3,631,0.7,True
+C00367,26,Non-binary,83182.38,Bachelor,Nurse,Single,South,2,608,2.2,False
+C00368,35,Male,108407.74,Bachelor,Doctor,Married,West,1,677,13.6,False
+C00369,18,Male,138727.9,Bachelor,Doctor,Married,West,2,681,13.7,False
+C00370,59,Female,32656.6,Bachelor,Teacher,Married,North,2,576,1.4,False
+C00371,39,Male,87623.71,Bachelor,Nurse,Married,East,0,613,3.4,False
+C00372,40,Female,54602.92,Bachelor,Business Owner,Married,West,1,589,11.3,False
+C00373,45,Female,26278.33,Master,Retail Worker,Married,West,0,566,12.7,False
+C00374,39,Non-binary,27402.65,Bachelor,Retired,Single,South,1,549,12.1,False
+C00375,49,Male,184982.66,Bachelor,Lawyer,Widowed,West,2,710,14.0,True
+C00376,44,Non-binary,187617.91,Associate,Lawyer,Single,West,2,689,8.9,False
+C00377,51,Male,100756.33,Bachelor,Manager,Widowed,East,0,594,18.6,False
+C00378,44,Female,52569.79,Master,Retail Worker,Married,West,2,644,12.3,False
+C00379,36,Male,24370.19,Bachelor,Student,Married,West,2,587,10.3,False
+C00380,40,Male,84288.06,Master,Manager,Divorced,Central,1,583,0.7,False
+C00381,52,Non-binary,26116.59,High School,Retail Worker,Divorced,East,2,512,4.5,False
+C00382,58,Female,104515.2,Master,Lawyer,Single,East,1,654,1.8,True
+C00383,22,Female,43310.54,Master,Teacher,Married,Central,1,624,11.9,True
+C00384,29,Female,32263.47,PhD,Student,Married,South,2,613,10.0,False
+C00385,56,Male,76403.2,Master,Nurse,Single,South,1,622,19.8,False
+C00386,54,Female,15000.0,Master,Student,Single,South,3,516,7.6,False
+C00387,26,Male,63380.08,High School,Nurse,Married,Central,3,582,19.1,False
+C00388,18,Non-binary,20773.41,High School,Student,Single,West,0,511,18.0,False
+C00389,55,Non-binary,142610.22,High School,Lawyer,Widowed,North,0,644,3.7,False
+C00390,50,Non-binary,102528.43,PhD,Business Owner,Married,West,3,655,2.9,False
+C00391,57,Male,66035.86,Bachelor,Business Owner,Single,Central,3,616,8.5,False
+C00392,54,Female,76582.74,High School,Business Owner,Married,South,1,574,10.8,True
+C00393,37,Female,194993.48,High School,Doctor,Married,West,1,732,1.4,False
+C00394,55,Male,69866.93,Associate,Business Owner,Married,West,2,587,2.0,False
+C00395,31,Female,66086.84,Bachelor,Business Owner,Single,East,2,609,14.2,False
+C00396,59,Female,130105.48,Bachelor,Lawyer,Married,North,1,623,19.0,False
+C00397,49,Non-binary,58852.04,Bachelor,Accountant,Divorced,North,1,617,19.2,False
+C00398,51,Male,79687.78,Bachelor,Nurse,Single,North,1,638,6.8,False
+C00399,30,Male,39427.11,Bachelor,Retail Worker,Single,North,0,605,0.2,False
+C00400,48,Male,65851.73,Master,Business Owner,Single,West,2,560,7.5,False
+C00401,39,Female,60965.86,PhD,Teacher,Married,West,0,632,19.2,False
+C00402,36,Female,59128.65,Associate,Teacher,Married,South,0,544,5.1,False
+C00403,60,Female,99551.53,Associate,Doctor,Married,Central,2,577,12.3,False
+C00404,44,Male,157260.58,Bachelor,Business Owner,Widowed,South,2,729,8.6,False
+C00405,22,Male,19164.85,High School,Retired,Married,South,1,461,5.8,False
+C00406,47,Non-binary,98446.53,Bachelor,Business Owner,Married,South,2,681,10.7,False
+C00407,53,Male,81467.98,Associate,Business Owner,Married,South,1,627,5.9,False
+C00408,31,Female,52341.56,Bachelor,Teacher,Single,Central,2,556,4.8,True
+C00409,59,Female,34906.72,Bachelor,Retail Worker,Married,Central,2,561,5.4,False
+C00410,43,Female,100300.54,PhD,Manager,Married,Central,2,692,2.2,False
+C00411,42,Male,39601.45,Bachelor,Accountant,Single,South,0,571,3.9,False
+C00412,56,Female,45837.96,Associate,Retired,Widowed,North,1,556,14.5,False
+C00413,65,Male,36199.91,Master,Retired,Widowed,South,2,606,5.0,True
+C00414,36,Male,80123.71,Bachelor,Business Owner,Married,North,1,678,0.5,True
+C00415,38,Non-binary,74399.2,Associate,Nurse,Single,East,3,584,12.5,False
+C00416,44,Female,166027.67,Master,Doctor,Married,East,1,688,3.0,False
+C00417,55,Non-binary,75978.65,PhD,Nurse,Married,West,3,620,10.8,False
+C00418,32,Non-binary,40923.58,PhD,Nurse,Single,South,0,618,1.2,False
+C00419,55,Non-binary,39215.18,PhD,Retail Worker,Single,North,0,632,13.3,True
+C00420,21,Female,62995.24,High School,Teacher,Married,South,2,580,15.0,False
+C00421,43,Male,47335.83,Master,Nurse,Married,South,2,629,7.9,False
+C00422,18,Male,51898.8,High School,Retail Worker,Married,South,1,552,4.9,True
+C00423,46,Female,42662.72,High School,Retail Worker,Single,East,0,543,0.3,False
+C00424,49,Non-binary,115566.14,Bachelor,Manager,Divorced,South,2,670,0.6,False
+C00425,38,Non-binary,87793.44,Bachelor,Manager,Widowed,East,1,611,9.0,False
+C00426,25,Male,74944.73,Bachelor,Accountant,Married,East,2,655,3.3,False
+C00427,32,Male,15000.0,Bachelor,Retired,Single,South,0,549,14.0,False
+C00428,36,Female,54377.57,High School,Teacher,Married,West,1,550,15.4,False
+C00429,51,Female,46418.44,High School,Retail Worker,Married,West,1,533,4.3,False
+C00430,47,Non-binary,59876.35,Bachelor,Nurse,Married,East,1,625,3.8,True
+C00431,18,Non-binary,98311.7,Bachelor,Engineer,Married,Central,3,626,3.7,False
+C00432,42,Non-binary,46918.42,Master,Retail Worker,Single,West,0,592,18.7,False
+C00433,51,Male,95750.54,Bachelor,Manager,Married,Central,2,611,7.6,False
+C00434,42,Female,15000.0,Associate,Student,Single,West,1,547,7.7,False
+C00435,18,Non-binary,73858.0,High School,Accountant,Married,North,1,557,12.1,False
+C00436,37,Female,84046.18,Master,Engineer,Divorced,West,1,661,0.8,True
+C00437,55,Female,85608.72,Associate,Nurse,Single,West,3,624,16.6,False
+C00438,31,Non-binary,47876.17,Associate,Retail Worker,Married,West,2,537,4.7,False
+C00439,26,Male,143481.89,PhD,Lawyer,Single,North,0,741,8.8,False
+C00440,50,Male,91582.74,Master,Lawyer,Single,Central,1,643,16.8,False
+C00441,60,Non-binary,69955.99,High School,Retired,Married,East,2,579,12.7,False
+C00442,57,Male,78505.88,Associate,Engineer,Married,Central,0,614,10.3,False
+C00443,31,Female,219925.48,PhD,Doctor,Married,Central,0,831,6.3,False
+C00444,41,Male,39024.72,Associate,Retail Worker,Married,South,0,574,7.2,True
+C00445,57,Male,17644.35,Bachelor,Student,Widowed,North,2,601,11.5,False
+C00446,46,Female,72205.99,High School,Manager,Divorced,North,3,543,6.8,True
+C00447,50,Female,29649.99,Bachelor,Retail Worker,Married,Central,0,562,15.5,False
+C00448,51,Non-binary,228951.86,Master,Lawyer,Single,South,0,767,14.5,False
+C00449,60,Female,70519.11,Master,Teacher,Married,North,2,678,2.6,False
+C00450,34,Non-binary,20174.93,Bachelor,Student,Married,West,3,580,19.5,False
+C00451,41,Male,33495.4,High School,Lawyer,Married,West,1,483,3.8,True
+C00452,52,Male,100915.43,High School,Nurse,Single,East,0,593,19.0,False
+C00453,18,Female,123431.83,Bachelor,Doctor,Single,West,3,606,13.2,False
+C00454,36,Male,58240.51,High School,Engineer,Married,South,1,545,1.4,True
+C00455,64,Female,142794.63,Master,Lawyer,Single,North,4,672,3.4,False
+C00456,43,Male,79397.4,Master,Engineer,Married,West,2,641,11.7,False
+C00457,46,Female,46947.48,Master,Retired,Divorced,Central,0,583,9.7,False
+C00458,41,Female,54894.01,Bachelor,Engineer,Married,South,2,617,9.4,False
+C00459,32,Female,83156.77,Master,Engineer,Single,South,0,642,7.1,False
+C00460,62,Female,61992.17,Bachelor,Teacher,Married,East,2,588,16.1,False
+C00461,43,Female,96271.43,High School,Manager,Married,East,2,589,10.1,False
+C00462,18,Male,54885.65,Master,Nurse,Single,North,2,638,8.4,False
+C00463,28,Non-binary,30570.44,Bachelor,Retail Worker,Divorced,North,1,611,14.8,False
+C00464,35,Male,141974.43,Bachelor,Doctor,Married,South,1,692,4.2,False
+C00465,18,Non-binary,87140.36,Associate,Manager,Married,Central,2,589,3.7,False
+C00466,52,Male,81223.13,Bachelor,Accountant,Single,South,1,597,7.2,False
+C00467,30,Female,62708.47,Bachelor,Teacher,Married,East,1,585,13.2,False
+C00468,67,Female,24049.26,Bachelor,Student,Married,Central,1,573,16.6,True
+C00469,64,Female,137613.61,High School,Doctor,Married,East,3,663,12.2,False
+C00470,30,Non-binary,79978.15,High School,Engineer,Divorced,North,0,531,7.3,False
+C00471,47,Male,153883.59,High School,Lawyer,Single,Central,0,692,6.7,False
+C00472,31,Male,66184.46,High School,Nurse,Single,East,1,596,17.8,True
+C00473,18,Male,160410.97,High School,Manager,Single,East,1,677,7.8,False
+C00474,68,Female,23511.27,Bachelor,Retail Worker,Married,North,0,543,4.8,True
+C00475,51,Female,35745.27,Master,Retail Worker,Divorced,South,0,628,8.9,False
+C00476,48,Male,58858.65,High School,Lawyer,Married,West,1,566,19.1,True
+C00477,34,Male,75954.17,Master,Manager,Single,East,3,625,0.7,False
+C00478,34,Male,90115.32,Master,Manager,Married,East,1,700,17.2,False
+C00479,54,Female,28399.26,Bachelor,Business Owner,Married,Central,1,541,0.3,False
+C00480,39,Female,55076.6,Master,Manager,Married,North,2,559,8.9,False
+C00481,41,Non-binary,167265.27,High School,Doctor,Married,South,1,689,13.7,False
+C00482,60,Non-binary,22312.07,Bachelor,Retired,Married,East,0,551,2.9,False
+C00483,21,Non-binary,23652.02,High School,Student,Single,East,1,516,10.3,False
+C00484,25,Male,39040.15,Bachelor,Retired,Married,West,2,585,6.4,False
+C00485,54,Female,15000.0,Master,Student,Single,West,1,594,4.7,False
+C00486,52,Male,85731.33,Master,Engineer,Single,West,2,573,5.3,False
+C00487,33,Female,64144.38,Bachelor,Nurse,Married,South,2,639,14.3,True
+C00488,38,Female,44753.4,Bachelor,Nurse,Single,West,1,637,14.0,False
+C00489,55,Non-binary,179974.32,Master,Business Owner,Widowed,North,1,708,4.7,False
+C00490,43,Male,110308.9,Bachelor,Accountant,Married,South,0,661,5.8,False
+C00491,39,Male,89505.14,High School,Engineer,Widowed,Central,1,648,10.8,False
+C00492,48,Non-binary,98972.69,Bachelor,Doctor,Married,East,0,675,17.9,True
+C00493,35,Female,96835.62,Master,Accountant,Single,South,1,650,12.7,True
+C00494,18,Female,79955.92,Bachelor,Manager,Married,North,1,596,4.0,False
+C00495,39,Female,82513.51,Bachelor,Retired,Single,East,0,621,5.4,False
+C00496,23,Non-binary,216781.31,Master,Business Owner,Married,South,1,827,11.5,False
+C00497,41,Male,41200.92,PhD,Retail Worker,Married,Central,1,602,14.7,False
+C00498,34,Male,92796.8,Master,Business Owner,Married,West,1,641,10.3,True
+C00499,65,Non-binary,133689.48,Bachelor,Lawyer,Married,West,1,654,14.6,False
+C00500,58,Non-binary,88104.86,PhD,Nurse,Married,West,1,645,7.5,False
+C00501,38,Female,20907.16,Bachelor,Student,Married,North,0,574,15.4,False
+C00502,37,Non-binary,89297.2,Bachelor,Nurse,Divorced,East,2,610,13.8,False
+C00503,27,Male,75399.49,Associate,Accountant,Divorced,North,1,624,0.9,False
+C00504,46,Non-binary,27619.83,Master,Student,Widowed,East,1,565,10.4,False
+C00505,61,Female,76407.59,Master,Nurse,Married,East,1,584,7.4,False
+C00506,57,Female,15000.0,Bachelor,Student,Married,Central,2,530,13.4,False
+C00507,42,Female,141564.59,Bachelor,Manager,Married,North,1,668,17.7,False
+C00508,35,Male,27390.53,Associate,Retail Worker,Married,North,1,537,11.8,False
+C00509,39,Female,20546.97,Bachelor,Student,Divorced,West,0,508,19.9,False
+C00510,41,Non-binary,82275.16,PhD,Manager,Single,West,1,660,8.4,False
+C00511,46,Male,52387.77,Master,Teacher,Married,North,1,623,15.4,False
+C00512,35,Male,75665.86,Master,Teacher,Married,West,0,652,14.1,False
+C00513,35,Male,77481.79,Bachelor,Lawyer,Single,East,1,621,5.3,False
+C00514,56,Non-binary,42143.31,Bachelor,Retired,Married,South,1,599,0.8,False
+C00515,49,Female,192696.69,Associate,Manager,Married,East,0,721,1.9,False
+C00516,18,Male,75813.67,Associate,Accountant,Married,North,1,546,3.4,False
+C00517,28,Female,70831.41,Bachelor,Lawyer,Married,Central,0,588,2.2,False
+C00518,33,Male,45582.04,Associate,Teacher,Married,North,1,583,3.8,False
+C00519,64,Male,28158.35,Bachelor,Retail Worker,Divorced,West,1,558,12.0,False
+C00520,38,Male,135506.22,High School,Business Owner,Married,East,2,616,7.7,False
+C00521,28,Female,96498.95,Bachelor,Engineer,Married,East,0,563,14.9,True
+C00522,45,Male,26081.42,Associate,Retail Worker,Widowed,Central,0,581,5.2,False
+C00523,61,Female,41453.27,Bachelor,Retired,Single,North,0,577,7.2,True
+C00524,18,Non-binary,15000.0,Master,Student,Married,North,0,585,5.9,True
+C00525,25,Female,43942.59,Master,Teacher,Single,North,0,586,12.1,False
+C00526,34,Non-binary,17592.16,Bachelor,Student,Married,West,2,538,9.6,False
+C00527,45,Non-binary,33752.28,PhD,Retired,Married,East,0,585,1.8,False
+C00528,59,Non-binary,72321.43,Bachelor,Nurse,Married,North,0,665,15.1,False
+C00529,65,Female,46151.44,Associate,Teacher,Married,West,1,541,11.0,False
+C00530,46,Non-binary,96373.65,Master,Nurse,Married,North,0,655,12.4,False
+C00531,66,Non-binary,103031.0,Bachelor,Manager,Divorced,South,1,657,9.2,False
+C00532,51,Male,102459.66,PhD,Manager,Married,Central,1,702,16.8,False
+C00533,47,Female,70998.94,Master,Manager,Single,Central,1,607,13.0,False
+C00534,42,Male,65944.82,Master,Lawyer,Single,East,3,575,12.9,True
+C00535,43,Female,80507.71,Bachelor,Accountant,Married,West,0,641,14.0,False
+C00536,42,Non-binary,34472.53,Bachelor,Student,Single,East,2,595,14.5,False
+C00537,18,Female,85859.04,Master,Accountant,Married,Central,4,609,8.7,False
+C00538,27,Male,90928.24,Bachelor,Lawyer,Single,Central,2,683,15.6,False
+C00539,24,Non-binary,91452.63,High School,Manager,Widowed,Central,1,610,17.5,False
+C00540,34,Male,164974.35,PhD,Business Owner,Married,North,1,739,14.9,False
+C00541,36,Non-binary,24020.0,Master,Student,Married,North,1,557,5.1,False
+C00542,53,Female,153923.07,Master,Lawyer,Married,Central,2,717,10.1,False
+C00543,63,Male,113725.48,Bachelor,Business Owner,Married,Central,1,684,9.5,False
+C00544,75,Non-binary,47701.07,PhD,Retired,Married,West,1,619,15.6,False
+C00545,48,Female,132683.25,Master,Engineer,Married,West,1,669,1.2,False
+C00546,23,Male,15000.0,Master,Student,Married,East,1,570,2.2,False
+C00547,52,Male,129922.4,Bachelor,Business Owner,Married,West,0,677,18.5,True
+C00548,44,Non-binary,73433.77,Bachelor,Business Owner,Married,South,0,586,15.5,True
+C00549,31,Non-binary,99636.74,Master,Engineer,Single,West,1,634,8.6,False
+C00550,62,Non-binary,75515.35,High School,Manager,Married,Central,0,531,3.2,False
+C00551,39,Non-binary,84914.23,Master,Nurse,Divorced,West,0,711,11.5,True
+C00552,48,Male,18731.7,Master,Student,Widowed,Central,0,551,3.1,False
+C00553,39,Female,114331.58,Master,Lawyer,Married,West,1,687,8.8,False
+C00554,73,Male,15000.0,PhD,Student,Married,East,1,600,8.4,False
+C00555,47,Female,196684.83,PhD,Doctor,Married,East,2,806,16.7,False
+C00556,36,Male,76193.47,Master,Engineer,Single,South,1,603,17.3,False
+C00557,72,Non-binary,16925.78,Bachelor,Business Owner,Married,North,1,541,15.7,False
+C00558,42,Male,131477.44,High School,Doctor,Single,West,2,544,9.3,False
+C00559,56,Non-binary,15000.0,Master,Student,Single,South,0,552,10.3,False
+C00560,51,Male,31429.34,Bachelor,Retail Worker,Married,Central,2,587,14.8,False
+C00561,78,Female,22414.99,Associate,Student,Married,South,1,584,9.1,False
+C00562,52,Female,102108.12,Master,Business Owner,Single,East,1,671,8.6,True
+C00563,36,Male,122254.67,PhD,Manager,Single,Central,0,774,4.0,False
+C00564,40,Non-binary,49526.74,Bachelor,Teacher,Married,Central,3,590,10.5,False
+C00565,37,Female,56316.64,Bachelor,Manager,Widowed,West,2,611,9.4,False
+C00566,38,Female,69565.64,Master,Lawyer,Married,South,1,658,13.0,False
+C00567,53,Female,147262.14,High School,Doctor,Married,Central,2,648,2.1,False
+C00568,22,Non-binary,70542.94,Master,Accountant,Married,South,2,672,10.5,True
+C00569,51,Female,87759.66,Bachelor,Business Owner,Widowed,North,3,599,0.4,False
+C00570,42,Non-binary,46135.1,Bachelor,Retired,Married,Central,2,582,2.2,False
+C00571,72,Female,21825.96,Master,Retired,Married,West,1,608,13.4,True
+C00572,36,Non-binary,61115.92,Bachelor,Nurse,Married,South,4,595,16.9,False
+C00573,24,Non-binary,113160.04,Bachelor,Manager,Married,West,2,594,12.4,True
+C00574,24,Female,150802.31,High School,Lawyer,Divorced,South,0,607,5.0,False
+C00575,49,Non-binary,30695.75,Bachelor,Student,Single,South,2,566,17.0,False
+C00576,33,Female,153811.43,Master,Lawyer,Married,Central,2,754,2.7,False
+C00577,18,Female,52406.75,High School,Teacher,Single,West,1,521,10.1,True
+C00578,49,Non-binary,103195.98,Bachelor,Engineer,Married,West,1,601,8.7,False
+C00579,33,Non-binary,101020.28,Master,Manager,Widowed,South,2,683,15.3,False
+C00580,32,Non-binary,20993.41,Associate,Student,Married,South,0,560,16.7,True
+C00581,37,Female,92846.87,Associate,Business Owner,Married,West,1,550,17.6,False
+C00582,18,Non-binary,180162.49,Bachelor,Doctor,Widowed,South,0,741,11.5,False
+C00583,48,Male,136970.1,Master,Business Owner,Widowed,North,0,733,7.0,False
+C00584,29,Non-binary,48429.11,Bachelor,Nurse,Married,North,5,608,13.4,True
+C00585,27,Female,105848.59,Bachelor,Accountant,Single,North,0,650,6.5,False
+C00586,45,Male,89820.66,Bachelor,Manager,Single,West,0,628,14.8,False
+C00587,32,Male,148710.44,PhD,Lawyer,Divorced,North,1,713,18.5,True
+C00588,36,Female,54246.33,Master,Retired,Married,East,1,627,8.2,True
+C00589,38,Non-binary,198717.09,Master,Doctor,Married,North,2,773,3.3,False
+C00590,34,Female,191701.66,Associate,Doctor,Single,Central,0,725,7.5,False
+C00591,36,Non-binary,59522.26,High School,Nurse,Single,East,1,544,10.2,False
+C00592,63,Male,104350.55,High School,Doctor,Married,North,0,592,7.7,False
+C00593,55,Non-binary,24991.2,Bachelor,Business Owner,Married,West,0,541,9.6,False
+C00594,41,Male,80363.99,Bachelor,Manager,Married,East,0,558,18.1,False
+C00595,31,Male,34408.07,Bachelor,Retired,Single,Central,2,563,15.4,False
+C00596,37,Non-binary,21066.49,Bachelor,Retired,Divorced,North,0,528,15.8,True
+C00597,28,Non-binary,102124.63,PhD,Accountant,Married,South,0,688,5.9,True
+C00598,48,Female,86987.3,Associate,Engineer,Married,East,2,631,18.6,False
+C00599,18,Male,35852.28,PhD,Retail Worker,Single,North,1,613,6.4,False
+C00600,44,Non-binary,78305.79,Bachelor,Accountant,Widowed,East,3,571,0.9,False
+C00601,31,Female,44463.49,Associate,Accountant,Married,North,1,587,13.9,False
+C00602,58,Female,144125.86,Master,Doctor,Single,South,1,696,16.1,True
+C00603,25,Male,126556.37,Master,Engineer,Married,East,3,677,17.4,False
+C00604,56,Non-binary,95582.56,Associate,Engineer,Married,West,3,645,6.5,False
+C00605,29,Non-binary,155891.92,PhD,Doctor,Married,North,2,715,3.8,False
+C00606,28,Female,24145.75,Master,Student,Married,North,1,610,11.4,False
+C00607,41,Male,68601.72,Master,Nurse,Widowed,South,1,640,8.0,True
+C00608,53,Male,76717.01,PhD,Accountant,Married,South,1,692,4.8,False
+C00609,51,Non-binary,38682.02,Associate,Retired,Married,Central,0,592,8.6,False
+C00610,58,Male,47579.83,Bachelor,Accountant,Single,West,2,566,7.5,False
+C00611,40,Female,113587.03,Bachelor,Doctor,Married,South,0,674,12.5,True
+C00612,21,Male,19981.05,Bachelor,Student,Married,South,2,543,15.7,False
+C00613,21,Male,89692.54,Bachelor,Engineer,Married,West,0,603,1.7,False
+C00614,19,Female,28482.31,Bachelor,Student,Single,North,1,566,2.4,False
+C00615,40,Non-binary,55143.24,High School,Teacher,Married,North,3,545,2.9,True
+C00616,42,Female,111254.66,Associate,Engineer,Married,Central,0,649,0.6,False
+C00617,25,Male,69183.22,Associate,Engineer,Divorced,Central,1,572,5.7,False
+C00618,67,Male,74168.18,Associate,Engineer,Married,North,1,591,14.9,False
+C00619,48,Non-binary,15000.0,Master,Student,Divorced,East,2,558,9.3,False
+C00620,45,Female,79507.09,Bachelor,Teacher,Widowed,West,1,636,11.3,False
+C00621,50,Female,44684.64,Master,Teacher,Single,East,1,577,4.4,False
+C00622,26,Female,40484.02,Master,Student,Married,East,2,621,5.5,False
+C00623,46,Non-binary,77593.06,Bachelor,Engineer,Married,West,1,669,8.3,False
+C00624,54,Non-binary,72209.13,Master,Nurse,Married,West,2,624,15.9,False
+C00625,23,Female,168558.38,High School,Business Owner,Divorced,East,1,638,18.5,False
+C00626,57,Non-binary,21856.76,Associate,Student,Single,South,0,548,16.5,False
+C00627,41,Male,57396.05,Master,Retired,Married,East,0,611,9.8,False
+C00628,58,Non-binary,203967.16,Master,Doctor,Single,West,2,764,3.2,False
+C00629,22,Female,76366.41,PhD,Retired,Married,Central,0,686,6.1,False
+C00630,52,Female,37089.16,PhD,Retired,Married,North,2,604,7.7,False
+C00631,42,Non-binary,122695.49,Master,Lawyer,Married,North,2,723,0.3,False
+C00632,59,Male,99605.26,Associate,Accountant,Single,West,0,696,15.5,False
+C00633,64,Non-binary,136718.09,Bachelor,Manager,Divorced,East,0,669,12.7,True
+C00634,19,Non-binary,137815.45,Bachelor,Business Owner,Married,South,1,620,11.1,True
+C00635,63,Female,53963.07,Bachelor,Retired,Married,North,1,601,3.0,False
+C00636,50,Female,42002.32,Master,Retail Worker,Widowed,East,1,642,8.2,False
+C00637,20,Non-binary,53024.56,Master,Retired,Divorced,South,0,603,4.9,False
+C00638,69,Female,15000.0,Master,Student,Married,East,1,573,17.1,False
+C00639,24,Female,27033.11,Bachelor,Student,Married,East,2,496,12.6,False
+C00640,46,Female,31442.17,Associate,Retired,Married,Central,2,593,11.1,False
+C00641,35,Female,79107.87,Associate,Accountant,Married,Central,1,599,9.2,False
+C00642,52,Female,44535.85,PhD,Accountant,Widowed,Central,2,604,11.7,False
+C00643,35,Non-binary,211265.7,High School,Doctor,Married,Central,1,736,14.4,False
+C00644,36,Female,22177.89,Associate,Student,Single,South,0,540,1.9,False
+C00645,36,Female,25496.09,Bachelor,Student,Divorced,West,0,560,4.3,True
+C00646,35,Female,30461.09,Bachelor,Retail Worker,Single,North,3,589,12.1,False
+C00647,21,Male,21117.21,Associate,Student,Married,Central,0,543,10.7,False
+C00648,75,Male,106778.23,High School,Lawyer,Married,North,1,607,1.4,True
+C00649,41,Male,39582.45,Bachelor,Teacher,Single,South,0,579,16.9,False
+C00650,39,Female,81182.88,Associate,Engineer,Single,South,0,622,9.1,False
+C00651,18,Male,68510.58,High School,Lawyer,Divorced,East,0,604,8.8,False
+C00652,67,Non-binary,105845.53,PhD,Business Owner,Married,East,1,705,9.4,False
+C00653,30,Non-binary,48469.84,Associate,Manager,Married,West,3,575,8.1,False
+C00654,31,Non-binary,141042.83,Master,Manager,Single,South,0,700,18.7,False
+C00655,56,Male,65122.81,Bachelor,Accountant,Married,South,1,619,9.4,False
+C00656,31,Non-binary,21791.41,Master,Student,Married,East,1,523,16.1,False
+C00657,39,Female,119072.36,PhD,Doctor,Married,Central,2,713,7.3,False
+C00658,46,Female,64451.3,PhD,Nurse,Married,West,3,592,8.7,False
+C00659,29,Female,206778.23,Bachelor,Doctor,Widowed,South,1,731,19.8,True
+C00660,55,Non-binary,17305.07,High School,Student,Single,North,1,562,9.3,False
+C00661,47,Non-binary,151542.24,Bachelor,Lawyer,Married,South,1,716,0.8,True
+C00662,37,Male,39253.32,Bachelor,Retail Worker,Married,Central,0,592,4.9,False
+C00663,50,Female,86109.5,Master,Nurse,Married,Central,0,658,17.4,False
+C00664,27,Non-binary,159196.18,Bachelor,Business Owner,Divorced,South,0,692,8.4,False
+C00665,18,Female,175207.18,Bachelor,Doctor,Married,Central,2,647,3.7,False
+C00666,22,Male,57594.09,Bachelor,Nurse,Widowed,Central,1,560,11.5,False
+C00667,66,Male,261688.35,Bachelor,Doctor,Divorced,East,2,818,10.8,False
+C00668,27,Female,61806.2,Bachelor,Accountant,Single,South,0,624,18.6,False
+C00669,33,Male,108397.88,Master,Business Owner,Married,Central,2,652,13.9,False
+C00670,36,Female,174853.87,PhD,Doctor,Married,East,2,793,2.5,False
+C00671,61,Non-binary,147735.52,Bachelor,Doctor,Married,North,4,745,7.1,False
+C00672,53,Non-binary,17885.15,Bachelor,Student,Married,North,1,534,19.5,False
+C00673,43,Male,50131.39,PhD,Accountant,Single,North,3,604,11.9,False
+C00674,54,Female,209181.09,High School,Doctor,Single,East,0,762,13.3,False
+C00675,57,Female,211336.98,High School,Business Owner,Married,East,1,684,17.8,False
+C00676,41,Non-binary,84479.11,Bachelor,Manager,Married,North,1,666,17.9,False
+C00677,68,Female,54232.85,Associate,Manager,Divorced,South,2,539,1.7,False
+C00678,28,Non-binary,54126.44,Bachelor,Nurse,Single,Central,1,567,17.5,False
+C00679,33,Male,209349.76,Bachelor,Doctor,Married,East,0,748,13.0,False
+C00680,33,Male,170234.93,Master,Doctor,Married,South,0,765,19.3,False
+C00681,30,Non-binary,74119.21,High School,Nurse,Married,South,1,617,9.8,False
+C00682,46,Male,62692.45,Bachelor,Manager,Single,West,0,631,7.0,False
+C00683,41,Female,121772.79,PhD,Business Owner,Single,South,1,591,8.8,False
+C00684,53,Male,165086.89,Associate,Business Owner,Single,South,1,699,15.2,False
+C00685,57,Non-binary,74398.02,Bachelor,Manager,Single,North,0,635,6.6,False
+C00686,18,Non-binary,66340.93,Bachelor,Nurse,Married,South,1,634,16.0,False
+C00687,58,Female,89091.42,Bachelor,Doctor,Single,Central,3,637,8.9,False
+C00688,18,Female,110029.81,Master,Manager,Married,South,0,661,0.9,False
+C00689,55,Non-binary,76385.49,Bachelor,Nurse,Married,East,2,601,15.1,False
+C00690,39,Non-binary,74832.99,High School,Teacher,Single,South,3,540,4.0,False
+C00691,49,Non-binary,54757.12,High School,Teacher,Married,North,1,525,3.5,True
+C00692,50,Non-binary,26564.73,Master,Retired,Married,Central,2,565,18.0,False
+C00693,20,Female,30593.48,PhD,Student,Single,South,1,612,18.0,False
+C00694,36,Male,55021.54,High School,Teacher,Married,South,0,544,16.0,False
+C00695,47,Non-binary,28520.88,Bachelor,Retail Worker,Married,East,3,569,19.9,False
+C00696,46,Non-binary,26375.73,Master,Student,Single,South,1,635,19.8,False
+C00697,62,Female,32312.14,High School,Student,Single,East,1,538,17.7,False
+C00698,29,Non-binary,127125.95,High School,Business Owner,Divorced,Central,1,636,7.6,True
+C00699,43,Non-binary,124487.65,Associate,Doctor,Single,North,2,587,18.6,False
+C00700,32,Female,70201.48,Bachelor,Business Owner,Married,Central,0,615,11.5,False
+C00701,28,Male,42810.99,Bachelor,Retail Worker,Married,North,0,610,3.8,False
+C00702,25,Female,100319.52,Bachelor,Business Owner,Divorced,Central,1,662,11.6,False
+C00703,38,Female,106531.55,Associate,Manager,Married,East,2,601,6.7,False
+C00704,35,Non-binary,123987.4,Bachelor,Business Owner,Married,North,2,693,19.9,False
+C00705,24,Male,153880.88,Bachelor,Lawyer,Married,South,0,657,8.2,False
+C00706,53,Male,61113.71,Associate,Engineer,Widowed,North,2,602,11.8,False
+C00707,38,Non-binary,45284.66,Associate,Retail Worker,Married,East,2,563,2.8,True
+C00708,40,Male,56496.88,Bachelor,Engineer,Married,East,1,581,2.7,False
+C00709,46,Female,94082.15,Master,Engineer,Widowed,South,1,643,17.5,True
+C00710,32,Non-binary,60612.28,Associate,Teacher,Married,East,4,589,18.0,False
+C00711,60,Male,101267.6,High School,Business Owner,Divorced,North,2,642,15.9,False
+C00712,36,Non-binary,202591.54,Bachelor,Doctor,Divorced,East,4,776,11.5,False
+C00713,46,Non-binary,74596.57,Master,Retired,Married,West,1,656,1.9,False
+C00714,60,Female,47192.12,Bachelor,Manager,Widowed,North,1,592,8.2,False
+C00715,34,Non-binary,15000.0,Associate,Student,Single,Central,0,532,18.2,False
+C00716,68,Female,36905.37,Master,Retail Worker,Widowed,North,0,571,19.6,False
+C00717,48,Male,32643.38,Bachelor,Retail Worker,Married,South,1,571,8.7,False
+C00718,35,Non-binary,65828.84,Bachelor,Nurse,Divorced,West,2,644,1.3,True
+C00719,39,Non-binary,57375.59,Bachelor,Teacher,Single,East,1,634,4.5,False
+C00720,40,Non-binary,47870.87,Master,Nurse,Widowed,South,1,609,11.4,False
+C00721,36,Female,172568.35,High School,Lawyer,Single,West,3,625,4.7,False
+C00722,53,Male,35561.69,Master,Retired,Married,West,1,574,10.0,False
+C00723,33,Non-binary,21800.46,PhD,Student,Married,South,1,603,17.3,False
+C00724,55,Non-binary,120240.85,Associate,Manager,Widowed,West,0,642,3.5,False
+C00725,18,Non-binary,60992.94,Master,Nurse,Married,North,0,640,8.2,False
+C00726,42,Male,155916.73,Master,Engineer,Married,North,1,750,7.6,False
+C00727,29,Female,164278.8,Bachelor,Doctor,Married,South,0,702,1.5,False
+C00728,30,Non-binary,20581.95,Bachelor,Student,Married,East,0,525,10.2,False
+C00729,44,Male,168726.08,PhD,Doctor,Married,West,0,756,9.9,False
+C00730,29,Non-binary,141143.76,Bachelor,Lawyer,Married,East,1,662,17.7,False
+C00731,34,Male,15964.62,Bachelor,Student,Single,South,1,510,12.7,False
+C00732,49,Male,58367.65,Bachelor,Teacher,Single,East,1,599,3.8,False
+C00733,59,Male,107875.09,Master,Manager,Single,West,4,644,7.4,True
+C00734,41,Male,30892.86,PhD,Student,Married,North,3,612,4.1,False
+C00735,33,Male,65968.07,Associate,Nurse,Married,East,2,470,1.0,False
+C00736,35,Female,78660.8,Bachelor,Manager,Widowed,North,2,637,14.0,False
+C00737,23,Non-binary,46955.15,Bachelor,Accountant,Married,East,2,615,6.0,False
+C00738,32,Non-binary,27160.78,High School,Student,Divorced,North,1,525,16.3,False
+C00739,38,Female,36082.15,Bachelor,Student,Widowed,West,6,554,3.0,False
+C00740,23,Non-binary,95660.74,PhD,Retired,Married,North,2,695,2.7,False
+C00741,34,Male,19853.15,Bachelor,Student,Single,West,1,540,14.8,False
+C00742,50,Male,25944.53,Master,Retail Worker,Married,East,0,562,5.3,False
+C00743,76,Male,123444.92,Bachelor,Manager,Divorced,West,0,694,19.2,False
+C00744,75,Female,19068.76,Master,Student,Single,East,2,638,4.8,False
+C00745,53,Female,181923.64,Bachelor,Doctor,Single,West,1,679,12.1,False
+C00746,28,Non-binary,98466.48,Bachelor,Manager,Divorced,North,4,613,4.4,False
+C00747,40,Non-binary,71425.13,Bachelor,Retired,Single,East,1,648,13.4,False
+C00748,38,Male,81480.08,Bachelor,Accountant,Single,Central,0,624,3.9,False
+C00749,40,Male,74248.93,High School,Nurse,Married,South,2,540,18.3,True
+C00750,39,Non-binary,24084.23,Bachelor,Retail Worker,Divorced,Central,4,536,13.3,False
+C00751,22,Male,72004.0,Master,Lawyer,Widowed,North,3,646,2.9,False
+C00752,50,Non-binary,85768.14,Bachelor,Engineer,Single,Central,1,687,1.3,False
+C00753,27,Non-binary,96519.17,Bachelor,Engineer,Single,East,0,661,0.7,True
+C00754,46,Non-binary,25387.27,Master,Retail Worker,Married,West,0,598,16.9,False
+C00755,33,Male,76115.25,Bachelor,Nurse,Married,Central,1,620,0.4,True
+C00756,51,Female,98144.08,Associate,Nurse,Single,South,1,565,0.6,False
+C00757,42,Non-binary,48530.06,Bachelor,Accountant,Widowed,West,2,566,17.8,False
+C00758,34,Female,43864.93,High School,Retired,Single,South,0,589,10.9,False
+C00759,18,Non-binary,31439.42,High School,Student,Single,Central,3,530,14.8,False
+C00760,38,Female,92763.65,Bachelor,Lawyer,Married,Central,1,669,13.4,False
+C00761,37,Non-binary,191928.16,Bachelor,Doctor,Divorced,Central,1,706,18.9,False
+C00762,39,Female,101118.65,Master,Business Owner,Married,South,1,697,15.2,False
+C00763,59,Female,56142.44,Bachelor,Nurse,Married,West,2,615,13.4,False
+C00764,35,Non-binary,73766.48,PhD,Accountant,Married,North,1,669,5.4,False
+C00765,49,Non-binary,51687.58,PhD,Retired,Single,Central,1,580,7.6,False
+C00766,64,Non-binary,82078.09,Bachelor,Manager,Married,North,2,616,10.1,False
+C00767,46,Male,250210.61,Bachelor,Doctor,Single,North,1,815,4.4,False
+C00768,33,Male,71274.74,Associate,Accountant,Married,North,1,622,6.9,False
+C00769,36,Non-binary,45854.4,High School,Teacher,Married,East,2,579,15.0,False
+C00770,41,Female,15000.0,Bachelor,Student,Married,North,1,575,11.0,False
+C00771,64,Male,64199.66,Bachelor,Accountant,Single,Central,2,624,17.0,True
+C00772,59,Non-binary,104574.56,High School,Doctor,Married,Central,0,582,13.6,True
+C00773,18,Female,17376.69,Associate,Retail Worker,Single,South,1,530,1.9,False
+C00774,49,Female,42933.88,PhD,Retired,Divorced,Central,0,658,12.3,False
+C00775,63,Non-binary,117639.37,Bachelor,Lawyer,Widowed,North,2,693,13.9,False
+C00776,46,Male,105154.64,Bachelor,Doctor,Single,Central,3,686,16.3,False
+C00777,40,Male,40834.47,Master,Teacher,Single,Central,1,648,5.1,False
+C00778,18,Female,128854.19,Bachelor,Manager,Married,West,0,693,12.3,False
+C00779,80,Non-binary,58601.81,Bachelor,Retired,Single,North,0,591,18.0,False
+C00780,52,Female,29342.06,PhD,Engineer,Single,South,0,634,0.8,False
+C00781,62,Male,41363.9,Master,Retail Worker,Widowed,East,2,662,5.2,False
+C00782,18,Non-binary,40344.05,Master,Retired,Married,Central,4,610,2.3,False
+C00783,50,Female,54227.95,Bachelor,Teacher,Divorced,North,3,580,5.6,False
+C00784,31,Male,59339.04,PhD,Retired,Married,West,1,603,0.7,False
+C00785,19,Female,166179.76,High School,Lawyer,Divorced,East,2,703,17.6,False
+C00786,42,Male,88214.63,Associate,Engineer,Married,West,0,564,18.3,True
+C00787,22,Female,82150.53,Master,Lawyer,Married,Central,0,652,4.1,False
+C00788,40,Female,15000.0,Bachelor,Retired,Married,West,1,600,15.7,True
+C00789,20,Male,15000.0,Master,Student,Married,South,2,565,18.8,False
+C00790,39,Female,15000.0,Bachelor,Student,Single,North,2,606,16.2,False
+C00791,25,Non-binary,38776.09,Bachelor,Retail Worker,Married,North,1,575,9.2,False
+C00792,23,Non-binary,90805.68,PhD,Manager,Single,East,2,700,14.4,False
+C00793,54,Male,65950.43,Master,Lawyer,Widowed,West,2,594,1.2,False
+C00794,36,Non-binary,77031.67,High School,Manager,Married,East,0,613,11.3,False
+C00795,48,Non-binary,152889.39,Master,Manager,Widowed,West,1,697,4.1,False
+C00796,38,Non-binary,70673.18,Master,Nurse,Single,South,0,605,1.5,False
+C00797,44,Non-binary,120782.27,Bachelor,Lawyer,Married,South,4,631,19.8,False
+C00798,50,Female,37267.02,Bachelor,Retail Worker,Single,West,1,569,3.3,False
+C00799,20,Female,50640.26,High School,Teacher,Single,North,0,559,8.2,False
+C00800,52,Female,15000.0,Bachelor,Student,Married,West,2,548,5.7,False
+C00801,64,Non-binary,185673.62,Master,Doctor,Single,West,0,727,5.8,False
+C00802,27,Non-binary,174665.01,PhD,Business Owner,Single,Central,0,769,6.1,False
+C00803,38,Male,54451.64,High School,Accountant,Married,Central,1,565,0.4,True
+C00804,39,Male,140364.49,PhD,Manager,Single,South,2,700,14.4,False
+C00805,60,Male,86271.65,Bachelor,Engineer,Single,South,1,605,19.7,False
+C00806,18,Male,79291.71,High School,Manager,Married,West,2,585,9.2,False
+C00807,32,Female,23205.13,Bachelor,Student,Married,Central,0,539,9.1,False
+C00808,50,Male,72900.09,Bachelor,Teacher,Married,South,1,634,9.2,False
+C00809,61,Non-binary,36876.51,Master,Retired,Single,East,2,638,18.1,False
+C00810,36,Female,22841.69,Associate,Retail Worker,Married,Central,2,522,1.7,False
+C00811,35,Non-binary,89767.21,PhD,Manager,Divorced,West,2,700,18.0,False
+C00812,49,Male,67746.01,High School,Teacher,Single,North,2,558,5.6,False
+C00813,51,Non-binary,149164.75,Master,Lawyer,Divorced,South,2,727,14.4,False
+C00814,53,Female,34987.03,Bachelor,Retail Worker,Married,Central,0,569,2.0,False
+C00815,55,Male,78633.94,Bachelor,Manager,Single,North,0,638,5.3,False
+C00816,61,Female,44529.38,Bachelor,Retail Worker,Widowed,West,1,604,16.8,False
+C00817,25,Female,88513.28,Bachelor,Nurse,Single,South,3,610,2.7,False
+C00818,53,Female,98578.4,PhD,Business Owner,Single,West,0,673,13.3,False
+C00819,39,Male,75847.89,Master,Nurse,Single,South,3,631,14.5,False
+C00820,41,Female,85112.82,PhD,Business Owner,Married,West,1,698,15.6,False
+C00821,45,Female,64991.99,Associate,Business Owner,Single,South,0,572,6.9,False
+C00822,21,Male,57170.45,Master,Teacher,Married,Central,0,617,2.9,False
+C00823,29,Male,82961.62,Bachelor,Nurse,Single,East,1,667,1.1,False
+C00824,28,Non-binary,139893.83,High School,Manager,Divorced,South,1,589,2.9,False
+C00825,31,Non-binary,135449.24,Bachelor,Doctor,Married,South,2,617,17.4,False
+C00826,33,Female,55070.95,High School,Nurse,Married,East,1,525,8.2,False
+C00827,35,Male,82323.79,High School,Engineer,Married,South,3,588,19.4,False
+C00828,52,Non-binary,40761.25,Bachelor,Retired,Married,South,0,568,3.1,False
+C00829,48,Female,42130.32,High School,Retail Worker,Widowed,West,3,578,8.0,False
+C00830,40,Non-binary,66221.43,Master,Lawyer,Married,North,0,590,0.4,False
+C00831,43,Non-binary,51557.5,Master,Manager,Divorced,West,1,587,9.6,False
+C00832,42,Male,41621.71,Associate,Retail Worker,Married,West,0,603,3.7,False
+C00833,42,Female,42573.49,Associate,Retired,Married,West,3,580,17.3,False
+C00834,52,Non-binary,39074.3,Master,Retired,Married,Central,0,608,16.6,False
+C00835,18,Male,59894.8,Bachelor,Business Owner,Married,South,4,629,16.9,False
+C00836,37,Male,38319.78,Bachelor,Retired,Single,West,0,516,11.9,False
+C00837,18,Female,54877.13,Associate,Teacher,Married,North,0,553,11.2,False
+C00838,56,Female,26466.88,Bachelor,Student,Widowed,West,2,527,4.4,False
+C00839,52,Female,26442.69,Master,Retail Worker,Married,West,1,575,5.5,False
+C00840,29,Female,19726.55,Bachelor,Student,Married,West,0,576,18.5,False
+C00841,38,Female,58505.79,Master,Teacher,Married,North,4,626,3.3,False
+C00842,63,Female,39006.14,Master,Business Owner,Married,East,0,594,14.2,False
+C00843,39,Non-binary,61394.52,Master,Nurse,Single,Central,1,595,15.2,False
+C00844,23,Non-binary,96198.21,Master,Manager,Married,Central,3,650,11.7,False
+C00845,47,Male,47609.38,High School,Retail Worker,Single,North,1,483,4.2,False
+C00846,58,Female,103192.49,Master,Lawyer,Divorced,South,3,671,18.7,False
+C00847,55,Male,43184.68,High School,Retired,Married,South,2,564,11.4,False
+C00848,49,Female,112814.76,High School,Lawyer,Married,East,1,620,19.0,False
+C00849,58,Male,60097.9,Bachelor,Lawyer,Single,North,0,611,2.8,False
+C00850,53,Female,120808.22,PhD,Engineer,Married,West,1,725,2.9,False
+C00851,33,Male,123494.67,Master,Manager,Married,West,1,666,3.5,True
+C00852,28,Non-binary,69657.08,PhD,Teacher,Widowed,North,1,628,7.8,False
+C00853,47,Male,116177.91,Master,Doctor,Single,North,1,643,19.6,True
+C00854,46,Non-binary,68822.61,High School,Retired,Widowed,Central,1,563,3.1,True
+C00855,55,Female,94610.03,Master,Lawyer,Single,West,3,650,3.7,True
+C00856,57,Male,88561.15,Bachelor,Manager,Married,Central,1,637,11.6,False
+C00857,54,Female,46594.79,Bachelor,Nurse,Married,East,4,566,1.5,False
+C00858,62,Female,78449.84,Associate,Accountant,Married,South,1,601,3.3,False
+C00859,37,Male,145406.49,Associate,Business Owner,Single,East,1,660,18.5,False
+C00860,33,Male,121856.81,Master,Engineer,Single,Central,0,720,10.7,False
+C00861,44,Female,111652.74,Master,Manager,Married,North,1,690,14.3,False
+C00862,55,Male,43510.5,Bachelor,Manager,Divorced,West,2,537,8.9,False
+C00863,38,Male,71700.55,Bachelor,Nurse,Divorced,South,2,634,1.6,False
+C00864,41,Male,68883.31,Master,Nurse,Married,Central,0,596,19.5,False
+C00865,37,Female,55026.2,PhD,Teacher,Married,South,1,593,10.9,False
+C00866,54,Non-binary,59873.13,Master,Teacher,Divorced,West,0,632,18.7,False
+C00867,35,Female,82868.35,Associate,Accountant,Single,West,1,589,11.1,False
+C00868,18,Male,60792.96,High School,Manager,Divorced,South,0,566,6.4,False
+C00869,31,Non-binary,25232.19,Master,Student,Single,Central,2,562,10.5,False
+C00870,20,Female,125964.51,Bachelor,Doctor,Single,West,1,690,4.2,False
+C00871,28,Male,15273.45,Bachelor,Student,Single,East,2,592,12.6,False
+C00872,55,Female,37835.95,Master,Manager,Widowed,East,0,591,4.2,False
+C00873,38,Female,25842.0,Bachelor,Student,Divorced,North,1,554,16.8,False
+C00874,18,Male,59209.93,Bachelor,Accountant,Single,North,0,614,10.0,False
+C00875,53,Non-binary,79116.96,Bachelor,Lawyer,Single,East,1,649,7.8,True
+C00876,39,Female,77920.67,PhD,Engineer,Married,Central,0,618,9.5,False
+C00877,47,Non-binary,71602.22,PhD,Nurse,Divorced,East,0,667,3.4,False
+C00878,41,Female,122507.22,Bachelor,Business Owner,Married,East,1,675,7.5,False
+C00879,39,Male,35268.76,Bachelor,Retail Worker,Single,North,0,539,19.4,False
+C00880,48,Male,116107.44,PhD,Doctor,Widowed,West,2,682,4.8,False
+C00881,32,Male,75354.58,Bachelor,Manager,Married,East,0,663,11.1,False
+C00882,46,Female,125863.31,PhD,Manager,Divorced,North,2,715,7.3,False
+C00883,34,Non-binary,68281.32,Bachelor,Business Owner,Single,Central,4,601,4.1,False
+C00884,39,Non-binary,20743.08,Bachelor,Retail Worker,Married,East,1,554,3.7,False
+C00885,51,Non-binary,59702.58,Bachelor,Teacher,Married,West,3,568,11.8,True
+C00886,46,Non-binary,107548.44,High School,Engineer,Married,Central,2,580,6.9,False
+C00887,30,Non-binary,20593.8,PhD,Retail Worker,Divorced,West,0,588,6.6,False
+C00888,44,Male,106554.22,Master,Engineer,Single,North,2,621,8.9,False
+C00889,56,Non-binary,70916.4,Bachelor,Business Owner,Widowed,North,1,638,15.8,False
+C00890,67,Female,47358.73,PhD,Retail Worker,Married,North,3,645,14.8,False
+C00891,53,Male,42565.07,Master,Retail Worker,Single,East,0,598,14.9,False
+C00892,50,Female,74785.15,Bachelor,Retired,Divorced,East,0,640,2.5,False
+C00893,48,Female,57516.23,High School,Teacher,Single,West,3,537,4.2,True
+C00894,21,Female,124893.75,Bachelor,Lawyer,Married,Central,2,672,1.3,True
+C00895,37,Female,78422.16,Associate,Accountant,Married,East,0,628,7.0,False
+C00896,61,Male,117863.77,Bachelor,Manager,Single,East,3,698,5.2,False
+C00897,46,Female,79997.01,PhD,Engineer,Single,Central,2,642,11.0,False
+C00898,40,Female,122836.83,Bachelor,Engineer,Married,West,1,642,5.3,False
+C00899,52,Female,47255.44,Bachelor,Accountant,Single,West,0,609,2.6,False
+C00900,39,Non-binary,146741.03,PhD,Doctor,Married,West,1,742,16.8,False
+C00901,35,Female,56132.48,Bachelor,Accountant,Married,East,0,541,2.0,False
+C00902,25,Male,53198.23,Master,Teacher,Divorced,South,1,614,17.9,False
+C00903,73,Male,35126.79,Master,Retired,Single,Central,2,561,9.7,False
+C00904,37,Female,65553.61,Master,Teacher,Single,North,0,623,5.4,False
+C00905,38,Non-binary,55528.83,Bachelor,Nurse,Widowed,Central,1,614,0.7,False
+C00906,41,Male,59980.94,Bachelor,Nurse,Married,Central,0,616,9.5,True
+C00907,18,Non-binary,15000.0,Master,Student,Single,West,1,610,14.4,False
+C00908,49,Non-binary,110053.97,Bachelor,Doctor,Single,West,1,620,10.9,False
+C00909,53,Female,150571.05,Bachelor,Manager,Married,West,2,671,16.4,False
+C00910,36,Non-binary,42536.77,High School,Nurse,Married,North,2,566,8.1,False
+C00911,50,Female,51388.08,Bachelor,Nurse,Single,North,2,592,3.4,False
+C00912,41,Male,35322.46,Bachelor,Retail Worker,Single,South,0,602,15.3,True
+C00913,24,Male,106747.88,High School,Accountant,Single,West,0,629,14.9,False
+C00914,64,Female,61297.2,Master,Retired,Single,East,1,634,4.1,False
+C00915,53,Male,29770.06,High School,Retail Worker,Married,North,0,557,10.0,False
+C00916,45,Male,25018.82,High School,Student,Single,North,3,526,5.4,False
+C00917,44,Non-binary,88324.75,Master,Engineer,Married,West,1,632,8.8,False
+C00918,35,Female,30979.53,Master,Teacher,Widowed,West,0,562,19.8,False
+C00919,20,Male,34146.71,Bachelor,Nurse,Married,West,2,582,18.7,False
+C00920,28,Female,116197.9,Master,Business Owner,Married,North,0,683,13.3,False
+C00921,66,Male,71286.5,Bachelor,Business Owner,Married,West,0,604,11.0,False
+C00922,37,Male,86616.64,Bachelor,Engineer,Divorced,West,1,680,4.7,False
+C00923,18,Female,123026.17,Master,Doctor,Widowed,South,1,683,1.7,False
+C00924,80,Non-binary,101971.17,Bachelor,Engineer,Single,East,3,635,0.7,True
+C00925,57,Female,15000.0,Master,Student,Widowed,North,2,570,14.5,False
+C00926,54,Male,121060.93,Master,Engineer,Married,South,0,673,11.2,False
+C00927,35,Male,57021.03,High School,Nurse,Married,North,2,635,18.0,True
+C00928,30,Male,62377.08,High School,Retired,Single,East,2,557,4.0,False
+C00929,57,Female,33033.21,Master,Retail Worker,Single,Central,1,552,13.8,False
+C00930,43,Male,106484.28,Master,Doctor,Married,South,2,645,11.6,False
+C00931,63,Male,45671.99,Master,Retail Worker,Divorced,North,3,593,3.0,False
+C00932,22,Female,104964.75,Associate,Manager,Single,North,1,653,6.6,False
+C00933,45,Non-binary,146553.52,Master,Doctor,Single,North,0,709,18.1,False
+C00934,68,Female,55154.56,Bachelor,Engineer,Married,West,1,600,2.1,False
+C00935,24,Male,50514.14,Master,Accountant,Single,North,1,579,16.8,False
+C00936,44,Non-binary,46243.12,Master,Retired,Single,West,1,614,18.9,False
+C00937,48,Non-binary,100678.18,Master,Business Owner,Married,Central,0,646,19.9,False
+C00938,35,Male,15000.0,Master,Student,Married,West,0,613,4.1,False
+C00939,30,Female,34380.14,Bachelor,Retail Worker,Married,South,4,589,8.8,True
+C00940,18,Non-binary,89243.08,High School,Accountant,Single,South,1,585,1.1,False
+C00941,54,Female,68271.87,Associate,Nurse,Single,North,0,624,1.3,False
+C00942,60,Male,121438.33,PhD,Doctor,Married,South,2,687,9.0,False
+C00943,32,Non-binary,221724.57,Associate,Doctor,Divorced,West,2,718,3.3,False
+C00944,51,Male,102857.09,Master,Doctor,Divorced,South,0,665,7.0,True
+C00945,34,Non-binary,32074.5,Bachelor,Retail Worker,Married,North,4,547,3.5,False
+C00946,58,Male,129782.11,Associate,Doctor,Single,East,1,681,18.1,False
+C00947,66,Non-binary,159147.44,Master,Lawyer,Divorced,Central,0,724,10.1,False
+C00948,39,Male,82270.34,Master,Business Owner,Married,North,2,598,3.3,False
+C00949,62,Male,95034.86,High School,Engineer,Married,Central,1,595,15.5,False
+C00950,42,Male,28863.43,High School,Retail Worker,Single,West,0,558,2.6,False
+C00951,31,Male,26223.5,Master,Student,Married,West,2,581,16.2,False
+C00952,22,Male,134528.27,Associate,Doctor,Single,South,0,654,17.2,False
+C00953,35,Male,22417.2,Bachelor,Student,Widowed,East,1,561,13.9,False
+C00954,48,Male,62579.62,Master,Teacher,Married,Central,1,626,8.7,True
+C00955,45,Non-binary,24801.56,Master,Retail Worker,Single,Central,0,571,7.9,False
+C00956,37,Non-binary,53139.42,Bachelor,Teacher,Divorced,West,0,598,0.9,False
+C00957,38,Male,42406.01,Bachelor,Engineer,Married,North,4,567,11.5,False
+C00958,31,Non-binary,114990.78,Bachelor,Engineer,Married,West,1,681,17.4,False
+C00959,36,Male,69213.37,Associate,Nurse,Single,West,0,597,13.2,False
+C00960,34,Female,137881.62,Bachelor,Lawyer,Married,West,0,639,7.0,False
+C00961,45,Female,44297.53,Bachelor,Retail Worker,Single,Central,0,611,8.9,False
+C00962,33,Male,19166.99,Bachelor,Business Owner,Married,North,1,582,15.4,False
+C00963,41,Male,51931.31,Bachelor,Nurse,Married,West,2,591,11.4,False
+C00964,30,Non-binary,116211.88,Bachelor,Doctor,Single,West,5,655,10.2,False
+C00965,36,Female,51102.3,High School,Nurse,Married,West,1,535,11.1,False
+C00966,46,Male,37763.77,Bachelor,Teacher,Married,North,1,594,0.3,False
+C00967,38,Non-binary,191266.52,Bachelor,Business Owner,Widowed,East,3,690,8.3,False
+C00968,47,Non-binary,71526.22,Associate,Engineer,Married,West,1,598,13.4,True
+C00969,56,Male,49834.43,Bachelor,Manager,Married,Central,0,565,8.7,False
+C00970,22,Male,92757.4,Bachelor,Manager,Married,North,0,661,10.9,False
+C00971,35,Non-binary,96267.42,PhD,Accountant,Single,South,3,665,8.4,False
+C00972,44,Non-binary,131631.31,Bachelor,Engineer,Single,East,3,666,15.5,False
+C00973,36,Male,24500.09,High School,Retail Worker,Divorced,West,0,531,3.9,False
+C00974,53,Male,40728.07,Master,Retired,Divorced,North,0,602,9.4,False
+C00975,38,Non-binary,73262.8,High School,Engineer,Single,West,1,551,15.5,True
+C00976,43,Male,56720.93,High School,Manager,Single,Central,3,559,13.7,False
+C00977,51,Male,47392.08,Bachelor,Teacher,Widowed,West,0,576,4.0,False
+C00978,36,Non-binary,96147.81,Master,Accountant,Divorced,North,1,651,3.7,False
+C00979,62,Non-binary,83103.82,High School,Doctor,Widowed,South,4,560,19.1,False
+C00980,53,Non-binary,15000.0,High School,Student,Married,West,1,496,0.1,False
+C00981,37,Non-binary,32616.41,Bachelor,Retail Worker,Married,West,2,586,5.2,False
+C00982,33,Non-binary,140906.9,Bachelor,Doctor,Married,Central,0,645,9.1,False
+C00983,56,Male,47636.82,PhD,Teacher,Married,West,0,588,3.8,False
+C00984,23,Non-binary,58174.5,Master,Teacher,Married,Central,2,612,15.8,False
+C00985,42,Female,38737.54,Bachelor,Teacher,Married,West,3,523,0.3,False
+C00986,58,Male,94508.47,Bachelor,Engineer,Single,Central,0,594,10.0,False
+C00987,23,Female,65191.55,Bachelor,Retired,Widowed,South,3,566,6.0,True
+C00988,24,Male,33287.29,Associate,Lawyer,Single,West,1,541,19.9,False
+C00989,39,Non-binary,66254.61,PhD,Retired,Widowed,East,0,682,17.0,True
+C00990,49,Male,15000.0,Bachelor,Student,Married,West,4,544,2.0,True
+C00991,32,Female,72644.96,Associate,Accountant,Single,East,1,615,14.7,False
+C00992,53,Non-binary,32045.78,Bachelor,Teacher,Married,East,2,625,19.7,False
+C00993,61,Female,118372.62,High School,Lawyer,Widowed,South,0,641,17.3,False
+C00994,18,Male,181444.51,Bachelor,Manager,Single,North,1,766,14.5,True
+C00995,51,Non-binary,122653.8,Master,Lawyer,Married,Central,0,629,11.1,False
+C00996,47,Female,100944.29,Bachelor,Engineer,Married,Central,1,636,18.0,False
+C00997,35,Non-binary,26493.93,Bachelor,Retail Worker,Married,East,0,549,3.3,False
+C00998,52,Non-binary,94165.32,Bachelor,Accountant,Divorced,West,1,657,2.7,False
+C00999,47,Male,57135.23,Associate,Nurse,Married,North,0,560,6.7,False
+C01000,30,Male,103559.46,High School,Lawyer,Married,South,0,579,7.4,True

@@ -1,0 +1,1001 @@
+customer_id,age,gender,income,education,occupation,marital_status,region,num_dependents,credit_score,tenure_years,is_churned
+C00001,47,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00002,47,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00003,62,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00004,42,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00005,62,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00006,52,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00007,42,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00008,18,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00009,47,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00010,38,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00011,62,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00012,52,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00013,23,Female,47513.6,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00014,38,Female,47513.6,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00015,42,Female,57344.0,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00016,38,Female,57344.0,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00017,62,Female,57344.0,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00018,23,Female,57344.0,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00019,33,Female,57344.0,Associate,Accountant,Divorced,Central,0,538,8.4,False
+C00020,28,Female,67174.4,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00021,52,Female,67174.4,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00022,23,Female,67174.4,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00023,33,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00024,23,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00025,52,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00026,23,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00027,42,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00028,47,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00029,42,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00030,42,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00031,57,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00032,33,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00033,18,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00034,28,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00035,47,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00036,38,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00037,38,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00038,52,Female,77004.8,Associate,Accountant,Divorced,Central,0,589,8.4,False
+C00039,38,Female,37683.2,Associate,Business Owner,Divorced,Central,0,538,8.4,False
+C00040,38,Female,37683.2,Associate,Business Owner,Divorced,Central,0,538,8.4,False
+C00041,62,Female,37683.2,Associate,Business Owner,Divorced,Central,0,538,8.4,False
+C00042,38,Female,37683.2,Associate,Business Owner,Divorced,Central,0,538,8.4,False
+C00043,47,Female,37683.2,Associate,Business Owner,Divorced,Central,0,538,8.4,False
+C00044,42,Female,37683.2,Associate,Business Owner,Divorced,Central,0,538,8.4,False
+C00045,38,Female,77004.8,Associate,Business Owner,Divorced,Central,0,589,8.4,False
+C00046,62,Female,77004.8,Associate,Business Owner,Divorced,Central,0,589,8.4,False
+C00047,38,Female,77004.8,Associate,Business Owner,Divorced,Central,0,589,8.4,False
+C00048,42,Female,77004.8,Associate,Business Owner,Married,Central,0,589,8.4,False
+C00049,38,Female,77004.8,Associate,Business Owner,Married,Central,0,589,8.4,False
+C00050,33,Female,77004.8,Associate,Business Owner,Married,Central,0,589,8.4,False
+C00051,57,Female,77004.8,Bachelor,Business Owner,Married,Central,0,589,8.4,False
+C00052,42,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00053,38,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00054,33,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00055,18,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00056,18,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00057,47,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00058,47,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00059,18,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00060,62,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00061,38,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00062,23,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00063,57,Female,77004.8,Bachelor,Business Owner,Married,Central,0,640,8.4,False
+C00064,33,Female,96665.6,Bachelor,Business Owner,Married,Central,0,538,8.4,False
+C00065,33,Female,96665.6,Bachelor,Business Owner,Married,Central,0,538,8.4,False
+C00066,57,Female,96665.6,Bachelor,Business Owner,Married,Central,0,538,8.4,False
+C00067,52,Female,96665.6,Bachelor,Business Owner,Married,Central,0,538,8.4,False
+C00068,38,Female,96665.6,Bachelor,Business Owner,Married,Central,0,538,8.4,False
+C00069,62,Female,96665.6,Bachelor,Business Owner,Married,Central,0,538,8.4,False
+C00070,57,Female,96665.6,Bachelor,Business Owner,Married,Central,0,538,8.4,False
+C00071,52,Female,96665.6,Bachelor,Business Owner,Married,Central,0,538,8.4,False
+C00072,38,Female,57344.0,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00073,47,Female,57344.0,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00074,18,Female,57344.0,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00075,33,Female,57344.0,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00076,18,Female,57344.0,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00077,42,Female,57344.0,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00078,18,Female,57344.0,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00079,62,Female,86835.2,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00080,33,Female,86835.2,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00081,18,Female,86835.2,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00082,62,Female,96665.6,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00083,33,Female,96665.6,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00084,62,Female,96665.6,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00085,47,Female,96665.6,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00086,23,Female,96665.6,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00087,38,Female,96665.6,Bachelor,Doctor,Married,Central,0,538,8.4,False
+C00088,47,Female,96665.6,Bachelor,Doctor,Married,Central,0,640,8.4,False
+C00089,23,Female,96665.6,Bachelor,Doctor,Married,Central,0,640,8.4,False
+C00090,42,Female,96665.6,Bachelor,Doctor,Married,Central,0,640,8.4,False
+C00091,47,Female,96665.6,Bachelor,Doctor,Married,Central,0,640,8.4,False
+C00092,42,Female,96665.6,Bachelor,Doctor,Married,Central,0,640,8.4,False
+C00093,42,Female,106496.0,Bachelor,Doctor,Married,Central,0,589,8.4,False
+C00094,18,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00095,33,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00096,38,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00097,33,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00098,28,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00099,42,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00100,47,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00101,38,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00102,62,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00103,47,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00104,33,Female,106496.0,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00105,47,Female,126156.8,Bachelor,Doctor,Married,East,0,538,8.4,False
+C00106,18,Female,126156.8,Bachelor,Doctor,Married,East,0,538,8.4,False
+C00107,33,Female,126156.8,Bachelor,Doctor,Married,East,0,538,8.4,False
+C00108,28,Female,126156.8,Bachelor,Doctor,Married,East,0,538,8.4,False
+C00109,42,Female,126156.8,Bachelor,Doctor,Married,East,0,538,8.4,False
+C00110,47,Female,126156.8,Bachelor,Doctor,Married,East,0,538,8.4,False
+C00111,38,Female,126156.8,Bachelor,Doctor,Married,East,0,589,8.4,False
+C00112,42,Female,47513.6,Bachelor,Engineer,Married,East,0,589,8.4,False
+C00113,42,Female,47513.6,Bachelor,Engineer,Married,East,0,589,8.4,False
+C00114,28,Female,47513.6,Bachelor,Engineer,Married,East,0,589,8.4,False
+C00115,62,Female,47513.6,Bachelor,Engineer,Married,East,0,589,8.4,False
+C00116,47,Female,47513.6,Bachelor,Engineer,Married,East,0,589,8.4,False
+C00117,23,Female,57344.0,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00118,42,Female,57344.0,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00119,28,Female,67174.4,Bachelor,Engineer,Married,East,0,589,8.4,False
+C00120,33,Female,77004.8,Bachelor,Engineer,Married,East,0,640,8.4,False
+C00121,47,Female,77004.8,Bachelor,Engineer,Married,East,0,640,8.4,False
+C00122,33,Female,86835.2,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00123,42,Female,86835.2,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00124,18,Female,86835.2,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00125,18,Female,86835.2,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00126,42,Female,86835.2,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00127,28,Female,86835.2,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00128,62,Female,86835.2,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00129,57,Female,86835.2,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00130,18,Female,86835.2,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00131,62,Female,86835.2,Bachelor,Engineer,Married,East,0,538,8.4,False
+C00132,23,Female,86835.2,Bachelor,Engineer,Married,East,1,589,8.4,False
+C00133,57,Female,86835.2,Bachelor,Engineer,Married,East,1,589,8.4,False
+C00134,62,Female,86835.2,Bachelor,Engineer,Married,East,1,589,8.4,False
+C00135,23,Male,96665.6,Bachelor,Engineer,Married,East,1,640,8.4,False
+C00136,28,Male,96665.6,Bachelor,Engineer,Married,East,1,640,8.4,False
+C00137,62,Male,96665.6,Bachelor,Engineer,Married,East,1,640,8.4,False
+C00138,57,Male,96665.6,Bachelor,Engineer,Married,East,1,640,8.4,False
+C00139,28,Male,96665.6,Bachelor,Engineer,Married,East,1,640,8.4,False
+C00140,57,Male,96665.6,Bachelor,Engineer,Married,East,1,640,8.4,False
+C00141,38,Male,96665.6,Bachelor,Engineer,Married,East,1,640,8.4,False
+C00142,42,Male,96665.6,Bachelor,Engineer,Married,East,1,640,8.4,False
+C00143,52,Male,96665.6,Bachelor,Engineer,Married,East,1,640,8.4,False
+C00144,38,Male,96665.6,Bachelor,Engineer,Married,East,1,640,8.4,False
+C00145,62,Male,106496.0,Bachelor,Engineer,Married,East,1,589,8.4,False
+C00146,18,Male,106496.0,Bachelor,Engineer,Married,East,1,589,8.4,False
+C00147,52,Male,67174.4,Bachelor,Lawyer,Married,East,1,589,8.4,False
+C00148,42,Male,67174.4,Bachelor,Lawyer,Married,East,1,589,8.4,False
+C00149,38,Male,67174.4,Bachelor,Lawyer,Married,East,1,589,8.4,False
+C00150,47,Male,67174.4,Bachelor,Lawyer,Married,East,1,589,8.4,False
+C00151,28,Male,67174.4,Bachelor,Lawyer,Married,East,1,589,8.4,False
+C00152,62,Male,67174.4,Bachelor,Lawyer,Married,East,1,589,8.4,False
+C00153,57,Male,67174.4,Bachelor,Lawyer,Married,East,1,589,8.4,False
+C00154,33,Male,67174.4,Bachelor,Lawyer,Married,East,1,589,8.4,False
+C00155,62,Male,77004.8,Bachelor,Lawyer,Married,East,1,640,8.4,False
+C00156,57,Male,77004.8,Bachelor,Lawyer,Married,East,1,640,8.4,False
+C00157,23,Male,77004.8,Bachelor,Lawyer,Married,East,1,640,8.4,False
+C00158,42,Male,77004.8,Bachelor,Lawyer,Married,East,1,640,8.4,False
+C00159,42,Male,77004.8,Bachelor,Lawyer,Married,East,1,640,8.4,False
+C00160,47,Male,77004.8,Bachelor,Lawyer,Married,East,1,640,8.4,False
+C00161,38,Male,77004.8,Bachelor,Lawyer,Married,East,1,640,8.4,False
+C00162,38,Male,77004.8,Bachelor,Lawyer,Married,East,1,640,8.4,False
+C00163,57,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00164,62,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00165,47,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00166,23,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00167,47,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00168,23,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00169,28,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00170,33,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00171,57,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00172,62,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00173,33,Male,77004.8,Bachelor,Lawyer,Married,North,1,640,8.4,False
+C00174,42,Male,86835.2,Bachelor,Lawyer,Married,North,1,589,8.4,False
+C00175,38,Male,86835.2,Bachelor,Lawyer,Married,North,1,589,8.4,False
+C00176,18,Male,86835.2,Bachelor,Lawyer,Married,North,1,589,8.4,False
+C00177,23,Male,86835.2,Bachelor,Lawyer,Married,North,1,589,8.4,False
+C00178,33,Male,86835.2,Bachelor,Lawyer,Married,North,1,589,8.4,False
+C00179,38,Male,86835.2,Bachelor,Lawyer,Married,North,1,589,8.4,False
+C00180,23,Male,86835.2,Bachelor,Lawyer,Married,North,1,589,8.4,False
+C00181,52,Male,86835.2,Bachelor,Lawyer,Married,North,1,589,8.4,False
+C00182,38,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00183,62,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00184,33,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00185,42,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00186,23,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00187,28,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00188,57,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00189,57,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00190,33,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00191,18,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00192,23,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00193,23,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00194,38,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00195,42,Male,47513.6,Bachelor,Manager,Married,North,1,589,8.4,False
+C00196,52,Male,57344.0,Bachelor,Manager,Married,North,1,538,8.4,False
+C00197,23,Male,57344.0,Bachelor,Manager,Married,North,1,538,8.4,False
+C00198,33,Male,57344.0,Bachelor,Manager,Married,North,1,538,8.4,False
+C00199,62,Male,57344.0,Bachelor,Manager,Married,North,1,538,8.4,False
+C00200,28,Male,67174.4,Bachelor,Manager,Married,North,1,589,8.4,False
+C00201,23,Male,67174.4,Bachelor,Manager,Married,North,1,589,8.4,False
+C00202,23,Male,67174.4,Bachelor,Manager,Married,North,1,589,8.4,False
+C00203,47,Male,77004.8,Bachelor,Manager,Married,North,1,640,8.4,False
+C00204,23,Male,77004.8,Bachelor,Manager,Married,North,1,640,8.4,False
+C00205,28,Male,77004.8,Bachelor,Manager,Married,North,1,640,8.4,False
+C00206,33,Male,77004.8,Bachelor,Manager,Married,North,1,640,8.4,False
+C00207,28,Male,77004.8,Bachelor,Manager,Married,North,1,640,8.4,False
+C00208,23,Male,77004.8,Bachelor,Manager,Married,North,1,640,8.4,False
+C00209,38,Male,77004.8,Bachelor,Manager,Married,North,1,640,8.4,False
+C00210,42,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00211,57,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00212,18,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00213,28,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00214,38,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00215,42,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00216,23,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00217,47,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00218,57,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00219,52,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00220,42,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00221,47,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00222,18,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00223,33,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00224,38,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00225,47,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00226,42,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00227,42,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00228,62,Male,86835.2,Bachelor,Manager,Married,North,1,589,8.4,False
+C00229,33,Male,86835.2,High School,Manager,Married,North,1,589,8.4,False
+C00230,57,Male,86835.2,High School,Manager,Married,North,1,589,8.4,False
+C00231,28,Male,86835.2,High School,Manager,Married,North,1,589,8.4,False
+C00232,52,Male,86835.2,High School,Manager,Married,North,1,589,8.4,False
+C00233,62,Male,86835.2,High School,Manager,Married,North,1,589,8.4,False
+C00234,52,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00235,42,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00236,62,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00237,42,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00238,18,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00239,47,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00240,42,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00241,62,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00242,42,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00243,38,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00244,38,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00245,52,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00246,62,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00247,57,Female,96665.6,Associate,Business Owner,Divorced,East,0,640,9.2,False
+C00248,28,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00249,28,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00250,23,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00251,28,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00252,23,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00253,23,Male,37683.2,High School,Nurse,Married,North,1,538,8.4,False
+C00254,23,Male,37683.2,High School,Nurse,Single,North,1,538,8.4,False
+C00255,62,Male,37683.2,High School,Nurse,Single,North,1,538,8.4,False
+C00256,42,Male,37683.2,High School,Nurse,Single,North,1,538,8.4,False
+C00257,28,Male,37683.2,High School,Nurse,Single,North,1,538,8.4,False
+C00258,23,Male,37683.2,High School,Nurse,Single,North,1,538,8.4,False
+C00259,33,Male,37683.2,High School,Nurse,Single,North,1,538,8.4,False
+C00260,57,Female,96665.6,Associate,Business Owner,Divorced,East,0,640,9.2,False
+C00261,18,Male,37683.2,High School,Nurse,Single,North,1,538,8.4,False
+C00262,62,Male,37683.2,High School,Nurse,Single,South,1,538,8.4,False
+C00263,18,Male,37683.2,High School,Nurse,Single,South,1,538,8.4,False
+C00264,62,Female,106496.0,Bachelor,Engineer,Divorced,Central,0,589,12.4,False
+C00265,57,Female,106496.0,Associate,Business Owner,Divorced,East,0,589,9.2,False
+C00266,33,Male,37683.2,High School,Nurse,Single,South,1,538,8.4,False
+C00267,38,Male,47513.6,High School,Nurse,Single,South,1,589,8.4,False
+C00268,52,Male,47513.6,High School,Nurse,Single,South,1,589,8.4,False
+C00269,57,Female,106496.0,Bachelor,Engineer,Divorced,Central,0,640,12.4,False
+C00270,47,Male,47513.6,High School,Nurse,Single,South,1,589,8.4,False
+C00271,18,Male,47513.6,High School,Nurse,Single,South,1,589,8.4,False
+C00272,47,Male,57344.0,High School,Nurse,Single,South,1,538,8.4,False
+C00273,23,Male,57344.0,High School,Nurse,Single,South,1,538,8.4,False
+C00274,47,Male,57344.0,High School,Nurse,Single,South,1,538,8.4,False
+C00275,38,Male,57344.0,High School,Nurse,Single,South,2,538,8.4,False
+C00276,38,Male,57344.0,High School,Nurse,Single,South,2,538,8.4,False
+C00277,38,Male,57344.0,High School,Nurse,Single,South,2,538,8.4,False
+C00278,18,Male,57344.0,High School,Nurse,Single,South,2,538,8.4,False
+C00279,62,Female,106496.0,Bachelor,Engineer,Divorced,Central,0,640,12.4,False
+C00280,62,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00281,62,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00282,62,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00283,33,Male,57344.0,High School,Nurse,Single,South,2,538,8.4,False
+C00284,18,Male,57344.0,High School,Nurse,Single,South,2,538,8.4,False
+C00285,57,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00286,52,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00287,33,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00288,38,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00289,33,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00290,62,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00291,52,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00292,52,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00293,47,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00294,57,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00295,42,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00296,38,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00297,28,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00298,47,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00299,47,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00300,42,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00301,57,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00302,38,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00303,52,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00304,33,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00305,18,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00306,47,Male,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00307,52,Non-binary,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00308,18,Non-binary,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00309,38,Non-binary,37683.2,High School,Retail Worker,Single,South,2,538,8.4,False
+C00310,52,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00311,18,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00312,57,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00313,47,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00314,42,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00315,42,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00316,23,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00317,47,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00318,52,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00319,38,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00320,62,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00321,38,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00322,23,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00323,33,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00324,33,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00325,38,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00326,33,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00327,33,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00328,33,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00329,28,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00330,33,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00331,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00332,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00333,28,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00334,52,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00335,47,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00336,33,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00337,33,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00338,33,Non-binary,37683.2,Master,Retail Worker,Single,South,2,538,8.4,False
+C00339,38,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00340,47,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00341,18,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00342,62,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00343,47,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00344,28,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00345,38,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00346,42,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00347,33,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00348,38,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00349,38,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00350,47,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00351,38,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00352,62,Female,106496.0,Bachelor,Engineer,Married,Central,0,640,12.4,False
+C00353,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00354,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00355,28,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00356,47,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00357,47,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00358,38,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00359,57,Female,106496.0,High School,Engineer,Married,Central,0,640,12.4,False
+C00360,47,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00361,18,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00362,57,Female,106496.0,High School,Engineer,Married,Central,0,640,12.4,False
+C00363,47,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00364,42,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00365,38,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00366,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00367,38,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00368,28,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00369,33,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00370,33,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00371,52,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00372,42,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00373,38,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00374,38,Non-binary,37683.2,Master,Retired,Single,South,2,538,8.4,False
+C00375,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00376,18,Non-binary,37683.2,Master,Retired,Single,South,2,589,8.4,False
+C00377,42,Non-binary,37683.2,Master,Retired,Single,South,2,589,8.4,False
+C00378,38,Non-binary,37683.2,Master,Retired,Single,South,2,589,8.4,False
+C00379,18,Non-binary,37683.2,Master,Retired,Single,South,2,589,8.4,False
+C00380,57,Female,106496.0,High School,Engineer,Married,Central,0,640,12.4,False
+C00381,47,Non-binary,37683.2,Master,Retired,Single,South,2,589,8.4,False
+C00382,47,Non-binary,37683.2,Master,Retired,Single,West,2,589,8.4,False
+C00383,52,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00384,42,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00385,52,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00386,57,Female,106496.0,High School,Engineer,Married,Central,0,640,12.4,False
+C00387,33,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00388,62,Female,106496.0,High School,Engineer,Married,Central,0,640,12.4,False
+C00389,47,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00390,38,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00391,47,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00392,33,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00393,33,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00394,38,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00395,47,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00396,38,Female,86835.2,High School,Lawyer,Married,Central,0,640,12.4,False
+C00397,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00398,33,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00399,33,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00400,28,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00401,42,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00402,57,Female,86835.2,High School,Lawyer,Married,Central,0,640,12.4,False
+C00403,33,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00404,42,Non-binary,37683.2,Master,Student,Single,West,2,589,8.4,False
+C00405,18,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,False
+C00406,62,Female,86835.2,High School,Lawyer,Married,Central,0,640,12.4,False
+C00407,38,Female,86835.2,High School,Lawyer,Married,East,0,640,12.4,False
+C00408,57,Female,106496.0,High School,Lawyer,Married,East,0,640,12.4,False
+C00409,57,Female,106496.0,High School,Lawyer,Married,East,0,640,12.4,False
+C00410,47,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,False
+C00411,52,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00412,42,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00413,38,Female,106496.0,High School,Lawyer,Married,East,0,640,12.4,False
+C00414,62,Female,106496.0,High School,Lawyer,Married,East,0,640,12.4,False
+C00415,57,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00416,52,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00417,52,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00418,28,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00419,18,Female,106496.0,Associate,Business Owner,Divorced,East,0,640,9.2,False
+C00420,47,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00421,62,Female,86835.2,High School,Manager,Married,East,0,640,12.4,False
+C00422,28,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00423,47,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00424,47,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00425,38,Female,96665.6,High School,Manager,Married,East,0,640,12.4,False
+C00426,33,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00427,42,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00428,47,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00429,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00430,33,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00431,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00432,42,Non-binary,37683.2,Master,Student,Single,West,3,589,8.4,True
+C00433,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00434,47,Non-binary,37683.2,Master,Teacher,Single,West,3,589,8.4,True
+C00435,38,Female,96665.6,High School,Manager,Single,East,0,640,12.4,False
+C00436,47,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00437,23,Female,106496.0,Associate,Business Owner,Divorced,Central,0,691,15.6,False
+C00438,42,Female,126156.8,Bachelor,Business Owner,Divorced,East,0,589,9.2,False
+C00439,23,Female,126156.8,Associate,Business Owner,Divorced,Central,0,589,15.6,False
+C00440,42,Female,126156.8,Bachelor,Business Owner,Divorced,East,0,589,9.2,False
+C00441,62,Female,96665.6,High School,Manager,Single,East,0,640,12.4,False
+C00442,38,Female,126156.8,Associate,Business Owner,Divorced,Central,0,589,15.6,False
+C00443,38,Female,126156.8,Associate,Business Owner,Divorced,Central,0,589,15.6,False
+C00444,23,Female,126156.8,Associate,Business Owner,Divorced,Central,0,589,15.6,False
+C00445,33,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00446,23,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00447,52,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00448,18,Female,126156.8,Bachelor,Business Owner,Divorced,East,0,640,9.2,False
+C00449,38,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00450,52,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00451,28,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00452,47,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00453,57,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00454,28,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00455,62,Female,96665.6,High School,Manager,Single,East,0,640,12.4,False
+C00456,38,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00457,47,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00458,38,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00459,33,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00460,18,Female,126156.8,Bachelor,Business Owner,Divorced,East,0,640,9.2,False
+C00461,47,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00462,42,Female,106496.0,Bachelor,Lawyer,Divorced,East,0,691,9.2,False
+C00463,57,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00464,23,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00465,18,Female,106496.0,Bachelor,Lawyer,Divorced,East,0,691,9.2,False
+C00466,57,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00467,33,Non-binary,37683.2,Master,Teacher,Widowed,West,3,589,8.4,True
+C00468,38,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00469,23,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00470,18,Female,96665.6,High School,Manager,Single,East,0,640,12.4,False
+C00471,47,Non-binary,37683.2,PhD,Teacher,Widowed,West,3,589,8.4,True
+C00472,52,Non-binary,37683.2,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00473,52,Non-binary,37683.2,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00474,33,Female,106496.0,Bachelor,Lawyer,Divorced,East,1,691,9.2,False
+C00475,28,Non-binary,37683.2,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00476,38,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00477,62,Female,96665.6,High School,Manager,Single,East,0,640,12.4,True
+C00478,23,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00479,62,Female,96665.6,High School,Manager,Single,East,0,640,12.4,True
+C00480,33,Female,96665.6,Bachelor,Manager,Divorced,East,1,640,9.2,False
+C00481,52,Non-binary,37683.2,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00482,23,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00483,28,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00484,57,Female,126156.8,Associate,Business Owner,Divorced,Central,0,640,15.6,False
+C00485,23,Female,126156.8,Associate,Business Owner,Married,Central,0,640,15.6,False
+C00486,47,Non-binary,37683.2,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00487,62,Female,96665.6,High School,Manager,Single,North,0,640,12.4,True
+C00488,42,Female,96665.6,Bachelor,Manager,Divorced,East,1,640,9.2,False
+C00489,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00490,33,Female,96665.6,Bachelor,Manager,Divorced,East,1,640,9.2,False
+C00491,38,Female,126156.8,Associate,Business Owner,Married,Central,0,640,15.6,False
+C00492,18,Female,96665.6,High School,Manager,Single,North,0,691,12.4,True
+C00493,42,Female,96665.6,Bachelor,Manager,Divorced,East,1,691,9.2,False
+C00494,28,Female,126156.8,Associate,Business Owner,Married,Central,0,640,15.6,False
+C00495,47,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00496,23,Female,126156.8,Associate,Business Owner,Married,Central,0,640,15.6,False
+C00497,23,Female,126156.8,Associate,Business Owner,Married,East,0,640,15.6,False
+C00498,33,Female,96665.6,Bachelor,Manager,Divorced,East,1,691,9.2,False
+C00499,18,Female,96665.6,High School,Manager,Single,North,0,691,12.4,True
+C00500,42,Female,96665.6,Bachelor,Manager,Divorced,East,1,691,9.2,False
+C00501,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00502,42,Female,57344.0,Bachelor,Nurse,Divorced,South,1,538,9.2,False
+C00503,28,Female,126156.8,Associate,Business Owner,Married,East,0,640,15.6,False
+C00504,28,Female,126156.8,Associate,Business Owner,Married,East,0,640,15.6,False
+C00505,23,Female,126156.8,Associate,Business Owner,Married,East,0,640,15.6,False
+C00506,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00507,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00508,28,Female,126156.8,Bachelor,Business Owner,Married,East,0,640,15.6,False
+C00509,18,Female,96665.6,High School,Manager,Single,North,0,691,12.4,True
+C00510,38,Female,126156.8,Bachelor,Business Owner,Married,East,0,640,15.6,False
+C00511,62,Female,57344.0,High School,Nurse,Single,North,0,538,12.4,True
+C00512,47,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00513,47,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00514,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00515,62,Female,57344.0,High School,Nurse,Single,North,0,538,12.4,True
+C00516,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00517,47,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00518,18,Female,57344.0,High School,Nurse,Single,North,0,589,12.4,True
+C00519,47,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00520,38,Female,126156.8,Bachelor,Business Owner,Married,East,0,640,15.6,False
+C00521,33,Female,57344.0,Bachelor,Nurse,Divorced,South,1,589,9.2,False
+C00522,62,Female,57344.0,High School,Nurse,Single,North,0,589,12.4,True
+C00523,57,Female,126156.8,Bachelor,Doctor,Married,East,0,640,15.6,False
+C00524,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00525,33,Female,57344.0,Bachelor,Nurse,Divorced,South,1,589,9.2,False
+C00526,62,Female,57344.0,High School,Nurse,Single,North,0,589,12.4,True
+C00527,23,Female,126156.8,Bachelor,Doctor,Married,East,0,640,15.6,False
+C00528,33,Female,57344.0,Bachelor,Nurse,Divorced,South,1,589,9.2,False
+C00529,47,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00530,57,Female,126156.8,Bachelor,Doctor,Married,East,0,640,15.6,False
+C00531,18,Female,57344.0,High School,Nurse,Single,North,0,589,12.4,True
+C00532,33,Male,57344.0,Bachelor,Nurse,Married,South,1,589,9.2,False
+C00533,62,Female,57344.0,High School,Nurse,Single,North,0,589,12.4,True
+C00534,47,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00535,42,Male,57344.0,Bachelor,Nurse,Married,South,1,589,9.2,False
+C00536,23,Female,126156.8,Bachelor,Doctor,Married,East,0,640,15.6,False
+C00537,42,Male,57344.0,Bachelor,Nurse,Married,South,1,589,9.2,False
+C00538,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00539,42,Male,57344.0,Bachelor,Nurse,Married,South,1,589,9.2,False
+C00540,28,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00541,18,Female,57344.0,High School,Nurse,Single,North,0,589,12.4,True
+C00542,57,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00543,38,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00544,38,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00545,38,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00546,33,Male,37683.2,Bachelor,Retail Worker,Married,South,1,589,9.2,False
+C00547,33,Male,37683.2,Bachelor,Retail Worker,Married,South,1,589,9.2,False
+C00548,38,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00549,57,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00550,28,Female,77004.8,Bachelor,Accountant,Divorced,Central,0,640,14.8,False
+C00551,33,Male,37683.2,Bachelor,Retail Worker,Married,South,1,589,9.2,False
+C00552,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00553,62,Female,57344.0,High School,Nurse,Single,North,0,589,12.4,True
+C00554,23,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00555,23,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00556,47,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00557,28,Female,77004.8,Bachelor,Accountant,Married,Central,0,640,11.6,False
+C00558,42,Male,37683.2,Bachelor,Retail Worker,Married,South,1,589,9.2,False
+C00559,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00560,62,Female,57344.0,High School,Nurse,Single,North,1,589,12.4,True
+C00561,47,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00562,57,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00563,62,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00564,52,Non-binary,47513.6,PhD,Teacher,Widowed,West,4,640,8.4,True
+C00565,62,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00566,18,Female,67174.4,High School,Nurse,Single,South,1,589,12.4,True
+C00567,52,Non-binary,57344.0,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00568,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00569,28,Female,77004.8,Bachelor,Accountant,Married,Central,0,640,11.6,False
+C00570,52,Non-binary,57344.0,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00571,23,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00572,52,Non-binary,57344.0,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00573,42,Male,37683.2,Bachelor,Retail Worker,Married,South,1,589,9.2,False
+C00574,23,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00575,57,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00576,33,Male,37683.2,Bachelor,Retail Worker,Married,South,1,589,9.2,False
+C00577,33,Male,37683.2,Master,Retail Worker,Married,South,2,589,9.2,False
+C00578,18,Female,67174.4,High School,Nurse,Single,South,1,589,12.4,True
+C00579,42,Male,37683.2,Master,Retail Worker,Married,South,2,589,9.2,False
+C00580,62,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00581,38,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00582,52,Non-binary,57344.0,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00583,33,Male,37683.2,Master,Retired,Married,South,2,589,9.2,False
+C00584,52,Male,37683.2,Master,Retired,Married,South,2,589,9.2,False
+C00585,62,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00586,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00587,23,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00588,62,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00589,33,Male,37683.2,Master,Retired,Married,South,2,589,9.2,False
+C00590,33,Male,37683.2,Master,Retired,Married,South,2,589,9.2,False
+C00591,62,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00592,42,Non-binary,37683.2,Master,Retired,Married,South,2,589,9.2,False
+C00593,62,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00594,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,4,589,8.4,True
+C00595,18,Female,67174.4,High School,Nurse,Single,South,1,589,12.4,True
+C00596,47,Non-binary,37683.2,Master,Retired,Married,South,2,589,9.2,False
+C00597,52,Non-binary,37683.2,Master,Retired,Married,South,2,589,9.2,False
+C00598,42,Non-binary,37683.2,Master,Retired,Married,West,2,589,9.2,False
+C00599,47,Non-binary,37683.2,Master,Retired,Married,West,2,589,9.2,False
+C00600,23,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00601,47,Non-binary,37683.2,Master,Retired,Married,West,2,589,9.2,False
+C00602,18,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00603,33,Non-binary,37683.2,Master,Retired,Married,West,2,589,9.2,False
+C00604,42,Non-binary,37683.2,Master,Retired,Married,West,2,589,9.2,False
+C00605,42,Non-binary,37683.2,Master,Retired,Married,West,2,589,9.2,False
+C00606,28,Female,77004.8,Bachelor,Accountant,Married,Central,0,640,10.8,False
+C00607,62,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00608,42,Non-binary,37683.2,Master,Retired,Single,West,2,589,9.2,False
+C00609,33,Female,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00610,28,Female,77004.8,Bachelor,Accountant,Married,Central,0,640,14.0,False
+C00611,52,Non-binary,47513.6,Master,Retired,Single,West,2,850,9.2,False
+C00612,28,Female,77004.8,Bachelor,Accountant,Married,Central,0,640,14.0,False
+C00613,38,Male,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00614,42,Non-binary,47513.6,Master,Retired,Single,West,2,850,9.2,False
+C00615,23,Male,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00616,23,Male,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00617,57,Male,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00618,33,Male,126156.8,Bachelor,Doctor,Married,East,0,691,15.6,False
+C00619,57,Male,106496.0,Bachelor,Engineer,Married,East,0,691,15.6,False
+C00620,18,Male,126156.8,Bachelor,Engineer,Married,East,0,691,15.6,False
+C00621,42,Non-binary,47513.6,Master,Retired,Single,West,3,850,9.2,False
+C00622,28,Female,77004.8,Bachelor,Accountant,Married,Central,0,691,10.8,False
+C00623,52,Non-binary,47513.6,Master,Retired,Single,West,3,850,9.2,False
+C00624,42,Non-binary,47513.6,Master,Retired,Single,West,3,850,9.2,False
+C00625,57,Male,126156.8,Bachelor,Engineer,Married,East,0,691,15.6,False
+C00626,18,Male,126156.8,Bachelor,Engineer,Married,East,0,691,15.6,False
+C00627,33,Male,126156.8,Bachelor,Engineer,Married,East,0,691,15.6,False
+C00628,38,Male,116326.4,Bachelor,Engineer,Married,East,0,589,15.6,False
+C00629,42,Male,116326.4,Bachelor,Engineer,Married,East,0,589,15.6,False
+C00630,42,Male,116326.4,Bachelor,Engineer,Married,East,0,589,15.6,False
+C00631,47,Non-binary,47513.6,Master,Retired,Single,West,3,850,9.2,False
+C00632,23,Male,116326.4,Bachelor,Engineer,Married,East,0,589,15.6,False
+C00633,38,Male,116326.4,Bachelor,Engineer,Married,East,1,589,15.6,False
+C00634,23,Male,116326.4,Bachelor,Engineer,Married,East,1,589,15.6,False
+C00635,47,Non-binary,47513.6,Master,Retired,Single,West,3,850,9.2,False
+C00636,47,Non-binary,47513.6,Master,Retired,Single,West,3,794,9.2,False
+C00637,23,Male,116326.4,Bachelor,Engineer,Married,East,1,589,15.6,False
+C00638,38,Male,116326.4,Bachelor,Engineer,Married,East,1,589,15.6,False
+C00639,18,Male,116326.4,Bachelor,Engineer,Married,East,1,589,15.6,False
+C00640,33,Male,116326.4,Bachelor,Engineer,Married,East,1,589,15.6,False
+C00641,33,Male,106496.0,Bachelor,Lawyer,Married,East,1,691,15.6,False
+C00642,62,Male,106496.0,Bachelor,Lawyer,Married,East,1,691,15.6,False
+C00643,28,Female,77004.8,Bachelor,Accountant,Married,Central,0,691,13.2,False
+C00644,23,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00645,18,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00646,52,Non-binary,47513.6,Master,Retired,Single,West,3,850,9.2,False
+C00647,47,Non-binary,47513.6,Master,Retired,Single,West,3,850,9.2,False
+C00648,18,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00649,47,Non-binary,47513.6,Master,Retired,Single,West,3,850,9.2,False
+C00650,33,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00651,62,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00652,47,Non-binary,47513.6,Master,Retired,Single,West,3,794,9.2,False
+C00653,23,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00654,33,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00655,57,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00656,57,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00657,38,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00658,23,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00659,23,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00660,38,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00661,47,Female,37683.2,High School,Retail Worker,Single,West,1,589,12.4,True
+C00662,57,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00663,18,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00664,28,Female,77004.8,Bachelor,Accountant,Married,Central,0,691,14.8,False
+C00665,18,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00666,18,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00667,33,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00668,33,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00669,42,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00670,33,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00671,18,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00672,62,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00673,47,Female,37683.2,High School,Retail Worker,Single,West,1,589,12.4,True
+C00674,42,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00675,23,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00676,38,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00677,52,Non-binary,57344.0,Master,Teacher,Single,West,3,589,9.2,False
+C00678,42,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00679,42,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00680,62,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00681,42,Male,126156.8,Bachelor,Lawyer,Married,North,1,691,15.6,False
+C00682,57,Male,96665.6,Bachelor,Manager,Married,North,1,691,15.6,False
+C00683,47,Female,37683.2,High School,Retail Worker,Single,West,1,589,12.4,True
+C00684,38,Male,96665.6,Bachelor,Manager,Married,North,1,691,15.6,False
+C00685,62,Male,96665.6,Bachelor,Manager,Married,North,1,691,15.6,False
+C00686,38,Male,96665.6,Bachelor,Manager,Married,North,1,691,15.6,False
+C00687,33,Male,96665.6,Bachelor,Manager,Married,North,1,691,15.6,False
+C00688,42,Male,96665.6,Bachelor,Manager,Married,North,1,691,15.6,False
+C00689,62,Male,96665.6,Bachelor,Manager,Married,North,1,691,15.6,False
+C00690,38,Male,96665.6,High School,Manager,Married,North,1,691,15.6,False
+C00691,33,Male,96665.6,High School,Manager,Married,North,1,691,15.6,False
+C00692,38,Male,96665.6,High School,Manager,Married,North,1,691,15.6,False
+C00693,42,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00694,47,Female,37683.2,PhD,Retail Worker,Single,West,2,589,12.4,True
+C00695,38,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00696,18,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00697,62,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00698,57,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00699,23,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00700,18,Female,77004.8,Bachelor,Accountant,Married,Central,0,691,14.8,False
+C00701,62,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00702,57,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00703,28,Female,86835.2,Bachelor,Accountant,Married,Central,0,640,13.2,False
+C00704,47,Non-binary,37683.2,PhD,Retail Worker,Single,West,2,589,12.4,True
+C00705,28,Female,86835.2,Bachelor,Accountant,Married,Central,0,640,10.8,False
+C00706,42,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00707,47,Non-binary,37683.2,PhD,Retail Worker,Single,West,2,589,12.4,True
+C00708,42,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00709,42,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00710,57,Male,126156.8,High School,Manager,Married,South,1,691,15.6,False
+C00711,62,Male,126156.8,Master,Manager,Married,South,1,691,15.6,False
+C00712,42,Male,126156.8,Master,Manager,Married,South,1,691,15.6,False
+C00713,33,Male,126156.8,Master,Manager,Married,South,1,691,15.6,False
+C00714,42,Male,67174.4,Master,Nurse,Married,South,1,589,15.6,False
+C00715,38,Non-binary,67174.4,Master,Nurse,Married,South,1,589,15.6,False
+C00716,57,Non-binary,67174.4,Master,Nurse,Married,South,1,589,15.6,False
+C00717,62,Non-binary,67174.4,Master,Nurse,Married,South,1,589,15.6,False
+C00718,23,Female,86835.2,Bachelor,Accountant,Married,Central,0,640,14.8,False
+C00719,42,Non-binary,67174.4,Master,Nurse,Married,South,1,589,15.6,False
+C00720,62,Non-binary,67174.4,Master,Nurse,Married,South,1,589,15.6,False
+C00721,33,Non-binary,67174.4,Master,Nurse,Married,South,1,589,15.6,False
+C00722,57,Non-binary,67174.4,Master,Nurse,Single,South,1,589,15.6,False
+C00723,47,Non-binary,37683.2,PhD,Retail Worker,Single,West,2,589,12.4,True
+C00724,62,Non-binary,67174.4,Master,Nurse,Single,South,1,589,15.6,False
+C00725,47,Non-binary,37683.2,PhD,Retail Worker,Single,West,2,589,12.4,True
+C00726,52,Non-binary,57344.0,Master,Teacher,Single,West,3,589,9.2,False
+C00727,47,Non-binary,37683.2,PhD,Retail Worker,Single,West,2,589,12.4,True
+C00728,18,Female,86835.2,Bachelor,Accountant,Married,Central,0,640,10.8,False
+C00729,38,Non-binary,67174.4,Master,Nurse,Single,South,1,589,15.6,False
+C00730,28,Female,86835.2,Bachelor,Accountant,Married,Central,0,640,10.8,False
+C00731,38,Non-binary,67174.4,Master,Nurse,Single,South,1,589,15.6,False
+C00732,62,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00733,47,Non-binary,37683.2,PhD,Retail Worker,Single,West,2,589,12.4,True
+C00734,52,Non-binary,57344.0,Master,Teacher,Single,West,3,589,9.2,False
+C00735,47,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00736,47,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00737,47,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00738,38,Female,86835.2,Bachelor,Accountant,Married,Central,0,640,14.0,False
+C00739,38,Female,86835.2,Bachelor,Accountant,Married,Central,0,640,10.8,False
+C00740,38,Female,86835.2,Bachelor,Accountant,Married,Central,0,640,14.8,False
+C00741,57,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00742,28,Female,96665.6,Bachelor,Accountant,Married,Central,0,691,10.8,False
+C00743,18,Female,96665.6,Bachelor,Accountant,Married,Central,0,691,13.2,False
+C00744,23,Female,96665.6,Bachelor,Accountant,Married,Central,0,691,14.0,False
+C00745,23,Female,96665.6,Bachelor,Accountant,Married,Central,0,691,14.8,False
+C00746,33,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00747,23,Female,96665.6,Bachelor,Accountant,Married,Central,0,691,10.8,False
+C00748,18,Female,96665.6,Bachelor,Accountant,Married,Central,0,691,14.0,False
+C00749,38,Female,96665.6,Bachelor,Accountant,Married,Central,0,691,10.0,False
+C00750,57,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00751,52,Non-binary,57344.0,Master,Teacher,Single,West,3,589,9.2,False
+C00752,33,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00753,57,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00754,33,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00755,47,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00756,33,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00757,28,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,10.8,False
+C00758,33,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00759,52,Non-binary,37683.2,PhD,Retail Worker,Single,West,2,589,12.4,True
+C00760,38,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,10.0,False
+C00761,33,Non-binary,67174.4,Master,Nurse,Single,South,1,640,15.6,False
+C00762,33,Non-binary,86835.2,Master,Nurse,Single,South,1,640,15.6,False
+C00763,33,Non-binary,37683.2,Master,Retail Worker,Single,South,1,589,15.6,False
+C00764,38,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,13.2,False
+C00765,18,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,13.2,False
+C00766,23,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,11.6,False
+C00767,28,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,11.6,False
+C00768,52,Non-binary,37683.2,PhD,Retail Worker,Single,West,2,589,12.4,True
+C00769,38,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,10.0,False
+C00770,23,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,14.8,False
+C00771,57,Non-binary,37683.2,Master,Retail Worker,Single,South,1,589,15.6,False
+C00772,52,Non-binary,37683.2,PhD,Retail Worker,Single,West,2,589,12.4,True
+C00773,33,Non-binary,37683.2,Master,Retail Worker,Single,South,1,589,15.6,False
+C00774,18,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,11.6,False
+C00775,33,Non-binary,37683.2,Master,Retail Worker,Single,South,1,589,15.6,False
+C00776,33,Non-binary,37683.2,Master,Retail Worker,Single,South,1,589,15.6,False
+C00777,38,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,10.8,False
+C00778,57,Non-binary,37683.2,Master,Retail Worker,Single,South,1,589,15.6,False
+C00779,62,Non-binary,57344.0,Master,Retail Worker,Single,South,1,589,15.6,False
+C00780,57,Non-binary,57344.0,Master,Retail Worker,Single,South,1,589,15.6,False
+C00781,18,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,11.6,False
+C00782,23,Female,126156.8,Bachelor,Business Owner,Married,Central,0,691,14.8,False
+C00783,62,Non-binary,57344.0,Master,Retail Worker,Single,West,1,589,15.6,False
+C00784,52,Non-binary,57344.0,PhD,Retail Worker,Widowed,West,2,589,12.4,True
+C00785,33,Non-binary,57344.0,Master,Retail Worker,Single,West,1,589,15.6,False
+C00786,23,Female,126156.8,Bachelor,Doctor,Married,Central,0,691,10.8,False
+C00787,52,Non-binary,57344.0,PhD,Retail Worker,Widowed,West,2,640,12.4,True
+C00788,57,Non-binary,57344.0,Master,Retail Worker,Single,West,1,640,15.6,False
+C00789,42,Non-binary,57344.0,Master,Retail Worker,Single,West,1,640,15.6,False
+C00790,23,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,10.0,False
+C00791,52,Non-binary,106496.0,PhD,Retail Worker,Widowed,West,3,691,12.4,True
+C00792,28,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,10.0,False
+C00793,28,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,10.8,False
+C00794,52,Non-binary,106496.0,Master,Retail Worker,Single,West,1,691,15.6,False
+C00795,42,Non-binary,47513.6,Master,Retired,Single,West,1,794,15.6,False
+C00796,38,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,13.2,False
+C00797,23,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,10.8,False
+C00798,47,Non-binary,57344.0,Master,Retired,Single,West,1,640,15.6,False
+C00799,38,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,10.0,False
+C00800,23,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,14.8,False
+C00801,57,Non-binary,57344.0,Master,Retired,Single,West,1,640,15.6,False
+C00802,33,Non-binary,57344.0,Master,Retired,Single,West,1,640,15.6,False
+C00803,62,Non-binary,37683.2,Master,Student,Single,West,1,589,15.6,False
+C00804,33,Non-binary,37683.2,Master,Student,Single,West,2,589,15.6,False
+C00805,42,Non-binary,37683.2,Master,Student,Single,West,2,589,15.6,False
+C00806,47,Non-binary,37683.2,Master,Student,Single,West,2,589,15.6,False
+C00807,47,Non-binary,37683.2,Master,Student,Single,West,2,589,15.6,False
+C00808,42,Non-binary,37683.2,Master,Student,Single,West,2,589,15.6,False
+C00809,18,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,14.8,False
+C00810,62,Non-binary,37683.2,Master,Student,Single,West,2,589,15.6,False
+C00811,42,Non-binary,37683.2,Master,Student,Single,West,2,589,15.6,False
+C00812,42,Non-binary,37683.2,Master,Student,Single,West,2,589,15.6,False
+C00813,42,Non-binary,37683.2,Master,Student,Single,West,2,589,15.6,False
+C00814,33,Non-binary,37683.2,PhD,Student,Single,West,2,589,15.6,False
+C00815,33,Non-binary,37683.2,PhD,Student,Single,West,2,589,15.6,False
+C00816,52,Non-binary,37683.2,PhD,Student,Single,West,2,589,15.6,False
+C00817,28,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,14.0,False
+C00818,18,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,10.8,False
+C00819,33,Non-binary,37683.2,PhD,Student,Single,West,2,589,15.6,False
+C00820,47,Non-binary,37683.2,PhD,Student,Single,West,2,589,15.6,False
+C00821,38,Female,126156.8,Bachelor,Doctor,Married,Central,0,742,11.6,False
+C00822,57,Non-binary,37683.2,PhD,Student,Single,West,2,589,15.6,False
+C00823,23,Female,126156.8,Bachelor,Lawyer,Married,Central,1,742,10.0,False
+C00824,33,Non-binary,37683.2,PhD,Student,Single,West,2,589,15.6,False
+C00825,23,Female,126156.8,Bachelor,Manager,Married,Central,1,742,10.8,False
+C00826,23,Female,126156.8,Bachelor,Manager,Married,Central,1,742,11.6,False
+C00827,62,Non-binary,37683.2,PhD,Student,Single,West,2,589,15.6,False
+C00828,33,Non-binary,57344.0,PhD,Teacher,Single,West,2,640,15.6,False
+C00829,47,Non-binary,57344.0,PhD,Teacher,Single,West,2,640,15.6,False
+C00830,57,Non-binary,57344.0,PhD,Teacher,Single,West,2,640,15.6,False
+C00831,28,Female,126156.8,Bachelor,Manager,Married,Central,1,742,10.8,False
+C00832,57,Non-binary,57344.0,PhD,Teacher,Single,West,2,640,15.6,False
+C00833,38,Female,126156.8,Bachelor,Manager,Married,East,1,742,11.6,False
+C00834,33,Non-binary,57344.0,PhD,Teacher,Single,West,2,640,15.6,False
+C00835,42,Non-binary,57344.0,PhD,Teacher,Single,West,2,640,15.6,False
+C00836,33,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00837,57,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00838,52,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00839,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00840,62,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00841,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00842,62,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00843,23,Female,126156.8,Bachelor,Manager,Married,East,1,742,10.0,False
+C00844,57,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00845,62,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00846,33,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00847,42,Female,126156.8,Bachelor,Manager,Married,East,1,742,14.8,False
+C00848,52,Female,126156.8,Bachelor,Manager,Married,East,1,742,14.0,False
+C00849,57,Female,126156.8,Bachelor,Manager,Married,East,1,742,14.0,False
+C00850,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,False
+C00851,42,Female,116326.4,Bachelor,Manager,Married,East,1,589,10.0,False
+C00852,23,Female,116326.4,Bachelor,Manager,Married,East,1,640,10.0,False
+C00853,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,True
+C00854,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,True
+C00855,42,Female,116326.4,Bachelor,Manager,Married,East,1,640,14.8,False
+C00856,18,Female,116326.4,Bachelor,Manager,Married,East,1,640,14.8,False
+C00857,42,Female,116326.4,Bachelor,Manager,Married,East,1,640,14.8,False
+C00858,42,Female,116326.4,Bachelor,Manager,Married,East,1,640,10.0,False
+C00859,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,True
+C00860,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,True
+C00861,18,Female,116326.4,Bachelor,Manager,Married,East,1,640,11.6,False
+C00862,57,Female,116326.4,Bachelor,Manager,Married,East,1,691,10.8,False
+C00863,23,Female,116326.4,Bachelor,Manager,Married,East,1,691,13.2,False
+C00864,62,Non-binary,57344.0,PhD,Teacher,Widowed,West,2,640,15.6,True
+C00865,47,Non-binary,57344.0,PhD,Teacher,Widowed,West,3,640,15.6,True
+C00866,52,Female,116326.4,Bachelor,Manager,Married,East,1,691,10.8,False
+C00867,47,Non-binary,67174.4,PhD,Teacher,Widowed,West,3,640,15.6,True
+C00868,33,Non-binary,67174.4,PhD,Teacher,Widowed,West,3,640,15.6,True
+C00869,38,Female,116326.4,Bachelor,Manager,Married,East,1,691,14.0,False
+C00870,33,Female,116326.4,Bachelor,Manager,Married,East,1,691,11.6,False
+C00871,38,Female,86835.2,Bachelor,Nurse,Married,East,1,640,13.2,False
+C00872,57,Female,86835.2,Bachelor,Nurse,Married,East,1,640,14.8,False
+C00873,23,Female,86835.2,Bachelor,Nurse,Married,East,1,640,11.6,False
+C00874,18,Female,86835.2,Bachelor,Nurse,Married,East,1,640,10.0,False
+C00875,47,Non-binary,67174.4,PhD,Teacher,Widowed,West,3,640,15.6,True
+C00876,47,Non-binary,67174.4,PhD,Teacher,Widowed,West,3,640,15.6,True
+C00877,33,Female,86835.2,Bachelor,Nurse,Married,East,1,640,14.0,False
+C00878,62,Non-binary,67174.4,PhD,Teacher,Widowed,West,3,640,15.6,True
+C00879,47,Non-binary,67174.4,PhD,Teacher,Widowed,West,3,640,15.6,True
+C00880,38,Male,86835.2,Bachelor,Nurse,Married,East,1,640,11.6,False
+C00881,18,Male,86835.2,Bachelor,Nurse,Married,East,1,640,14.8,False
+C00882,62,Male,86835.2,Bachelor,Nurse,Married,East,1,640,14.8,False
+C00883,33,Male,86835.2,Bachelor,Nurse,Married,East,1,640,13.2,False
+C00884,18,Male,86835.2,Bachelor,Nurse,Married,East,1,640,11.6,False
+C00885,47,Non-binary,67174.4,PhD,Teacher,Widowed,West,3,640,15.6,True
+C00886,47,Non-binary,67174.4,PhD,Teacher,Widowed,West,3,640,15.6,True
+C00887,42,Male,86835.2,Bachelor,Nurse,Married,East,1,640,11.6,False
+C00888,33,Male,86835.2,Bachelor,Nurse,Married,East,1,640,14.8,False
+C00889,62,Male,86835.2,High School,Nurse,Married,East,1,691,14.0,False
+C00890,42,Male,86835.2,High School,Nurse,Married,East,1,691,14.8,False
+C00891,18,Male,86835.2,High School,Nurse,Married,East,1,691,10.0,False
+C00892,28,Male,86835.2,High School,Nurse,Married,East,1,691,10.0,False
+C00893,47,Non-binary,67174.4,PhD,Teacher,Widowed,West,3,640,15.6,True
+C00894,62,Male,86835.2,High School,Nurse,Married,East,1,691,11.6,False
+C00895,33,Male,86835.2,High School,Nurse,Married,East,1,691,13.2,False
+C00896,28,Male,86835.2,High School,Nurse,Married,East,1,691,10.0,False
+C00897,52,Male,126156.8,High School,Nurse,Married,East,1,742,10.0,False
+C00898,62,Male,126156.8,High School,Nurse,Married,East,1,742,14.0,False
+C00899,57,Male,126156.8,High School,Nurse,Married,East,1,742,11.6,False
+C00900,28,Male,126156.8,High School,Nurse,Married,East,1,742,13.2,False
+C00901,62,Male,126156.8,High School,Nurse,Married,East,1,742,11.6,False
+C00902,42,Male,126156.8,High School,Nurse,Married,East,1,742,14.0,False
+C00903,33,Male,126156.8,High School,Nurse,Married,East,1,742,13.2,False
+C00904,18,Male,126156.8,High School,Nurse,Married,East,1,742,10.0,False
+C00905,52,Male,126156.8,High School,Nurse,Married,North,1,742,14.0,False
+C00906,47,Male,126156.8,High School,Nurse,Married,North,1,742,13.2,False
+C00907,42,Male,126156.8,High School,Nurse,Married,North,1,742,13.2,False
+C00908,52,Male,126156.8,High School,Nurse,Married,North,1,742,13.2,False
+C00909,47,Male,126156.8,High School,Nurse,Married,North,1,742,11.6,False
+C00910,52,Male,126156.8,High School,Nurse,Married,North,1,742,14.0,False
+C00911,47,Male,126156.8,High School,Nurse,Married,North,1,742,10.0,False
+C00912,23,Male,126156.8,High School,Nurse,Single,North,1,742,13.2,False
+C00913,62,Male,106496.0,High School,Retail Worker,Single,North,1,691,13.2,False
+C00914,62,Male,106496.0,High School,Retail Worker,Single,North,1,691,14.8,False
+C00915,18,Male,106496.0,High School,Retail Worker,Single,North,1,691,10.8,False
+C00916,28,Male,106496.0,High School,Retail Worker,Single,North,1,691,14.0,False
+C00917,38,Male,106496.0,High School,Retail Worker,Single,North,1,691,11.6,False
+C00918,18,Male,106496.0,High School,Retail Worker,Single,North,1,691,10.0,False
+C00919,62,Male,106496.0,High School,Retail Worker,Single,North,1,691,10.8,False
+C00920,52,Male,106496.0,Master,Retail Worker,Single,North,1,691,11.6,False
+C00921,47,Male,106496.0,Master,Retail Worker,Single,North,1,691,13.2,False
+C00922,33,Male,126156.8,Master,Retail Worker,Single,North,1,742,14.8,False
+C00923,62,Male,126156.8,Master,Retail Worker,Single,North,1,742,10.0,False
+C00924,62,Male,126156.8,Master,Retail Worker,Single,North,1,742,14.8,False
+C00925,33,Male,126156.8,Master,Retail Worker,Single,North,1,742,10.8,False
+C00926,18,Male,57344.0,Master,Retired,Single,North,1,640,11.6,False
+C00927,38,Male,57344.0,Master,Retired,Single,North,1,640,14.8,False
+C00928,47,Male,57344.0,Master,Retired,Single,North,1,640,10.0,False
+C00929,28,Male,57344.0,Master,Retired,Single,North,1,640,13.2,False
+C00930,47,Male,57344.0,Master,Retired,Single,North,1,691,10.0,False
+C00931,33,Male,57344.0,Master,Retired,Single,North,1,691,13.2,False
+C00932,23,Male,57344.0,Master,Retired,Single,North,1,691,14.8,False
+C00933,33,Male,57344.0,Master,Retired,Single,North,1,691,10.0,False
+C00934,62,Male,57344.0,Master,Retired,Single,North,1,691,10.8,False
+C00935,47,Male,57344.0,Master,Retired,Single,North,1,742,13.2,False
+C00936,28,Male,57344.0,Master,Retired,Single,North,1,742,10.8,False
+C00937,47,Male,57344.0,Master,Retired,Single,North,1,742,10.8,False
+C00938,42,Male,57344.0,Master,Retired,Single,North,1,742,14.8,False
+C00939,33,Male,57344.0,Master,Retired,Single,North,1,742,11.6,False
+C00940,38,Male,57344.0,Master,Retired,Single,North,1,742,14.0,False
+C00941,38,Male,57344.0,Master,Retired,Single,North,1,742,14.0,False
+C00942,38,Non-binary,67174.4,Master,Retired,Single,North,1,640,14.8,False
+C00943,42,Non-binary,67174.4,Master,Retired,Single,North,1,640,14.8,False
+C00944,33,Non-binary,67174.4,Master,Retired,Single,North,1,640,14.0,False
+C00945,62,Non-binary,67174.4,Master,Retired,Single,South,1,640,10.0,False
+C00946,47,Non-binary,67174.4,Master,Retired,Single,South,1,640,13.2,False
+C00947,23,Non-binary,67174.4,Master,Retired,Single,South,1,640,10.8,False
+C00948,62,Non-binary,67174.4,Master,Retired,Single,South,1,640,13.2,False
+C00949,38,Non-binary,67174.4,Master,Retired,Single,South,1,640,13.2,False
+C00950,42,Non-binary,67174.4,Master,Retired,Single,South,1,640,14.0,False
+C00951,62,Non-binary,126156.8,Master,Retired,Single,South,1,742,11.6,False
+C00952,62,Non-binary,126156.8,Master,Retired,Single,South,1,742,13.2,False
+C00953,33,Non-binary,126156.8,Master,Retired,Single,South,2,742,14.8,False
+C00954,62,Non-binary,37683.2,Master,Student,Single,South,2,589,14.0,False
+C00955,33,Non-binary,37683.2,Master,Student,Single,South,2,589,11.6,False
+C00956,52,Non-binary,37683.2,Master,Student,Single,South,2,589,10.8,False
+C00957,42,Non-binary,37683.2,Master,Student,Single,South,2,589,14.0,False
+C00958,33,Non-binary,37683.2,Master,Student,Single,South,2,589,10.0,False
+C00959,38,Non-binary,37683.2,Master,Student,Single,South,2,589,10.8,False
+C00960,47,Non-binary,37683.2,Master,Student,Single,South,2,589,13.2,False
+C00961,62,Non-binary,37683.2,Master,Student,Single,South,2,589,10.8,False
+C00962,38,Non-binary,37683.2,Master,Student,Single,South,2,589,13.2,False
+C00963,62,Non-binary,37683.2,Master,Student,Single,South,2,589,14.0,False
+C00964,42,Non-binary,37683.2,Master,Student,Single,South,2,589,10.8,False
+C00965,52,Non-binary,37683.2,Master,Student,Single,South,2,589,11.6,False
+C00966,33,Non-binary,37683.2,Master,Student,Single,South,2,589,10.0,False
+C00967,33,Non-binary,37683.2,PhD,Student,Single,South,2,589,10.8,False
+C00968,57,Non-binary,37683.2,PhD,Student,Single,West,2,640,10.8,False
+C00969,62,Non-binary,37683.2,PhD,Student,Single,West,2,640,10.8,False
+C00970,42,Non-binary,37683.2,PhD,Student,Single,West,2,640,10.0,False
+C00971,62,Non-binary,37683.2,PhD,Student,Single,West,2,640,14.0,False
+C00972,18,Non-binary,37683.2,PhD,Student,Single,West,2,640,10.8,False
+C00973,28,Non-binary,37683.2,PhD,Student,Single,West,2,640,11.6,False
+C00974,33,Non-binary,37683.2,PhD,Student,Single,West,2,640,11.6,False
+C00975,42,Non-binary,37683.2,PhD,Student,Single,West,2,640,13.2,False
+C00976,42,Non-binary,37683.2,PhD,Student,Single,West,2,640,11.6,False
+C00977,33,Non-binary,37683.2,PhD,Student,Widowed,West,2,640,10.0,False
+C00978,18,Non-binary,37683.2,PhD,Student,Widowed,West,2,640,14.8,False
+C00979,52,Non-binary,37683.2,PhD,Student,Widowed,West,2,640,14.8,False
+C00980,33,Non-binary,37683.2,PhD,Student,Widowed,West,2,640,13.2,False
+C00981,52,Non-binary,37683.2,PhD,Student,Widowed,West,2,640,10.0,False
+C00982,38,Non-binary,37683.2,PhD,Student,Widowed,West,3,640,14.8,False
+C00983,38,Non-binary,37683.2,PhD,Student,Widowed,West,3,640,10.0,False
+C00984,18,Non-binary,37683.2,PhD,Student,Widowed,West,3,640,10.0,False
+C00985,42,Non-binary,37683.2,PhD,Student,Widowed,West,3,640,10.0,False
+C00986,33,Non-binary,37683.2,PhD,Student,Widowed,West,3,640,10.0,False
+C00987,52,Non-binary,47513.6,PhD,Student,Widowed,West,4,850,10.0,False
+C00988,33,Non-binary,86835.2,PhD,Student,Widowed,West,4,691,11.6,False
+C00989,42,Non-binary,126156.8,PhD,Student,Widowed,West,4,742,14.0,False
+C00990,52,Non-binary,126156.8,PhD,Student,Widowed,West,4,742,14.0,False
+C00991,52,Non-binary,126156.8,PhD,Student,Widowed,West,4,742,14.8,True
+C00992,33,Non-binary,126156.8,PhD,Student,Widowed,West,4,742,11.6,True
+C00993,33,Non-binary,126156.8,PhD,Student,Widowed,West,4,850,13.2,True
+C00994,42,Non-binary,126156.8,PhD,Student,Widowed,West,4,850,14.8,True
+C00995,18,Non-binary,67174.4,PhD,Teacher,Widowed,West,4,640,14.8,True
+C00996,52,Non-binary,67174.4,PhD,Teacher,Widowed,West,4,640,13.2,True
+C00997,38,Non-binary,67174.4,PhD,Teacher,Widowed,West,4,691,14.0,True
+C00998,33,Non-binary,67174.4,PhD,Teacher,Widowed,West,4,691,10.8,True
+C00999,38,Non-binary,67174.4,PhD,Teacher,Widowed,West,4,794,10.0,True
+C01000,52,Non-binary,67174.4,PhD,Teacher,Widowed,West,4,850,14.0,True
