@@ -88,7 +88,7 @@ START_DATE = date(2022, 1, 1)
 END_DATE   = date(2025, 12, 31)
 
 
-def make_seed_data(n_customers: int = 500) -> dict[str, pd.DataFrame]:
+def make_seed_data(n_customers: int = 500, avg_txns: int = 4) -> dict[str, pd.DataFrame]:
     customers, transactions = [], []
 
     for i in range(1, n_customers + 1):
@@ -122,7 +122,7 @@ def make_seed_data(n_customers: int = 500) -> dict[str, pd.DataFrame]:
         })
 
         eligible = _eligible_products(income, age, credit)
-        n_txns   = max(1, int(np.random.poisson(4)))
+        n_txns   = max(1, int(np.random.poisson(avg_txns)))
         seen     = set()
         for j in range(n_txns):
             pid    = random.choice(eligible)

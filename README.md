@@ -10,7 +10,7 @@ an LLM recommendation engine depends on.
 
 ```mermaid
 flowchart TD
-    seed["🌱 Seed Data Generation\nseed_data.py\n500 customers · ~2 000 transactions\nBusiness rules: income → products\nage → channel · credit → eligibility"]
+    seed["🌱 Seed Data Generation\nseed_data.py\n2 000 customers · ~24 000 transactions\nBusiness rules: income → products\nage → channel · credit → eligibility"]
 
     seed -->|real_*.csv| m1
     seed -->|real_*.csv| m2
@@ -27,11 +27,11 @@ flowchart TD
         m5["Method 5\nSmartNoise MST\n─────────────────\nOpenDP · marginal-based\n(ε, δ)-differential privacy\nPost-process to valid domains"]
     end
 
-    m1 -->|1 000 synthetic customers| eval
-    m2 -->|1 000 synthetic customers| eval
-    m3 -->|1 000 synthetic customers| eval
-    m4 -->|1 000 synthetic customers| eval
-    m5 -->|1 000 synthetic customers| eval
+    m1 -->|2 000 synthetic customers| eval
+    m2 -->|2 000 synthetic customers| eval
+    m3 -->|2 000 synthetic customers| eval
+    m4 -->|2 000 synthetic customers| eval
+    m5 -->|2 000 synthetic customers| eval
 
     subgraph eval["Evaluation"]
         direction LR
@@ -190,7 +190,7 @@ so M3 still shows a handful of product/category drifts where M1/M2/M4 show none.
 
 ### Step 4 — Generation
 
-Each method generates 1 000 synthetic customers and their transactions (scale factor = 2×
+Each method generates 2 000 synthetic customers and their transactions (scale factor = 2×
 relative to the 500-row seed). Generation is deterministic given a fixed seed.
 
 ### Step 5 — Evaluation (`src/evaluate.py`, `src/metrics_extended.py`)
@@ -281,61 +281,69 @@ SDV constraints.
 | Cross-table MAD | Custom | ↓ | Income/age/credit → product-category signal |
 | Inter-arrival KS p-value | Custom | ↑ | Transaction timing distribution similarity |
 | Autocorrelation MAE | Custom | ↓ | Sequential amount pattern fidelity |
+| Within-table corr MAE | Custom | ↓ | Raw Pearson correlation matrix error (customer numerics) |
+| NewRowSynthesis | SDMetrics (privacy) | ↑ | % synthetic rows that aren't verbatim copies of real |
+| DCR baseline protection | SDMetrics (privacy) | ↑ | synthetic→real distance-to-closest-record vs random baseline |
+
+Privacy note: M5 (SmartNoise) is the only method with a formal **(ε, δ)-differential-privacy**
+guarantee. The two privacy metrics *measure* empirical leakage on the customers table — and,
+interestingly, the DP guarantee does **not** translate into the best measured DCR (see Results).
 
 ---
 
 ## Results
 
-### Summary table (1 000 seed customers; SDV M1–M4 constraint-fitted, M5 ε=3.0 DP)
+### Summary table (2 000 seed customers · ~12 txns/customer; SDV M1–M4 constraint-fitted, M5 ε≈6 DP)
 
 | Metric | M1 HMA | M2 CTGAN | M3 PAR | M4 TVAE | M5 SmartNoise | Winner |
 |---|---|---|---|---|---|---|
-| Overall quality score | 0.851 | 0.840 | 0.544 | 0.826 | **0.887** | M5 |
-| Diagnostic / FK integrity | **1.000** | **1.000** | 0.765 | **1.000** | **1.000** | M1/M2/M4/M5 |
-| Customer column shapes | **0.927** | 0.842 | 0.798 | 0.790 | 0.906 | M1 |
-| Customer pair trends | **0.720** | 0.544 | 0.540 | 0.683 | 0.680 | M1 |
-| Transaction column shapes | 0.818 | 0.851 | 0.739 | 0.788 | **0.880** | M5 |
-| Cross-table MAD ↓ | 0.242 | 0.281 | **0.195** | 0.288 | 0.297 | M3 |
-| Inter-arrival KS p-value ↑ | 0.000 | **0.143** | 0.000 | 0.000 | 0.000 | M2 |
-| Autocorrelation MAE ↓ | 0.076 | 0.063 | 0.124 | 0.022 | **0.005** | M5 |
-| Differential privacy | ✗ | ✗ | ✗ | ✗ | **✓ (ε≈6)** | M5 |
+| Overall quality score | **0.888** | 0.854 | 0.647 | 0.887 | 0.861 | M1 ≈ M4 |
+| Diagnostic / FK integrity | **1.000** | **1.000** | 0.744 | **1.000** | **1.000** | tie |
+| Customer column shapes | **0.947** | 0.840 | 0.786 | 0.795 | 0.934 | M1 |
+| Customer pair trends | 0.737 | 0.567 | 0.547 | 0.780 | **0.850** | M5 |
+| Transaction column shapes | 0.865 | **0.908** | 0.783 | 0.826 | 0.856 | M2 |
+| Within-table corr MAE ↓ | **0.029** | 0.132 | 0.139 | 0.056 | 0.225 | M1 |
+| Cross-table MAD ↓ | 0.379 | 0.394 | **0.296** | 0.392 | 0.387 | M3 |
+| Inter-arrival KS p-value ↑ | 0.000 | **0.042** | 0.000 | 0.000 | 0.000 | M2 |
+| Autocorrelation MAE ↓ | 0.079 | **0.011** | 0.041 | 0.028 | 0.569 | M2 |
+| Differential privacy guarantee | ✗ | ✗ | ✗ | ✗ | **✓ (ε≈6)** | M5 |
+| DCR protection (measured) ↑ | 0.61 | 0.69 | **0.74** | 0.65 | 0.57 | M3 |
 
 All methods produce 0 orphan FKs and satisfy every business rule (0 product/category drift) —
 except M3/PAR, which can't take the `FixedCombinations` constraint (see Step 3). M5 enforces the
 same rules by post-processing its DP output.
 
-### Findings
+### Findings (2 000 customers, ~12 transactions each)
 
-**M5 (SmartNoise MST) is the surprise winner on fidelity — and it's the only private method.**
-The differentially-private synthesizer takes overall quality (0.887), transaction column shapes
-(0.880) and autocorrelation MAE (0.005), and is second on customer column shapes (0.906) — all
-while providing a formal (ε, δ)-DP guarantee the SDV methods lack. As a marginal-based method it
-nails per-column and within-table structure; its weakness is cross-table MAD (0.297, the worst),
-i.e. it preserves the customer→product cross-table signal least well. Takeaway: at this scale DP
-costs almost nothing on marginal fidelity — but it doesn't come free on cross-table correlation.
+**No single method wins — and the leaderboard moved once we scaled up.** At 1 000 seeds SmartNoise
+(M5) topped overall quality; with 2 000 customers the neural methods catch up and **M1 (0.888) ≈
+M4 (0.887)** retake it. More rows help GAN/VAE/Copula fitting more than the already
+marginal-optimal DP method.
 
-**M1 (HMA + Gaussian Copula) still wins the correlation that the recommender needs.**
-M1 leads customer pair trends (0.720) — the metric most tied to "does income predict product
-category?" — ahead of M4 (0.683), M5 (0.680) and well above the GANs (M2 0.544, M3 0.540).
-For the LLM use case, which conditions on demographic correlations, M1 remains the pick.
+**M1 (HMA + Gaussian Copula) is the best all-round fidelity choice.** It leads overall quality,
+customer column shapes (0.947) and — decisively — the **raw within-table correlation matrix**
+(MAE 0.029 vs 0.06–0.23 for the rest). For the recommender, which leans on demographic
+correlations, M1 is the pick; **M4 (TVAE)** is a close, simpler per-table alternative.
 
-**M4 (TVAE) and M2 (CTGAN) split the SDV middle.**
-M4 keeps perfect FK integrity and the best SDV autocorrelation (0.022) with smooth marginals;
-M2 wins transaction timing (inter-arrival KS 0.143, the only method to clear significance) but
-has the weakest cross-table correlation among the independents.
+**M5 (SmartNoise) is excellent on marginals/pairwise but breaks on sequence — and is the only
+private method.** It wins SDMetrics customer pair trends (0.850, mixed num+cat similarity) and is
+2nd on column shapes, but with ~12 txns/customer its lack of any temporal model is exposed:
+**autocorrelation MAE balloons to 0.569 (worst)**, and the raw numeric correlation matrix is worst
+too (0.225). Its value is the formal **(ε, δ)-DP guarantee** no SDV method offers.
 
-**M3 (CTGAN + PAR Hybrid) underperforms at this data scale.**
-M3's only win is cross-table MAD (0.195), suggesting context conditioning does preserve the
-income→product signal — but overall quality (0.544) and FK integrity (0.765, from the
-nearest-neighbour FK reassignment mapping multiple sequences to one customer) drag it down.
-PAR needs many more than ~4 transactions/customer to learn timing reliably.
+**M2 (CTGAN) owns transaction fidelity & timing**: best transaction column shapes (0.908),
+autocorrelation (0.011) and the only non-trivial inter-arrival KS p-value (0.042). Weakest on
+demographic correlation.
 
-**Picking a method:** privacy required → **M5**; best demographic correlations → **M1**;
-simple per-table SDV pipeline → **M4**; transaction timing → **M2**.
+**M3 (CTGAN + PAR) still underperforms** (quality 0.647, FK integrity 0.744) — its only fidelity
+win is cross-table MAD (0.296).
 
-**Temporal modelling is the hardest metric at small scale.**
-Only M2 reaches a non-trivial inter-arrival KS p-value; the rest are ~0. With ~4 transactions
-per customer there are too few inter-arrival intervals per sequence to learn a distribution.
+**Privacy: a guarantee is not a measured score.** M5 is the only method with a formal DP
+guarantee, yet on the measured **DCR** metric it is the *least* protected (0.57) and the
+worst-fidelity method (M3) is the *most* (0.74). DP bounds an individual's worst-case influence;
+DCR measures average closeness to real records, and M5's faithful marginals sit closest to real
+data. Fidelity and record-distance trade off. (NewRowSynthesis = 1.0 for all — continuous columns
+make verbatim copies near-impossible.)
 
 ---
 

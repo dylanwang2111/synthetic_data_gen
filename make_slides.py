@@ -170,7 +170,7 @@ def arrow(x, y):
     a.fill.solid(); a.fill.fore_color.rgb = MUTED; a.line.fill.background()
 
 yy, hh = 2.9, 1.7
-stage(0.85, yy, 2.5, hh, "Seed data", "1,000 customers\nbusiness rules", INK)
+stage(0.85, yy, 2.5, hh, "Seed data", "2,000 customers\n~24k transactions", INK)
 arrow(3.45, yy+0.6)
 stage(4.05, yy, 2.9, hh, "5 synthesizers", "SDV: HMA·CTGAN\nPAR·TVAE  +  DP", ACCENT)
 arrow(7.05, yy+0.6)
@@ -282,24 +282,28 @@ bullets(s, [
 ], y=5.3, size=14, gap=8)
 
 # ── Metric definitions 2 — custom correlation & temporal ────────────────────
-s = slide(); header(s, "Metrics — correlation & temporal (custom)", "How they're computed")
+s = slide(); header(s, "Metrics — correlation, temporal & privacy (custom + SDMetrics)", "How they're computed")
 rows = [
     ["Metric", "What it measures", "How it's computed", "↑/↓"],
     ["Cross-table MAD", "feature → product-category signal",
-     "mean |Δ Spearman(feature, %category)| real vs synth", "↓"],
+     "mean |Δ Spearman(feature, %category)|", "↓"],
     ["Within-table corr MAE", "customer column correlations",
      "mean |Δ Pearson| over off-diagonal pairs", "↓"],
     ["IA KS p-value", "transaction timing realism",
      "KS test on days-between-consecutive-txns", "↑"],
     ["Autocorr MAE", "sequential spend pattern",
      "|Δ mean lag-1 autocorrelation of amount|", "↓"],
+    ["NewRowSynthesis", "verbatim copying (privacy)",
+     "% synthetic rows not matching a real row", "↑"],
+    ["DCR protection", "memorisation (privacy)",
+     "synth→real nearest-neighbour dist vs baseline", "↑"],
 ]
-table(s, rows, 0.7, 2.05, 12.0, 3.0, font=13,
-      col_widths=[2.6, 3.3, 5.0, 0.7])
+table(s, rows, 0.7, 1.95, 12.0, 3.6, font=12,
+      col_widths=[2.7, 3.3, 5.0, 0.7])
 bullets(s, [
-    "Cross-table & within-table MAE: lower = closer to real. KS p-value: higher = timing indistinguishable from real.",
-    "Autocorr is a column vs its own past (over time); corr MAE is between different columns (same row).",
-], y=5.3, size=14, gap=8)
+    "Autocorr = a column vs its own past (over time); corr MAE = between different columns (same row).",
+    "Privacy metrics (SDMetrics) measure leakage; M5 alone adds a formal (ε, δ)-DP guarantee.",
+], y=5.75, size=13, gap=7)
 
 # ════════════════════════════════════════════════════════════════════════════
 # 9 — Results dashboard
@@ -320,14 +324,14 @@ s = slide(); header(s, "Within-customer correlation: M1 dominates", "In-table co
 fit_image(s, REPORTS/"in_table_correlation.png", 0.7, 1.65, 8.4, 4.9)
 tf = box(s, 9.4, 1.9, 3.5, 4.4); tf.word_wrap = True
 _set(tf.paragraphs[0], "MAE vs Real ↓", 15, ACCENT, bold=True)
-for m, v, note in [("M1", "0.040", "Gaussian Copula"), ("M4", "0.110", ""),
-                   ("M3", "0.124", ""), ("M2", "0.138", ""),
-                   ("M5", "0.212", "DP cost")]:
+for m, v, note in [("M1", "0.029", "Gaussian Copula"), ("M4", "0.056", ""),
+                   ("M2", "0.132", ""), ("M3", "0.139", ""),
+                   ("M5", "0.225", "DP cost")]:
     p = tf.add_paragraph()
     _set(p, f"{m}  {v}" + (f"   ({note})" if note else ""), 14,
          METHOD[m], bold=(m in ("M1", "M5"))); p.space_after = Pt(7)
 p = tf.add_paragraph()
-_set(p, "M1 reproduces income↔credit↔age 3–5× better; M5 (best marginals) is worst on correlation.",
+_set(p, "M1 reproduces income↔credit↔age ~2–8× better; M5 (best marginals) is worst on correlation.",
      12, MUTED, italic=True)
 caption(s, "Pearson correlation of customer numeric columns — Real vs each method (MAE over off-diagonal pairs).")
 
@@ -335,20 +339,35 @@ caption(s, "Pearson correlation of customer numeric columns — Real vs each met
 s = slide(); header(s, "Correlation scorecard — all methods", "Correlation summary")
 rows = [
     ["Method", "Within-table\ncorr MAE ↓", "Cross-table\nMAD ↓", "Cust. pair\ntrends ↑"],
-    ["M1 HMA GC", "0.040", "0.242", "0.720"],
-    ["M2 CTGAN", "0.138", "0.281", "0.544"],
-    ["M3 CTGAN+PAR", "0.124", "0.195", "0.540"],
-    ["M4 TVAE", "0.110", "0.288", "0.683"],
-    ["M5 SmartNoise", "0.212", "0.297", "0.680"],
+    ["M1 HMA GC", "0.029", "0.379", "0.737"],
+    ["M2 CTGAN", "0.132", "0.394", "0.567"],
+    ["M3 CTGAN+PAR", "0.139", "0.296", "0.547"],
+    ["M4 TVAE", "0.056", "0.392", "0.780"],
+    ["M5 SmartNoise", "0.225", "0.387", "0.850"],
 ]
 cc = {(i+1, 0): METHOD[m] for i, m in enumerate(["M1","M2","M3","M4","M5"])}
-cc.update({(1,1): GOOD, (1,3): GOOD, (3,2): GOOD})   # winners: M1 within/pairs, M3 cross-table
+cc.update({(1,1): GOOD, (3,2): GOOD, (5,3): GOOD})   # winners: M1 within, M3 cross-table, M5 pairs
 table(s, rows, 1.6, 2.1, 10.1, 3.2, font=14,
       col_widths=[3.1, 2.5, 2.3, 2.2], cell_colors=cc)
 bullets(s, [
-    "M1 owns within-table correlation (0.040) and customer pair trends (0.720) — the relationship signals.",
-    "Cross-table (income→product) is weak for all; M3 least bad. M5 trades correlation for marginals + privacy.",
-], y=5.6, size=14, gap=8)
+    "M1 owns the raw numeric correlation matrix (within-table MAE 0.029); M4 second (0.056).",
+    "SDMetrics pair trends (num+cat) favours M5 (0.850), but its raw numeric correlations are worst.",
+    "Cross-table (income→product) stays weak for all — M3 least bad.",
+], y=5.55, size=13, gap=7)
+
+# Privacy — guarantee vs measured
+s = slide(); header(s, "Privacy: guarantee ≠ measured protection", "Privacy", color=METHOD["M5"])
+fit_image(s, REPORTS/"privacy_dcr.png", 0.7, 1.75, 7.6, 4.5)
+tf = box(s, 8.5, 1.9, 4.4, 4.6); tf.word_wrap = True
+_set(tf.paragraphs[0], "Two notions of privacy", 16, METHOD["M5"], bold=True)
+for t in ["M5 (SmartNoise) is the ONLY method with a formal (ε≈6, δ)-DP guarantee.",
+          "But on measured DCR it is the LEAST protected (0.57) — M3 most (0.74).",
+          "DP bounds one person's worst-case influence; DCR measures average closeness to real rows.",
+          "M5's faithful marginals sit closest to real data → lowest DCR.",
+          "NewRowSynthesis = 1.0 for all (no verbatim copies).",
+          "Fidelity and record-distance trade off — a guarantee ≠ best DCR."]:
+    p = tf.add_paragraph(); _set(p, "• " + t, 12.5, INK); p.space_after = Pt(7)
+caption(s, "DCRBaselineProtection on the customers table (higher = more protected) — measured with SDMetrics.")
 
 # ════════════════════════════════════════════════════════════════════════════
 # 11 — Distributions
@@ -365,29 +384,31 @@ caption(s, "Real (grey fill) vs each method (coloured outline) — per variable 
 # ════════════════════════════════════════════════════════════════════════════
 # 12 — Verdict
 # ════════════════════════════════════════════════════════════════════════════
-s = slide(); header(s, "Results at 1,000 seeds — SDV vs DP", "Verdict")
+s = slide(); header(s, "Results at 2,000 seeds · ~12 txns — SDV vs DP", "Verdict")
 rows = [
     ["Metric", "M1", "M2", "M3", "M4", "M5", "Winner"],
-    ["Overall quality", "0.851", "0.840", "0.544", "0.826", "0.887", "M5"],
-    ["Diagnostic / FK", "1.000", "1.000", "0.765", "1.000", "1.000", "tie"],
-    ["Cust. pair trends", "0.720", "0.544", "0.540", "0.683", "0.680", "M1"],
-    ["Txn. column shapes", "0.818", "0.851", "0.739", "0.788", "0.880", "M5"],
-    ["Cross-table MAD ↓", "0.242", "0.281", "0.195", "0.288", "0.297", "M3"],
-    ["Autocorr MAE ↓", "0.076", "0.063", "0.124", "0.022", "0.005", "M5"],
-    ["Differential privacy", "✗", "✗", "✗", "✗", "✓", "M5"],
+    ["Overall quality", "0.888", "0.854", "0.647", "0.887", "0.861", "M1≈M4"],
+    ["Diagnostic / FK", "1.000", "1.000", "0.744", "1.000", "1.000", "tie"],
+    ["Cust. pair trends", "0.737", "0.567", "0.547", "0.780", "0.850", "M5"],
+    ["Txn. column shapes", "0.865", "0.908", "0.783", "0.826", "0.856", "M2"],
+    ["Cross-table MAD ↓", "0.379", "0.394", "0.296", "0.392", "0.387", "M3"],
+    ["Autocorr MAE ↓", "0.079", "0.011", "0.041", "0.028", "0.569", "M2"],
+    ["Diff. privacy", "✗", "✗", "✗", "✗", "✓", "M5"],
+    ["DCR protection ↑", "0.61", "0.69", "0.74", "0.65", "0.57", "M3"],
 ]
-table(s, rows, 0.7, 1.95, 9.2, 3.9, font=12,
+table(s, rows, 0.7, 1.9, 9.2, 4.2, font=12,
       col_widths=[2.5,0.95,0.95,0.95,0.95,0.95,1.95])
-tf = box(s, 10.15, 1.95, 2.9, 4.2); tf.word_wrap = True
+tf = box(s, 10.15, 1.9, 2.9, 4.3); tf.word_wrap = True
 _set(tf.paragraphs[0], "Pick by need", 16, ACCENT, bold=True)
-for t in ["M5 — privacy + best overall fidelity",
+for t in ["M1 ≈ M4 — best all-round fidelity",
           "M1 — demographic correlations (recommender)",
-          "M4 — simple per-table SDV pipeline",
-          "M2 — transaction timing",
-          "M3 — cross-table only, costly"]:
-    p = tf.add_paragraph(); _set(p, "• " + t, 13, INK); p.space_after = Pt(8)
+          "M2 — transaction shapes & timing",
+          "M5 — the only privacy guarantee",
+          "M3 — cross-table & DCR, low utility"]:
+    p = tf.add_paragraph(); _set(p, "• " + t, 13, INK); p.space_after = Pt(7)
 p = tf.add_paragraph()
-_set(p, "DP costs ~0 on marginals — but most on cross-table signal.", 12, METHOD["M5"], italic=True)
+_set(p, "More data closed M5's quality lead; 12 txns/cust exposed its temporal gap.",
+     12, METHOD["M5"], italic=True)
 
 # ════════════════════════════════════════════════════════════════════════════
 # 13 — LLM application
@@ -397,12 +418,12 @@ tf = box(s, 0.85, 1.85, 11.6, 0.9); tf.word_wrap = True
 _set(tf.paragraphs[0], "Feed a synthetic M1 customer profile to DeepSeek (deepseek-chat) → 3 ranked products.",
      17, INK)
 p = tf.add_paragraph()
-_set(p, "Synthetic customer C01502 — 42, Business Owner, income ~$91k, credit 675, PhD", 14, MUTED, italic=True)
+_set(p, "Synthetic customer C01502 — 39, Retired, income ~$135k, credit 699", 14, MUTED, italic=True)
 rows = [
     ["#", "Product", "Why"],
-    ["1", "Investment Fund A", "high income + PhD → wealth growth, low-med risk, not held"],
-    ["2", "Fixed Deposit 1Y", "already holds savings; low-risk, stable returns"],
-    ["3", "Personal Loan", "good credit, no credit products → consolidate / build history"],
+    ["1", "Credit Card Basic", "solid credit, high income, holds no credit card → build history"],
+    ["2", "Investment Fund A", "high income + long tenure → diversify, low entry, medium risk"],
+    ["3", "Health Insurance Basic", "already holds premium health → low-cost secondary coverage"],
 ]
 table(s, rows, 0.85, 3.0, 11.6, 2.2, font=14, header_fill=METHOD["M4"],
       col_widths=[0.7, 3.6, 7.3])
@@ -415,13 +436,13 @@ bullets(s, ["Catalog cached in the system prompt — repeat calls hit 512 cached
 # ════════════════════════════════════════════════════════════════════════════
 s = slide(); header(s, "Takeaways", "Wrap-up")
 bullets(s, [
-    "Method choice is task-dependent — there is no universal winner.",
-    ("Privacy? M5 (SmartNoise DP). Demographic correlations? M1 (HMA+GC). Per-table SDV? M4 (TVAE).", 1),
-    "Differential privacy was nearly free on marginal fidelity here — but costs most on cross-table signal.",
+    "Method choice is task-dependent — and the leaderboard moved when we scaled to 2k × 12 txns.",
+    ("Privacy guarantee? M5. All-round fidelity / correlations? M1 ≈ M4. Transaction timing? M2.", 1),
+    "More data closed M5's quality lead; more transactions exposed its missing temporal model.",
+    "A DP guarantee (M5) ≠ best measured DCR (M3): guarantee and empirical leakage are different axes.",
     "Constraints turn 'realistic-looking' data into provably valid data.",
-    "Measure correlations and business signal, not just per-column histograms.",
-    "End-to-end & reproducible: seed → synthesize → evaluate → recommend, all in one notebook.",
-], gap=12, size=18)
+    "End-to-end & reproducible: seed → synthesize → evaluate (+privacy) → recommend, one notebook.",
+], gap=11, size=17)
 tf = box(s, 0.85, 6.5, 11.6, 0.6)
 _set(tf.paragraphs[0], "Code: src/{methods,constraints,evaluate,llm_suggest}.py  ·  synthetic_data_pipeline.ipynb",
      13, MUTED, italic=True)

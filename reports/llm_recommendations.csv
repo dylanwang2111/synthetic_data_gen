@@ -1,16 +1,16 @@
 customer_id,rank,product_id,name,cache_read
-C01515,1,P006,Credit Card Basic,512
-C01515,2,P013,Fixed Deposit 1Y,512
-C01515,3,P009,Health Insurance Basic,512
-C00133,1,P001,Basic Savings Account,512
-C00133,2,P003,Personal Loan,512
-C00133,3,P006,Credit Card Basic,512
+C00954,1,P007,Credit Card Premium,512
+C00954,2,P010,Health Insurance Premium,512
+C00954,3,P012,Investment Fund B,512
+C01058,1,P001,Basic Savings Account,512
+C01058,2,P006,Credit Card Basic,512
+C01058,3,P013,Fixed Deposit 1Y,512
 C00218,1,P013,Fixed Deposit 1Y,512
-C00218,2,P001,Basic Savings Account,512
-C00218,3,P011,Investment Fund A,512
-C01817,1,P003,Personal Loan,512
-C01817,2,P009,Health Insurance Basic,512
-C01817,3,P013,Fixed Deposit 1Y,512
-C00698,1,P006,Credit Card Basic,512
-C00698,2,P013,Fixed Deposit 1Y,512
-C00698,3,P009,Health Insurance Basic,512
+C00218,2,P006,Credit Card Basic,512
+C00218,3,P003,Personal Loan,512
+C01023,1,P006,Credit Card Basic,512
+C01023,2,P014,Fixed Deposit 3Y,512
+C01023,3,P008,Term Life Insurance,512
+C00445,1,P006,Credit Card Basic,512
+C00445,2,P013,Fixed Deposit 1Y,512
+C00445,3,P009,Health Insurance Basic,512
