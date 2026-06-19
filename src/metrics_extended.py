@@ -18,6 +18,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr, ks_2samp
 from sdmetrics.reports.multi_table import QualityReport, DiagnosticReport
+from sdmetrics.single_table import NewRowSynthesis, DCRBaselineProtection
 
 from .schema import build_metadata_2table
 
@@ -167,6 +168,51 @@ def _sdmetrics_scores(real_data: dict, syn_data: dict) -> dict:
 # ─────────────────────────────────────────────────────────────────────────────
 # Compare all methods
 # ─────────────────────────────────────────────────────────────────────────────
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Empirical privacy (SDMetrics)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _customers_single_meta() -> dict:
+    """Single-table metadata for the customers table, excluding the id column."""
+    cols = build_metadata_2table().to_dict()["tables"]["customers"]["columns"]
+    return {"columns": {k: v for k, v in cols.items() if k != "customer_id"}}
+
+
+def privacy_scores(real_customers: pd.DataFrame, syn_customers: pd.DataFrame,
+                   subsample: int = 1000) -> dict:
+    """
+    Empirical privacy of the (PII-bearing) customers table. Both metrics: higher = more private.
+
+    new_row_synthesis : fraction of synthetic rows that are NOT copies of a real row
+                        (verbatim within a numerical tolerance).
+    dcr_protection    : DCRBaselineProtection — synthetic→real distance-to-closest-record
+                        vs a random-data baseline; low values flag memorisation.
+    """
+    meta = _customers_single_meta()
+    r = real_customers.drop(columns=["customer_id"])
+    s = syn_customers.drop(columns=["customer_id"])
+    n_sample = min(len(s), subsample)
+    new_row = NewRowSynthesis.compute(r, s, meta, synthetic_sample_size=n_sample)
+    dcr     = DCRBaselineProtection.compute(r, s, meta, num_rows_subsample=subsample)
+    return {"new_row_synthesis": round(float(new_row), 4),
+            "dcr_protection":    round(float(dcr), 4)}
+
+
+def compare_privacy(real_data: dict,
+                    synthetic_datasets: dict[str, dict]) -> pd.DataFrame:
+    """Privacy scorecard (customers table) across methods. Higher = more private."""
+    rows = []
+    for name, syn in synthetic_datasets.items():
+        print(f"  Privacy: {name} …")
+        row = {"method": name}
+        try:
+            row.update(privacy_scores(real_data["customers"], syn["customers"]))
+        except Exception as e:
+            print(f"    ⚠ Privacy error: {e}")
+        rows.append(row)
+    return pd.DataFrame(rows).set_index("method")
+
 
 def compare_methods(real_data: dict,
                     synthetic_datasets: dict[str, dict]) -> pd.DataFrame:

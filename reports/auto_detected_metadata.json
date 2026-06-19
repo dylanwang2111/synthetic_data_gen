@@ -1,6 +1,7 @@
 {
   "tables": {
     "products": {
+      "primary_key": "product_id",
       "columns": {
         "product_id": {
           "sdtype": "id"
@@ -20,10 +21,10 @@
         "is_premium": {
           "sdtype": "categorical"
         }
-      },
-      "primary_key": "product_id"
+      }
     },
     "customers": {
+      "primary_key": "customer_id",
       "columns": {
         "customer_id": {
           "sdtype": "id"
@@ -61,10 +62,10 @@
         "is_churned": {
           "sdtype": "categorical"
         }
-      },
-      "primary_key": "customer_id"
+      }
     },
     "transactions": {
+      "primary_key": "transaction_id",
       "columns": {
         "transaction_id": {
           "sdtype": "id"
@@ -93,8 +94,7 @@
         "is_first_product": {
           "sdtype": "categorical"
         }
-      },
-      "primary_key": "transaction_id"
+      }
     }
   },
   "relationships": [

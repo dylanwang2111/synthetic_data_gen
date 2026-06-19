@@ -1,0 +1,6 @@
+method,new_row_synthesis,dcr_protection
+M1 – HMA GC,1.0,0.6056
+M2 – CTGAN,1.0,0.688
+M3 – CTGAN+PAR,1.0,0.7384
+M4 – TVAE,1.0,0.6468
+M5 – SmartNoise,1.0,0.5715
