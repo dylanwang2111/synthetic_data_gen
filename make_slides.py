@@ -261,6 +261,46 @@ bullets(s, [
     "Key idea: we score correlations and business signal, not just histograms.",
 ], gap=10, size=17)
 
+# ── Metric definitions 1 — SDMetrics fidelity ───────────────────────────────
+s = slide(); header(s, "Metrics — fidelity (SDMetrics)", "How they're computed")
+rows = [
+    ["Metric", "What it measures", "How it's computed", "↑/↓"],
+    ["Cust. Shapes", "Per-column marginals (customers)",
+     "avg KSComplement (num) / TVComplement (cat)", "↑"],
+    ["Txn. Shapes", "Per-column marginals (transactions)",
+     "same complements on transaction columns", "↑"],
+    ["Cust. Pairs", "Pairwise column relationships",
+     "avg CorrelationSimilarity / ContingencySimilarity", "↑"],
+    ["Diagnostic", "Validity & structure (not fidelity)",
+     "ranges · categories · keys · FK integrity", "↑"],
+]
+table(s, rows, 0.7, 2.05, 12.0, 3.0, font=13,
+      col_widths=[1.9, 3.5, 5.0, 0.7])
+bullets(s, [
+    "KSComplement = 1 − KS distance · TVComplement = 1 − total-variation distance (1.0 = identical).",
+    "Overall quality score = average of Column Shapes and Column Pair Trends.",
+], y=5.3, size=14, gap=8)
+
+# ── Metric definitions 2 — custom correlation & temporal ────────────────────
+s = slide(); header(s, "Metrics — correlation & temporal (custom)", "How they're computed")
+rows = [
+    ["Metric", "What it measures", "How it's computed", "↑/↓"],
+    ["Cross-table MAD", "feature → product-category signal",
+     "mean |Δ Spearman(feature, %category)| real vs synth", "↓"],
+    ["Within-table corr MAE", "customer column correlations",
+     "mean |Δ Pearson| over off-diagonal pairs", "↓"],
+    ["IA KS p-value", "transaction timing realism",
+     "KS test on days-between-consecutive-txns", "↑"],
+    ["Autocorr MAE", "sequential spend pattern",
+     "|Δ mean lag-1 autocorrelation of amount|", "↓"],
+]
+table(s, rows, 0.7, 2.05, 12.0, 3.0, font=13,
+      col_widths=[2.6, 3.3, 5.0, 0.7])
+bullets(s, [
+    "Cross-table & within-table MAE: lower = closer to real. KS p-value: higher = timing indistinguishable from real.",
+    "Autocorr is a column vs its own past (over time); corr MAE is between different columns (same row).",
+], y=5.3, size=14, gap=8)
+
 # ════════════════════════════════════════════════════════════════════════════
 # 9 — Results dashboard
 # ════════════════════════════════════════════════════════════════════════════
@@ -290,6 +330,25 @@ p = tf.add_paragraph()
 _set(p, "M1 reproduces income↔credit↔age 3–5× better; M5 (best marginals) is worst on correlation.",
      12, MUTED, italic=True)
 caption(s, "Pearson correlation of customer numeric columns — Real vs each method (MAE over off-diagonal pairs).")
+
+# Correlation summary table (all methods, all correlation metrics)
+s = slide(); header(s, "Correlation scorecard — all methods", "Correlation summary")
+rows = [
+    ["Method", "Within-table\ncorr MAE ↓", "Cross-table\nMAD ↓", "Cust. pair\ntrends ↑"],
+    ["M1 HMA GC", "0.040", "0.242", "0.720"],
+    ["M2 CTGAN", "0.138", "0.281", "0.544"],
+    ["M3 CTGAN+PAR", "0.124", "0.195", "0.540"],
+    ["M4 TVAE", "0.110", "0.288", "0.683"],
+    ["M5 SmartNoise", "0.212", "0.297", "0.680"],
+]
+cc = {(i+1, 0): METHOD[m] for i, m in enumerate(["M1","M2","M3","M4","M5"])}
+cc.update({(1,1): GOOD, (1,3): GOOD, (3,2): GOOD})   # winners: M1 within/pairs, M3 cross-table
+table(s, rows, 1.6, 2.1, 10.1, 3.2, font=14,
+      col_widths=[3.1, 2.5, 2.3, 2.2], cell_colors=cc)
+bullets(s, [
+    "M1 owns within-table correlation (0.040) and customer pair trends (0.720) — the relationship signals.",
+    "Cross-table (income→product) is weak for all; M3 least bad. M5 trades correlation for marginals + privacy.",
+], y=5.6, size=14, gap=8)
 
 # ════════════════════════════════════════════════════════════════════════════
 # 11 — Distributions
