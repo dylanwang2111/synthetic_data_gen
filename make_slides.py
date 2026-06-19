@@ -273,7 +273,23 @@ caption(s, "Normalised so higher = better on every axis. No single method domina
 # ════════════════════════════════════════════════════════════════════════════
 s = slide(); header(s, "Does income still predict products?", "Cross-table correlation")
 fit_image(s, REPORTS/"cross_table_heatmap.png", 0.6, 1.8, 12.2, 4.5)
-caption(s, "Feature→category Spearman correlations. The closer each method's grid matches 'Real', the lower its cross-table MAD.")
+caption(s, "Feature→category Spearman correlations. Weak for every method — the cross-table signal is the hardest to keep.")
+
+# Within-table correlation
+s = slide(); header(s, "Within-customer correlation: M1 dominates", "In-table correlation")
+fit_image(s, REPORTS/"in_table_correlation.png", 0.7, 1.65, 8.4, 4.9)
+tf = box(s, 9.4, 1.9, 3.5, 4.4); tf.word_wrap = True
+_set(tf.paragraphs[0], "MAE vs Real ↓", 15, ACCENT, bold=True)
+for m, v, note in [("M1", "0.040", "Gaussian Copula"), ("M4", "0.110", ""),
+                   ("M3", "0.124", ""), ("M2", "0.138", ""),
+                   ("M5", "0.212", "DP cost")]:
+    p = tf.add_paragraph()
+    _set(p, f"{m}  {v}" + (f"   ({note})" if note else ""), 14,
+         METHOD[m], bold=(m in ("M1", "M5"))); p.space_after = Pt(7)
+p = tf.add_paragraph()
+_set(p, "M1 reproduces income↔credit↔age 3–5× better; M5 (best marginals) is worst on correlation.",
+     12, MUTED, italic=True)
+caption(s, "Pearson correlation of customer numeric columns — Real vs each method (MAE over off-diagonal pairs).")
 
 # ════════════════════════════════════════════════════════════════════════════
 # 11 — Distributions
