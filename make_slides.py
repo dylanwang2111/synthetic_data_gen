@@ -463,6 +463,20 @@ p = tf.add_paragraph()
 _set(p, "More data closed M5's quality lead; 12 txns/cust exposed its temporal gap.",
      12, METHOD["M5"], italic=True)
 
+# ── Bootstrap confidence intervals ───────────────────────────────────────────
+s = slide(); header(s, "Are the differences real? 95% bootstrap CIs", "Robustness")
+fit_image(s, REPORTS/"bootstrap_ci.png", 0.5, 1.75, 8.8, 4.9)
+tf = box(s, 9.55, 1.9, 3.45, 4.8); tf.word_wrap = True
+_set(tf.paragraphs[0], "What the overlap tells us", 14, ACCENT, bold=True)
+for t in ["B=200 resamples of customers (+ their txns); whiskers = 2.5–97.5%.",
+          "M1 ≈ M4 on quality — CIs overlap, so the tie is real, not noise.",
+          "Cross-table: only M3 separates; M1/M2/M4/M5 are statistically tied.",
+          "M5 leads pair trends (lower CI 0.80 > M4's 0.79) — a genuine edge.",
+          "M5's autocorr (~0.57) and lowest DCR are clear-cut, non-overlapping.",
+          "M5's quality CI is the widest — DP randomness makes it least stable."]:
+    p = tf.add_paragraph(); _set(p, "• " + t, 11.5, INK); p.space_after = Pt(7)
+caption(s, "Median ± 95% percentile CI per metric (privacy at B=40, subsample 500). Non-overlapping intervals = a real difference.")
+
 # ════════════════════════════════════════════════════════════════════════════
 # 13 — LLM application
 # ════════════════════════════════════════════════════════════════════════════
