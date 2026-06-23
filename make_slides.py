@@ -312,6 +312,18 @@ s = slide(); header(s, "All methods, all metrics", "Results")
 fit_image(s, REPORTS/"comparison_dashboard.png", 0.8, 1.7, 12.0, 4.7)
 caption(s, "Normalised so higher = better on every axis. No single method dominates — the trade-offs are the story.")
 
+# ── SDMetrics Quality Report showcase ────────────────────────────────────────
+s = slide(); header(s, "SDMetrics Quality Report", "Fidelity scorecard")
+fit_image(s, REPORTS/"quality_report.png", 0.7, 1.65, 9.0, 5.0)
+tf = box(s, 9.9, 1.85, 3.1, 4.7); tf.word_wrap = True
+_set(tf.paragraphs[0], "Overall = mean of\nColumn Shapes &\nColumn Pair Trends", 13, ACCENT, bold=True)
+for t in ["M1 ≈ M4 lead overall (0.89) — strong on both halves.",
+          "M5 wins customer pair trends (0.85) but on raw numeric correlation it's worst (see in-table slide).",
+          "M2 best on transaction shapes (0.91), weak on pair trends.",
+          "M3 trails everywhere (0.65) — PAR sacrifices marginals for sequence context."]:
+    p = tf.add_paragraph(); _set(p, "• " + t, 12, INK); p.space_after = Pt(8)
+caption(s, "SDMetrics QualityReport overall score decomposed into its sub-components, per method.")
+
 # ════════════════════════════════════════════════════════════════════════════
 # 10 — Cross-table heatmap
 # ════════════════════════════════════════════════════════════════════════════
@@ -354,6 +366,47 @@ bullets(s, [
     "SDMetrics pair trends (num+cat) favours M5 (0.850), but its raw numeric correlations are worst.",
     "Cross-table (income→product) stays weak for all — M3 least bad.",
 ], y=5.55, size=13, gap=7)
+
+# ── How differential privacy works ──────────────────────────────────────────
+s = slide(); header(s, "How differential privacy works", "Method 5 · the guarantee", color=METHOD["M5"])
+panel = s.shapes.add_shape(5, Inches(0.85), Inches(1.75), Inches(11.6), Inches(1.2))
+panel.fill.solid(); panel.fill.fore_color.rgb = PANEL; panel.line.color.rgb = METHOD["M5"]
+tf = panel.text_frame; tf.word_wrap = True
+_set(tf.paragraphs[0],
+     "Add or remove any one person   →   P(output | with you)  ≤  e^ε · P(output | without you)",
+     17, INK, bold=True, align=PP_ALIGN.CENTER)
+p = tf.add_paragraph()
+_set(p, "The two clouds of possible outputs stay nearly identical — your footprint hides in the noise.",
+     13, MUTED, align=PP_ALIGN.CENTER)
+bullets(s, [
+    "A mathematical promise about the algorithm, not a property of the output — provable, not measured after the fact.",
+    "ε (privacy budget): small ε = strong privacy, blurry data; large ε = sharp data, weak privacy. Pipeline ≈ 3 / table.",
+    "δ: tiny probability the guarantee is allowed to fail (needed by the Gaussian mechanism).",
+    "Mechanism: add calibrated noise to aggregates — noise ∝ sensitivity / ε (how much one person can move the result).",
+    ("Never noise individual rows — noise the counts / histograms, then build data from those.", 1),
+    "Composition: customers (ε=3) + transactions (ε=3) → ε ≈ 6 for someone in both tables.",
+    "Post-processing immunity: anything computed from DP output stays DP — you can't 'use it up'.",
+], y=3.15, size=14.5, gap=8)
+
+# ── How SmartNoise / MST builds M5 ───────────────────────────────────────────
+s = slide(); header(s, "How SmartNoise / MST builds M5", "Method 5 · the mechanism", color=METHOD["M5"])
+bullets(s, [
+    "MST (private-PGM family): marginal-based — it learns noisy summaries and never memorises rows.",
+    "1 · Discretize — bucket every column into bins; privately learns the ranges (preprocessor_eps).",
+    "2 · Noisy 1-way marginals — per-column histograms with Gaussian noise added to every count.",
+    "3 · Maximum spanning tree — privately find the most-correlated column pairs and keep the tree that connects all columns; only those 2-way marginals are measured (+ noise).",
+    "4 · Fit a graphical model (Markov Random Field) consistent with the noisy marginals — pure post-processing, zero extra ε.",
+    "5 · Sample new rows from the fitted model.",
+    "Runs once per table (customers, transactions) → per-table ε composes to ≈ 6.",
+], y=1.95, size=15, gap=8)
+panel = s.shapes.add_shape(5, Inches(0.85), Inches(5.7), Inches(11.6), Inches(1.25))
+panel.fill.solid(); panel.fill.fore_color.rgb = PANEL; panel.line.color.rgb = METHOD["M5"]
+tf = panel.text_frame; tf.word_wrap = True
+_set(tf.paragraphs[0], "Why M5 looks the way it does", 13, METHOD["M5"], bold=True)
+p = tf.add_paragraph()
+_set(p, "Guarantee by construction · only measured marginals survive (off-tree structure like per-customer "
+        "sequencing is lost → autocorr collapses) · faithful marginals sit close to real rows → low DCR.",
+     12.5, INK)
 
 # Privacy — guarantee vs measured
 s = slide(); header(s, "Privacy: guarantee ≠ measured protection", "Privacy", color=METHOD["M5"])
@@ -409,6 +462,20 @@ for t in ["M1 ≈ M4 — best all-round fidelity",
 p = tf.add_paragraph()
 _set(p, "More data closed M5's quality lead; 12 txns/cust exposed its temporal gap.",
      12, METHOD["M5"], italic=True)
+
+# ── Bootstrap confidence intervals ───────────────────────────────────────────
+s = slide(); header(s, "Are the differences real? 95% bootstrap CIs", "Robustness")
+fit_image(s, REPORTS/"bootstrap_ci.png", 0.5, 1.75, 8.8, 4.9)
+tf = box(s, 9.55, 1.9, 3.45, 4.8); tf.word_wrap = True
+_set(tf.paragraphs[0], "What the overlap tells us", 14, ACCENT, bold=True)
+for t in ["B=200 resamples of customers (+ their txns); whiskers = 2.5–97.5%.",
+          "M1 ≈ M4 on quality — CIs overlap, so the tie is real, not noise.",
+          "Cross-table: only M3 separates; M1/M2/M4/M5 are statistically tied.",
+          "M5 leads pair trends (lower CI 0.80 > M4's 0.79) — a genuine edge.",
+          "M5's autocorr (~0.57) and lowest DCR are clear-cut, non-overlapping.",
+          "M5's quality CI is the widest — DP randomness makes it least stable."]:
+    p = tf.add_paragraph(); _set(p, "• " + t, 11.5, INK); p.space_after = Pt(7)
+caption(s, "Median ± 95% percentile CI per metric (privacy at B=40, subsample 500). Non-overlapping intervals = a real difference.")
 
 # ════════════════════════════════════════════════════════════════════════════
 # 13 — LLM application

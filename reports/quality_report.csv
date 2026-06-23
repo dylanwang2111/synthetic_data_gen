@@ -1,0 +1,6 @@
+method,quality_score,diagnostic_score,cust_column_shapes,cust_pair_trends,txn_column_shapes
+M1 HMA-GC,0.8884,1.0,0.9467,0.7365,0.865
+M2 CTGAN,0.8535,1.0,0.8403,0.5667,0.9078
+M3 PAR,0.6469,0.7439,0.786,0.5474,0.7827
+M4 TVAE,0.8867,1.0,0.7946,0.7804,0.8261
+M5 MST-DP,0.861,0.9997,0.934,0.8495,0.856
