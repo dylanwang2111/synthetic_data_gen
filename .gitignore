@@ -8,3 +8,9 @@ __pycache__/
 # Env / secrets
 .env
 *.env
+
+# Office lock / temp files
+~$*
+
+# Run logs
+reports/*_run.log

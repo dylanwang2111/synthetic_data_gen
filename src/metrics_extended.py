@@ -214,6 +214,159 @@ def compare_privacy(real_data: dict,
     return pd.DataFrame(rows).set_index("method")
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Bootstrap confidence intervals
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# Every metric above is a *point estimate* computed from one finite real sample
+# and one finite synthetic sample, so a single number hides how much it would
+# wobble under resampling.  To report the comparison "in the most accurate way"
+# we resample customers (with replacement, carrying + relabelling each
+# customer's transactions) B times, recompute every metric, and report the
+# median together with a 95% percentile confidence interval.
+#
+# Within each bootstrap iteration the *same* resampled real dataset is shared
+# across all methods (common random numbers), so method-vs-method differences
+# are measured on identical draws — the ranking is then trustworthy, not noise.
+
+def _txn_index(transactions: pd.DataFrame) -> dict:
+    """Pre-group transactions by customer_id once, for fast resampling."""
+    return {cid: g for cid, g in transactions.groupby("customer_id")}
+
+
+def _resample(customers: pd.DataFrame, txn_index: dict,
+              rng: np.random.Generator, prefix: str) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """
+    Customer-level bootstrap resample.  Draws len(customers) customers with
+    replacement and relabels customer_id (and transaction_id) so duplicated
+    customers stay distinct — keeping groupby, key-uniqueness and referential
+    integrity valid for the metrics and SDMetrics reports.
+    """
+    n = len(customers)
+    idx = rng.integers(0, n, n)
+    cust = customers.iloc[idx].reset_index(drop=True).copy()
+    new_ids = [f"{prefix}{i:06d}" for i in range(n)]
+
+    txn_parts, tcounter = [], 0
+    for new_id, orig_id in zip(new_ids, cust["customer_id"].to_numpy()):
+        g = txn_index.get(orig_id)
+        if g is None or len(g) == 0:
+            continue
+        gg = g.copy()
+        gg["customer_id"] = new_id
+        gg["transaction_id"] = [f"{prefix}T{tcounter + k:07d}" for k in range(len(gg))]
+        tcounter += len(gg)
+        txn_parts.append(gg)
+
+    cust["customer_id"] = new_ids
+    txn = (pd.concat(txn_parts, ignore_index=True)
+           if txn_parts else customers.iloc[0:0].copy())
+    return cust, txn
+
+
+def _ci(series: pd.Series) -> dict:
+    s = series.dropna()
+    if s.empty:
+        return {"median": np.nan, "ci_low": np.nan, "ci_high": np.nan, "std": np.nan}
+    return {
+        "median":  round(float(s.median()), 4),
+        "ci_low":  round(float(s.quantile(0.025)), 4),
+        "ci_high": round(float(s.quantile(0.975)), 4),
+        "std":     round(float(s.std()), 4),
+    }
+
+
+def bootstrap_compare_methods(real_data: dict,
+                              synthetic_datasets: dict[str, dict],
+                              n_boot: int = 200,
+                              n_boot_privacy: int = 40,
+                              priv_subsample: int = 500,
+                              seed: int = 0,
+                              progress_every: int = 25) -> dict:
+    """
+    Bootstrap every metric across methods.
+
+    Returns a dict with:
+      "raw"      : long DataFrame, one row per (method, iteration) with all metrics
+      "summary"  : tidy DataFrame indexed by method, columns
+                   "<metric>_median", "<metric>_ci_low", "<metric>_ci_high"
+
+    Cheap metrics (quality / diagnostic / cross-table / temporal) use n_boot
+    iterations; the expensive privacy metrics use n_boot_privacy iterations with
+    a smaller subsample (DCR cost grows ~quadratically with subsample size).
+    """
+    import warnings
+    rng = np.random.default_rng(seed)
+    real_idx = _txn_index(real_data["transactions"])
+    syn_idx  = {m: _txn_index(s["transactions"]) for m, s in synthetic_datasets.items()}
+
+    rows = []
+    warnings.filterwarnings("ignore", category=RuntimeWarning)
+    for b in range(n_boot):
+        if progress_every and b % progress_every == 0:
+            print(f"  bootstrap {b}/{n_boot} …", flush=True)
+        # Shared resampled real for this iteration (common random numbers).
+        rc, rt = _resample(real_data["customers"], real_idx, rng, prefix="R")
+        real_b = {"customers": rc, "transactions": rt}
+        do_priv = b < n_boot_privacy
+
+        for name, syn in synthetic_datasets.items():
+            sc, st = _resample(syn["customers"], syn_idx[name], rng, prefix="S")
+            syn_b = {"customers": sc, "transactions": st}
+            row = {"method": name, "iter": b}
+
+            try:
+                row.update(_sdmetrics_scores(real_b, syn_b))
+            except Exception as e:
+                print(f"    ⚠ SDMetrics ({name}, b={b}): {e}")
+            try:
+                ct = cross_table_score(rc, rt, sc, st)
+                row["cross_table_mad"] = ct["mean_abs_delta"]
+            except Exception as e:
+                print(f"    ⚠ Cross-table ({name}, b={b}): {e}")
+            try:
+                ts = temporal_score(rt, st)
+                row["ia_ks_pvalue"] = ts["ia_ks_pvalue"]
+                row["autocorr_mae"] = ts["autocorr_mae"]
+            except Exception as e:
+                print(f"    ⚠ Temporal ({name}, b={b}): {e}")
+            if do_priv:
+                try:
+                    row.update(privacy_scores(rc, sc, subsample=priv_subsample))
+                except Exception as e:
+                    print(f"    ⚠ Privacy ({name}, b={b}): {e}")
+            rows.append(row)
+
+    raw = pd.DataFrame(rows)
+    metrics = [c for c in raw.columns if c not in ("method", "iter")]
+    summary_rows = []
+    for name, g in raw.groupby("method"):
+        rec = {"method": name}
+        for m in metrics:
+            ci = _ci(g[m])
+            rec[f"{m}_median"]  = ci["median"]
+            rec[f"{m}_ci_low"]  = ci["ci_low"]
+            rec[f"{m}_ci_high"] = ci["ci_high"]
+        summary_rows.append(rec)
+    summary = pd.DataFrame(summary_rows).set_index("method")
+    return {"raw": raw, "summary": summary}
+
+
+def format_ci_table(summary: pd.DataFrame,
+                    metrics: list[str] | None = None) -> pd.DataFrame:
+    """Render the bootstrap summary as 'median [low, high]' strings per metric."""
+    if metrics is None:
+        metrics = [c[:-len("_median")] for c in summary.columns
+                   if c.endswith("_median")]
+    out = {}
+    for m in metrics:
+        med, lo, hi = f"{m}_median", f"{m}_ci_low", f"{m}_ci_high"
+        if med in summary.columns:
+            out[m] = [f"{summary.loc[i, med]:.3f} [{summary.loc[i, lo]:.3f}, "
+                      f"{summary.loc[i, hi]:.3f}]" for i in summary.index]
+    return pd.DataFrame(out, index=summary.index)
+
+
 def compare_methods(real_data: dict,
                     synthetic_datasets: dict[str, dict]) -> pd.DataFrame:
     """
