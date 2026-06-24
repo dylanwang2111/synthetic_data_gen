@@ -199,6 +199,162 @@ def privacy_scores(real_customers: pd.DataFrame, syn_customers: pd.DataFrame,
             "dcr_protection":    round(float(dcr), 4)}
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Measurable privacy: distance-based membership-inference audit
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# ε itself is *accounted*, not measured — it is a worst-case property of the
+# algorithm.  What we CAN measure empirically (for every method, DP or not) is
+# how much the synthetic output leaks membership: can an attacker tell whether a
+# record was in the training set?
+#
+# Attack (DCR / DOMIAS-style): members = the real training customers; an
+# independent "non-member" control is drawn from the SAME generative process but
+# never seen by the synthesizer.  For each record we take the distance to its
+# nearest synthetic row.  If the synthesizer memorises, members sit closer than
+# non-members → the attacker (score = −distance) separates them → AUC > 0.5.
+# The ROC is then converted to an empirical ε *lower bound* (Kairouz et al.).
+
+CUST_NUM = ["age", "income", "credit_score", "tenure_years", "num_dependents"]
+CUST_CAT = ["gender", "education", "occupation", "marital_status", "region", "is_churned"]
+
+
+def _encode_customers(frames, ref, num_cols, cat_cols):
+    """Mixed-type → numeric matrix: z-scored numerics + weighted one-hot cats.
+    Scaling/categories are fixed from `ref` (the members) so all frames share a space."""
+    mu = ref[num_cols].mean()
+    sd = ref[num_cols].std().replace(0, 1.0)
+    cats = {c: sorted(ref[c].astype(str).unique()) for c in cat_cols}
+    out = []
+    for df in frames:
+        parts = [((df[num_cols] - mu) / sd).to_numpy(dtype=float)]
+        for c in cat_cols:
+            d = pd.get_dummies(df[c].astype(str)).reindex(columns=cats[c], fill_value=0)
+            parts.append(d.to_numpy(dtype=float) * 0.7071)  # cat mismatch ≈ unit dist
+        out.append(np.hstack(parts))
+    return out
+
+
+def _empirical_eps(dm: np.ndarray, dn: np.ndarray,
+                   alpha: float = 0.05, delta: float = 1e-5) -> float:
+    """Clopper-Pearson empirical ε lower bound (DP auditing, Jagielski/Nasr style).
+
+    The attack flags a record as a member when its nearest-synthetic distance is
+    below a threshold. Sweeping thresholds over the member-like (small-distance)
+    region, we take a *confidence* lower bound on TPR and upper bound on FPR
+    (Clopper-Pearson at level alpha) so a single noisy ROC corner cannot inflate
+    the estimate, then ε = max_t log((TPR_lo − δ) / FPR_hi). Returns 0 when the
+    attack is no better than chance — the honest answer for ~0.5 AUC."""
+    from scipy.stats import beta
+    n_pos, n_neg = len(dm), len(dn)
+    # thresholds focused on the small-distance (member-flagging) region
+    pool = np.concatenate([dm, dn])
+    thr = np.quantile(pool, np.linspace(0.0, 0.5, 200))
+    tp = (dm[:, None] <= thr[None, :]).sum(0)
+    fp = (dn[:, None] <= thr[None, :]).sum(0)
+    tpr_lo = np.where(tp > 0, beta.ppf(alpha / 2, tp, n_pos - tp + 1), 0.0)
+    fpr_hi = np.where(fp < n_neg, beta.ppf(1 - alpha / 2, fp + 1, n_neg - fp), 1.0)
+    fpr_hi = np.clip(fpr_hi, 1e-12, None)
+    eps = np.log(np.clip((tpr_lo - delta) / fpr_hi, 1e-12, None))
+    return max(0.0, float(np.nanmax(eps)))
+
+
+def _audit_distances(members: pd.DataFrame, nonmembers: pd.DataFrame,
+                     syn_customers: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
+    """Nearest-synthetic-record distance for each member and non-member.
+    This is the expensive part (encode + NN fit); compute once, reuse for bootstrap."""
+    from sklearn.neighbors import NearestNeighbors
+    cols = lambda df: df[CUST_NUM + CUST_CAT]
+    Xs, Xm, Xn = _encode_customers(
+        [cols(syn_customers), cols(members), cols(nonmembers)],
+        ref=members, num_cols=CUST_NUM, cat_cols=CUST_CAT)
+    nn = NearestNeighbors(n_neighbors=1).fit(Xs)
+    return nn.kneighbors(Xm)[0].ravel(), nn.kneighbors(Xn)[0].ravel()
+
+
+def _auc_from_distances(dm: np.ndarray, dn: np.ndarray) -> float:
+    """Attack AUC from member/non-member distance arrays (the fast, stable stat)."""
+    from sklearn.metrics import roc_auc_score
+    scores = np.concatenate([-dm, -dn])          # higher = more "member-like"
+    labels = np.concatenate([np.ones_like(dm), np.zeros_like(dn)])
+    return float(roc_auc_score(labels, scores))
+
+
+def privacy_audit(members: pd.DataFrame, nonmembers: pd.DataFrame,
+                  syn_customers: pd.DataFrame, delta: float = 1e-5) -> dict:
+    """Distance-based membership-inference audit on the customers table.
+
+    Returns:
+      mia_auc        : attacker AUC (0.5 = no leakage, 1.0 = full membership leak)
+      mia_advantage  : 2·AUC − 1  (0 = none)
+      eps_lower      : Clopper-Pearson empirical ε lower bound (0 = no certifiable leak)
+      member_dcr / nonmember_dcr : median nearest-synthetic distance for each group
+    """
+    dm, dn = _audit_distances(members, nonmembers, syn_customers)
+    auc = _auc_from_distances(dm, dn)
+    return {"mia_auc":       round(auc, 4),
+            "mia_advantage": round(2 * auc - 1, 4),
+            "eps_lower":     round(_empirical_eps(dm, dn, delta=delta), 4),
+            "member_dcr":    round(float(np.median(dm)), 4),
+            "nonmember_dcr": round(float(np.median(dn)), 4)}
+
+
+def bootstrap_privacy_audit(real_customers: pd.DataFrame,
+                            nonmember_customers: pd.DataFrame,
+                            synthetic_datasets: dict[str, dict],
+                            n_boot: int = 300, seed: int = 0,
+                            delta: float = 1e-5) -> dict:
+    """Bootstrap the membership-inference audit per method.
+
+    The encode + nearest-neighbour step runs once per method; each bootstrap
+    iteration only resamples the precomputed member / non-member distance arrays
+    (with replacement) and recomputes AUC + empirical ε — so B can be large and
+    cheap. Returns {"raw": long DataFrame, "summary": median + 95% CI per metric}.
+    """
+    rng = np.random.default_rng(seed)
+    metrics = ["mia_auc", "mia_advantage"]
+    rows = []
+    for name, syn in synthetic_datasets.items():
+        print(f"  Audit bootstrap: {name} …", flush=True)
+        dm, dn = _audit_distances(real_customers, nonmember_customers, syn["customers"])
+        nm, nn_ = len(dm), len(dn)
+        for b in range(n_boot):
+            dm_b = dm[rng.integers(0, nm, nm)]
+            dn_b = dn[rng.integers(0, nn_, nn_)]
+            auc = _auc_from_distances(dm_b, dn_b)
+            rows.append({"method": name, "iter": b,
+                         "mia_auc": auc, "mia_advantage": 2 * auc - 1})
+
+    raw = pd.DataFrame(rows)
+    summary_rows = []
+    for name, g in raw.groupby("method", sort=False):
+        rec = {"method": name}
+        for m in metrics:
+            ci = _ci(g[m])
+            rec[f"{m}_median"]  = ci["median"]
+            rec[f"{m}_ci_low"]  = ci["ci_low"]
+            rec[f"{m}_ci_high"] = ci["ci_high"]
+        summary_rows.append(rec)
+    summary = pd.DataFrame(summary_rows).set_index("method")
+    return {"raw": raw, "summary": summary}
+
+
+def compare_privacy_audit(real_customers: pd.DataFrame,
+                          nonmember_customers: pd.DataFrame,
+                          synthetic_datasets: dict[str, dict]) -> pd.DataFrame:
+    """Membership-inference audit across methods. Lower AUC / eps_lower = more private."""
+    rows = []
+    for name, syn in synthetic_datasets.items():
+        print(f"  Audit: {name} …")
+        row = {"method": name}
+        try:
+            row.update(privacy_audit(real_customers, nonmember_customers, syn["customers"]))
+        except Exception as e:
+            print(f"    ⚠ Audit error: {e}")
+        rows.append(row)
+    return pd.DataFrame(rows).set_index("method")
+
+
 def compare_privacy(real_data: dict,
                     synthetic_datasets: dict[str, dict]) -> pd.DataFrame:
     """Privacy scorecard (customers table) across methods. Higher = more private."""

@@ -1,0 +1,6 @@
+method,mia_auc_median,mia_auc_ci_low,mia_auc_ci_high,mia_advantage_median,mia_advantage_ci_low,mia_advantage_ci_high
+M1 HMA-GC,0.5027,0.4862,0.5224,0.0053,-0.0276,0.0449
+M2 CTGAN,0.5093,0.4909,0.5299,0.0186,-0.0183,0.0599
+M3 PAR,0.5005,0.4821,0.5189,0.0009,-0.0358,0.0378
+M4 TVAE,0.5101,0.4943,0.5296,0.0201,-0.0113,0.0592
+M5 MST-DP,0.4952,0.4777,0.5132,-0.0097,-0.0445,0.0264
