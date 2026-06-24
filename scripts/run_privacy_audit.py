@@ -11,6 +11,12 @@ reports/privacy_audit.csv   MIA AUC, advantage, empirical-eps lower bound per me
 reports/privacy_audit.png   AUC and empirical-eps bars (with the 0.5 / ε≈6 references)
 """
 
+import os, sys
+# allow running from anywhere: put repo root on the path and use it as cwd
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, _ROOT); os.chdir(_ROOT)
+
+
 import random
 import numpy as np
 import pandas as pd

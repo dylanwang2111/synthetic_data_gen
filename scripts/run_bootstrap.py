@@ -9,6 +9,12 @@ reports/bootstrap_ci_table.csv   'median [low, high]' strings (presentation)
 reports/bootstrap_ci.png         forest plot of key metrics with 95% CIs
 """
 
+import os, sys
+# allow running from anywhere: put repo root on the path and use it as cwd
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, _ROOT); os.chdir(_ROOT)
+
+
 import time
 import pandas as pd
 import matplotlib

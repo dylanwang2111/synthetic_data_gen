@@ -495,8 +495,14 @@ synthetic_data_gen/
 │   ├── metrics_extended.py  # Cross-table correlation + temporal realism metrics
 │   └── llm_suggest.py       # LLM product recommendation (DeepSeek / Claude)
 ├── main.py                  # CLI entry point
+├── make_slides.py           # Build slides.pptx (focused SDV-vs-SmartNoise deck)
+├── scripts/                 # One-off result / figure generators
+│   ├── run_bootstrap.py        # Bootstrap CIs for the metric comparison
+│   ├── run_privacy_audit.py    # Membership-inference / DP audit (bootstrapped)
+│   ├── quality_report_fig.py   # SDMetrics QualityReport breakdown figure
+│   └── build_comparison.py     # SDV-vs-SmartNoise mean ± SD comparison
 ├── data/                    # Generated CSVs and pickled models
-├── reports/                 # SDMetrics HTML reports + auto-detected metadata
+├── reports/                 # Figures, metric CSVs + auto-detected metadata
 ├── synthetic_data_pipeline.ipynb  # End-to-end notebook with comparison dashboard
 └── requirements.txt
 ```

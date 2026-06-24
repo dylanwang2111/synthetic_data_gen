@@ -3,6 +3,12 @@ Render reports/quality_report.png — the SDMetrics QualityReport breakdown
 (overall quality + its sub-scores) across all 5 methods, as grouped bars.
 """
 
+import os, sys
+# allow running from anywhere: put repo root on the path and use it as cwd
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, _ROOT); os.chdir(_ROOT)
+
+
 import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
