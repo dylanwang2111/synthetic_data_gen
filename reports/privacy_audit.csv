@@ -1,0 +1,6 @@
+method,mia_auc,mia_advantage,eps_lower,member_dcr,nonmember_dcr
+M1 – HMA GC,0.4964,-0.0073,0.0,1.607,1.6076
+M2 – CTGAN,0.5017,0.0034,0.0,1.7284,1.7329
+M3 – CTGAN+PAR,0.5101,0.0203,0.0,1.8303,1.8453
+M4 – TVAE,0.5047,0.0093,0.0,1.7181,1.7409
+M5 – SmartNoise,0.4946,-0.0107,0.0,1.8922,1.8792

@@ -422,6 +422,19 @@ for t in ["M5 (SmartNoise) is the ONLY method with a formal (ε≈6, δ)-DP guar
     p = tf.add_paragraph(); _set(p, "• " + t, 12.5, INK); p.space_after = Pt(7)
 caption(s, "DCRBaselineProtection on the customers table (higher = more protected) — measured with SDMetrics.")
 
+# ── Measurable privacy: membership-inference audit ───────────────────────────
+s = slide(); header(s, "Can we measure privacy? A membership-inference audit", "Measured privacy", color=METHOD["M5"])
+fit_image(s, REPORTS/"privacy_audit.png", 0.45, 1.7, 9.05, 4.35)
+tf = box(s, 9.65, 1.85, 3.35, 4.7); tf.word_wrap = True
+_set(tf.paragraphs[0], "ε is accounted, not measured", 13.5, METHOD["M5"], bold=True)
+for t in ["Guarantee (ε) = worst-case bookkeeping from the accountant — can't be read off the data.",
+          "Measurable instead: attacker AUC separating training members from fresh non-members.",
+          "B=300 bootstrap: every method's AUC interval straddles 0.50 → no significant leakage.",
+          "Clopper-Pearson empirical ε = 0 for all — no certifiable leak, far under M5's ε≈6 budget.",
+          "Average AUC can miss worst-case records; M5's DP bound is the only per-record, any-scale guarantee."]:
+    p = tf.add_paragraph(); _set(p, "• " + t, 11, INK); p.space_after = Pt(6)
+caption(s, "Members = real training rows; non-members = fresh draw from the same process. AUC 0.5 = no leakage; ε via Clopper-Pearson 95% lower bound (B=300 bootstrap CIs on AUC).")
+
 # ════════════════════════════════════════════════════════════════════════════
 # 11 — Distributions
 # ════════════════════════════════════════════════════════════════════════════
